@@ -13,18 +13,31 @@ import torch.optim as optim
 
 
 class NN(nn.Module):
-    def __init__(self, nb_teams, learning_rate=1e-3, hidden_layer_size=50):
+    def __init__(self, nb_teams, learning_rate=1e-4, hidden_layer_size1=50, hidden_layer_size2=50, d_ratio=0.2):
         super(NN, self).__init__()
 
         self.nb_teams = nb_teams
 
         self.loss_function = nn.CrossEntropyLoss()
+        self.dropout = nn.Dropout(p=d_ratio)
+        self.activation = nn.ReLU()
 
         # Layers
-        self.input_layer = nn.Linear(nb_teams, hidden_layer_size)
-        self.home_layer = nn.Linear(hidden_layer_size, hidden_layer_size)
-        self.away_layer = nn.Linear(hidden_layer_size, hidden_layer_size)
-        self.output_layer = nn.Linear(hidden_layer_size*2, 3)
+        self.input_layer = nn.Sequential(
+            nn.Linear(nb_teams, hidden_layer_size1),
+            self.activation,
+            self.dropout)
+
+        self.home_layer = nn.Sequential(
+            nn.Linear(hidden_layer_size1, hidden_layer_size2),
+            self.activation,
+            self.dropout)
+        self.away_layer = nn.Sequential(
+            nn.Linear(hidden_layer_size1, hidden_layer_size2),
+            self.activation,
+            self.dropout)
+
+        self.output_layer = nn.Linear(hidden_layer_size2*2, 3)
 
         self.optimizer = optim.Adam(self.parameters(), lr=learning_rate)
         
@@ -32,6 +45,8 @@ class NN(nn.Module):
         """Feed the model with input and return output."""
 
         inputs = torch.split(input, self.nb_teams, 1)
+
+        print(inputs[0])
 
         home_teams1 = self.input_layer(inputs[0])
         away_teams1 = self.input_layer(inputs[1])
@@ -59,8 +74,20 @@ class NN(nn.Module):
 
     def predict(self, input):
         """
-        Predict an input using the trained network + do a exp to
-        get proba of classes.
+        Predict an input using the trained network.
         """
 
         return self.forward(input)
+
+    def predict_proba(self, input):
+        return F.softmax(self.predict(input))
+
+    def predict_proba_and_get_loss(self, input, target):
+        prediction = self.forward(input)
+        loss = self.loss_function(prediction, target)
+        return self.predict_proba(input), loss.data[0]
+
+    def predict_and_get_loss(self, input, target):
+        out = self.forward(input)
+        loss = self.loss_function(out, target)
+        return out, loss.data[0]

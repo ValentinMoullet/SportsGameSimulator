@@ -19,29 +19,18 @@ from parameters import *
 
 
 class TrainingSet(data.Dataset):
-    def __init__(self, league='F1'):
+    def __init__(self, teams_to_idx, game_info_df, msk):
         """Initialize the training set"""
 
         print("*** Loading training set. ***")
 
-        game_info_df = pd.read_csv('../data/football-events/ginf.csv')
-        game_info_df = game_info_df[game_info_df['league'] == league]
-        nb_games_training = int(game_info_df.shape[0] * TRAINING_SET_RATIO)
-
-        # Get teams
-        teams = get_teams(game_info_df)
-        teams_to_idx = {}
-        for i, team in enumerate(teams):
-            teams_to_idx[team] = i
-
-        # Take training set only
-        game_info_df = game_info_df[:nb_games_training]
-        game_info_df = game_info_df.reset_index(drop=True)
+        game_info_df = game_info_df[msk].reset_index(drop=True)
+        nb_games_training = game_info_df.shape[0]
 
         # Create one-hot vectors as X, and -1, 0 or 1 as Y
-        self.X_home = torch.zeros(nb_games_training, len(teams))
-        self.X_away = torch.zeros(nb_games_training, len(teams))
-        self.X = torch.zeros(nb_games_training, 2*len(teams))
+        self.X_home = torch.zeros(nb_games_training, len(teams_to_idx))
+        self.X_away = torch.zeros(nb_games_training, len(teams_to_idx))
+        self.X = torch.zeros(nb_games_training, 2*len(teams_to_idx))
         self.Y = torch.zeros(nb_games_training)
         for idx, row in game_info_df.iterrows():
             home_team = row['ht']
@@ -71,30 +60,19 @@ class TrainingSet(data.Dataset):
 
 
 class TestSet(data.Dataset):
-    def __init__(self, league='F1'):
+    def __init__(self, teams_to_idx, game_info_df, msk):
         """Initialize the test set"""
 
         print("*** Loading test set. ***")
 
-        game_info_df = pd.read_csv('../data/football-events/ginf.csv')
-        game_info_df = game_info_df[game_info_df['league'] == league]
-        nb_games_training = int(game_info_df.shape[0] * TRAINING_SET_RATIO)
-        nb_games_test = game_info_df.shape[0] - nb_games_training
-
-        # Get teams
-        teams = get_teams(game_info_df)
-        teams_to_idx = {}
-        for i, team in enumerate(teams):
-            teams_to_idx[team] = i
-
         # Take test set only
-        game_info_df = game_info_df[nb_games_training:]
-        game_info_df = game_info_df.reset_index(drop=True)
+        game_info_df = game_info_df[~msk].reset_index(drop=True)
+        nb_games_test = game_info_df.shape[0]
 
         # Create one-hot vectors as X, and -1, 0 or 1 as Y
-        self.X_home = torch.zeros(nb_games_test, len(teams))
-        self.X_away = torch.zeros(nb_games_test, len(teams))
-        self.X = torch.zeros(nb_games_test, 2*len(teams))
+        self.X_home = torch.zeros(nb_games_test, len(teams_to_idx))
+        self.X_away = torch.zeros(nb_games_test, len(teams_to_idx))
+        self.X = torch.zeros(nb_games_test, 2*len(teams_to_idx))
         self.Y = torch.zeros(nb_games_test)
         for idx, row in game_info_df.iterrows():
             home_team = row['ht']
@@ -126,7 +104,7 @@ class BookmakersPred(data.Dataset):
     def __init__(self, league='F1'):
         """Initialize the test set"""
 
-        print("*** Loading test set. ***")
+        print("*** Loading bookmakers predictions. ***")
 
         game_info_df = pd.read_csv('../data/football-events/ginf.csv')
         game_info_df = game_info_df[game_info_df['league'] == league]
