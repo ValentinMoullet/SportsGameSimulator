@@ -2,1064 +2,1070 @@
 New game:
 --------------------
 
-[1'] Foul from home team. 		[1'] No event this minute.
-[2'] Foul from away team. 		[2'] Corner for away team.
-[2'] No event this minute. 		[3'] Shot from away team.
-[3'] Foul from away team. 		[3'] Shot from home team.
-[4'] Corner for home team. 		[4'] No event this minute.
-[5'] Free kick won by home team. 		[5'] Shot from home team.
-[6'] Offside by home team. 		[5'] Foul from away team.
-[7'] Free kick won by home team. 		[5'] Free kick won by home team.
-[8'] No event this minute. 		[6'] No event this minute.
-[9'] No event this minute. 		[7'] Foul from home team.
-[9'] Free kick won by away team. 		[7'] Free kick won by away team.
-[9'] No event this minute. 		[8'] Foul from away team.
-[10'] Free kick won by home team. 		[8'] Free kick won by home team.
-[11'] No event this minute. 		[8'] Offside by home team.
-[11'] Corner for home team. 		[9'] Corner for home team.
-[12'] Foul from away team. 		[9'] Goal for home team.
-[13'] No event this minute. 		[10'] No event this minute.
-[14'] No event this minute. 		[11'] Shot from home team.
-[15'] Offside by home team. 		[12'] No event this minute.
-[16'] Free kick won by home team. 		[13'] Foul from away team.
-[17'] Free kick won by home team. 		[13'] Free kick won by home team.
-[18'] Free kick won by away team. 		[13'] Yellow card for away team.
-[19'] Foul from away team. 		[14'] Shot from home team.
-[19'] Foul from away team. 		[15'] No event this minute.
-[20'] Offside by away team. 		[16'] No event this minute.
-[21'] Corner for home team. 		[17'] Shot from home team.
-[22'] Foul from home team. 		[17'] Foul from home team.
-[22'] Shot from away team. 		[17'] Free kick won by away team.
-[23'] No event this minute. 		[18'] No event this minute.
-[24'] No event this minute. 		[19'] Free kick won by away team.
-[25'] Yellow card for home team. 		[19'] Foul from home team.
-[26'] No event this minute. 		[19'] Foul from home team.
-[26'] Free kick won by away team. 		[19'] Free kick won by away team.
-[27'] No event this minute. 		[19'] Yellow card for home team.
-[28'] Foul from home team. 		[20'] No event this minute.
-[29'] Corner for away team. 		[21'] No event this minute.
-[30'] No event this minute. 		[22'] No event this minute.
-[31'] No event this minute. 		[23'] Foul from away team.
-[31'] Free kick won by home team. 		[23'] Free kick won by home team.
-[32'] Corner for home team. 		[24'] Corner for home team.
-[32'] Shot from home team. 		[25'] Offside by away team.
-[33'] No event this minute. 		[26'] Goal for home team.
-[34'] Yellow card for away team. 		[27'] Shot from away team.
-[34'] Corner for away team. 		[28'] No event this minute.
-[35'] Offside by home team. 		[29'] No event this minute.
-[36'] Shot from away team. 		[30'] Shot from away team.
-[37'] No event this minute. 		[31'] Shot from away team.
-[37'] Corner for away team. 		[31'] Corner for away team.
-[38'] Shot from away team. 		[32'] No event this minute.
-[39'] Free kick won by away team. 		[33'] Shot from home team.
-[39'] Goal for home team. 		[33'] Corner for home team.
-[40'] No event this minute. 		[34'] Shot from home team.
-[41'] Foul from home team. 		[35'] Corner for home team.
-[41'] No event this minute. 		[35'] Shot from home team.
-[41'] No event this minute. 		[35'] Shot from home team.
-[42'] Free kick won by away team. 		[36'] Shot from home team.
-[43'] Corner for home team. 		[36'] Shot from home team.
-[44'] No event this minute. 		[37'] No event this minute.
-[45'] No event this minute. 		[38'] Corner for away team.
-[46'] Shot from away team. 		[39'] No event this minute.
-[47'] No event this minute. 		[40'] Offside by away team.
-[48'] No event this minute. 		[41'] Shot from home team.
-[49'] Goal for home team. 		[41'] Corner for home team.
-[50'] Shot from home team. 		[42'] No event this minute.
-[51'] No event this minute. 		[43'] Shot from home team.
-[52'] No event this minute. 		[44'] No event this minute.
-[53'] Substitution by home team. 		[45'] No event this minute.
-[54'] No event this minute. 		[46'] No event this minute.
-[55'] No event this minute. 		[47'] Goal for away team.
-[56'] Corner for away team. 		[48'] Foul from away team.
-[56'] Free kick won by home team. 		[48'] Free kick won by home team.
-[57'] Red card for away team. 		[48'] Yellow card for away team.
-[58'] Foul from away team. 		[49'] No event this minute.
-[59'] Shot from home team. 		[50'] No event this minute.
-[60'] Substitution by away team. 		[51'] Corner for home team.
-[61'] Foul from away team. 		[52'] Shot from home team.
-[62'] No event this minute. 		[53'] No event this minute.
-[63'] No event this minute. 		[54'] No event this minute.
-[64'] No event this minute. 		[55'] No event this minute.
-[65'] Substitution by home team. 		[56'] No event this minute.
-[66'] No event this minute. 		[57'] No event this minute.
-[67'] Substitution by home team. 		[58'] Shot from away team.
-[68'] Substitution by home team. 		[58'] Shot from home team.
-[69'] Shot from home team. 		[59'] Free kick won by away team.
-[69'] Foul from home team. 		[59'] Foul from home team.
-[69'] Offside by away team. 		[60'] Substitution by away team.
-[70'] No event this minute. 		[61'] Substitution by away team.
-[70'] Foul from home team. 		[62'] Shot from home team.
-[70'] No event this minute. 		[62'] Foul from away team.
-[70'] Free kick won by home team. 		[62'] Free kick won by home team.
-[70'] Substitution by away team. 		[63'] No event this minute.
-[71'] Hand ball by away team. 		[64'] Shot from away team.
-[72'] Substitution by home team. 		[64'] Corner for away team.
-[73'] Free kick won by home team. 		[64'] Corner for away team.
-[74'] Free kick won by home team. 		[65'] No event this minute.
-[75'] No event this minute. 		[66'] Foul from away team.
-[75'] Substitution by home team. 		[66'] Free kick won by home team.
-[76'] Shot from home team. 		[66'] Foul from home team.
-[76'] Corner for away team. 		[66'] Free kick won by away team.
-[76'] Substitution by away team. 		[67'] Corner for home team.
-[77'] No event this minute. 		[67'] Free kick won by home team.
-[78'] Foul from away team. 		[67'] Foul from away team.
-[78'] Yellow card for away team. 		[68'] No event this minute.
-[79'] No event this minute. 		[69'] Free kick won by home team.
-[79'] Foul from away team. 		[70'] Foul from away team.
-[79'] Substitution by away team. 		[70'] Free kick won by home team.
-[79'] Foul from home team. 		[70'] Foul from away team.
-[79'] Free kick won by home team. 		[71'] No event this minute.
-[80'] No event this minute. 		[72'] Substitution by home team.
-[81'] Offside by home team. 		[72'] Foul from home team.
-[81'] Free kick won by away team. 		[72'] Free kick won by away team.
-[81'] Foul from home team. 		[73'] Foul from away team.
-[81'] Free kick won by home team. 		[73'] Free kick won by home team.
-[82'] Shot from home team. 		[74'] No event this minute.
-[83'] Foul from home team. 		[75'] Foul from away team.
-[83'] Free kick won by home team. 		[75'] Free kick won by home team.
-[83'] Shot from home team. 		[76'] Foul from home team.
-[84'] Free kick won by away team. 		[76'] Free kick won by away team.
-[85'] Foul from away team. 		[76'] Corner for home team.
-[86'] Shot from away team. 		[77'] Shot from away team.
-[87'] Shot from away team. 		[77'] Foul from away team.
-[87'] Free kick won by home team. 		[77'] Free kick won by home team.
-[88'] Shot from home team. 		[78'] Substitution by home team.
-[88'] Shot from away team. 		[79'] Offside by away team.
-[88'] Offside by away team. 		[80'] Foul from away team.
-[88'] Free kick won by home team. 		[80'] Free kick won by home team.
-[89'] Shot from away team. 		[80'] Yellow card for away team.
-[90'] Goal for home team. 		[81'] Shot from home team.
-[91'] Yellow card for away team. 		[82'] Foul from away team.
-[91'] Free kick won by home team. 		[82'] Free kick won by home team.
-[91'] Yellow card for away team. 		[83'] No event this minute.
-[92'] Foul from home team. 		[84'] Corner for away team.
-[92'] Shot from away team. 		[85'] Substitution by away team.
-[92'] Free kick won by away team. 		[85'] Yellow card for home team.
-[92'] Free kick won by home team. 		[86'] No event this minute.
-[93'] Substitution by away team. 		[87'] Corner for home team.
-[94'] Offside by away team. 		[87'] Shot from home team.
-[95'] No event this minute. 		[88'] Foul from away team.
-[95'] Free kick won by home team. 		[88'] Free kick won by home team.
-[95'] Yellow card for away team. 		[88'] Substitution by home team.
-[96'] Free kick won by away team. 		[89'] No event this minute.
-[97'] Offside by away team. 		[90'] Foul from away team.
-[97'] Free kick won by home team. 		[90'] Free kick won by home team.
-[98'] Foul from away team. 		[90'] Yellow card for away team.
-[99'] No event this minute. 		[90'] Yellow card for away team.
-[100'] Goal for home team. 		[90'] Foul from away team.
-[100'] Free kick won by home team. 		[90'] Free kick won by home team.
-[101'] No event this minute. 		[90'] Yellow card for away team.
-[102'] Goal for home team. 		[90'] Shot from home team.
-[103'] Shot from home team. 		[91'] No event this minute.
-[104'] No event this minute. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-[104'] Game is over. 		[91'] Game is over.
-
-New game:
---------------------
-
-[1'] Free kick won by away team. 		[1'] Foul from home team.
-[1'] Free kick won by away team. 		[1'] Free kick won by away team.
-[2'] No event this minute. 		[2'] Free kick won by home team.
-[2'] Foul from away team. 		[2'] Foul from away team.
-[3'] No event this minute. 		[3'] No event this minute.
-[4'] Corner for home team. 		[4'] No event this minute.
-[5'] Offside by away team. 		[5'] Goal for home team.
-[6'] No event this minute. 		[6'] No event this minute.
-[7'] No event this minute. 		[7'] No event this minute.
-[8'] Foul from home team. 		[8'] No event this minute.
-[9'] Shot from home team. 		[9'] Foul from home team.
-[9'] Free kick won by away team. 		[9'] Foul from home team.
-[9'] Free kick won by away team. 		[9'] Free kick won by away team.
-[10'] Free kick won by away team. 		[9'] Free kick won by away team.
-[10'] No event this minute. 		[10'] No event this minute.
-[11'] Shot from away team. 		[11'] No event this minute.
-[12'] Shot from home team. 		[12'] Free kick won by away team.
-[12'] Foul from home team. 		[12'] Foul from home team.
-[12'] No event this minute. 		[13'] No event this minute.
-[13'] No event this minute. 		[14'] No event this minute.
-[14'] Shot from away team. 		[15'] Foul from home team.
-[14'] Free kick won by away team. 		[15'] Free kick won by away team.
-[15'] No event this minute. 		[16'] Free kick won by home team.
-[15'] Foul from away team. 		[16'] Foul from away team.
-[16'] No event this minute. 		[17'] Foul from home team.
-[16'] Free kick won by away team. 		[17'] Free kick won by away team.
-[17'] Free kick won by away team. 		[18'] No event this minute.
-[18'] Free kick won by home team. 		[19'] No event this minute.
-[19'] No event this minute. 		[20'] Shot from home team.
-[19'] Corner for home team. 		[21'] Offside by away team.
-[20'] Shot from home team. 		[22'] No event this minute.
-[21'] No event this minute. 		[23'] Shot from home team.
-[21'] Shot from home team. 		[24'] Shot from away team.
-[21'] Foul from home team. 		[25'] No event this minute.
-[22'] Foul from away team. 		[26'] No event this minute.
-[22'] No event this minute. 		[27'] No event this minute.
-[23'] No event this minute. 		[28'] Free kick won by away team.
-[23'] Foul from home team. 		[28'] Foul from home team.
-[23'] Foul from home team. 		[29'] No event this minute.
-[24'] Free kick won by away team. 		[30'] Shot from home team.
-[24'] Foul from home team. 		[30'] Hand ball by away team.
-[25'] Shot from home team. 		[31'] Shot from home team.
-[26'] No event this minute. 		[32'] No event this minute.
-[27'] Shot from away team. 		[33'] Foul from home team.
-[27'] Shot from away team. 		[33'] Shot from away team.
-[27'] Free kick won by away team. 		[33'] Free kick won by away team.
-[27'] Foul from away team. 		[34'] No event this minute.
-[28'] No event this minute. 		[35'] No event this minute.
-[29'] Foul from home team. 		[36'] Foul from home team.
-[29'] Free kick won by home team. 		[36'] Free kick won by away team.
-[30'] No event this minute. 		[37'] No event this minute.
-[31'] Foul from home team. 		[38'] Free kick won by away team.
-[32'] Foul from home team. 		[38'] Foul from home team.
-[32'] Shot from away team. 		[39'] Yellow card for home team.
-[32'] Foul from home team. 		[40'] No event this minute.
-[33'] Offside by home team. 		[41'] Foul from home team.
-[33'] Free kick won by away team. 		[41'] Free kick won by away team.
-[34'] Goal for away team. 		[42'] No event this minute.
-[35'] Foul from away team. 		[43'] No event this minute.
-[36'] No event this minute. 		[44'] Free kick won by home team.
-[36'] Foul from home team. 		[44'] Foul from away team.
-[37'] Offside by home team. 		[45'] Shot from home team.
-[37'] No event this minute. 		[45'] Shot from home team.
-[38'] Shot from away team. 		[45'] Shot from home team.
-[38'] Offside by home team. 		[46'] No event this minute.
-[39'] Game is over. 		[47'] No event this minute.
-[40'] Foul from away team. 		[48'] Free kick won by home team.
-[40'] Foul from away team. 		[48'] Foul from away team.
-[41'] Yellow card for away team. 		[49'] Free kick won by away team.
-[41'] Foul from home team. 		[49'] Foul from home team.
-[42'] Shot from home team. 		[50'] No event this minute.
-[43'] Goal for home team. 		[51'] Yellow card for away team.
-[44'] Corner for away team. 		[51'] Foul from away team.
-[45'] Free kick won by home team. 		[51'] Free kick won by home team.
-[46'] No event this minute. 		[52'] Shot from home team.
-[46'] Substitution by away team. 		[52'] Corner for home team.
-[46'] Offside by home team. 		[53'] Foul from home team.
-[46'] Free kick won by away team. 		[53'] Free kick won by away team.
-[46'] Shot from away team. 		[54'] Shot from home team.
-[46'] Foul from home team. 		[55'] No event this minute.
-[47'] No event this minute. 		[56'] Offside by away team.
-[48'] Yellow card for home team. 		[57'] Substitution by away team.
-[48'] No event this minute. 		[58'] No event this minute.
-[49'] Foul from away team. 		[59'] No event this minute.
-[50'] Yellow card for home team. 		[60'] Foul from home team.
-[50'] Free kick won by away team. 		[60'] Free kick won by away team.
-[51'] Substitution by away team. 		[61'] Shot from away team.
-[52'] No event this minute. 		[61'] Substitution by home team.
-[52'] Shot from away team. 		[62'] Foul from home team.
-[52'] Free kick won by away team. 		[62'] Free kick won by away team.
-[53'] Shot from home team. 		[63'] No event this minute.
-[54'] Offside by home team. 		[64'] No event this minute.
-[55'] Substitution by away team. 		[65'] Free kick won by home team.
-[55'] Foul from away team. 		[65'] Foul from away team.
-[55'] Shot from away team. 		[66'] No event this minute.
-[56'] Yellow card for home team. 		[67'] Corner for home team.
-[57'] Free kick won by home team. 		[68'] Foul from home team.
-[57'] Free kick won by away team. 		[68'] Foul from home team.
-[57'] Free kick won by away team. 		[68'] Free kick won by away team.
-[58'] Free kick won by away team. 		[69'] Substitution by away team.
-[59'] Foul from away team. 		[69'] Substitution by away team.
-[60'] Free kick won by home team. 		[69'] Shot from away team.
-[61'] Shot from home team. 		[70'] Free kick won by home team.
-[61'] Hand ball by home team. 		[70'] Foul from away team.
-[61'] Free kick won by home team. 		[71'] Free kick won by home team.
-[62'] Foul from away team. 		[71'] Foul from away team.
-[63'] No event this minute. 		[72'] No event this minute.
-[64'] Yellow card for away team. 		[73'] Hand ball by home team.
-[65'] Substitution by away team. 		[74'] Free kick won by home team.
-[66'] Foul from away team. 		[74'] Foul from away team.
-[67'] Offside by home team. 		[74'] Yellow card for away team.
-[68'] Corner for away team. 		[75'] No event this minute.
-[69'] No event this minute. 		[76'] No event this minute.
-[70'] Substitution by home team. 		[77'] Shot from home team.
-[71'] Substitution by away team. 		[78'] Shot from home team.
-[72'] Foul from away team. 		[79'] Shot from away team.
-[72'] Substitution by away team. 		[79'] Corner for away team.
-[73'] Foul from home team. 		[80'] No event this minute.
-[74'] Shot from away team. 		[81'] No event this minute.
-[75'] No event this minute. 		[82'] Offside by away team.
-[76'] Substitution by home team. 		[83'] No event this minute.
-[76'] Shot from home team. 		[84'] Corner for home team.
-[76'] No event this minute. 		[85'] Substitution by home team.
-[76'] Substitution by away team. 		[85'] Goal for away team.
-[77'] No event this minute. 		[86'] No event this minute.
-[78'] No event this minute. 		[87'] No event this minute.
-[79'] Foul from away team. 		[88'] Offside by home team.
-[80'] Substitution by away team. 		[88'] Shot from away team.
-[81'] Shot from away team. 		[88'] Shot from away team.
-[81'] Offside by away team. 		[89'] Foul from home team.
-[81'] Free kick won by away team. 		[89'] Free kick won by away team.
-[82'] Yellow card for home team. 		[90'] Substitution by home team.
-[83'] Free kick won by away team. 		[90'] Shot from home team.
-[84'] Shot from home team. 		[91'] No event this minute.
-[84'] Substitution by away team. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-
-New game:
---------------------
-
-[1'] Shot from home team. 		[1'] No event this minute.
-[2'] No event this minute. 		[2'] No event this minute.
-[3'] No event this minute. 		[3'] No event this minute.
-[4'] No event this minute. 		[4'] No event this minute.
-[5'] Shot from home team. 		[5'] No event this minute.
-[6'] Shot from home team. 		[6'] Foul from away team.
-[6'] Free kick won by home team. 		[6'] Free kick won by home team.
-[7'] Corner for home team. 		[7'] No event this minute.
-[8'] Free kick won by home team. 		[8'] Foul from away team.
-[8'] Free kick won by home team. 		[8'] Free kick won by home team.
-[9'] No event this minute. 		[9'] No event this minute.
-[10'] Corner for home team. 		[10'] No event this minute.
-[11'] Foul from home team. 		[11'] No event this minute.
-[12'] Hand ball by home team. 		[12'] Foul from away team.
-[12'] Free kick won by home team. 		[12'] Free kick won by home team.
-[13'] Free kick won by home team. 		[13'] No event this minute.
-[14'] No event this minute. 		[14'] No event this minute.
-[15'] No event this minute. 		[15'] Shot from away team.
-[16'] Hand ball by away team. 		[16'] Foul from home team.
-[16'] Free kick won by away team. 		[16'] Free kick won by away team.
-[17'] Shot from away team. 		[17'] No event this minute.
-[18'] Free kick won by home team. 		[18'] Free kick won by home team.
-[18'] Foul from away team. 		[18'] Foul from away team.
-[19'] Free kick won by home team. 		[19'] Foul from home team.
-[19'] Free kick won by away team. 		[19'] Free kick won by away team.
-[20'] Free kick won by away team. 		[20'] No event this minute.
-[21'] Foul from away team. 		[21'] No event this minute.
-[22'] Foul from home team. 		[22'] Shot from away team.
-[23'] Shot from away team. 		[22'] Corner for away team.
-[24'] Shot from home team. 		[22'] Corner for away team.
-[25'] No event this minute. 		[23'] No event this minute.
-[26'] No event this minute. 		[24'] Shot from home team.
-[27'] Foul from away team. 		[25'] No event this minute.
-[28'] No event this minute. 		[26'] Corner for away team.
-[29'] Shot from away team. 		[27'] Free kick won by home team.
-[29'] Foul from away team. 		[27'] Foul from away team.
-[30'] Offside by home team. 		[28'] Corner for away team.
-[31'] Shot from away team. 		[29'] No event this minute.
-[32'] Shot from away team. 		[30'] No event this minute.
-[33'] Free kick won by home team. 		[31'] No event this minute.
-[34'] No event this minute. 		[32'] No event this minute.
-[35'] No event this minute. 		[33'] Goal for home team.
-[36'] No event this minute. 		[34'] Foul from away team.
-[36'] Free kick won by home team. 		[34'] Free kick won by home team.
-[37'] Corner for home team. 		[35'] Corner for home team.
-[37'] Penalty conceded by away team. 		[36'] Goal for home team.
-[37'] Yellow card for away team. 		[37'] Foul from home team.
-[37'] Free kick won by away team. 		[37'] Free kick won by away team.
-[37'] Corner for away team. 		[37'] Yellow card for home team.
-[38'] No event this minute. 		[38'] No event this minute.
-[39'] Foul from home team. 		[39'] Foul from home team.
-[39'] Free kick won by away team. 		[39'] Free kick won by away team.
-[40'] Shot from away team. 		[40'] No event this minute.
-[41'] Shot from away team. 		[41'] Shot from away team.
-[42'] Corner for away team. 		[42'] No event this minute.
-[43'] No event this minute. 		[43'] Foul from away team.
-[43'] Free kick won by home team. 		[43'] Free kick won by home team.
-[44'] Foul from away team. 		[44'] Shot from home team.
-[44'] Corner for home team. 		[45'] Shot from away team.
-[45'] Corner for home team. 		[45'] Shot from away team.
-[45'] No event this minute. 		[46'] No event this minute.
-[46'] Yellow card for away team. 		[47'] Shot from home team.
-[47'] Shot from away team. 		[48'] Shot from away team.
-[48'] Foul from home team. 		[49'] Free kick won by away team.
-[48'] Foul from home team. 		[49'] Foul from home team.
-[48'] No event this minute. 		[50'] No event this minute.
-[49'] No event this minute. 		[51'] Foul from away team.
-[49'] Free kick won by home team. 		[51'] Free kick won by home team.
-[50'] Shot from home team. 		[51'] Yellow card for away team.
-[51'] Yellow card for away team. 		[52'] No event this minute.
-[52'] Shot from home team. 		[53'] Shot from away team.
-[52'] No event this minute. 		[53'] Corner for away team.
-[53'] Foul from home team. 		[54'] Foul from home team.
-[53'] Free kick won by away team. 		[54'] Free kick won by away team.
-[54'] No event this minute. 		[55'] Yellow card for home team.
-[55'] Goal for away team. 		[56'] No event this minute.
-[56'] Free kick won by home team. 		[57'] Foul from away team.
-[56'] Free kick won by home team. 		[57'] Free kick won by home team.
-[56'] Shot from home team. 		[58'] Corner for away team.
-[56'] Shot from away team. 		[59'] Corner for away team.
-[56'] No event this minute. 		[59'] Substitution by away team.
-[57'] No event this minute. 		[60'] Shot from away team.
-[57'] Foul from away team. 		[61'] Shot from away team.
-[58'] Shot from away team. 		[62'] Shot from away team.
-[59'] Foul from away team. 		[62'] Foul from away team.
-[59'] Free kick won by home team. 		[62'] Free kick won by home team.
-[59'] Free kick won by away team. 		[63'] No event this minute.
-[60'] No event this minute. 		[64'] Free kick won by home team.
-[60'] Goal for home team. 		[64'] Foul from away team.
-[60'] Foul from home team. 		[65'] No event this minute.
-[61'] No event this minute. 		[66'] Shot from away team.
-[62'] Shot from home team. 		[67'] Foul from home team.
-[62'] Free kick won by away team. 		[67'] Free kick won by away team.
-[63'] Free kick won by away team. 		[68'] No event this minute.
-[64'] Substitution by away team. 		[69'] Foul from away team.
-[64'] Free kick won by home team. 		[69'] Free kick won by home team.
-[64'] No event this minute. 		[70'] Foul from home team.
-[64'] Free kick won by away team. 		[70'] Free kick won by away team.
-[65'] Shot from away team. 		[70'] Yellow card for home team.
-[66'] No event this minute. 		[71'] No event this minute.
-[67'] Free kick won by home team. 		[72'] Free kick won by home team.
-[67'] Foul from away team. 		[72'] Foul from away team.
-[68'] Yellow card for away team. 		[73'] Shot from home team.
-[68'] No event this minute. 		[74'] Shot from away team.
-[68'] Corner for away team. 		[75'] Shot from away team.
-[68'] Shot from away team. 		[76'] Substitution by away team.
-[68'] Substitution by away team. 		[76'] Substitution by away team.
-[68'] Corner for home team. 		[76'] Shot from away team.
-[69'] Offside by home team. 		[76'] Corner for away team.
-[70'] No event this minute. 		[77'] Shot from away team.
-[70'] No event this minute. 		[77'] Shot from away team.
-[71'] No event this minute. 		[77'] Shot from away team.
-[72'] Shot from home team. 		[78'] Foul from home team.
-[72'] Free kick won by away team. 		[78'] Free kick won by away team.
-[73'] Shot from home team. 		[79'] No event this minute.
-[74'] Foul from home team. 		[80'] Substitution by home team.
-[75'] No event this minute. 		[81'] Corner for away team.
-[75'] Foul from home team. 		[82'] No event this minute.
-[76'] Foul from home team. 		[83'] Foul from home team.
-[76'] Free kick won by away team. 		[83'] Free kick won by away team.
-[77'] Corner for home team. 		[84'] Corner for home team.
-[77'] No event this minute. 		[85'] Shot from home team.
-[78'] Substitution by home team. 		[85'] Shot from home team.
-[78'] No event this minute. 		[85'] Goal for home team.
-[79'] No event this minute. 		[86'] Foul from home team.
-[79'] Free kick won by away team. 		[86'] Free kick won by away team.
-[80'] Foul from home team. 		[87'] No event this minute.
-[81'] Free kick won by home team. 		[88'] No event this minute.
-[82'] No event this minute. 		[89'] Substitution by home team.
-[83'] Shot from away team. 		[89'] Substitution by home team.
-[84'] Shot from home team. 		[90'] No event this minute.
-[85'] No event this minute. 		[91'] No event this minute.
-[86'] Foul from home team. 		[92'] Corner for home team.
-[87'] Shot from home team. 		[93'] Corner for home team.
-[88'] No event this minute. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-[88'] Game is over. 		[93'] Game is over.
-
-New game:
---------------------
-
-[1'] Foul from away team. 		[1'] Corner for home team.
-[1'] No event this minute. 		[2'] No event this minute.
-[2'] Free kick won by home team. 		[3'] Foul from home team.
-[2'] Free kick won by away team. 		[3'] Free kick won by away team.
-[3'] Offside by home team. 		[4'] Foul from away team.
-[3'] Free kick won by home team. 		[4'] Free kick won by home team.
-[4'] Goal for home team. 		[5'] Shot from away team.
-[5'] Foul from home team. 		[5'] Corner for away team.
-[6'] Corner for away team. 		[6'] No event this minute.
-[7'] Foul from away team. 		[7'] Foul from away team.
-[7'] Free kick won by home team. 		[7'] Free kick won by home team.
-[8'] Free kick won by away team. 		[8'] Shot from home team.
-[8'] Shot from home team. 		[9'] Foul from away team.
-[8'] Free kick won by home team. 		[9'] Free kick won by home team.
-[9'] No event this minute. 		[10'] No event this minute.
-[10'] Corner for home team. 		[11'] Corner for home team.
-[11'] Shot from home team. 		[11'] Shot from home team.
-[12'] Shot from home team. 		[11'] Foul from home team.
-[12'] Free kick won by away team. 		[11'] Free kick won by away team.
-[13'] Offside by home team. 		[12'] No event this minute.
-[14'] No event this minute. 		[13'] No event this minute.
-[15'] No event this minute. 		[14'] Foul from away team.
-[15'] Free kick won by home team. 		[14'] Free kick won by home team.
-[16'] Yellow card for home team. 		[15'] Shot from home team.
-[16'] Free kick won by home team. 		[15'] Foul from home team.
+[1'] No event this minute. 		[1'] Foul from away team.
+[1'] Free kick won by home team. 		[1'] Free kick won by home team.
+[2'] Yellow card for away team. 		[1'] Offside by away team.
+[3'] No event this minute. 		[2'] No event this minute.
+[4'] No event this minute. 		[3'] Corner for home team.
+[4'] Offside by home team. 		[4'] No event this minute.
+[5'] Shot from home team. 		[5'] Foul from away team.
+[5'] Free kick won by home team. 		[5'] Free kick won by home team.
+[6'] No event this minute. 		[5'] Corner for home team.
+[7'] No event this minute. 		[6'] Goal for home team.
+[8'] Foul from away team. 		[7'] Offside by away team.
+[9'] No event this minute. 		[8'] No event this minute.
+[10'] No event this minute. 		[9'] Free kick won by home team.
+[11'] Foul from away team. 		[9'] Foul from away team.
+[11'] Yellow card for away team. 		[10'] Hand ball by home team.
+[12'] Shot from away team. 		[10'] Offside by away team.
+[13'] No event this minute. 		[11'] No event this minute.
+[14'] No event this minute. 		[12'] Free kick won by away team.
+[14'] Foul from home team. 		[12'] Foul from home team.
+[14'] Foul from home team. 		[13'] Foul from away team.
+[15'] Free kick won by home team. 		[13'] Free kick won by home team.
+[15'] Shot from home team. 		[14'] No event this minute.
+[16'] No event this minute. 		[15'] Foul from home team.
 [16'] Free kick won by away team. 		[15'] Free kick won by away team.
-[17'] Yellow card for home team. 		[16'] Free kick won by home team.
-[17'] Free kick won by away team. 		[16'] Foul from away team.
-[18'] Yellow card for away team. 		[17'] Foul from away team.
-[19'] Free kick won by home team. 		[18'] Shot from home team.
-[19'] Goal for home team. 		[19'] Hand ball by away team.
-[20'] No event this minute. 		[20'] No event this minute.
-[21'] Shot from away team. 		[21'] Foul from away team.
-[21'] Free kick won by home team. 		[21'] Foul from home team.
-[21'] Free kick won by away team. 		[21'] Free kick won by away team.
-[21'] Free kick won by home team. 		[21'] Free kick won by home team.
-[21'] Shot from home team. 		[22'] Offside by home team.
-[22'] Shot from away team. 		[23'] No event this minute.
-[23'] Free kick won by away team. 		[24'] Foul from home team.
-[23'] Free kick won by away team. 		[24'] Free kick won by away team.
-[24'] Foul from away team. 		[25'] Shot from away team.
-[25'] Corner for away team. 		[26'] No event this minute.
-[26'] Hand ball by home team. 		[27'] Free kick won by home team.
-[26'] Foul from away team. 		[27'] Foul from away team.
-[26'] No event this minute. 		[27'] Yellow card for away team.
-[27'] No event this minute. 		[28'] Shot from home team.
-[28'] Foul from home team. 		[29'] No event this minute.
-[29'] Shot from away team. 		[30'] Foul from home team.
-[29'] Free kick won by away team. 		[30'] Free kick won by away team.
-[30'] No event this minute. 		[31'] No event this minute.
-[31'] No event this minute. 		[32'] Corner for home team.
-[32'] Shot from home team. 		[33'] Foul from home team.
-[32'] Free kick won by away team. 		[33'] Free kick won by away team.
-[33'] No event this minute. 		[34'] Offside by home team.
-[33'] No event this minute. 		[35'] No event this minute.
-[34'] Offside by home team. 		[36'] Free kick won by away team.
-[34'] No event this minute. 		[36'] Foul from home team.
-[35'] Yellow card for home team. 		[37'] Foul from home team.
-[35'] Free kick won by away team. 		[37'] Free kick won by away team.
-[36'] Yellow card for home team. 		[37'] Yellow card for home team.
-[37'] Free kick won by away team. 		[38'] No event this minute.
-[38'] Substitution by home team. 		[39'] Shot from away team.
-[39'] Shot from away team. 		[39'] Offside by home team.
-[40'] Free kick won by home team. 		[40'] Corner for home team.
-[40'] Shot from home team. 		[41'] Corner for home team.
-[41'] Shot from home team. 		[42'] Corner for away team.
-[42'] Corner for away team. 		[43'] No event this minute.
-[43'] Free kick won by home team. 		[44'] Foul from home team.
-[43'] Free kick won by away team. 		[44'] Free kick won by away team.
-[44'] Yellow card for home team. 		[45'] Goal for home team.
-[45'] No event this minute. 		[46'] Foul from home team.
-[45'] Free kick won by away team. 		[46'] Free kick won by away team.
-[45'] Substitution by away team. 		[47'] No event this minute.
-[46'] Substitution by away team. 		[48'] No event this minute.
-[47'] Substitution by away team. 		[49'] No event this minute.
-[48'] No event this minute. 		[50'] Offside by away team.
-[49'] Foul from home team. 		[51'] Yellow card for home team.
-[49'] Foul from away team. 		[51'] Free kick won by away team.
-[49'] Corner for away team. 		[51'] Foul from home team.
-[50'] Substitution by home team. 		[52'] Foul from away team.
-[50'] Free kick won by home team. 		[52'] Free kick won by home team.
-[51'] Corner for away team. 		[52'] Foul from home team.
-[51'] Free kick won by away team. 		[52'] Free kick won by away team.
-[51'] Foul from home team. 		[53'] Yellow card for home team.
-[51'] Free kick won by away team. 		[54'] Substitution by away team.
-[51'] Free kick won by home team. 		[55'] Substitution by home team.
-[52'] Free kick won by home team. 		[56'] Foul from away team.
-[52'] Free kick won by home team. 		[56'] Free kick won by home team.
-[53'] Yellow card for away team. 		[56'] Yellow card for away team.
-[54'] Shot from home team. 		[57'] Shot from home team.
-[54'] Substitution by away team. 		[57'] Goal for home team.
-[55'] No event this minute. 		[58'] No event this minute.
-[55'] Substitution by home team. 		[59'] Hand ball by away team.
-[56'] Foul from home team. 		[60'] Shot from home team.
-[56'] Substitution by home team. 		[61'] Foul from home team.
-[56'] Free kick won by away team. 		[61'] Free kick won by away team.
-[56'] Substitution by away team. 		[62'] Shot from home team.
-[57'] Corner for home team. 		[63'] No event this minute.
-[58'] Substitution by away team. 		[64'] Corner for home team.
-[59'] Shot from home team. 		[65'] Foul from home team.
-[59'] Free kick won by away team. 		[65'] Free kick won by away team.
-[60'] No event this minute. 		[65'] Yellow card for home team.
-[61'] Foul from away team. 		[65'] Yellow card for away team.
-[62'] Free kick won by home team. 		[66'] No event this minute.
-[63'] Corner for home team. 		[67'] Foul from away team.
-[63'] Shot from home team. 		[67'] Free kick won by home team.
-[63'] Substitution by home team. 		[67'] Substitution by away team.
-[64'] Corner for away team. 		[68'] Foul from away team.
-[64'] Free kick won by home team. 		[68'] Free kick won by home team.
-[64'] No event this minute. 		[69'] Substitution by away team.
-[65'] Substitution by home team. 		[69'] Corner for away team.
-[65'] Shot from away team. 		[70'] Shot from home team.
-[66'] Offside by home team. 		[70'] Free kick won by home team.
-[67'] Foul from home team. 		[70'] Foul from away team.
-[68'] Goal for home team. 		[71'] No event this minute.
-[69'] No event this minute. 		[72'] Offside by away team.
-[69'] Goal for away team. 		[72'] Corner for away team.
-[70'] Shot from away team. 		[73'] Shot from away team.
-[71'] Corner for away team. 		[74'] Substitution by home team.
-[72'] Shot from home team. 		[75'] Foul from away team.
-[72'] Free kick won by home team. 		[75'] Free kick won by home team.
-[73'] No event this minute. 		[75'] Yellow card for away team.
-[74'] Corner for away team. 		[76'] No event this minute.
-[75'] Yellow card for away team. 		[77'] Foul from away team.
-[75'] Free kick won by home team. 		[77'] Shot from away team.
-[76'] Game is over. 		[77'] Free kick won by home team.
-[76'] Offside by home team. 		[78'] No event this minute.
-[77'] No event this minute. 		[79'] No event this minute.
-[78'] No event this minute. 		[80'] No event this minute.
-[79'] Substitution by home team. 		[81'] No event this minute.
-[80'] Substitution by away team. 		[82'] No event this minute.
-[81'] No event this minute. 		[83'] Foul from away team.
-[81'] Free kick won by home team. 		[84'] Offside by away team.
-[81'] Shot from home team. 		[85'] Substitution by home team.
-[81'] No event this minute. 		[86'] Goal for away team.
-[82'] No event this minute. 		[87'] No event this minute.
-[83'] Substitution by away team. 		[88'] Offside by away team.
-[84'] Penalty conceded by away team. 		[89'] Shot from away team.
-[85'] Foul from away team. 		[90'] Hand ball by away team.
-[86'] Substitution by away team. 		[90'] Corner for home team.
-[87'] No event this minute. 		[90'] Yellow card for away team.
-[88'] No event this minute. 		[90'] Free kick won by home team.
-[88'] No event this minute. 		[90'] Foul from away team.
-[89'] Shot from home team. 		[90'] Foul from away team.
-[90'] No event this minute. 		[90'] Shot from home team.
-[91'] Free kick won by home team. 		[90'] Yellow card for away team.
-[91'] Free kick won by home team. 		[90'] Free kick won by home team.
-[91'] No event this minute. 		[90'] Foul from away team.
-[91'] Free kick won by home team. 		[90'] Shot from away team.
-[91'] No event this minute. 		[90'] Shot from away team.
-[91'] Free kick won by home team. 		[91'] No event this minute.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
-[92'] Game is over. 		[91'] Game is over.
+[16'] Shot from away team. 		[16'] Goal for away team.
+[17'] Foul from away team. 		[17'] Corner for home team.
+[17'] Foul from home team. 		[18'] Corner for home team.
+[18'] Corner for home team. 		[18'] Foul from home team.
+[18'] Free kick won by away team. 		[18'] Free kick won by away team.
+[19'] No event this minute. 		[19'] Foul from away team.
+[19'] Free kick won by home team. 		[19'] Free kick won by home team.
+[20'] Offside by home team. 		[19'] Offside by home team.
+[21'] No event this minute. 		[20'] No event this minute.
+[22'] Shot from home team. 		[21'] Shot from home team.
+[23'] Foul from away team. 		[22'] No event this minute.
+[24'] Foul from away team. 		[23'] Penalty conceded by home team.
+[25'] Yellow card for away team. 		[23'] Penalty conceded by away team.
+[26'] Substitution by away team. 		[24'] Goal for away team.
+[27'] Goal for home team. 		[25'] No event this minute.
+[28'] Free kick won by away team. 		[26'] Free kick won by away team.
+[28'] No event this minute. 		[26'] Foul from home team.
+[29'] No event this minute. 		[26'] Free kick won by away team.
+[30'] No event this minute. 		[27'] Foul from away team.
+[30'] Free kick won by home team. 		[27'] Free kick won by home team.
+[31'] Yellow card for away team. 		[28'] Foul from home team.
+[31'] Foul from home team. 		[28'] Free kick won by away team.
+[31'] Free kick won by away team. 		[29'] Yellow card for home team.
+[32'] No event this minute. 		[30'] No event this minute.
+[33'] No event this minute. 		[31'] Goal for away team.
+[33'] Foul from home team. 		[32'] Free kick won by home team.
+[33'] No event this minute. 		[32'] Foul from away team.
+[34'] No event this minute. 		[33'] Corner for home team.
+[35'] Offside by away team. 		[33'] Shot from home team.
+[36'] No event this minute. 		[34'] Goal for home team.
+[37'] Goal for home team. 		[35'] Foul from home team.
+[37'] Free kick won by away team. 		[35'] Free kick won by away team.
+[38'] Shot from away team. 		[36'] No event this minute.
+[39'] No event this minute. 		[37'] No event this minute.
+[40'] Foul from home team. 		[38'] Foul from away team.
+[40'] Free kick won by home team. 		[38'] Free kick won by home team.
+[41'] No event this minute. 		[39'] No event this minute.
+[42'] No event this minute. 		[40'] Shot from home team.
+[43'] No event this minute. 		[41'] No event this minute.
+[44'] Offside by home team. 		[42'] Free kick won by home team.
+[44'] Foul from away team. 		[42'] Foul from away team.
+[45'] Yellow card for away team. 		[43'] Corner for home team.
+[45'] Free kick won by home team. 		[44'] Foul from away team.
+[45'] Free kick won by home team. 		[44'] Free kick won by home team.
+[46'] Free kick won by away team. 		[44'] Shot from home team.
+[47'] No event this minute. 		[45'] Substitution by home team.
+[48'] Foul from away team. 		[45'] Yellow card for away team.
+[49'] Foul from away team. 		[45'] Free kick won by home team.
+[49'] Foul from away team. 		[45'] Foul from away team.
+[49'] Yellow card for away team. 		[46'] No event this minute.
+[50'] Foul from away team. 		[47'] No event this minute.
+[51'] No event this minute. 		[48'] No event this minute.
+[51'] Offside by home team. 		[49'] Free kick won by home team.
+[51'] Offside by away team. 		[49'] Foul from away team.
+[52'] No event this minute. 		[49'] Corner for away team.
+[53'] Corner for away team. 		[50'] No event this minute.
+[54'] Foul from away team. 		[51'] No event this minute.
+[55'] Free kick won by away team. 		[52'] Corner for home team.
+[56'] Shot from home team. 		[53'] No event this minute.
+[57'] No event this minute. 		[54'] Offside by home team.
+[58'] No event this minute. 		[55'] Shot from home team.
+[58'] Shot from home team. 		[55'] Corner for home team.
+[59'] Shot from home team. 		[55'] Shot from home team.
+[60'] Corner for home team. 		[56'] No event this minute.
+[61'] Yellow card for home team. 		[57'] Free kick won by home team.
+[61'] Shot from home team. 		[57'] Foul from away team.
+[62'] Free kick won by away team. 		[58'] Corner for home team.
+[62'] No event this minute. 		[58'] Shot from home team.
+[62'] Foul from home team. 		[59'] No event this minute.
+[62'] No event this minute. 		[60'] Substitution by away team.
+[63'] Shot from home team. 		[61'] Shot from home team.
+[63'] Foul from home team. 		[61'] Foul from home team.
+[63'] Free kick won by away team. 		[61'] Free kick won by away team.
+[64'] Free kick won by home team. 		[62'] Substitution by away team.
+[64'] No event this minute. 		[63'] No event this minute.
+[65'] Foul from home team. 		[64'] Foul from home team.
+[66'] Free kick won by away team. 		[64'] Free kick won by away team.
+[67'] Substitution by away team. 		[65'] No event this minute.
+[68'] Shot from home team. 		[66'] Offside by home team.
+[69'] Offside by away team. 		[67'] Substitution by home team.
+[69'] Free kick won by away team. 		[68'] No event this minute.
+[70'] Shot from home team. 		[69'] Corner for home team.
+[70'] Shot from home team. 		[69'] Shot from away team.
+[71'] No event this minute. 		[70'] Shot from home team.
+[72'] Free kick won by home team. 		[70'] Foul from away team.
+[73'] Free kick won by home team. 		[70'] Free kick won by home team.
+[73'] No event this minute. 		[71'] Yellow card for home team.
+[73'] Shot from home team. 		[71'] Free kick won by away team.
+[73'] Corner for away team. 		[71'] Foul from home team.
+[73'] Foul from home team. 		[72'] No event this minute.
+[74'] Foul from away team. 		[73'] Foul from home team.
+[74'] Free kick won by away team. 		[73'] Free kick won by away team.
+[75'] Goal for home team. 		[74'] No event this minute.
+[76'] Substitution by home team. 		[75'] Shot from home team.
+[76'] No event this minute. 		[76'] No event this minute.
+[77'] Corner for home team. 		[77'] No event this minute.
+[78'] Substitution by home team. 		[78'] No event this minute.
+[78'] Foul from away team. 		[79'] Foul from home team.
+[78'] Free kick won by away team. 		[79'] Free kick won by away team.
+[79'] Offside by away team. 		[80'] No event this minute.
+[80'] Corner for home team. 		[81'] Foul from away team.
+[80'] Free kick won by home team. 		[81'] Free kick won by home team.
+[81'] Shot from home team. 		[82'] Shot from home team.
+[81'] Substitution by home team. 		[83'] Foul from away team.
+[81'] Free kick won by home team. 		[83'] Free kick won by home team.
+[82'] Shot from home team. 		[83'] Shot from home team.
+[82'] Goal for home team. 		[84'] Substitution by away team.
+[82'] Game is over. 		[85'] Shot from home team.
+[83'] Foul from home team. 		[85'] Corner for home team.
+[84'] No event this minute. 		[86'] Free kick won by home team.
+[84'] Foul from away team. 		[86'] Foul from away team.
+[84'] Shot from home team. 		[86'] Substitution by home team.
+[85'] Substitution by away team. 		[87'] Corner for home team.
+[85'] Shot from home team. 		[88'] No event this minute.
+[86'] No event this minute. 		[89'] No event this minute.
+[87'] No event this minute. 		[90'] Foul from away team.
+[87'] Free kick won by home team. 		[90'] Free kick won by home team.
+[88'] No event this minute. 		[90'] Yellow card for away team.
+[89'] Corner for away team. 		[91'] Shot from home team.
+[89'] Free kick won by away team. 		[92'] Goal for away team.
+[90'] No event this minute. 		[92'] Shot from away team.
+[91'] No event this minute. 		[92'] Foul from home team.
+[91'] No event this minute. 		[92'] Free kick won by away team.
+[92'] Substitution by home team. 		[93'] No event this minute.
+[93'] Substitution by away team. 		[94'] Shot from home team.
+[94'] Foul from away team. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
+[94'] Game is over. 		[94'] Game is over.
 
+Final score: 4 - 0, expected was 2 - 4
 New game:
 --------------------
 
 [1'] No event this minute. 		[1'] Foul from home team.
 [1'] Free kick won by away team. 		[1'] Free kick won by away team.
-[1'] No event this minute. 		[2'] Foul from home team.
-[1'] Free kick won by away team. 		[2'] Foul from home team.
-[1'] Free kick won by away team. 		[2'] Free kick won by away team.
-[1'] No event this minute. 		[2'] Free kick won by away team.
-[2'] Corner for away team. 		[3'] Free kick won by home team.
-[2'] Foul from away team. 		[3'] Free kick won by home team.
-[2'] Foul from away team. 		[3'] Foul from away team.
-[3'] Foul from away team. 		[3'] Foul from away team.
-[4'] No event this minute. 		[4'] No event this minute.
-[4'] Free kick won by home team. 		[5'] No event this minute.
-[5'] Foul from home team. 		[6'] Free kick won by home team.
-[5'] Foul from away team. 		[6'] Shot from home team.
-[5'] Shot from away team. 		[6'] Foul from away team.
-[5'] Shot from home team. 		[7'] Shot from home team.
-[6'] Free kick won by home team. 		[8'] No event this minute.
-[7'] No event this minute. 		[9'] Goal for home team.
-[8'] No event this minute. 		[10'] Shot from away team.
-[9'] Foul from home team. 		[11'] No event this minute.
-[10'] Free kick won by away team. 		[12'] No event this minute.
-[11'] No event this minute. 		[13'] No event this minute.
-[12'] Shot from away team. 		[14'] Shot from home team.
-[13'] Offside by home team. 		[15'] Shot from home team.
-[14'] No event this minute. 		[16'] Foul from home team.
-[14'] Free kick won by away team. 		[16'] Free kick won by away team.
-[14'] No event this minute. 		[17'] No event this minute.
-[15'] No event this minute. 		[18'] No event this minute.
-[16'] Free kick won by home team. 		[19'] No event this minute.
-[17'] No event this minute. 		[20'] Corner for home team.
-[18'] Shot from home team. 		[21'] Shot from away team.
-[19'] Offside by home team. 		[22'] Goal for away team.
-[20'] No event this minute. 		[23'] Shot from away team.
-[21'] Corner for away team. 		[23'] Corner for away team.
-[22'] Shot from away team. 		[24'] Shot from home team.
-[23'] Corner for home team. 		[25'] No event this minute.
-[24'] No event this minute. 		[26'] Shot from away team.
-[25'] Corner for away team. 		[27'] No event this minute.
-[26'] Shot from away team. 		[28'] Corner for home team.
-[26'] Foul from home team. 		[28'] Shot from home team.
+[1'] Free kick won by home team. 		[2'] No event this minute.
+[2'] Shot from home team. 		[3'] Shot from home team.
+[2'] Free kick won by home team. 		[3'] Shot from home team.
+[3'] No event this minute. 		[4'] Foul from home team.
+[3'] Free kick won by away team. 		[4'] Free kick won by away team.
+[4'] No event this minute. 		[4'] Yellow card for home team.
+[5'] Foul from away team. 		[5'] No event this minute.
+[6'] Free kick won by home team. 		[6'] No event this minute.
+[7'] Shot from home team. 		[7'] Goal for away team.
+[8'] No event this minute. 		[8'] No event this minute.
+[9'] No event this minute. 		[9'] Foul from home team.
+[9'] Free kick won by away team. 		[9'] Free kick won by away team.
+[9'] Game is over. 		[10'] Shot from away team.
+[10'] No event this minute. 		[11'] No event this minute.
+[11'] No event this minute. 		[12'] Shot from away team.
+[12'] Foul from home team. 		[13'] Corner for home team.
+[13'] Shot from home team. 		[14'] Shot from home team.
+[14'] Foul from away team. 		[15'] Corner for away team.
+[15'] Red card for home team. 		[15'] Corner for away team.
+[16'] Shot from away team. 		[16'] No event this minute.
+[17'] No event this minute. 		[17'] No event this minute.
+[18'] Corner for home team. 		[18'] No event this minute.
+[19'] Foul from away team. 		[19'] Free kick won by home team.
+[19'] Foul from away team. 		[19'] Foul from away team.
+[20'] Offside by home team. 		[20'] No event this minute.
+[20'] No event this minute. 		[21'] Corner for home team.
+[21'] No event this minute. 		[22'] Shot from home team.
+[22'] Shot from home team. 		[23'] Goal for away team.
+[23'] No event this minute. 		[24'] No event this minute.
+[24'] Shot from away team. 		[25'] No event this minute.
+[25'] No event this minute. 		[26'] Shot from home team.
+[25'] Shot from home team. 		[26'] Foul from away team.
+[25'] Free kick won by home team. 		[26'] Free kick won by home team.
+[26'] Foul from home team. 		[27'] No event this minute.
+[27'] Corner for home team. 		[28'] No event this minute.
+[28'] No event this minute. 		[29'] Free kick won by home team.
+[28'] Foul from away team. 		[29'] Foul from away team.
+[29'] Free kick won by away team. 		[30'] Free kick won by away team.
+[29'] Foul from home team. 		[30'] Foul from home team.
+[29'] Yellow card for away team. 		[30'] Free kick won by away team.
+[29'] No event this minute. 		[31'] No event this minute.
+[30'] No event this minute. 		[32'] Yellow card for home team.
+[31'] Free kick won by home team. 		[33'] Shot from home team.
+[32'] Shot from home team. 		[34'] No event this minute.
+[33'] Foul from home team. 		[35'] Foul from away team.
+[33'] Free kick won by home team. 		[35'] Free kick won by home team.
+[34'] Substitution by away team. 		[36'] Corner for away team.
+[35'] No event this minute. 		[37'] Shot from away team.
+[36'] Shot from home team. 		[38'] Corner for home team.
+[36'] Offside by home team. 		[38'] Shot from home team.
+[37'] Offside by home team. 		[39'] Goal for away team.
+[37'] Corner for away team. 		[40'] Corner for home team.
+[38'] Shot from away team. 		[41'] Shot from home team.
+[39'] Substitution by away team. 		[42'] No event this minute.
+[40'] No event this minute. 		[43'] Corner for home team.
+[41'] Foul from home team. 		[43'] Shot from home team.
+[42'] No event this minute. 		[43'] Corner for home team.
+[43'] No event this minute. 		[44'] No event this minute.
+[43'] No event this minute. 		[45'] Substitution by home team.
+[43'] Corner for home team. 		[45'] Shot from home team.
+[44'] Corner for home team. 		[45'] Free kick won by home team.
+[44'] Foul from away team. 		[45'] Substitution by away team.
+[45'] Foul from away team. 		[45'] Free kick won by home team.
+[45'] Foul from away team. 		[45'] Foul from away team.
+[45'] Corner for home team. 		[45'] Foul from away team.
+[46'] Goal for home team. 		[46'] Free kick won by home team.
+[46'] No event this minute. 		[46'] Foul from away team.
+[46'] No event this minute. 		[47'] Offside by away team.
+[47'] Shot from home team. 		[48'] Shot from home team.
+[47'] Shot from home team. 		[49'] No event this minute.
+[48'] No event this minute. 		[50'] Shot from home team.
+[49'] No event this minute. 		[50'] Corner for home team.
+[50'] Shot from home team. 		[50'] Shot from home team.
+[51'] No event this minute. 		[51'] No event this minute.
+[52'] Foul from home team. 		[52'] No event this minute.
+[53'] Penalty conceded by away team. 		[53'] No event this minute.
+[54'] Free kick won by away team. 		[54'] No event this minute.
+[55'] Foul from away team. 		[55'] No event this minute.
+[56'] No event this minute. 		[56'] Free kick won by away team.
+[56'] Foul from home team. 		[56'] Foul from home team.
+[56'] No event this minute. 		[57'] Shot from away team.
+[57'] Shot from home team. 		[58'] No event this minute.
+[58'] Yellow card for away team. 		[59'] Free kick won by away team.
+[58'] Foul from home team. 		[59'] Foul from home team.
+[58'] Corner for away team. 		[60'] Free kick won by away team.
+[58'] Foul from home team. 		[60'] Red card for home team.
+[59'] Foul from home team. 		[60'] Foul from home team.
+[59'] Shot from away team. 		[61'] No event this minute.
+[60'] No event this minute. 		[62'] No event this minute.
+[61'] Substitution by away team. 		[63'] No event this minute.
+[62'] Shot from home team. 		[64'] Foul from away team.
+[62'] Free kick won by home team. 		[64'] Free kick won by home team.
+[63'] Free kick won by away team. 		[65'] No event this minute.
+[64'] No event this minute. 		[66'] Substitution by home team.
+[65'] Foul from home team. 		[67'] Penalty conceded by away team.
+[65'] Yellow card for away team. 		[67'] Penalty conceded by home team.
+[65'] Yellow card for home team. 		[68'] Goal for away team.
+[65'] Free kick won by home team. 		[69'] Free kick won by away team.
+[65'] Foul from home team. 		[69'] Foul from home team.
+[65'] Foul from away team. 		[70'] Free kick won by away team.
+[66'] Foul from home team. 		[70'] Foul from home team.
+[66'] Shot from away team. 		[71'] No event this minute.
+[67'] Free kick won by away team. 		[72'] Goal for away team.
+[68'] Free kick won by home team. 		[73'] Substitution by away team.
+[69'] No event this minute. 		[73'] Substitution by home team.
+[69'] No event this minute. 		[74'] Shot from away team.
+[69'] No event this minute. 		[74'] Foul from away team.
+[70'] Free kick won by home team. 		[74'] Free kick won by home team.
+[71'] Free kick won by home team. 		[75'] Shot from home team.
+[72'] Shot from home team. 		[76'] Foul from away team.
+[72'] Free kick won by home team. 		[76'] Free kick won by home team.
+[73'] Foul from home team. 		[76'] Yellow card for away team.
+[74'] Free kick won by home team. 		[77'] Free kick won by home team.
+[74'] Foul from away team. 		[77'] Foul from away team.
+[75'] Foul from home team. 		[77'] Foul from home team.
+[75'] Free kick won by away team. 		[77'] Free kick won by away team.
+[75'] Yellow card for home team. 		[78'] Free kick won by away team.
+[75'] Foul from home team. 		[78'] Foul from home team.
+[75'] Offside by away team. 		[79'] Free kick won by away team.
+[76'] Foul from home team. 		[79'] Foul from home team.
+[77'] No event this minute. 		[80'] No event this minute.
+[78'] Free kick won by home team. 		[81'] No event this minute.
+[79'] Substitution by home team. 		[82'] Substitution by away team.
+[80'] Free kick won by away team. 		[82'] Shot from away team.
+[80'] Shot from away team. 		[83'] Goal for away team.
+[81'] Foul from home team. 		[84'] No event this minute.
+[81'] Corner for away team. 		[85'] No event this minute.
+[82'] No event this minute. 		[86'] No event this minute.
+[82'] Foul from away team. 		[87'] Foul from away team.
+[82'] Free kick won by home team. 		[87'] Free kick won by home team.
+[83'] No event this minute. 		[88'] Corner for away team.
+[84'] Free kick won by away team. 		[88'] Shot from away team.
+[85'] No event this minute. 		[89'] No event this minute.
+[86'] No event this minute. 		[90'] Goal for away team.
+[86'] Shot from away team. 		[91'] No event this minute.
+[87'] No event this minute. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+[87'] Game is over. 		[91'] Game is over.
+
+Final score: 1 - 0, expected was 0 - 7
+New game:
+--------------------
+
+[0'] Offside by away team. 		[1'] No event this minute.
+[1'] Shot from home team. 		[2'] No event this minute.
+[2'] No event this minute. 		[3'] Free kick won by away team.
+[2'] Foul from home team. 		[4'] No event this minute.
+[3'] Foul from home team. 		[5'] No event this minute.
+[4'] Offside by home team. 		[6'] Shot from home team.
+[5'] Corner for home team. 		[7'] Free kick won by home team.
+[5'] Foul from away team. 		[7'] Foul from away team.
+[6'] Offside by home team. 		[8'] No event this minute.
+[7'] Free kick won by home team. 		[9'] Shot from home team.
+[7'] No event this minute. 		[10'] Shot from away team.
+[8'] Free kick won by away team. 		[11'] No event this minute.
+[9'] Corner for home team. 		[12'] No event this minute.
+[10'] Foul from home team. 		[13'] No event this minute.
+[11'] No event this minute. 		[14'] No event this minute.
+[12'] No event this minute. 		[15'] Offside by away team.
+[12'] Shot from away team. 		[16'] No event this minute.
+[13'] No event this minute. 		[17'] No event this minute.
+[14'] No event this minute. 		[18'] Free kick won by home team.
+[14'] No event this minute. 		[18'] Foul from away team.
+[15'] Shot from home team. 		[19'] Shot from home team.
+[15'] No event this minute. 		[19'] Shot from home team.
+[16'] Corner for home team. 		[20'] No event this minute.
+[17'] No event this minute. 		[21'] No event this minute.
+[18'] No event this minute. 		[22'] Foul from away team.
+[18'] Free kick won by home team. 		[22'] Free kick won by home team.
+[19'] Yellow card for away team. 		[23'] Shot from away team.
+[19'] Corner for away team. 		[23'] Shot from away team.
+[20'] No event this minute. 		[24'] Offside by away team.
+[21'] No event this minute. 		[25'] No event this minute.
+[22'] Corner for home team. 		[26'] Free kick won by home team.
+[22'] Foul from away team. 		[26'] Foul from away team.
+[23'] No event this minute. 		[27'] Foul from home team.
+[23'] Free kick won by away team. 		[27'] Free kick won by away team.
+[24'] No event this minute. 		[28'] No event this minute.
+[25'] Shot from home team. 		[29'] No event this minute.
+[26'] Free kick won by home team. 		[30'] Shot from home team.
+[27'] No event this minute. 		[31'] No event this minute.
+[27'] Shot from away team. 		[32'] No event this minute.
+[28'] Shot from away team. 		[33'] Shot from home team.
+[28'] Shot from away team. 		[34'] No event this minute.
+[29'] Free kick won by home team. 		[35'] Corner for away team.
+[30'] Shot from away team. 		[36'] Shot from home team.
+[31'] Free kick won by home team. 		[37'] No event this minute.
+[32'] No event this minute. 		[38'] Shot from away team.
+[33'] No event this minute. 		[38'] Corner for away team.
+[34'] Shot from away team. 		[39'] Foul from home team.
+[34'] Shot from home team. 		[39'] Free kick won by away team.
+[34'] No event this minute. 		[40'] No event this minute.
+[35'] Offside by away team. 		[41'] Shot from home team.
+[35'] Foul from home team. 		[42'] No event this minute.
+[36'] No event this minute. 		[43'] Foul from home team.
+[36'] Free kick won by away team. 		[43'] Free kick won by away team.
+[36'] Free kick won by home team. 		[44'] Shot from away team.
+[37'] No event this minute. 		[45'] Shot from home team.
+[38'] Shot from away team. 		[46'] Shot from home team.
+[39'] Foul from home team. 		[46'] Foul from away team.
+[40'] No event this minute. 		[46'] Free kick won by home team.
+[41'] Shot from home team. 		[47'] No event this minute.
+[42'] No event this minute. 		[48'] Corner for away team.
+[43'] Shot from away team. 		[48'] Goal for away team.
+[44'] Foul from away team. 		[49'] No event this minute.
+[45'] No event this minute. 		[50'] Offside by home team.
+[46'] Foul from home team. 		[51'] Corner for home team.
+[47'] Free kick won by home team. 		[51'] Foul from home team.
+[47'] Free kick won by away team. 		[51'] Free kick won by away team.
+[48'] Shot from home team. 		[52'] Shot from away team.
+[49'] Offside by away team. 		[52'] Corner for away team.
+[50'] Corner for away team. 		[53'] Free kick won by home team.
+[50'] Foul from away team. 		[53'] Foul from away team.
+[51'] No event this minute. 		[54'] No event this minute.
+[52'] Shot from away team. 		[55'] Shot from home team.
+[53'] Shot from away team. 		[56'] No event this minute.
+[54'] No event this minute. 		[57'] No event this minute.
+[55'] No event this minute. 		[58'] No event this minute.
+[56'] Offside by away team. 		[59'] No event this minute.
+[57'] Shot from away team. 		[60'] No event this minute.
+[58'] No event this minute. 		[61'] Free kick won by away team.
+[58'] Foul from home team. 		[61'] Yellow card for home team.
+[58'] Foul from home team. 		[61'] Foul from home team.
+[58'] Shot from away team. 		[62'] No event this minute.
+[59'] Shot from away team. 		[63'] Free kick won by home team.
+[59'] Foul from away team. 		[63'] Foul from away team.
+[60'] No event this minute. 		[64'] Yellow card for away team.
+[60'] Free kick won by home team. 		[65'] Corner for home team.
+[61'] Free kick won by home team. 		[66'] Substitution by home team.
+[61'] Substitution by away team. 		[66'] Shot from home team.
+[61'] Substitution by home team. 		[67'] Foul from home team.
+[61'] Free kick won by away team. 		[67'] Free kick won by away team.
+[61'] Corner for home team. 		[68'] Goal for away team.
+[62'] No event this minute. 		[69'] No event this minute.
+[63'] Foul from away team. 		[70'] Shot from home team.
+[63'] Shot from home team. 		[70'] Shot from home team.
+[64'] Shot from home team. 		[71'] No event this minute.
+[65'] Shot from away team. 		[72'] Offside by away team.
+[66'] Substitution by home team. 		[73'] Goal for home team.
+[67'] No event this minute. 		[74'] Substitution by home team.
+[67'] No event this minute. 		[74'] Substitution by home team.
+[68'] Hand ball by away team. 		[75'] Shot from home team.
+[69'] Shot from away team. 		[75'] Corner for home team.
+[70'] No event this minute. 		[76'] No event this minute.
+[71'] Foul from home team. 		[77'] Corner for home team.
+[72'] Shot from home team. 		[77'] Shot from home team.
+[73'] Offside by away team. 		[77'] Shot from home team.
+[74'] Offside by home team. 		[77'] Shot from home team.
+[75'] Substitution by home team. 		[78'] Corner for home team.
+[75'] No event this minute. 		[78'] Substitution by away team.
+[76'] Goal for away team. 		[78'] Shot from home team.
+[77'] No event this minute. 		[79'] Substitution by away team.
+[77'] No event this minute. 		[80'] No event this minute.
+[78'] No event this minute. 		[81'] Foul from home team.
+[78'] Free kick won by away team. 		[81'] Yellow card for home team.
+[78'] Free kick won by away team. 		[81'] Free kick won by away team.
+[79'] Free kick won by home team. 		[82'] No event this minute.
+[80'] No event this minute. 		[83'] Free kick won by home team.
+[80'] Foul from away team. 		[83'] Shot from home team.
+[80'] No event this minute. 		[83'] Foul from away team.
+[80'] No event this minute. 		[84'] Shot from away team.
+[81'] Substitution by home team. 		[84'] Shot from away team.
+[82'] Foul from away team. 		[85'] Foul from away team.
+[82'] Free kick won by home team. 		[85'] Yellow card for away team.
+[83'] Free kick won by home team. 		[85'] Free kick won by home team.
+[83'] No event this minute. 		[85'] Free kick won by home team.
+[83'] Shot from home team. 		[86'] Goal for home team.
+[84'] Foul from away team. 		[87'] No event this minute.
+[84'] Offside by away team. 		[88'] Shot from home team.
+[84'] Corner for home team. 		[89'] Foul from home team.
+[84'] Free kick won by away team. 		[89'] Free kick won by away team.
+[85'] Corner for away team. 		[89'] Substitution by away team.
+[86'] No event this minute. 		[90'] Foul from home team.
+[86'] Free kick won by away team. 		[90'] Foul from home team.
+[87'] Free kick won by away team. 		[90'] Free kick won by away team.
+[88'] Free kick won by away team. 		[90'] Shot from home team.
+[89'] No event this minute. 		[90'] Shot from home team.
+[90'] Shot from home team. 		[90'] Free kick won by away team.
+[91'] No event this minute. 		[91'] No event this minute.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+[91'] Game is over. 		[91'] Game is over.
+
+Final score: 0 - 1, expected was 2 - 2
+New game:
+--------------------
+
+[1'] Shot from home team. 		[1'] Foul from home team.
+[2'] Free kick won by home team. 		[1'] Free kick won by away team.
+[3'] Free kick won by home team. 		[2'] No event this minute.
+[4'] No event this minute. 		[3'] No event this minute.
+[5'] No event this minute. 		[4'] No event this minute.
+[6'] Foul from home team. 		[5'] No event this minute.
+[7'] No event this minute. 		[6'] Foul from home team.
+[7'] Free kick won by away team. 		[6'] Free kick won by away team.
+[8'] Foul from home team. 		[7'] Goal for away team.
+[9'] No event this minute. 		[8'] No event this minute.
+[10'] Free kick won by home team. 		[9'] No event this minute.
+[11'] No event this minute. 		[10'] Foul from home team.
+[11'] Free kick won by away team. 		[10'] Free kick won by away team.
+[12'] Free kick won by home team. 		[11'] Corner for away team.
+[13'] Offside by home team. 		[12'] No event this minute.
+[13'] No event this minute. 		[13'] Free kick won by away team.
+[13'] Foul from home team. 		[13'] Foul from home team.
+[14'] No event this minute. 		[14'] Shot from home team.
+[15'] Shot from away team. 		[15'] No event this minute.
+[16'] Foul from away team. 		[16'] Shot from away team.
+[17'] Offside by home team. 		[17'] No event this minute.
+[18'] No event this minute. 		[18'] Free kick won by away team.
+[18'] Foul from home team. 		[18'] Foul from home team.
+[19'] No event this minute. 		[19'] No event this minute.
+[20'] Corner for home team. 		[20'] Foul from away team.
+[20'] Free kick won by home team. 		[20'] Free kick won by home team.
+[21'] Corner for home team. 		[21'] Corner for home team.
+[22'] Foul from away team. 		[21'] Corner for home team.
+[23'] Shot from home team. 		[22'] No event this minute.
+[24'] Goal for away team. 		[23'] No event this minute.
+[25'] No event this minute. 		[24'] Shot from home team.
+[26'] Shot from home team. 		[25'] No event this minute.
+[27'] Shot from home team. 		[26'] Foul from home team.
+[27'] Free kick won by away team. 		[26'] Free kick won by away team.
+[28'] No event this minute. 		[27'] Offside by home team.
+[29'] No event this minute. 		[27'] Hand ball by away team.
+[29'] Shot from home team. 		[28'] No event this minute.
+[30'] Free kick won by away team. 		[29'] No event this minute.
+[31'] No event this minute. 		[30'] Foul from away team.
+[31'] Free kick won by home team. 		[30'] Free kick won by home team.
+[32'] Goal for home team. 		[31'] No event this minute.
+[33'] Free kick won by away team. 		[32'] Free kick won by home team.
+[33'] Foul from away team. 		[32'] Foul from away team.
+[33'] No event this minute. 		[33'] Shot from home team.
+[33'] No event this minute. 		[33'] Offside by home team.
+[34'] Corner for home team. 		[34'] Shot from home team.
+[35'] Corner for home team. 		[34'] Goal for home team.
+[36'] Corner for home team. 		[35'] Offside by home team.
+[36'] Shot from home team. 		[35'] Shot from away team.
+[37'] Shot from home team. 		[36'] Foul from home team.
+[38'] Free kick won by away team. 		[36'] Free kick won by away team.
+[39'] Corner for home team. 		[37'] Foul from away team.
+[39'] Free kick won by home team. 		[37'] Free kick won by home team.
+[40'] No event this minute. 		[38'] Goal for home team.
+[41'] Free kick won by away team. 		[39'] No event this minute.
+[42'] Free kick won by away team. 		[40'] Free kick won by away team.
+[42'] Foul from home team. 		[40'] Foul from home team.
+[42'] Shot from away team. 		[41'] No event this minute.
+[43'] Free kick won by home team. 		[42'] No event this minute.
+[44'] Foul from home team. 		[43'] Foul from away team.
+[44'] Free kick won by home team. 		[43'] Free kick won by home team.
+[45'] No event this minute. 		[43'] Free kick won by away team.
+[45'] Corner for away team. 		[43'] Foul from home team.
+[46'] Shot from home team. 		[43'] Yellow card for home team.
+[47'] Free kick won by away team. 		[44'] Foul from away team.
+[47'] Free kick won by home team. 		[44'] Free kick won by home team.
+[47'] Free kick won by away team. 		[45'] No event this minute.
+[48'] Foul from home team. 		[46'] Offside by away team.
+[49'] Free kick won by away team. 		[46'] Hand ball by away team.
+[50'] Yellow card for away team. 		[47'] Free kick won by away team.
+[50'] Foul from home team. 		[47'] Foul from home team.
+[51'] Free kick won by away team. 		[47'] Foul from home team.
+[51'] Free kick won by away team. 		[47'] Yellow card for home team.
+[52'] Free kick won by away team. 		[48'] Offside by away team.
+[53'] Free kick won by away team. 		[49'] Foul from away team.
+[53'] Free kick won by home team. 		[49'] Free kick won by home team.
+[53'] Shot from home team. 		[50'] Shot from home team.
+[53'] No event this minute. 		[51'] Shot from home team.
+[53'] No event this minute. 		[52'] Foul from home team.
+[53'] Shot from away team. 		[52'] Free kick won by away team.
+[53'] No event this minute. 		[53'] No event this minute.
+[54'] Foul from away team. 		[54'] Foul from away team.
+[54'] Offside by home team. 		[54'] Free kick won by home team.
+[55'] Yellow card for home team. 		[55'] Foul from home team.
+[55'] Shot from away team. 		[55'] Free kick won by away team.
+[56'] Shot from home team. 		[55'] Yellow card for home team.
+[57'] Foul from away team. 		[56'] Shot from home team.
+[57'] Foul from home team. 		[57'] Substitution by home team.
+[57'] Foul from home team. 		[57'] Free kick won by home team.
+[57'] Foul from away team. 		[57'] Foul from away team.
+[57'] Shot from home team. 		[58'] Shot from home team.
+[58'] Corner for home team. 		[59'] Free kick won by away team.
+[58'] Foul from home team. 		[60'] No event this minute.
+[59'] Offside by home team. 		[61'] No event this minute.
+[60'] Offside by home team. 		[62'] Shot from home team.
+[61'] No event this minute. 		[63'] Substitution by away team.
+[62'] Shot from home team. 		[64'] No event this minute.
+[63'] Substitution by away team. 		[65'] Substitution by home team.
+[64'] Shot from away team. 		[66'] Substitution by away team.
+[64'] No event this minute. 		[67'] No event this minute.
+[65'] No event this minute. 		[68'] Offside by away team.
+[65'] No event this minute. 		[69'] No event this minute.
+[66'] Foul from home team. 		[70'] Corner for home team.
+[66'] No event this minute. 		[70'] Shot from home team.
+[67'] No event this minute. 		[71'] No event this minute.
+[68'] Shot from home team. 		[72'] Foul from away team.
+[68'] Free kick won by home team. 		[72'] Free kick won by home team.
+[69'] No event this minute. 		[73'] Substitution by away team.
+[70'] Shot from home team. 		[73'] Offside by away team.
+[71'] No event this minute. 		[73'] Substitution by home team.
+[71'] Free kick won by away team. 		[74'] Foul from away team.
+[71'] Free kick won by home team. 		[74'] Free kick won by home team.
+[71'] Foul from home team. 		[74'] Yellow card for away team.
+[72'] No event this minute. 		[75'] No event this minute.
+[73'] Foul from home team. 		[76'] No event this minute.
+[74'] No event this minute. 		[77'] Corner for home team.
+[75'] Shot from home team. 		[78'] No event this minute.
+[76'] Shot from away team. 		[79'] Corner for home team.
+[76'] Corner for home team. 		[80'] Corner for home team.
+[77'] Shot from home team. 		[81'] No event this minute.
+[78'] Free kick won by home team. 		[82'] Foul from home team.
+[78'] Free kick won by away team. 		[82'] Free kick won by away team.
+[78'] Red card for away team. 		[83'] Goal for away team.
+[79'] Yellow card for away team. 		[84'] Foul from away team.
+[79'] Free kick won by home team. 		[84'] Free kick won by home team.
+[80'] Shot from home team. 		[85'] No event this minute.
+[81'] No event this minute. 		[86'] Red card for home team.
+[82'] Foul from home team. 		[86'] Foul from home team.
+[82'] Free kick won by away team. 		[86'] Free kick won by away team.
+[82'] Corner for away team. 		[87'] Yellow card for away team.
+[83'] Shot from home team. 		[88'] Shot from home team.
+[84'] Substitution by home team. 		[89'] Shot from away team.
+[84'] Hand ball by away team. 		[90'] Foul from home team.
+[84'] Free kick won by away team. 		[90'] Free kick won by away team.
+[84'] Goal for away team. 		[90'] Yellow card for away team.
+[85'] Free kick won by home team. 		[90'] Free kick won by away team.
+[86'] Corner for away team. 		[90'] Foul from away team.
+[86'] Free kick won by home team. 		[90'] Corner for away team.
+[87'] Free kick won by home team. 		[90'] Free kick won by home team.
+[87'] Foul from home team. 		[90'] Foul from home team.
+[87'] Shot from home team. 		[91'] No event this minute.
+[88'] Foul from away team. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+[88'] Game is over. 		[91'] Game is over.
+
+Final score: 1 - 2, expected was 2 - 2
+New game:
+--------------------
+
+[1'] Free kick won by away team. 		[1'] No event this minute.
+[2'] Game is over. 		[2'] Penalty conceded by home team.
+[2'] Offside by home team. 		[3'] Yellow card for away team.
+[3'] Foul from away team. 		[4'] No event this minute.
+[4'] No event this minute. 		[5'] Goal for home team.
+[5'] No event this minute. 		[6'] Corner for home team.
+[6'] Shot from home team. 		[7'] Shot from home team.
+[7'] Shot from home team. 		[7'] Corner for home team.
+[8'] No event this minute. 		[7'] Offside by home team.
+[9'] No event this minute. 		[8'] No event this minute.
+[10'] No event this minute. 		[9'] No event this minute.
+[11'] Shot from home team. 		[10'] No event this minute.
+[12'] Corner for home team. 		[11'] Foul from home team.
+[12'] Free kick won by away team. 		[11'] Free kick won by away team.
+[12'] Corner for home team. 		[12'] Corner for away team.
+[13'] Yellow card for away team. 		[13'] No event this minute.
+[14'] No event this minute. 		[14'] Foul from home team.
+[14'] Free kick won by away team. 		[14'] Free kick won by away team.
+[14'] Free kick won by home team. 		[15'] Shot from home team.
+[14'] Foul from away team. 		[15'] Corner for home team.
+[15'] Corner for home team. 		[16'] Shot from away team.
+[15'] Free kick won by home team. 		[17'] No event this minute.
+[16'] Corner for away team. 		[18'] Foul from away team.
+[16'] Free kick won by home team. 		[18'] Free kick won by home team.
+[17'] No event this minute. 		[18'] Yellow card for away team.
+[18'] No event this minute. 		[19'] No event this minute.
+[19'] Foul from home team. 		[20'] Foul from away team.
+[19'] Free kick won by home team. 		[20'] Free kick won by home team.
+[20'] Yellow card for away team. 		[21'] No event this minute.
+[21'] Hand ball by home team. 		[22'] No event this minute.
+[22'] Foul from home team. 		[23'] No event this minute.
+[23'] No event this minute. 		[24'] No event this minute.
+[24'] No event this minute. 		[25'] No event this minute.
+[25'] No event this minute. 		[26'] Free kick won by away team.
+[25'] Shot from away team. 		[26'] Foul from home team.
+[25'] No event this minute. 		[27'] Goal for away team.
+[26'] Foul from away team. 		[28'] No event this minute.
 [27'] No event this minute. 		[29'] No event this minute.
-[28'] No event this minute. 		[30'] No event this minute.
-[29'] No event this minute. 		[31'] Shot from away team.
-[29'] No event this minute. 		[31'] Offside by away team.
-[30'] No event this minute. 		[32'] No event this minute.
-[31'] No event this minute. 		[33'] No event this minute.
-[32'] Corner for home team. 		[34'] Foul from home team.
-[32'] Goal for away team. 		[34'] Free kick won by away team.
-[33'] No event this minute. 		[35'] Free kick won by home team.
-[33'] Foul from away team. 		[35'] Foul from away team.
-[34'] Yellow card for away team. 		[36'] No event this minute.
-[35'] No event this minute. 		[37'] Shot from home team.
-[36'] Offside by home team. 		[38'] Foul from home team.
-[36'] Free kick won by away team. 		[38'] Free kick won by away team.
-[37'] Free kick won by home team. 		[39'] Free kick won by home team.
-[37'] Foul from away team. 		[39'] Shot from away team.
-[37'] Foul from away team. 		[39'] Foul from away team.
-[37'] Hand ball by away team. 		[40'] Free kick won by away team.
-[37'] Foul from home team. 		[40'] Foul from home team.
-[38'] Free kick won by away team. 		[41'] Foul from away team.
-[38'] Free kick won by home team. 		[42'] No event this minute.
-[39'] Free kick won by home team. 		[43'] Offside by home team.
-[40'] No event this minute. 		[43'] Foul from home team.
-[40'] Free kick won by away team. 		[43'] Free kick won by away team.
-[41'] Goal for home team. 		[44'] Free kick won by home team.
-[41'] Foul from away team. 		[44'] Foul from away team.
-[42'] Yellow card for away team. 		[45'] No event this minute.
-[43'] Shot from home team. 		[46'] Shot from away team.
-[43'] Shot from away team. 		[47'] Shot from away team.
-[44'] Free kick won by away team. 		[47'] Corner for away team.
-[44'] Shot from away team. 		[48'] Shot from away team.
-[45'] Shot from away team. 		[49'] No event this minute.
-[46'] Foul from away team. 		[50'] Free kick won by home team.
-[46'] Foul from away team. 		[50'] Foul from away team.
-[47'] Yellow card for away team. 		[51'] Goal for away team.
-[48'] Free kick won by home team. 		[52'] No event this minute.
-[49'] Foul from home team. 		[53'] No event this minute.
-[50'] Shot from home team. 		[54'] Foul from home team.
-[50'] Free kick won by away team. 		[54'] Free kick won by away team.
-[51'] Goal for away team. 		[55'] Free kick won by home team.
-[51'] Foul from away team. 		[55'] Offside by away team.
-[51'] Foul from away team. 		[55'] Foul from away team.
-[51'] Foul from away team. 		[56'] Shot from away team.
-[51'] No event this minute. 		[57'] Substitution by home team.
-[52'] Substitution by away team. 		[57'] Offside by away team.
-[53'] No event this minute. 		[58'] Shot from home team.
-[53'] No event this minute. 		[59'] No event this minute.
-[54'] Shot from away team. 		[60'] Shot from home team.
-[55'] No event this minute. 		[61'] Corner for home team.
-[56'] Foul from home team. 		[62'] Foul from home team.
-[56'] Free kick won by away team. 		[62'] Free kick won by away team.
-[56'] Shot from home team. 		[63'] Free kick won by away team.
-[56'] Yellow card for home team. 		[63'] Foul from home team.
-[56'] Shot from away team. 		[63'] Substitution by home team.
-[57'] No event this minute. 		[64'] Shot from away team.
-[57'] No event this minute. 		[64'] Corner for away team.
-[57'] Foul from away team. 		[65'] Free kick won by home team.
-[57'] Foul from away team. 		[65'] Foul from away team.
-[58'] No event this minute. 		[66'] No event this minute.
-[59'] Free kick won by home team. 		[67'] Shot from home team.
-[60'] Free kick won by home team. 		[68'] No event this minute.
-[61'] Shot from home team. 		[69'] No event this minute.
-[62'] Shot from home team. 		[70'] Substitution by away team.
-[62'] Shot from home team. 		[70'] Corner for away team.
-[62'] No event this minute. 		[71'] Foul from away team.
-[62'] Free kick won by home team. 		[71'] Free kick won by home team.
-[63'] Free kick won by away team. 		[71'] Substitution by home team.
-[64'] No event this minute. 		[72'] No event this minute.
-[65'] Substitution by home team. 		[73'] Shot from home team.
-[65'] Foul from away team. 		[74'] Shot from away team.
-[65'] Offside by home team. 		[75'] Shot from home team.
-[65'] Foul from away team. 		[76'] No event this minute.
-[66'] Shot from away team. 		[77'] No event this minute.
-[67'] No event this minute. 		[78'] Goal for home team.
-[68'] No event this minute. 		[79'] Shot from home team.
-[69'] Corner for home team. 		[79'] Substitution by away team.
-[70'] Substitution by home team. 		[80'] Foul from home team.
-[70'] Free kick won by away team. 		[80'] Yellow card for home team.
-[70'] Free kick won by away team. 		[80'] Free kick won by away team.
-[71'] Free kick won by away team. 		[81'] Shot from away team.
-[72'] Free kick won by away team. 		[82'] Shot from home team.
-[72'] Foul from home team. 		[83'] Offside by home team.
-[73'] Substitution by home team. 		[84'] Corner for home team.
-[74'] Shot from away team. 		[84'] Shot from home team.
-[75'] Foul from home team. 		[85'] No event this minute.
-[76'] Foul from away team. 		[86'] Shot from home team.
-[77'] No event this minute. 		[86'] Shot from home team.
-[77'] No event this minute. 		[86'] Shot from home team.
-[77'] No event this minute. 		[87'] Free kick won by home team.
-[78'] Foul from away team. 		[87'] Foul from away team.
-[79'] No event this minute. 		[88'] Substitution by away team.
-[80'] Yellow card for away team. 		[89'] Free kick won by home team.
-[80'] Foul from away team. 		[89'] Shot from home team.
-[80'] Foul from away team. 		[89'] Goal for home team.
-[81'] No event this minute. 		[89'] Foul from away team.
-[81'] No event this minute. 		[90'] Foul from home team.
-[81'] No event this minute. 		[90'] Foul from home team.
-[82'] Free kick won by away team. 		[90'] Free kick won by home team.
-[82'] Free kick won by away team. 		[90'] Free kick won by away team.
-[83'] No event this minute. 		[90'] Free kick won by away team.
-[83'] Shot from away team. 		[90'] Foul from away team.
-[84'] No event this minute. 		[91'] No event this minute.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
-[84'] Game is over. 		[91'] Game is over.
+[28'] Foul from away team. 		[30'] Yellow card for home team.
+[28'] Goal for away team. 		[30'] Foul from home team.
+[28'] Free kick won by away team. 		[30'] Free kick won by away team.
+[29'] Free kick won by home team. 		[31'] No event this minute.
+[30'] Shot from home team. 		[32'] No event this minute.
+[31'] Foul from away team. 		[33'] Free kick won by home team.
+[31'] Foul from away team. 		[33'] Shot from away team.
+[32'] Foul from away team. 		[33'] Foul from away team.
+[33'] Free kick won by away team. 		[34'] Foul from home team.
+[34'] Free kick won by away team. 		[34'] Free kick won by away team.
+[35'] No event this minute. 		[35'] Free kick won by away team.
+[36'] Foul from home team. 		[35'] Foul from home team.
+[36'] Shot from away team. 		[35'] Corner for away team.
+[37'] No event this minute. 		[36'] No event this minute.
+[38'] No event this minute. 		[37'] No event this minute.
+[39'] Foul from home team. 		[38'] No event this minute.
+[40'] Corner for away team. 		[39'] Offside by away team.
+[41'] No event this minute. 		[40'] Goal for home team.
+[42'] No event this minute. 		[41'] No event this minute.
+[43'] No event this minute. 		[42'] Foul from home team.
+[43'] Free kick won by away team. 		[42'] Free kick won by away team.
+[44'] No event this minute. 		[43'] Free kick won by home team.
+[45'] Foul from away team. 		[44'] Free kick won by away team.
+[46'] Foul from home team. 		[44'] Free kick won by home team.
+[47'] Foul from away team. 		[44'] Foul from home team.
+[48'] Foul from away team. 		[44'] Foul from away team.
+[48'] No event this minute. 		[45'] Foul from away team.
+[48'] Free kick won by home team. 		[45'] Foul from home team.
+[49'] Free kick won by away team. 		[45'] Free kick won by away team.
+[50'] Free kick won by home team. 		[45'] Foul from home team.
+[51'] Free kick won by away team. 		[45'] Free kick won by away team.
+[51'] Goal for home team. 		[45'] Substitution by away team.
+[51'] Corner for away team. 		[45'] Corner for away team.
+[52'] Shot from away team. 		[45'] Free kick won by home team.
+[53'] Shot from away team. 		[46'] Free kick won by away team.
+[53'] Foul from home team. 		[46'] Foul from home team.
+[53'] Foul from away team. 		[46'] Yellow card for home team.
+[54'] Free kick won by away team. 		[46'] Foul from home team.
+[54'] Free kick won by away team. 		[46'] Free kick won by away team.
+[54'] Shot from away team. 		[47'] No event this minute.
+[55'] Foul from home team. 		[48'] Shot from away team.
+[55'] Offside by home team. 		[48'] Goal for away team.
+[56'] No event this minute. 		[49'] No event this minute.
+[57'] Shot from away team. 		[50'] No event this minute.
+[58'] Foul from home team. 		[51'] No event this minute.
+[59'] Shot from away team. 		[52'] Foul from away team.
+[59'] Free kick won by home team. 		[52'] Free kick won by home team.
+[60'] Corner for home team. 		[52'] Shot from away team.
+[61'] Foul from home team. 		[52'] Corner for away team.
+[62'] Shot from away team. 		[53'] No event this minute.
+[63'] No event this minute. 		[54'] No event this minute.
+[64'] No event this minute. 		[55'] No event this minute.
+[65'] Offside by away team. 		[56'] Shot from home team.
+[66'] Free kick won by home team. 		[57'] No event this minute.
+[67'] Shot from away team. 		[58'] Shot from home team.
+[67'] Free kick won by away team. 		[59'] No event this minute.
+[68'] No event this minute. 		[60'] Foul from away team.
+[68'] Free kick won by home team. 		[60'] Free kick won by home team.
+[69'] Shot from home team. 		[61'] Free kick won by away team.
+[69'] Foul from home team. 		[62'] No event this minute.
+[70'] Shot from home team. 		[63'] Substitution by away team.
+[71'] Free kick won by home team. 		[63'] Free kick won by home team.
+[71'] Foul from away team. 		[63'] Shot from away team.
+[71'] Foul from away team. 		[63'] Foul from away team.
+[72'] Shot from away team. 		[64'] Foul from away team.
+[72'] Free kick won by home team. 		[64'] Free kick won by home team.
+[72'] No event this minute. 		[65'] Substitution by home team.
+[72'] Shot from home team. 		[66'] No event this minute.
+[73'] No event this minute. 		[67'] Foul from home team.
+[73'] Free kick won by away team. 		[67'] Free kick won by away team.
+[73'] Substitution by home team. 		[68'] Corner for away team.
+[74'] No event this minute. 		[69'] Free kick won by away team.
+[75'] Free kick won by away team. 		[69'] Foul from home team.
+[76'] No event this minute. 		[69'] Yellow card for home team.
+[77'] Free kick won by home team. 		[70'] No event this minute.
+[78'] No event this minute. 		[71'] Free kick won by away team.
+[78'] Foul from home team. 		[71'] Foul from home team.
+[78'] Shot from away team. 		[72'] Shot from home team.
+[79'] Foul from home team. 		[73'] Foul from home team.
+[79'] Free kick won by away team. 		[73'] Free kick won by away team.
+[80'] No event this minute. 		[73'] Yellow card for home team.
+[80'] Shot from away team. 		[74'] No event this minute.
+[81'] Foul from away team. 		[75'] No event this minute.
+[82'] Shot from away team. 		[76'] Shot from home team.
+[83'] Shot from home team. 		[77'] No event this minute.
+[84'] Goal for away team. 		[78'] No event this minute.
+[85'] Yellow card for away team. 		[79'] Corner for away team.
+[86'] Shot from away team. 		[79'] Substitution by away team.
+[87'] Shot from away team. 		[80'] Substitution by home team.
+[88'] No event this minute. 		[81'] No event this minute.
+[89'] No event this minute. 		[82'] Free kick won by home team.
+[89'] Foul from away team. 		[82'] Yellow card for away team.
+[90'] Foul from away team. 		[83'] No event this minute.
+[91'] No event this minute. 		[84'] Foul from home team.
+[91'] Free kick won by away team. 		[84'] Free kick won by away team.
+[92'] Corner for home team. 		[84'] Foul from away team.
+[92'] Shot from home team. 		[84'] Free kick won by home team.
+[93'] Offside by away team. 		[84'] Yellow card for away team.
+[94'] Shot from home team. 		[85'] Yellow card for home team.
+[95'] No event this minute. 		[85'] Foul from home team.
+[95'] Free kick won by away team. 		[85'] Free kick won by away team.
+[96'] Free kick won by home team. 		[86'] No event this minute.
+[97'] Hand ball by away team. 		[87'] Corner for home team.
+[97'] Free kick won by home team. 		[88'] Offside by home team.
+[98'] Foul from home team. 		[88'] Foul from away team.
+[98'] Free kick won by home team. 		[88'] Free kick won by home team.
+[99'] Shot from home team. 		[89'] Foul from away team.
+[100'] Shot from home team. 		[89'] Free kick won by home team.
+[101'] No event this minute. 		[90'] Foul from home team.
+[101'] Free kick won by away team. 		[90'] Substitution by home team.
+[101'] Free kick won by away team. 		[90'] Corner for home team.
+[102'] Offside by home team. 		[90'] Corner for home team.
+[102'] Shot from home team. 		[90'] Shot from home team.
+[103'] Free kick won by away team. 		[90'] Free kick won by away team.
+[104'] No event this minute. 		[91'] No event this minute.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+[105'] Game is over. 		[91'] Game is over.
+
+Final score: 1 - 2, expected was 2 - 2

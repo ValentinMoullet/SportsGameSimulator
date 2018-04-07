@@ -79,6 +79,10 @@ def output_events_file(event_scores, time_scores, target, filename):
         for batch_idx in range(generated_events.size(0)):
             f.write('\nNew game:\n')
             f.write('--------------------\n\n')
+            goal_home = 0
+            goal_away = 0
+            goal_home_target = 0
+            goal_away_target = 0
             current_time = 0
             current_time_target = 0
             for event_idx in range(generated_events.size(1)):
@@ -86,6 +90,16 @@ def output_events_file(event_scores, time_scores, target, filename):
                 time_type = generated_events[batch_idx, event_idx, 1]
                 event_type_target = target[batch_idx, event_idx, 0]
                 time_type_target = target[batch_idx, event_idx, 1]
+
+                if event_type == 0:
+                    goal_home += 1
+                elif event_type == NB_EVENT_TYPES:
+                    goal_away += 1
+
+                if event_type_target == 0:
+                    goal_home_target += 1
+                elif event_type_target == NB_EVENT_TYPES:
+                    goal_away_target += 1
 
                 current_time = get_next_time_from_type(current_time, time_type, event_type)
                 current_time_target = get_next_time_from_type(current_time_target, time_type_target, event_type_target)
@@ -95,6 +109,7 @@ def output_events_file(event_scores, time_scores, target, filename):
 
                 f.write("[%d'] %s \t\t[%d'] %s\n" % (current_time, sentence, current_time_target, sentence_target))
 
+            f.write("\nFinal score: %d - %d, expected was %d - %d" % (goal_home, goal_away, goal_home_target, goal_away_target))
 
 def generate_events(event_scores, time_scores):
     event_scores_np = event_scores.data.numpy()
