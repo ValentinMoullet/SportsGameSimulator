@@ -109,11 +109,11 @@ print("Best test accuracy: %.5f at epoch %d" % (best_accuracy[0], best_accuracy[
 loss_histories = (
     ('Training loss', training_loss_history),
     ('Test loss', test_loss_history))
-plot_history(loss_histories, '%s/results/loss_%d_%.6f_(%d_%d)_%.1f.pdf' % (league, CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES[0], CHOSEN_HIDDEN_LAYER_SIZES[1], CHOSEN_DROPOUT_RATE), "Test and training loss")
+plot_history(loss_histories, '%s/results/%s' % (league, get_hyperparams_filename('loss.pdf')), "Test and training loss")
 
 accuracy_histories = (
     ('Test accuracy', test_accuracy_history),)
-plot_history(accuracy_histories, '%s/results/accuracy_%d_%.6f_(%d_%d)_%.1f.pdf' % (league, CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES[0], CHOSEN_HIDDEN_LAYER_SIZES[1], CHOSEN_DROPOUT_RATE), "Test accuracy")
+plot_history(accuracy_histories, '%s/results/%s' % (league, get_hyperparams_filename('accuracy.pdf')), "Test accuracy")
 
 ########## Test the final model ##########
 
@@ -151,8 +151,10 @@ for i in range(3):
 
 ########## Get weights of first layer and plot to see if they seem to be features for teams ##########
 
-plot_weights_teams_tsne(teams, model, '%s/weights/tsne_%d_%.6f_(%d_%d)_%.1f.pdf' % (league, CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES[0], CHOSEN_HIDDEN_LAYER_SIZES[1], CHOSEN_DROPOUT_RATE), "Test and training loss")
-plot_weights_teams_pca(teams, model, '%s/weights/pca_%d_%.6f_(%d_%d)_%.1f.pdf' % (league, CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES[0], CHOSEN_HIDDEN_LAYER_SIZES[1], CHOSEN_DROPOUT_RATE), "Test and training loss")
-plot_weights_teams_kernel_pca(teams, model, '%s/weights/kernel_pca_%d_%.6f_(%d_%d)_%.1f.pdf' % (league, CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES[0], CHOSEN_HIDDEN_LAYER_SIZES[1], CHOSEN_DROPOUT_RATE), "Test and training loss")
+plot_weights_teams_tsne(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('tsne.pdf')), "Test and training loss")
+plot_weights_teams_pca(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('pca.pdf')), "Test and training loss")
+plot_weights_teams_kernel_pca(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('kernel_pca.pdf')), "Test and training loss")
 
+########## Save the model for later use ##########
 
+torch.save(model.state_dict(), "%s/%s" % (MODELS_DIR, get_dated_filename(get_hyperparams_filename('model.pt'))))

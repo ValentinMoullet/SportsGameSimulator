@@ -306,12 +306,12 @@ for batch_size in BATCH_SIZES:
                     ('Training loss', training_loss_history),
                     ('Validation loss', validation_loss_history),
                     ('Test loss', test_loss_history))
-                plot_history(loss_histories, '%s/loss_%d_%.6f_(%d_%d)_%.1f.pdf' % (league, batch_size, learning_rate, size1, size2, d_ratio), "Validation and training loss")
+                plot_history(loss_histories, '%s/%s' % (league, get_hyperparams_filename('loss.pdf', batch_size, learning_rate, size1, size2, d_ratio)), "Validation and training loss")
 
                 accuracy_histories = (
                     ('Validation accuracy', validation_accuracy_history),
                     ('Test accuracy', test_accuracy_history))
-                plot_history(accuracy_histories, '%s/accuracy_%d_%.6f_(%d_%d)_%.1f.pdf' % (league, batch_size, learning_rate, size1, size2, d_ratio), "Validation and test accuracy")
+                plot_history(accuracy_histories, '%s/%s' % (league, get_hyperparams_filename('accuracy.pdf', batch_size, learning_rate, size1, size2, d_ratio)), "Validation and test accuracy")
 
 print("Best loss:", overall_best_loss)
 print("Best parameters:", overall_best_params)

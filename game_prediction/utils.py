@@ -6,6 +6,7 @@
     Utilitary functions.
 """
 
+import time
 import numpy as np
 
 import torch
@@ -97,4 +98,27 @@ def train_valid_split(train_loader, ratio, seed):
     train_targets = [targets[i] for i in k_indices_train]
 
     return train_data, train_targets, valid_data, valid_targets
+
+def get_hyperparams_filename(filename, batch_size=None, learning_rate=None, hidden_layer_size1=None, hidden_layer_size2=None, dropout_rate=None):
+    if batch_size is None:
+        batch_size = CHOSEN_BATCH_SIZE
+
+    if learning_rate is None:
+        learning_rate = CHOSEN_LEARNING_RATE
+
+    if hidden_layer_size1 is None:
+        hidden_layer_size1 = CHOSEN_HIDDEN_LAYER_SIZES[0]
+
+    if hidden_layer_size2 is None:
+        hidden_layer_size2 = CHOSEN_HIDDEN_LAYER_SIZES[1]
+
+    if dropout_rate is None:
+        dropout_rate = CHOSEN_DROPOUT_RATE
+
+    name, extension = filename.split('.')
+    return "%s_%d_%.6f_(%d_%d)_%.1f.%s" % (name, CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES[0], CHOSEN_HIDDEN_LAYER_SIZES[1], CHOSEN_DROPOUT_RATE, extension)
+
+def get_dated_filename(filename):
+    name, extension = filename.split('.')
+    return "%s_%s.%s" % (name, time.strftime("%Y%m%d-%H%M"), extension)
 
