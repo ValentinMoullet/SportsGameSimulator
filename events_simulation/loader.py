@@ -15,6 +15,7 @@ import torch
 import torch.utils.data as data
 
 from parameters import *
+from utils import SOG_TOKEN
 
 
 class TrainingSet(data.Dataset):
@@ -27,7 +28,7 @@ class TrainingSet(data.Dataset):
 
         ids_to_df = {key: events_df.loc[value] for key, value in events_df.groupby("id_odsp").groups.items()}
         
-        nb_games_training = len(ids_to_df) // 100
+        nb_games_training = len(ids_to_df) // 10
         if nb_games_training % batch_size != 0:
             nb_games_training -= nb_games_training % batch_size
 
@@ -41,7 +42,7 @@ class TrainingSet(data.Dataset):
             home_team = df['home_team'].iloc[0]
             away_team = df['away_team'].iloc[0]
             self.teams.append((home_team, away_team))
-            game_tensors = []
+            game_tensors = [torch.FloatTensor(SOG_TOKEN)]
             game_y_tensors = []
             for idx, row in tensor_df.iterrows():
                 game_tensors.append(torch.FloatTensor(row.values))
@@ -49,7 +50,7 @@ class TrainingSet(data.Dataset):
                 # Find index of 1's
                 indices = [i for i, x in enumerate(row.values) if x == 1]
                 assert(len(indices) == 2)
-                indices[1] -= (2 * NB_EVENT_TYPES + 2)
+                indices[1] -= NB_ALL_EVENTS
                 game_y_tensors.append(torch.LongTensor(indices))
 
             tensors.append(torch.stack(game_tensors, 0))
@@ -64,8 +65,7 @@ class TrainingSet(data.Dataset):
 
         # First event is only 0's, and we don't have last one
         # TODO: Last one should be "last REAL event", not counting padding
-        self.X = torch.zeros(nb_games_training, max_events, tensor_size)
-        #self.X = torch.cat([torch.zeros(nb_games_training, 1, tensor_size), stacked_tensors[:, :max_events-1, :]], 1)
+        self.X = stacked_tensors[:, :-1, :]
         #print("X:", self.X)
 
         self.Y = y_stacked_tensors
@@ -91,11 +91,11 @@ class TestSet(data.Dataset):
 
         ids_to_df = {key: events_df.loc[value] for key, value in events_df.groupby("id_odsp").groups.items()}
         
-        nb_games_training = len(ids_to_df) // 100
+        nb_games_training = len(ids_to_df) // 10
         if nb_games_training % batch_size != 0:
             nb_games_training -= nb_games_training % batch_size
 
-        nb_games_test = len(ids_to_df) // 100
+        nb_games_test = len(ids_to_df) // 10
         if nb_games_test % batch_size != 0:
             nb_games_test -= nb_games_test % batch_size
 
@@ -109,7 +109,7 @@ class TestSet(data.Dataset):
             home_team = df['home_team'].iloc[0]
             away_team = df['away_team'].iloc[0]
             self.teams.append((home_team, away_team))
-            game_tensors = []
+            game_tensors = [torch.FloatTensor(SOG_TOKEN)]
             game_y_tensors = []
             for idx, row in tensor_df.iterrows():
                 game_tensors.append(torch.FloatTensor(row.values))
@@ -117,7 +117,7 @@ class TestSet(data.Dataset):
                 # Find index of 1's
                 indices = [i for i, x in enumerate(row.values) if x == 1]
                 assert(len(indices) == 2)
-                indices[1] -= (2 * NB_EVENT_TYPES + 2)
+                indices[1] -= NB_ALL_EVENTS
                 game_y_tensors.append(torch.LongTensor(indices))
 
             tensors.append(torch.stack(game_tensors, 0))
@@ -132,8 +132,7 @@ class TestSet(data.Dataset):
 
         # First event is only 0's, and we don't have last one
         # TODO: Last one should be "last REAL event", not counting padding
-        self.X = torch.zeros(nb_games_test, max_events, tensor_size)
-        #self.X = torch.cat([torch.zeros(nb_games_test, 1, tensor_size), stacked_tensors[:, :max_events-1, :]], 1)
+        self.X = stacked_tensors[:, :-1, :]
         #print("X:", self.X)
 
         self.Y = y_stacked_tensors

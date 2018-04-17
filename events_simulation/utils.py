@@ -2,6 +2,7 @@ import time
 import numpy as np
 import pandas as pd
 import random
+from scipy.stats.distributions import poisson
 from tqdm import tqdm
 
 import torch
@@ -10,6 +11,14 @@ from torch.autograd import Variable
 
 from parameters import *
 from game_prediction.parameters import CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES, CHOSEN_DROPOUT_RATE
+
+
+# Create <SOG> token (start of game token)
+SOG_TOKEN = [0]*(NB_ALL_EVENTS + NB_ALL_TIMES)
+SOG_TOKEN[GAME_STARTING] = 1
+SOG_TOKEN[NB_ALL_EVENTS + GAME_NOT_RUNNING_TIME] = 1
+
+MAX_GOAL_FOR_TEAM = 20
 
 
 ########## Create events mapping ##########
@@ -47,6 +56,7 @@ for i, side in enumerate(sides):
 
 event_type_to_sentence[NB_EVENT_TYPES * 2] = "No event this minute."
 event_type_to_sentence[NB_EVENT_TYPES * 2 + 1] = "Game is over."
+event_type_to_sentence[NB_EVENT_TYPES * 2 + 2] = "Game is starting."
 
 
 def get_next_time(current_time, time_type, event_type, prev_event_type):
@@ -198,6 +208,127 @@ def output_events_file(event_scores, time_scores, target, teams, filename):
             f.write("Predicted: foul by home = %d, foul by away = %d\n" % (foul_home, foul_away))
             f.write("Real: foul by home = %d, foul by away = %d\n" % (foul_home_target, foul_away_target))
 
+
+def output_already_sampled_events_file(sampled_events, sampled_times, target, all_goal_home_proba, all_goal_away_proba, teams, filename):
+    #print(event_scores)
+    #print(time_scores)
+    #print("target:", target)
+
+    target = target.data
+
+    with open('%s/%s' % (EVENTS_DIR, filename), 'w+') as f:
+        for batch_idx in range(len(sampled_events)):
+            f.write('\n\nNew game: %s -VS- %s\n' % (teams[batch_idx][0], teams[batch_idx][1]))
+            f.write('--------------------\n\n')
+
+            goal_home = 0
+            goal_away = 0
+            goal_home_target = 0
+            goal_away_target = 0
+
+            shot_home = 0
+            shot_away = 0
+            shot_home_target = 0
+            shot_away_target = 0
+
+            corner_home = 0
+            corner_away = 0
+            corner_home_target = 0
+            corner_away_target = 0
+
+            foul_home = 0
+            foul_away = 0
+            foul_home_target = 0
+            foul_away_target = 0
+
+            current_time = 0
+            current_time_target = 0
+            prev_event_type = -1
+            prev_event_type_target = -1
+            for event_idx in range(len(sampled_events[batch_idx])):
+                event_type = sampled_events[batch_idx][event_idx]
+                time_type = sampled_times[batch_idx][event_idx]
+                event_type_target = target[batch_idx][event_idx, 0]
+                time_type_target = target[batch_idx][event_idx, 1]
+
+                if event_type_target == GAME_OVER:
+                    break
+
+                if event_type == GOAL_HOME:
+                    goal_home += 1
+                elif event_type == GOAL_AWAY:
+                    goal_away += 1
+
+                if event_type_target == GOAL_HOME:
+                    goal_home_target += 1
+                elif event_type_target == GOAL_AWAY:
+                    goal_away_target += 1
+
+                if event_type == SHOT_HOME:
+                    shot_home += 1
+                elif event_type == SHOT_AWAY:
+                    shot_away += 1
+
+                if event_type_target == SHOT_HOME:
+                    shot_home_target += 1
+                elif event_type_target == SHOT_AWAY:
+                    shot_away_target += 1
+
+                if event_type == CORNER_HOME:
+                    corner_home += 1
+                elif event_type == CORNER_AWAY:
+                    corner_away += 1
+
+                if event_type_target == CORNER_HOME:
+                    corner_home_target += 1
+                elif event_type_target == CORNER_AWAY:
+                    corner_away_target += 1
+
+                if event_type == FOUL_HOME:
+                    foul_home += 1
+                elif event_type == FOUL_AWAY:
+                    foul_away += 1
+
+                if event_type_target == FOUL_HOME:
+                    foul_home_target += 1
+                elif event_type_target == FOUL_AWAY:
+                    foul_away_target += 1
+
+                current_time = get_next_time(current_time, time_type, event_type, prev_event_type)
+                current_time_target = get_next_time(current_time_target, time_type_target, event_type_target, prev_event_type_target)
+                
+                # To remove?
+                goal_home_proba = all_goal_home_proba[batch_idx][event_idx]
+                goal_away_proba = all_goal_away_proba[batch_idx][event_idx]
+
+                sentence = event_type_to_sentence[event_type] + (" (%.4f - %.4f)" % (goal_home_proba, goal_away_proba))
+                sentence_target = event_type_to_sentence[event_type_target]
+
+                f.write("[%d'] %s \t\t[%d'] %s\n" % (current_time, sentence, current_time_target, sentence_target))
+
+                prev_event_type = event_type
+                prev_event_type_target = event_type_target
+
+            '''
+            game_over_indices = (target[batch_idx, :] == GAME_OVER).nonzero()
+            if len(game_over_indices) == 0:
+                idx = target.size(1)
+            else:
+                idx = game_over_indices[0, 0]
+            '''
+
+            goal_home_proba = sum(all_goal_home_proba[batch_idx])
+            goal_away_proba = sum(all_goal_away_proba[batch_idx])
+
+            f.write("\nPredicted score: %d - %d (%.4f - %.4f), real one was %d - %d\n\n" % (goal_home, goal_away, goal_home_proba, goal_away_proba, goal_home_target, goal_away_target))
+            f.write("Predicted: shot home = %d, shot away = %d\n" % (shot_home, shot_away))
+            f.write("Real: shot home = %d, shot away = %d\n\n" % (shot_home_target, shot_away_target))
+            f.write("Predicted: corner home = %d, corner away = %d\n" % (corner_home, corner_away))
+            f.write("Real: corner home = %d, corner away = %d\n\n" % (corner_home_target, corner_away_target))
+            f.write("Predicted: foul by home = %d, foul by away = %d\n" % (foul_home, foul_away))
+            f.write("Real: foul by home = %d, foul by away = %d\n" % (foul_home_target, foul_away_target))
+
+
 def generate_events(event_scores, time_scores):
     event_scores_np = event_scores.data.numpy()
     time_scores_np = time_scores.data.numpy()
@@ -309,7 +440,7 @@ def create_new_events_file(from_filename, new_filename):
 
     # Contains all event types (for home and for away team) + no event + match over +
     # 2 others telling if the event happens in the same minute than the last one or not + match over (for time)
-    array_size = NB_EVENT_TYPES * 2 + 2 + 3
+    array_size = NB_ALL_EVENTS + NB_ALL_TIMES
     for (idd, home_team, away_team), df in tqdm(games_to_events.items()):
         previous_time = 0
         time_iter = 0
@@ -325,8 +456,8 @@ def create_new_events_file(from_filename, new_filename):
                 for _ in range(array_size):
                     arr.append(0)
 
-                arr[3 + 2 * NB_EVENT_TYPES + 1] = 1 # match over
-                arr[-1] = 1 # match over
+                arr[3 + GAME_OVER] = 1 # match over
+                arr[3 + NB_ALL_EVENTS + GAME_NOT_RUNNING_TIME] = 1 # match over
 
                 all_rows.append(arr)
                 e += 1
@@ -350,10 +481,10 @@ def create_new_events_file(from_filename, new_filename):
                 arr[3 + event_type + (side - 1) * NB_EVENT_TYPES] = 1
                 if previous_time == time:
                     # Same time than previous event
-                    arr[-3] = 1
+                    arr[3 + NB_ALL_EVENTS + SAME_TIME_THAN_PREV] = 1
                 else:
                     # Different time
-                    arr[-2] = 1
+                    arr[3 + NB_ALL_EVENTS + DIFF_TIME_THAN_PREV] = 1
 
                 previous_time = time
                 row_idx += 1
@@ -366,8 +497,8 @@ def create_new_events_file(from_filename, new_filename):
                     for _ in range(array_size):
                         arr.append(0)
 
-                    arr[3 + 2 * NB_EVENT_TYPES] = 1 # no event
-                    arr[-2] = 1 # thus different time
+                    arr[3 + NO_EVENT] = 1 # no event
+                    arr[3 + NB_ALL_EVENTS + DIFF_TIME_THAN_PREV] = 1 # thus different time
                     all_rows.append(arr)
                 else:
                     e -= 1
@@ -445,6 +576,16 @@ def train_valid_split_k_fold(train_loader, k_fold, seed=42):
     return all_train_data, all_train_targets, all_train_teams, all_valid_data, all_valid_targets, all_train_teams
 
 
+def get_end_of_game_idx(target_events):
+    game_over_indices = (target_events == GAME_OVER).nonzero()
+    if len(game_over_indices) == 0:
+        idx = target_events.size(0)
+    else:
+        idx = game_over_indices[0].data[0]
+
+    return idx
+
+
 def get_during_game_tensors(event_scores, time_scores, target, proba=True):
     target_events = target[:, :, 0]
     target_time = target[:, :, 1]
@@ -454,11 +595,7 @@ def get_during_game_tensors(event_scores, time_scores, target, proba=True):
     during_game_target_events_tensors = []
     during_game_events_tensors = []
     for batch in range(target_events.size(0)):
-        game_over_indices = (target_events[batch, :] == GAME_OVER).nonzero()
-        if len(game_over_indices) == 0:
-            idx = target_events.size(1)
-        else:
-            idx = game_over_indices[0, 0].data[0]
+        idx = get_end_of_game_idx(target_events[batch])
 
         if proba:
             during_game_events_tensors.append(event_scores[batch, :idx, :])
@@ -479,7 +616,7 @@ def get_during_game_tensors(event_scores, time_scores, target, proba=True):
     return events_during_game, target_events_during_game, time_during_game, target_time_during_game
 
 
-def get_during_game_goals(event_proba, time_proba, target):
+def get_during_game_goals(event_proba, target):
     target_events = target[:, :, 0]
     target_time = target[:, :, 1]
 
@@ -488,11 +625,7 @@ def get_during_game_goals(event_proba, time_proba, target):
     goals_home_target = []
     goals_away_target = []
     for batch in range(target_events.size(0)):
-        game_over_indices = (target_events[batch, :] == GAME_OVER).nonzero()
-        if len(game_over_indices) == 0:
-            idx = target_events.size(1)
-        else:
-            idx = game_over_indices[0, 0].data[0]
+        idx = get_end_of_game_idx(target_events[batch])
 
         goal_home = torch.sum(event_proba[batch, :idx, GOAL_HOME])
         goal_away = torch.sum(event_proba[batch, :idx, GOAL_AWAY])
@@ -512,6 +645,68 @@ def get_during_game_goals(event_proba, time_proba, target):
     goals_away_target_tensor = Variable(torch.FloatTensor(goals_away_target))
 
     return goals_home_tensor, goals_home_target_tensor, goals_away_tensor, goals_away_target_tensor
+
+
+def get_games_proba_from_goals_proba(goals_proba_tensor):
+    def poisson_probability(actual, mean):
+        # naive:   math.exp(-mean) * mean**actual / factorial(actual)
+
+        # iterative, to keep the components from getting too large or small:
+        p = torch.exp(-mean)
+        for i in range(actual):
+            p = p * mean
+            p = p / (i+1)
+
+        return p
+
+    #final_tensor = torch.zeros(goals_proba_tensor.size(0), 3)
+    all_home_win_proba = []
+    all_home_loss_proba = []
+    all_draw_proba = []
+    for batch_idx in range(goals_proba_tensor.size(0)):
+        expected_home_goals = goals_proba_tensor[batch_idx, 0]
+        expected_away_goals = goals_proba_tensor[batch_idx, 1]
+
+        home_win_proba = 0
+        draw_proba = 0
+        home_loss_proba = 0
+        for home_goals in range(MAX_GOAL_FOR_TEAM + 1):
+            for away_goals in range(MAX_GOAL_FOR_TEAM + 1):
+                proba = poisson_probability(home_goals, expected_home_goals) * poisson_probability(away_goals, expected_away_goals)
+                if home_goals > away_goals:
+                    home_win_proba += proba
+                elif home_goals == away_goals:
+                    draw_proba += proba
+                else:
+                    home_loss_proba += proba
+
+        all_home_win_proba.append(home_win_proba)
+        all_home_loss_proba.append(home_loss_proba)
+        all_draw_proba.append(draw_proba)
+
+    home_win_tensor = torch.cat(all_home_win_proba)
+    home_loss_tensor = torch.cat(all_home_loss_proba)
+    draw_tensor = torch.cat(all_draw_proba)
+    to_return = torch.stack([home_win_tensor, home_loss_tensor, draw_tensor], 1)
+
+    return to_return
+
+
+def get_games_results_from_goals(goals_tensor):
+    final_tensor = torch.zeros(goals_tensor.size(0)).type(torch.LongTensor)
+    for batch_idx in range(goals_tensor.size(0)):
+        home_goals = goals_tensor[batch_idx, 0].data[0]
+        away_goals = goals_tensor[batch_idx, 1].data[0]
+        if home_goals > away_goals:
+            res = 0
+        elif home_goals < away_goals:
+            res = 1
+        else:
+            res = 2
+
+        final_tensor[batch_idx] = res
+
+    return Variable(final_tensor)
 
 
 def get_hyperparams_filename(filename, batch_size=None, learning_rate=None, hidden_layer_size1=None, hidden_layer_size2=None, dropout_rate=None):

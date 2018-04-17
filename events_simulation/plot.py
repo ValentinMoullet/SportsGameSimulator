@@ -14,11 +14,14 @@ from sklearn.decomposition import PCA, KernelPCA
 from parameters import *
 
 
-def plot_history(histories, filename, title="", verbose=False):
+def plot_history(histories, filename, title="", verbose=False, thick=None):
     epochs = [i for i in range(len(histories[0][1]))]
 
     for i in range(len(histories)):
-        plt.plot(epochs, histories[i][1], label=histories[i][0])
+        if not thick is None and i in thick:
+            plt.plot(epochs, histories[i][1], label=histories[i][0], linewidth=5.0)
+        else:
+            plt.plot(epochs, histories[i][1], label=histories[i][0])
 
     plt.xlabel('Epoch')
     plt.ylabel('Cross entropy loss')

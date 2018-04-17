@@ -22,9 +22,17 @@ FOUL_AWAY = NB_EVENT_TYPES + 3
 
 NO_EVENT = NB_EVENT_TYPES * 2
 GAME_OVER = NB_EVENT_TYPES * 2 + 1
+GAME_STARTING = NB_EVENT_TYPES * 2 + 2
 
 # Contains all event types (for home and for away team) + no event + match over
-NB_ALL_EVENTS = NB_EVENT_TYPES * 2 + 2
+NB_ALL_EVENTS = NB_EVENT_TYPES * 2 + 3
+
+# Our time list (after events list)
+SAME_TIME_THAN_PREV = 0
+DIFF_TIME_THAN_PREV = 1
+GAME_NOT_RUNNING_TIME = 2
+
+NB_ALL_TIMES = 3
 
 # Parameters
 K_FOLD = 2
