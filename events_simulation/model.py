@@ -39,7 +39,7 @@ class LSTMEvents(nn.Module):
         self.num_layers = num_layers
         self.batch_size = batch_size
 
-        self.lstm = nn.LSTM(event_types_size + time_types_size, hidden_dim, num_layers=num_layers, batch_first=True)
+        self.lstm = nn.LSTM(event_types_size + time_types_size + hidden_dim, hidden_dim, num_layers=num_layers, batch_first=True)
 
         # The linear layer that maps from hidden state space to event space
         self.hidden2event = nn.Linear(hidden_dim, event_types_size)
@@ -58,7 +58,15 @@ class LSTMEvents(nn.Module):
 
     def forward(self, input, teams):
         #print("Input:", input)
-        lstm_out, _ = self.lstm(input, self.init_hidden(teams))
+
+        teams_tensor = get_teams_caracteristics(teams)
+
+        teams_input = teams_tensor.squeeze(0).unsqueeze(1).repeat(1, 208, 1)
+
+        input_with_prior = torch.cat([input, teams_input], 2)
+        #print(input_with_prior)
+
+        lstm_out, _ = self.lstm(input_with_prior, self.init_hidden(teams))
         #print("LSTM out:", lstm_out)
 
         event_space = self.hidden2event(lstm_out)
@@ -86,6 +94,7 @@ class LSTMEvents(nn.Module):
         events_during_game, target_events_during_game, time_during_game, target_time_during_game = get_during_game_tensors(event_scores, time_scores, target)
        
         # Only get goals during the games
+        '''
         goals_home_tensor, goals_home_target_tensor, goals_away_tensor, goals_away_target_tensor = get_during_game_goals(event_proba, target)
         goals_diff_tensor = goals_home_tensor - goals_away_tensor
         goals_diff_target_tensor = goals_home_target_tensor - goals_away_target_tensor
@@ -95,27 +104,30 @@ class LSTMEvents(nn.Module):
 
         games_proba = get_games_proba_from_goals_proba(goals_tensor)
         games_results = get_games_results_from_goals(goals_target_tensor)
-
+        '''
+    
         #loss_result_game = self.loss_function_result(games_proba, games_results)
 
         # Events and time loss functions
         loss_events_during_game = self.loss_function_events(events_during_game, target_events_during_game)
         loss_time_during_game = self.loss_function_time(time_during_game, target_time_during_game)
 
+        '''
         # Goals loss functions
         loss_goals_home = self.loss_function_goals_home(goals_home_tensor, goals_home_target_tensor)
         loss_goals_away = self.loss_function_goals_away(goals_away_tensor, goals_away_target_tensor)
         loss_goals_diff = self.loss_function_goals_diff(goals_diff_tensor, goals_diff_target_tensor)
+        '''
 
-        #total_loss = (loss_result_game + loss_events_during_game + loss_time_during_game) / 3
-        total_loss = (loss_events_during_game + loss_time_during_game + 1/3 * (loss_goals_home + loss_goals_away + loss_goals_diff)) / 3
+        total_loss = (loss_events_during_game + loss_time_during_game) / 2
+        #total_loss = (loss_events_during_game + loss_time_during_game + 1/3 * (loss_goals_home + loss_goals_away + loss_goals_diff)) / 3
 
         total_loss.backward()
 
         self.optimizer.step()
 
-        #return event_proba, time_proba, total_loss.data[0], loss_result_game.data[0], loss_events_during_game.data[0], loss_time_during_game.data[0]
-        return event_proba, time_proba, total_loss.data[0], loss_events_during_game.data[0], loss_time_during_game.data[0], loss_goals_home.data[0], loss_goals_away.data[0], loss_goals_diff.data[0]
+        return event_proba, time_proba, total_loss.data[0], loss_events_during_game.data[0], loss_time_during_game.data[0]
+        #return event_proba, time_proba, total_loss.data[0], loss_events_during_game.data[0], loss_time_during_game.data[0], loss_goals_home.data[0], loss_goals_away.data[0], loss_goals_diff.data[0]
 
     def predict(self, input, teams):
         """
@@ -143,22 +155,23 @@ class LSTMEvents(nn.Module):
         events_during_game, target_events_during_game, time_during_game, target_time_during_game = get_during_game_tensors(event_scores, time_scores, target)
        
         # Only get goals during the games
-        goals_home_tensor, goals_home_target_tensor, goals_away_tensor, goals_away_target_tensor = get_during_game_goals(event_proba, target)
-        goals_diff_tensor = goals_home_tensor - goals_away_tensor
-        goals_diff_target_tensor = goals_home_target_tensor - goals_away_target_tensor
+        #goals_home_tensor, goals_home_target_tensor, goals_away_tensor, goals_away_target_tensor = get_during_game_goals(event_proba, target)
+        #goals_diff_tensor = goals_home_tensor - goals_away_tensor
+        #goals_diff_target_tensor = goals_home_target_tensor - goals_away_target_tensor
 
         # Events and time loss functions
         loss_time_during_game = self.loss_function_time(time_during_game, target_time_during_game)
         loss_events_during_game = self.loss_function_events(events_during_game, target_events_during_game)
 
         # Goals loss functions
-        loss_goals_home = self.loss_function_goals_home(goals_home_tensor, goals_home_target_tensor)
-        loss_goals_away = self.loss_function_goals_away(goals_away_tensor, goals_away_target_tensor)
-        loss_goals_diff = self.loss_function_goals_diff(goals_diff_tensor, goals_diff_target_tensor)
+        #loss_goals_home = self.loss_function_goals_home(goals_home_tensor, goals_home_target_tensor)
+        #loss_goals_away = self.loss_function_goals_away(goals_away_tensor, goals_away_target_tensor)
+        #loss_goals_diff = self.loss_function_goals_diff(goals_diff_tensor, goals_diff_target_tensor)
 
-        total_loss = (loss_time_during_game + loss_events_during_game + loss_goals_home + loss_goals_away + loss_goals_diff) / 5
+        #total_loss = (loss_time_during_game + loss_events_during_game + loss_goals_home + loss_goals_away + loss_goals_diff) / 5
+        total_loss = (loss_time_during_game + loss_events_during_game) / 2
 
-        return event_proba, time_proba, total_loss.data[0]
+        return event_proba, time_proba, total_loss.data[0], loss_events_during_game.data[0], loss_time_during_game.data[0]
 
     def sample_and_get_loss(self, target, teams, return_goal_proba=False):
         total_event_loss = Variable(torch.zeros(1))
@@ -178,6 +191,9 @@ class LSTMEvents(nn.Module):
             current_input = Variable(torch.FloatTensor(SOG_TOKEN)).unsqueeze(0).unsqueeze(0)
             self.hidden = self.init_hidden([teams[batch_idx]])
 
+            teams_tensor = get_teams_caracteristics([teams[batch_idx]])
+            teams_input = teams_tensor.squeeze(0).unsqueeze(1)
+
             sampled_events_in_game = []
             sampled_times_in_game = []
             target_events_in_game = []
@@ -195,7 +211,11 @@ class LSTMEvents(nn.Module):
             for event_idx in range(end_of_game_idx):
                 #print("Input sample:", current_input)
 
-                output, self.hidden = self.lstm(current_input, self.hidden)
+                #print("Teams input:", teams_input)
+                #print("current input:", current_input)
+
+                input_with_prior = torch.cat([current_input, teams_input], 2)
+                output, self.hidden = self.lstm(input_with_prior, self.hidden)
 
                 event_scores = self.hidden2event(output)
                 time_scores = self.hidden2time(output)
@@ -228,6 +248,7 @@ class LSTMEvents(nn.Module):
                 current_input[0, 0, generated_event] = 1
                 current_input[0, 0, NB_ALL_EVENTS + generated_time] = 1
 
+            '''
             goals_home_tensor, goals_home_target_tensor, goals_away_tensor, goals_away_target_tensor = get_during_game_goals(game_event_proba.unsqueeze(0), target[batch_idx, :].unsqueeze(0))
             goals_diff_tensor = goals_home_tensor - goals_away_tensor
             goals_diff_target_tensor = goals_home_target_tensor - goals_away_target_tensor
@@ -242,15 +263,18 @@ class LSTMEvents(nn.Module):
             loss_goals_home = self.loss_function_goals_home(goals_home_tensor, goals_home_target_tensor)
             loss_goals_away = self.loss_function_goals_away(goals_away_tensor, goals_away_target_tensor)
             loss_goals_diff = self.loss_function_goals_diff(goals_diff_tensor, goals_diff_target_tensor)
+            '''
 
             #loss_result_game = self.loss_function_result(games_proba, games_results)
 
             #total_result_loss += loss_result_game
             total_event_loss += event_loss_game / end_of_game_idx
             total_time_loss += time_loss_game / end_of_game_idx
+            '''
             total_goals_home_loss += loss_goals_home
             total_goals_away_loss += loss_goals_away
             total_goals_diff_loss += loss_goals_diff
+            '''
 
             sampled_events.append(sampled_events_in_game)
             sampled_times.append(sampled_times_in_game)
@@ -267,12 +291,64 @@ class LSTMEvents(nn.Module):
         total_goals_away_loss /= target.size(0)
         total_goals_diff_loss /= target.size(0)
 
-        #loss = (total_result_loss + total_event_loss + total_time_loss) / 3
-        loss = (total_event_loss + total_time_loss + 1/3 * (total_goals_home_loss + total_goals_away_loss + total_goals_diff_loss)) / 3
+        loss = (total_event_loss + total_time_loss) / 2
+        #loss = (total_event_loss + total_time_loss + 1/3 * (total_goals_home_loss + total_goals_away_loss + total_goals_diff_loss)) / 3
 
         if return_goal_proba:
-            #return sampled_events, sampled_times, target_events, target_times, all_goal_home_proba, all_goal_away_proba, loss.data[0], total_result_loss.data[0], total_event_loss.data[0], total_time_loss.data[0]
-            return sampled_events, sampled_times, target_events, target_times, all_goal_home_proba, all_goal_away_proba, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_goals_home_loss.data[0], total_goals_away_loss.data[0], total_goals_diff_loss.data[0]
+            return sampled_events, sampled_times, target_events, target_times, all_goal_home_proba, all_goal_away_proba, loss.data[0], total_event_loss.data[0], total_time_loss.data[0]
+            #return sampled_events, sampled_times, target_events, target_times, all_goal_home_proba, all_goal_away_proba, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_goals_home_loss.data[0], total_goals_away_loss.data[0], total_goals_diff_loss.data[0]
         else:
-            #return sampled_events, sampled_times, target_events, target_times, loss.data[0], total_result_loss.data[0], total_event_loss.data[0], total_time_loss.data[0]
-            return sampled_events, sampled_times, target_events, target_times, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_goals_home_loss.data[0], total_goals_away_loss.data[0], total_goals_diff_loss.data[0]
+            return sampled_events, sampled_times, target_events, target_times, loss.data[0], total_event_loss.data[0], total_time_loss.data[0]
+            #return sampled_events, sampled_times, target_events, target_times, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_goals_home_loss.data[0], total_goals_away_loss.data[0], total_goals_diff_loss.data[0]
+
+
+    def sample(self, teams, return_goal_proba=False):
+        sampled_events = []
+        sampled_times = []
+        all_goal_home_proba = []
+        all_goal_away_proba = []
+
+        current_input = Variable(torch.FloatTensor(SOG_TOKEN)).unsqueeze(0).unsqueeze(0)
+        self.hidden = self.init_hidden(teams)
+
+        teams_tensor = get_teams_caracteristics(teams)
+        teams_input = teams_tensor.squeeze(0).unsqueeze(1)
+
+        event_idx = 0
+        current_time = 1
+        while current_time <= 90:
+            #print("Input sample:", current_input)
+
+            #print("Teams input:", teams_input)
+            #print("current input:", current_input)
+
+            input_with_prior = torch.cat([current_input, teams_input], 2)
+            output, self.hidden = self.lstm(input_with_prior, self.hidden)
+
+            event_scores = self.hidden2event(output)
+            time_scores = self.hidden2time(output)
+
+            event_proba = F.softmax(event_scores, 2)
+            time_proba = F.softmax(time_scores, 2)
+
+            generated_event = int(torch.multinomial(event_proba[0, 0], 1)[0])
+            generated_time = int(torch.multinomial(time_proba[0, 0], 1)[0])
+
+            if generated_time == DIFF_TIME_THAN_PREV:
+                current_time += 1
+
+            sampled_events.append(generated_event)
+            sampled_times.append(generated_time)
+        
+            all_goal_home_proba.append(event_proba[0, 0, GOAL_HOME])
+            all_goal_away_proba.append(event_proba[0, 0, GOAL_AWAY])
+
+            current_input = Variable(torch.zeros(1, 1, NB_ALL_EVENTS + NB_ALL_TIMES))
+            current_input[0, 0, generated_event] = 1
+            current_input[0, 0, NB_ALL_EVENTS + generated_time] = 1
+
+        if return_goal_proba:
+            return sampled_events, sampled_times, all_goal_home_proba, all_goal_away_proba
+        else:
+            return sampled_events, sampled_times
+

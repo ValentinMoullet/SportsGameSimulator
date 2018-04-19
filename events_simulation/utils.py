@@ -329,6 +329,106 @@ def output_already_sampled_events_file(sampled_events, sampled_times, target, al
             f.write("Real: foul by home = %d, foul by away = %d\n" % (foul_home_target, foul_away_target))
 
 
+def output_already_sampled_events_file_no_target(sampled_events, sampled_times, all_goal_home_proba, all_goal_away_proba, teams, filename, aggr=False):
+    #print(event_scores)
+    #print(time_scores)
+
+    nb_games = len(sampled_events)
+
+    with open('%s/%s' % (EVENTS_DIR, filename), 'w+') as f:
+        goals_home = 0
+        goals_away = 0
+        expected_goals_home = 0
+        expected_goals_away = 0
+        for batch_idx in range(nb_games):
+            f.write('\n\nNew game: %s -VS- %s\n' % (teams[0], teams[1]))
+            f.write('--------------------\n\n')
+
+            goal_home = 0
+            goal_away = 0
+            goal_home_target = 0
+            goal_away_target = 0
+
+            shot_home = 0
+            shot_away = 0
+            shot_home_target = 0
+            shot_away_target = 0
+
+            corner_home = 0
+            corner_away = 0
+            corner_home_target = 0
+            corner_away_target = 0
+
+            foul_home = 0
+            foul_away = 0
+            foul_home_target = 0
+            foul_away_target = 0
+
+            current_time = 0
+            current_time_target = 0
+            prev_event_type = -1
+            prev_event_type_target = -1
+            for event_idx in range(len(sampled_events[batch_idx])):
+                event_type = sampled_events[batch_idx][event_idx]
+                time_type = sampled_times[batch_idx][event_idx]
+
+                if event_type == GOAL_HOME:
+                    goal_home += 1
+                elif event_type == GOAL_AWAY:
+                    goal_away += 1
+
+                if event_type == SHOT_HOME:
+                    shot_home += 1
+                elif event_type == SHOT_AWAY:
+                    shot_away += 1
+
+                if event_type == CORNER_HOME:
+                    corner_home += 1
+                elif event_type == CORNER_AWAY:
+                    corner_away += 1
+
+                if event_type == FOUL_HOME:
+                    foul_home += 1
+                elif event_type == FOUL_AWAY:
+                    foul_away += 1
+
+                current_time = get_next_time(current_time, time_type, event_type, prev_event_type)
+                
+                # To remove?
+                goal_home_proba = all_goal_home_proba[batch_idx][event_idx]
+                goal_away_proba = all_goal_away_proba[batch_idx][event_idx]
+
+                sentence = event_type_to_sentence[event_type] + (" (%.4f - %.4f)" % (goal_home_proba, goal_away_proba))
+
+                f.write("[%d'] %s\n" % (current_time, sentence))
+
+                prev_event_type = event_type
+
+            '''
+            game_over_indices = (target[batch_idx, :] == GAME_OVER).nonzero()
+            if len(game_over_indices) == 0:
+                idx = target.size(1)
+            else:
+                idx = game_over_indices[0, 0]
+            '''
+
+            goal_home_proba = sum(all_goal_home_proba[batch_idx])
+            goal_away_proba = sum(all_goal_away_proba[batch_idx])
+
+            goals_home += goal_home
+            goals_away += goal_away
+            expected_goals_home += goal_home_proba
+            expected_goals_away += goal_away_proba
+
+            f.write("\nPredicted score: %d - %d (%.4f - %.4f)\n\n" % (goal_home, goal_away, goal_home_proba, goal_away_proba))
+            f.write("Predicted: shot home = %d, shot away = %d\n" % (shot_home, shot_away))
+            f.write("Predicted: corner home = %d, corner away = %d\n" % (corner_home, corner_away))
+            f.write("Predicted: foul by home = %d, foul by away = %d\n" % (foul_home, foul_away))
+
+        f.write("\n-----------------------------------------\n\n")
+        f.write("Average goals: %.2f - %.2f\n" % (goals_home / nb_games, goals_away / nb_games))
+        f.write("Average expected goals: %.2f - %.2f\n" % (expected_goals_home / nb_games, expected_goals_away / nb_games))
+
 def generate_events(event_scores, time_scores):
     event_scores_np = event_scores.data.numpy()
     time_scores_np = time_scores.data.numpy()

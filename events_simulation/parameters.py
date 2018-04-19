@@ -36,8 +36,11 @@ NB_ALL_TIMES = 3
 
 # Parameters
 K_FOLD = 2
-MAX_EPOCH = 30
-BATCH_SIZE = 10
+MAX_EPOCH = 40
+BATCH_SIZE = 15
+
+SAMPLE_VALID_AND_TEST = True
 
 IMAGES_DIR = 'images'
 EVENTS_DIR = 'events'
+MODELS_DIR = 'models'
