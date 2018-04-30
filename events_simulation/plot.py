@@ -6,8 +6,12 @@
     Plot functions to create figures.
 """
 
+import matplotlib
+matplotlib.use('agg') # Workaround for using it without monitors
+
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import gridspec
 from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA, KernelPCA
 
@@ -56,3 +60,22 @@ def plot_events_count(events_count_dict, events_target_count_dict, filename, tit
 
     if verbose:
         print("Plot saved at %s." % path_to_save)
+
+
+def plot_events_proba(proba_dict, time, last_events, filename, verbose=False):
+    gs = gridspec.GridSpec(2, 1, height_ratios=[4, 1]) 
+    plt.subplot(gs[0])
+    plt.bar(range(len(proba_dict)), list(proba_dict.values()), align='center')
+    plt.xticks(range(len(proba_dict)), list(proba_dict.keys()), fontsize=5, rotation=50, horizontalalignment='right')
+    plt.xlabel('Events')
+    plt.ylabel('Prob. of event happening')
+
+    plt.title(("[%d'] " % time) + " -> ".join(last_events))
+
+    path_to_save = '%s/%s' % (EVENTS_PROBA_DIR, filename)
+    plt.savefig(path_to_save)
+    plt.gcf().clear()
+
+    if verbose:
+        print("Plot saved at %s." % path_to_save)
+

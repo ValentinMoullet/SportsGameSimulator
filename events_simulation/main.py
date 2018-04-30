@@ -1,8 +1,6 @@
 import sys, math
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.pyplot import imshow
 from tqdm import tqdm
 tqdm.monitor_interval = 0
 from sklearn.metrics import accuracy_score
@@ -33,6 +31,8 @@ all_train_data, all_train_targets, all_train_teams, all_valid_data, all_valid_ta
 
 for k in range(K_FOLD):
     model = LSTMEvents(40, NB_ALL_EVENTS, 3, batch_size=BATCH_SIZE)
+    if CUDA:
+        model.cuda()
 
     train_data = all_train_data[k]
     train_targets = all_train_targets[k]
@@ -49,6 +49,7 @@ for k in range(K_FOLD):
     training_result_loss_history = []
     training_events_loss_history = []
     training_time_loss_history = []
+    training_accuracy_history = []
     training_hg_loss_history = []
     training_ag_loss_history = []
     training_diff_loss_history = []
@@ -59,6 +60,7 @@ for k in range(K_FOLD):
     validation_result_loss_history = []
     validation_events_loss_history = []
     validation_time_loss_history = []
+    validation_accuracy_history = []
     validation_hg_loss_history = []
     validation_ag_loss_history = []
     validation_diff_loss_history = []
@@ -69,6 +71,7 @@ for k in range(K_FOLD):
     test_result_loss_history = []
     test_events_loss_history = []
     test_time_loss_history = []
+    test_accuracy_history = []
     test_hg_loss_history = []
     test_ag_loss_history = []
     test_diff_loss_history = []
@@ -80,18 +83,24 @@ for k in range(K_FOLD):
         result_losses_training = []
         events_losses_training = []
         time_losses_training = []
+        accuracies_training = []
         hg_losses_training = []
         ag_losses_training = []
         diff_losses_training = []
         for data, target, teams in train_info:
+            if CUDA:
+                data = data.cuda()
+                target = target.cuda()
+
             teams = list(zip(teams[0], teams[1]))
-            event_pred_proba, time_pred_proba, loss, events_loss, time_loss = model.step(data, target, teams)
+            event_pred_proba, time_pred_proba, loss, events_loss, time_loss, result_loss, accuracy = model.step(data, target, teams)
             #event_pred_proba, time_pred_proba, loss, events_loss, time_loss, hg_loss, ag_loss, diff_loss = model.step(data, target, teams)
 
             losses_training.append(loss)
-            #result_losses_training.append(result_loss)
+            result_losses_training.append(result_loss)
             events_losses_training.append(events_loss)
             time_losses_training.append(time_loss)
+            accuracies_training.append(accuracy)
             #hg_losses_training.append(hg_loss)
             #ag_losses_training.append(ag_loss)
             #diff_losses_training.append(diff_loss)
@@ -114,6 +123,7 @@ for k in range(K_FOLD):
         training_result_loss = np.mean(result_losses_training)
         training_events_loss = np.mean(events_losses_training)
         training_time_loss = np.mean(time_losses_training)
+        training_accuracy = np.mean(accuracies_training)
         training_hg_loss = np.mean(hg_losses_training)
         training_ag_loss = np.mean(ag_losses_training)
         training_diff_loss = np.mean(diff_losses_training)
@@ -123,6 +133,7 @@ for k in range(K_FOLD):
         training_result_loss_history.append(training_result_loss)
         training_events_loss_history.append(training_events_loss)
         training_time_loss_history.append(training_time_loss)
+        training_accuracy_history.append(training_accuracy)
         training_hg_loss_history.append(training_hg_loss)
         training_ag_loss_history.append(training_ag_loss)
         training_diff_loss_history.append(training_diff_loss)
@@ -136,11 +147,16 @@ for k in range(K_FOLD):
             event_gen = generated_events[:, :, 0]
             time_gen = generated_events[:, :, 1]
 
-            events_during_game, target_events_during_game, _, _ = get_during_game_tensors(event_gen, time_gen, target, proba=False)
+            events_during_game, target_events_during_game, times_during_game, target_times_during_game = get_during_game_tensors(event_gen, time_gen, target, proba=False)
 
             events_count_dict = count_events(events_during_game)
             events_target_count_dict = count_events(target_events_during_game.data)
             plot_events_count(events_count_dict, events_target_count_dict, get_dated_filename('training.pdf'))
+
+            times_count_dict = count_times(times_during_game)
+            times_target_count_dict = count_times(target_times_during_game.data)
+            plot_events_count(times_count_dict, times_target_count_dict, get_dated_filename('times_training.pdf'))
+
 
         ########## Validate the model ##########
 
@@ -150,6 +166,7 @@ for k in range(K_FOLD):
         result_losses_validation = []
         events_losses_validation = []
         time_losses_validation = []
+        accuracies_validation = []
         hg_losses_validation = []
         ag_losses_validation = []
         diff_losses_validation = []
@@ -158,19 +175,24 @@ for k in range(K_FOLD):
         class_correct = list(0 for i in range(3))
         class_total = list(0 for i in range(3))
         for data, target, teams in valid_info:
+            if CUDA:
+                data = data.cuda()
+                target = target.cuda()
+
             teams = list(zip(teams[0], teams[1]))
 
             if SAMPLE_VALID_AND_TEST:
-                sampled_events, sampled_times, target_events, target_times, loss, events_loss, time_loss = model.sample_and_get_loss(target, teams)
+                sampled_events, sampled_times, target_events, target_times, loss, events_loss, time_loss, result_loss, accuracy = model.sample_and_get_loss(target, teams)
                 #sampled_events, sampled_times, target_events, target_times, loss, events_loss, time_loss, hg_loss, ag_loss, diff_loss = model.sample_and_get_loss(target, teams)
             else:
-                event_pred_proba, time_pred_proba, loss, events_loss, time_loss = model.predict_proba_and_get_loss(data, target, teams)
+                event_pred_proba, time_pred_proba, loss, events_loss, time_loss, result_loss = model.predict_proba_and_get_loss(data, target, teams)
 
 
             losses_validation.append(loss)
-            #result_losses_validation.append(result_loss)
+            result_losses_validation.append(result_loss)
             events_losses_validation.append(events_loss)
             time_losses_validation.append(time_loss)
+            accuracies_validation.append(accuracy)
             #hg_losses_validation.append(hg_loss)
             #ag_losses_validation.append(ag_loss)
             #diff_losses_validation.append(diff_loss)
@@ -198,6 +220,7 @@ for k in range(K_FOLD):
         validation_result_loss = np.mean(result_losses_validation)
         validation_events_loss = np.mean(events_losses_validation)
         validation_time_loss = np.mean(time_losses_validation)
+        validation_accuracy = np.mean(accuracies_validation)
         validation_hg_loss = np.mean(hg_losses_validation)
         validation_ag_loss = np.mean(ag_losses_validation)
         validation_diff_loss = np.mean(diff_losses_validation)
@@ -207,6 +230,7 @@ for k in range(K_FOLD):
         validation_result_loss_history.append(validation_result_loss)
         validation_events_loss_history.append(validation_events_loss)
         validation_time_loss_history.append(validation_time_loss)
+        validation_accuracy_history.append(validation_accuracy)
         validation_hg_loss_history.append(validation_hg_loss)
         validation_ag_loss_history.append(validation_ag_loss)
         validation_diff_loss_history.append(validation_diff_loss)
@@ -219,25 +243,34 @@ for k in range(K_FOLD):
         result_losses_test = []
         events_losses_test = []
         time_losses_test = []
+        accuracies_test = []
         hg_losses_test = []
         ag_losses_test = []
         diff_losses_test = []
         for data, target, teams in test_loader:
+            if CUDA:
+                data = data.cuda()
+                target = target.cuda()
+
             teams = list(zip(teams[0], teams[1]))
             data = Variable(data)
             target = Variable(target)
 
             if SAMPLE_VALID_AND_TEST:
-                sampled_events, sampled_times, target_events, target_times, goal_home_proba, goal_away_proba, loss, events_loss, time_loss = model.sample_and_get_loss(target, teams, return_goal_proba=True)
+                sampled_events, sampled_times, target_events, target_times, all_proba, loss, events_loss, time_loss, result_loss, accuracy = model.sample_and_get_loss(target, teams, return_proba=True)
                 #sampled_events, sampled_times, target_events, target_times, goal_home_proba, goal_away_proba, loss, events_loss, time_loss, hg_loss, ag_loss, diff_loss = model.sample_and_get_loss(target, teams, return_goal_proba=True)
+            
+                goal_home_proba = [[event_proba[GOAL_HOME] for event_proba in all_proba[batch_idx]] for batch_idx in range(len(all_proba))]
+                goal_away_proba = [[event_proba[GOAL_AWAY] for event_proba in all_proba[batch_idx]] for batch_idx in range(len(all_proba))]
             else:
-                event_proba, time_proba, loss, events_loss, time_loss = model.predict_proba_and_get_loss(data, target, teams)
+                event_proba, time_proba, loss, events_loss, time_loss, result_loss = model.predict_proba_and_get_loss(data, target, teams)
 
 
             losses_test.append(loss)
-            #result_losses_test.append(result_loss)
+            result_losses_test.append(result_loss)
             events_losses_test.append(events_loss)
             time_losses_test.append(time_loss)
+            accuracies_test.append(accuracy)
             #hg_losses_test.append(hg_loss)
             #ag_losses_test.append(ag_loss)
             #diff_losses_test.append(diff_loss)
@@ -253,6 +286,7 @@ for k in range(K_FOLD):
         test_result_loss = np.mean(result_losses_test)
         test_events_loss = np.mean(events_losses_test)
         test_time_loss = np.mean(time_losses_test)
+        test_accuracy = np.mean(accuracies_test)
         test_hg_loss = np.mean(hg_losses_test)
         test_ag_loss = np.mean(ag_losses_test)
         test_diff_loss = np.mean(diff_losses_test)
@@ -263,6 +297,7 @@ for k in range(K_FOLD):
         test_result_loss_history.append(test_result_loss)
         test_events_loss_history.append(test_events_loss)
         test_time_loss_history.append(test_time_loss)
+        test_accuracy_history.append(test_accuracy)
         test_hg_loss_history.append(test_hg_loss)
         test_ag_loss_history.append(test_ag_loss)
         test_diff_loss_history.append(test_diff_loss)
@@ -272,11 +307,15 @@ for k in range(K_FOLD):
                 output_already_sampled_events_file(sampled_events, sampled_times, target, goal_home_proba, goal_away_proba, teams, get_dated_filename('test.txt'))
 
                 # Only get events during the games
-                events_during_game, target_events_during_game, _, _ = get_during_game_tensors(event_gen, time_gen, target, proba=False)
+                events_during_game, target_events_during_game, times_during_game, target_times_during_game = get_during_game_tensors(event_gen, time_gen, target, proba=False)
 
                 events_count_dict = count_events([e for sublist in sampled_events for e in sublist])
                 events_target_count_dict = count_events([e for sublist in target_events for e in sublist])
                 plot_events_count(events_count_dict, events_target_count_dict, get_dated_filename('test.pdf'))
+            
+                times_count_dict = count_times(times_during_game)
+                times_target_count_dict = count_times(target_times_during_game.data)
+                plot_events_count(times_count_dict, times_target_count_dict, get_dated_filename('times_test.pdf'))
             else:
                 output_events_file(event_proba, time_proba, target, teams, get_dated_filename('test.txt'))
 
@@ -286,11 +325,16 @@ for k in range(K_FOLD):
                 event_gen = generated_events[:, :, 0]
                 time_gen = generated_events[:, :, 1]
 
-                events_during_game, target_events_during_game, _, _ = get_during_game_tensors(event_gen, time_gen, target, proba=False)
+                events_during_game, target_events_during_game, times_during_game, target_times_during_game = get_during_game_tensors(event_gen, time_gen, target, proba=False)
 
                 events_count_dict = count_events(events_during_game)
                 events_target_count_dict = count_events(target_events_during_game.data)
                 plot_events_count(events_count_dict, events_target_count_dict, get_dated_filename('test.pdf'))
+
+                times_count_dict = count_times(times_during_game)
+                times_target_count_dict = count_times(target_times_during_game.data)
+                plot_events_count(times_count_dict, times_target_count_dict, get_dated_filename('times_test.pdf'))
+
 
 
 
@@ -303,7 +347,7 @@ plot_history(loss_histories, get_dated_filename('loss.pdf'), "Training, validati
 
 training_losses_histories = (
     ('Total loss', training_loss_history),
-    #('Result loss', training_result_loss_history),
+    ('Result loss', training_result_loss_history),
     ('Events loss', training_events_loss_history),
     ('Time loss', training_time_loss_history),
     #('Home goals loss', training_hg_loss_history),
@@ -314,7 +358,7 @@ plot_history(training_losses_histories, get_dated_filename('training_losses.pdf'
 
 validation_losses_histories = (
     ('Total loss', validation_loss_history),
-    #('Result loss', validation_result_loss_history),
+    ('Result loss', validation_result_loss_history),
     ('Events loss', validation_events_loss_history),
     ('Time loss', validation_time_loss_history),
     #('Home goals loss', validation_hg_loss_history),
@@ -325,7 +369,7 @@ plot_history(validation_losses_histories, get_dated_filename('validation_losses.
 
 test_losses_histories = (
     ('Total loss', test_loss_history),
-    #('Result loss', test_result_loss_history),
+    ('Result loss', test_result_loss_history),
     ('Events loss', test_events_loss_history),
     ('Time loss', test_time_loss_history),
     #('Home goals loss', test_hg_loss_history),
@@ -333,6 +377,20 @@ test_losses_histories = (
     #('Diff goals loss', test_diff_loss_history),
     )
 plot_history(test_losses_histories, get_dated_filename('test_losses.pdf'), "Different test losses", thick=[0])
+
+result_losses_histories = (
+    ('Predicted result loss', test_result_loss_history),
+    ('Bookmaker loss', [BOOKMAKER_CE_LOSS] * len(test_result_loss_history)),
+    )
+plot_history(result_losses_histories, get_dated_filename('result_losses.pdf'), "Predicted result VS Bookmaker loss")
+
+accuracies_histories = (
+    ('Training accuracy', training_accuracy_history),
+    ('Validation accuracy', validation_accuracy_history),
+    ('Test accuracy', test_accuracy_history),
+    ('Bookmaker accuracy', [BOOKMAKER_ACCURACY] * len(training_accuracy_history)),
+    )
+plot_history(accuracies_histories, get_dated_filename('accuracies.pdf'), "Different accuracies")
 
 
 ########## Save the model for later use ##########

@@ -2,6 +2,7 @@ import time
 import numpy as np
 import pandas as pd
 import random
+import pathlib
 from scipy.stats.distributions import poisson
 from tqdm import tqdm
 
@@ -10,6 +11,7 @@ import torch.utils.data as data
 from torch.autograd import Variable
 
 from parameters import *
+from plot import *
 from game_prediction.parameters import CHOSEN_BATCH_SIZE, CHOSEN_LEARNING_RATE, CHOSEN_HIDDEN_LAYER_SIZES, CHOSEN_DROPOUT_RATE
 
 
@@ -58,6 +60,11 @@ event_type_to_sentence[NB_EVENT_TYPES * 2] = "No event this minute."
 event_type_to_sentence[NB_EVENT_TYPES * 2 + 1] = "Game is over."
 event_type_to_sentence[NB_EVENT_TYPES * 2 + 2] = "Game is starting."
 
+time_type_to_sentence = {}
+time_type_to_sentence[SAME_TIME_THAN_PREV] = "Same time."
+time_type_to_sentence[DIFF_TIME_THAN_PREV] = "Diff time."
+time_type_to_sentence[GAME_NOT_RUNNING_TIME] = "Game is not running."
+
 
 def get_next_time(current_time, time_type, event_type, prev_event_type):
     '''
@@ -88,6 +95,17 @@ def count_events(events):
         events_count_dict[event_type_to_sentence[i]] = events_count[i]
 
     return events_count_dict
+
+def count_times(times):
+    times_count = [0]*NB_ALL_TIMES
+    for time_type in times:
+        times_count[time_type] += 1
+
+    times_count_dict = {}
+    for i in range(NB_ALL_TIMES):
+        times_count_dict[time_type_to_sentence[i]] = times_count[i]
+
+    return times_count_dict
 
 def output_events_file(event_scores, time_scores, target, teams, filename):
     #print(event_scores)
@@ -180,11 +198,11 @@ def output_events_file(event_scores, time_scores, target, teams, filename):
                 current_time_target = get_next_time(current_time_target, time_type_target, event_type_target, prev_event_type_target)
                 
                 # To remove?
-                goal_home_proba = event_scores[batch_idx, event_idx, GOAL_HOME].data[0]
-                goal_away_proba = event_scores[batch_idx, event_idx, GOAL_AWAY].data[0]
+                goal_home_proba = event_scores[batch_idx, event_idx, GOAL_HOME].data.item()
+                goal_away_proba = event_scores[batch_idx, event_idx, GOAL_AWAY].data.item()
 
-                sentence = event_type_to_sentence[event_type] + (" (%.4f - %.4f)" % (goal_home_proba, goal_away_proba))
-                sentence_target = event_type_to_sentence[event_type_target]
+                sentence = event_type_to_sentence[event_type.item()] + (" (%.4f - %.4f)" % (goal_home_proba, goal_away_proba))
+                sentence_target = event_type_to_sentence[event_type_target.item()]
 
                 f.write("[%d'] %s \t\t[%d'] %s\n" % (current_time, sentence, current_time_target, sentence_target))
 
@@ -197,8 +215,8 @@ def output_events_file(event_scores, time_scores, target, teams, filename):
             else:
                 idx = game_over_indices[0, 0]
 
-            goal_home_proba = torch.sum(event_scores[batch_idx, :idx, GOAL_HOME]).data[0]
-            goal_away_proba = torch.sum(event_scores[batch_idx, :idx, GOAL_AWAY]).data[0]
+            goal_home_proba = torch.sum(event_scores[batch_idx, :idx, GOAL_HOME]).data.item()
+            goal_away_proba = torch.sum(event_scores[batch_idx, :idx, GOAL_AWAY]).data.item()
 
             f.write("\nPredicted score: %d - %d (%.2f - %.2f), real one was %d - %d\n\n" % (goal_home, goal_away, goal_home_proba, goal_away_proba, goal_home_target, goal_away_target))
             f.write("Predicted: shot home = %d, shot away = %d\n" % (shot_home, shot_away))
@@ -302,7 +320,7 @@ def output_already_sampled_events_file(sampled_events, sampled_times, target, al
                 goal_away_proba = all_goal_away_proba[batch_idx][event_idx]
 
                 sentence = event_type_to_sentence[event_type] + (" (%.4f - %.4f)" % (goal_home_proba, goal_away_proba))
-                sentence_target = event_type_to_sentence[event_type_target]
+                sentence_target = event_type_to_sentence[event_type_target.item()]
 
                 f.write("[%d'] %s \t\t[%d'] %s\n" % (current_time, sentence, current_time_target, sentence_target))
 
@@ -537,6 +555,7 @@ def create_new_events_file(from_filename, new_filename):
     print("*** Creating training set. ***")
 
     all_rows = []
+    same = diff = 0
 
     # Contains all event types (for home and for away team) + no event + match over +
     # 2 others telling if the event happens in the same minute than the last one or not + match over (for time)
@@ -582,9 +601,11 @@ def create_new_events_file(from_filename, new_filename):
                 if previous_time == time:
                     # Same time than previous event
                     arr[3 + NB_ALL_EVENTS + SAME_TIME_THAN_PREV] = 1
+                    same += 1
                 else:
                     # Different time
                     arr[3 + NB_ALL_EVENTS + DIFF_TIME_THAN_PREV] = 1
+                    diff += 1
 
                 previous_time = time
                 row_idx += 1
@@ -599,6 +620,7 @@ def create_new_events_file(from_filename, new_filename):
 
                     arr[3 + NO_EVENT] = 1 # no event
                     arr[3 + NB_ALL_EVENTS + DIFF_TIME_THAN_PREV] = 1 # thus different time
+                    diff += 1
                     all_rows.append(arr)
                 else:
                     e -= 1
@@ -606,6 +628,9 @@ def create_new_events_file(from_filename, new_filename):
                 time_iter += 1
 
             e += 1
+
+    print("Same: %.4f" % (same / (same + diff)))
+    print("Diff: %.4f" % (diff / (same + diff)))
 
     labels = ['id_odsp', 'home_team', 'away_team']
     for i in range(array_size):
@@ -727,8 +752,8 @@ def get_during_game_goals(event_proba, target):
     for batch in range(target_events.size(0)):
         idx = get_end_of_game_idx(target_events[batch])
 
-        goal_home = torch.sum(event_proba[batch, :idx, GOAL_HOME])
-        goal_away = torch.sum(event_proba[batch, :idx, GOAL_AWAY])
+        goal_home = torch.sum(event_proba[batch, :idx, GOAL_HOME]).unsqueeze(0)
+        goal_away = torch.sum(event_proba[batch, :idx, GOAL_AWAY]).unsqueeze(0)
 
         target_events_np = target_events[batch, :idx].data.numpy()
         goal_home_target = np.count_nonzero(target_events_np == GOAL_HOME)
@@ -780,9 +805,9 @@ def get_games_proba_from_goals_proba(goals_proba_tensor):
                 else:
                     home_loss_proba += proba
 
-        all_home_win_proba.append(home_win_proba)
-        all_home_loss_proba.append(home_loss_proba)
-        all_draw_proba.append(draw_proba)
+        all_home_win_proba.append(home_win_proba.unsqueeze(0))
+        all_home_loss_proba.append(home_loss_proba.unsqueeze(0))
+        all_draw_proba.append(draw_proba.unsqueeze(0))
 
     home_win_tensor = torch.cat(all_home_win_proba)
     home_loss_tensor = torch.cat(all_home_loss_proba)
@@ -795,8 +820,8 @@ def get_games_proba_from_goals_proba(goals_proba_tensor):
 def get_games_results_from_goals(goals_tensor):
     final_tensor = torch.zeros(goals_tensor.size(0)).type(torch.LongTensor)
     for batch_idx in range(goals_tensor.size(0)):
-        home_goals = goals_tensor[batch_idx, 0].data[0]
-        away_goals = goals_tensor[batch_idx, 1].data[0]
+        home_goals = goals_tensor[batch_idx, 0].item()
+        away_goals = goals_tensor[batch_idx, 1].item()
         if home_goals > away_goals:
             res = 0
         elif home_goals < away_goals:
@@ -807,6 +832,51 @@ def get_games_results_from_goals(goals_tensor):
         final_tensor[batch_idx] = res
 
     return Variable(final_tensor)
+
+
+def output_event_proba(proba, sampled_events, sampled_times, home_team, away_team):
+    new_dir = '%s_VS_%s' % (home_team, away_team)
+    pathlib.Path('%s/%s' % (EVENTS_PROBA_DIR, new_dir)).mkdir(parents=True, exist_ok=True) 
+
+    def proba_event_array_to_dict(proba_arr):
+        to_return = {}
+        for idx in range(len(proba_arr)):
+            sentence = event_type_to_sentence[idx]
+            to_return[sentence] = proba_arr[idx]
+
+        return to_return
+
+    current_time = 0
+    last_events = [GAME_STARTING] * 3
+    for event_idx in range(len(sampled_events)):
+        current_time = get_next_time(current_time, sampled_times[event_idx], sampled_events[event_idx], last_events[-1])
+        proba_dict = proba_event_array_to_dict(proba[event_idx])
+        plot_events_proba(proba_dict, time=current_time, last_events=[event_type_to_sentence[e] for e in last_events], filename="%s/test_%d.pdf" % (new_dir, event_idx))
+        last_events[0] = last_events[1]
+        last_events[1] = last_events[2]
+        last_events[2] = sampled_events[event_idx]
+
+def output_time_proba(proba, sampled_events, sampled_times, home_team, away_team):
+    new_dir = 'times_%s_VS_%s' % (home_team, away_team)
+    pathlib.Path('%s/%s' % (EVENTS_PROBA_DIR, new_dir)).mkdir(parents=True, exist_ok=True) 
+
+    def proba_time_array_to_dict(proba_arr):
+        to_return = {}
+        for idx in range(len(proba_arr)):
+            sentence = time_type_to_sentence[idx]
+            to_return[sentence] = proba_arr[idx]
+
+        return to_return
+
+    current_time = 0
+    last_events = [GAME_STARTING] * 3
+    for event_idx in range(len(sampled_events)):
+        current_time = get_next_time(current_time, sampled_times[event_idx], sampled_events[event_idx], last_events[-1])
+        proba_dict = proba_time_array_to_dict(proba[event_idx])
+        plot_events_proba(proba_dict, time=current_time, last_events=[event_type_to_sentence[e] for e in last_events], filename="%s/test_%d.pdf" % (new_dir, event_idx))
+        last_events[0] = last_events[1]
+        last_events[1] = last_events[2]
+        last_events[2] = sampled_events[event_idx]
 
 
 def get_hyperparams_filename(filename, batch_size=None, learning_rate=None, hidden_layer_size1=None, hidden_layer_size2=None, dropout_rate=None):

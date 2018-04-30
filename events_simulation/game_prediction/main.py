@@ -1,8 +1,6 @@
 import sys, math
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.pyplot import imshow
 from tqdm import tqdm
 tqdm.monitor_interval = 0
 from sklearn.metrics import accuracy_score
@@ -47,19 +45,14 @@ if BOOKMAKERS_OVERVIEW:
     for y_pred, target in bookmakers_pred_loader:
         y_pred = Variable(y_pred)
         target = Variable(target)
-        y_pred_proba = F.softmax(y_pred)
 
-        '''
-        print(y_pred)
-        print(y_pred_proba)
-        print('---------------')
-        '''
+        y_pred *= 1 / torch.sum(y_pred)
 
         loss = F.cross_entropy(y_pred, target)
-        score = torch.exp(-loss).data[0]
+        score = torch.exp(-loss).item()
 
         scores_bookmakers.append(score)
-        losses_bookmakers.append(loss.data[0])
+        losses_bookmakers.append(loss.item())
 
         accuracy += y_pred.data[0][target.data[0]]
 

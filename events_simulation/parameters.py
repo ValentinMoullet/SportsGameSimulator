@@ -1,3 +1,5 @@
+import torch
+
 # 'event_type'
 GOAL = 0 # 'announcement' is never used
 SHOOT = 1
@@ -36,11 +38,17 @@ NB_ALL_TIMES = 3
 
 # Parameters
 K_FOLD = 2
-MAX_EPOCH = 40
+MAX_EPOCH = 2
 BATCH_SIZE = 15
 
 SAMPLE_VALID_AND_TEST = True
 
+BOOKMAKER_CE_LOSS = 1.0249756245661668
+BOOKMAKER_ACCURACY = 0.4220
+
 IMAGES_DIR = 'images'
 EVENTS_DIR = 'events'
 MODELS_DIR = 'models'
+EVENTS_PROBA_DIR = 'events_proba'
+
+CUDA = torch.cuda.is_available()

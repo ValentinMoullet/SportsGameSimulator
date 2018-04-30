@@ -1,0 +1,7 @@
+Eval methods
+
+- use cases scenarios
+- examination of scores (poisson distribution and compare with bookmakers)
+- show overall distribution of events (plots already one)
+- tables of translation probabilities (corner -> goal, penalty, offside, ...) real and predicted
+- give first 45 min of game, and output rest and compare without giving correct first 45 min

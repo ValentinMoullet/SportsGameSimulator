@@ -1,3 +1,6 @@
+import torch
+
+ALL_LEAGUES = ['D1', 'E0', 'F1', 'I1', 'SP1']
 DEFAULT_LEAGUE = 'F1'
 
 SEED = 42
@@ -21,3 +24,5 @@ CHOSEN_DROPOUT_RATE = 0
 
 IMAGES_DIR = './images'
 MODELS_DIR = './models'
+
+CUDA = torch.cuda.is_available()

@@ -1,8 +1,6 @@
 import sys, math
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.pyplot import imshow
 from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 from random import shuffle

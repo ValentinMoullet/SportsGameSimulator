@@ -106,7 +106,7 @@ class BookmakersPred(data.Dataset):
 
         print("*** Loading bookmakers predictions. ***")
 
-        game_info_df = pd.read_csv('../data/football-events/ginf.csv')
+        game_info_df = pd.read_csv('../../data/football-events/ginf.csv')
         game_info_df = game_info_df[game_info_df['league'] == league]
         game_info_df = game_info_df.reset_index(drop=True)
         nb_games = game_info_df.shape[0]
