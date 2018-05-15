@@ -270,7 +270,7 @@ class LSTMEvents(nn.Module):
                 current_input = Variable(torch.zeros(1, 1, NB_ALL_EVENTS + NB_ALL_TIMES))
                 current_input[0, 0, SOG_TOKEN] = 1
                 current_input[0, 0, NB_ALL_EVENTS + GAME_NOT_RUNNING_TIME] = 1
-                
+
                 self.hidden = self.init_hidden([teams[batch_idx]])
 
                 teams_tensor = get_teams_caracteristics([teams[batch_idx]])

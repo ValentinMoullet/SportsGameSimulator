@@ -31,7 +31,7 @@ class TrainingSet(data.Dataset):
 
         ids_to_df = {key: training_df.loc[value] for key, value in training_df.groupby("id_odsp").groups.items()}
         
-        nb_games_training = len(ids_to_df) // 100
+        nb_games_training = len(ids_to_df)
         if nb_games_training % batch_size != 0:
             nb_games_training -= nb_games_training % batch_size
 
@@ -105,7 +105,7 @@ class TestSet(data.Dataset):
             nb_games_training -= nb_games_training % batch_size
         '''
 
-        nb_games_test = len(ids_to_df) // 100
+        nb_games_test = len(ids_to_df)
         if nb_games_test % batch_size != 0:
             nb_games_test -= nb_games_test % batch_size
 
