@@ -1,0 +1,2293 @@
+
+
+New game: Stoke City -VS- Tottenham
+--------------------
+
+[1'] No event this minute. (0.0039 - 0.0034) 		[1'] No event this minute.
+[2'] Free kick away. (0.0056 - 0.0067) 		[2'] Shot home.
+[3'] Free kick away. (0.0160 - 0.0062) 		[2'] Foul home.
+[3'] No event this minute. (0.0010 - 0.0049) 		[2'] Free kick away.
+[4'] No event this minute. (0.0040 - 0.0168) 		[2'] Foul away.
+[4'] Free kick home. (0.0003 - 0.0001) 		[2'] Free kick home.
+[5'] Free kick away. (0.0050 - 0.0043) 		[3'] No event this minute.
+[5'] No event this minute. (0.0066 - 0.0063) 		[4'] Offside home.
+[6'] Foul away. (0.0037 - 0.0148) 		[5'] No event this minute.
+[6'] Free kick away. (0.0049 - 0.0115) 		[6'] No event this minute.
+[6'] Offside home. (0.0052 - 0.0113) 		[7'] Free kick away.
+[7'] Foul home. (0.0009 - 0.0028) 		[7'] Foul home.
+[8'] Shot away. (0.0050 - 0.0186) 		[7'] Yellow card home.
+[9'] No event this minute. (0.0021 - 0.0319) 		[8'] No event this minute.
+[10'] Shot home. (0.0033 - 0.0143) 		[9'] No event this minute.
+[11'] Corner home. (0.0035 - 0.0136) 		[10'] Corner home.
+[12'] Corner home. (0.0221 - 0.0037) 		[10'] Shot home.
+[12'] Shot away. (0.0147 - 0.0097) 		[10'] Corner home.
+[12'] Corner home. (0.0109 - 0.0057) 		[11'] Corner home.
+[12'] Corner home. (0.0090 - 0.0049) 		[11'] Shot home.
+[13'] Corner home. (0.0132 - 0.0117) 		[11'] Shot home.
+[13'] No event this minute. (0.0136 - 0.0089) 		[12'] No event this minute.
+[14'] Foul away. (0.0068 - 0.0099) 		[13'] Shot away.
+[15'] Yellow card home. (0.0074 - 0.0202) 		[14'] Hand ball away.
+[16'] Shot home. (0.0077 - 0.0106) 		[14'] Shot home.
+[17'] Corner home. (0.0173 - 0.0052) 		[15'] No event this minute.
+[18'] No event this minute. (0.0045 - 0.0148) 		[16'] Foul away.
+[18'] Free kick home. (0.0001 - 0.0001) 		[16'] Free kick home.
+[18'] No event this minute. (0.0089 - 0.0036) 		[17'] Foul away.
+[18'] Free kick home. (0.0004 - 0.0002) 		[17'] Free kick home.
+[19'] No event this minute. (0.0082 - 0.0037) 		[18'] Foul away.
+[20'] Free kick home. (0.0003 - 0.0002) 		[18'] Free kick home.
+[21'] Shot home. (0.0093 - 0.0037) 		[19'] Hand ball home.
+[21'] Offside away. (0.0055 - 0.0100) 		[20'] Foul away.
+[22'] Free kick home. (0.0002 - 0.0002) 		[20'] Free kick home.
+[23'] Offside away. (0.0099 - 0.0036) 		[21'] Shot away.
+[23'] Corner away. (0.0049 - 0.0184) 		[22'] No event this minute.
+[23'] Shot away. (0.0052 - 0.0142) 		[23'] Free kick away.
+[24'] Shot home. (0.0006 - 0.0017) 		[23'] Foul home.
+[25'] Free kick home. (0.0050 - 0.0201) 		[24'] No event this minute.
+[25'] Goal away. (0.0055 - 0.0139) 		[25'] Shot away.
+[25'] Yellow card home. (0.0064 - 0.0217) 		[26'] Corner away.
+[25'] Shot away. (0.0025 - 0.0147) 		[27'] Corner away.
+[26'] Shot away. (0.0025 - 0.0185) 		[28'] No event this minute.
+[27'] Shot away. (0.0031 - 0.0206) 		[29'] No event this minute.
+[27'] Offside away. (0.0042 - 0.0204) 		[30'] Shot away.
+[27'] Free kick home. (0.0068 - 0.0195) 		[31'] Free kick away.
+[27'] Foul home. (0.0009 - 0.0022) 		[31'] Foul home.
+[27'] Free kick away. (0.0044 - 0.0208) 		[32'] Foul home.
+[27'] Free kick away. (0.0004 - 0.0008) 		[32'] Free kick away.
+[27'] No event this minute. (0.0031 - 0.0175) 		[33'] Foul away.
+[28'] Free kick home. (0.0002 - 0.0000) 		[33'] Free kick home.
+[28'] Yellow card away. (0.0067 - 0.0028) 		[34'] Yellow card home.
+[29'] No event this minute. (0.0026 - 0.0121) 		[35'] No event this minute.
+[29'] Offside away. (0.0037 - 0.0127) 		[36'] Hand ball away.
+[29'] No event this minute. (0.0056 - 0.0064) 		[37'] No event this minute.
+[30'] Corner home. (0.0059 - 0.0176) 		[38'] No event this minute.
+[30'] Offside away. (0.0050 - 0.0214) 		[39'] No event this minute.
+[30'] No event this minute. (0.0055 - 0.0179) 		[40'] No event this minute.
+[31'] Offside home. (0.0056 - 0.0175) 		[41'] Goal away.
+[32'] Free kick home. (0.0038 - 0.0034) 		[42'] No event this minute.
+[33'] Free kick away. (0.0050 - 0.0085) 		[43'] No event this minute.
+[33'] No event this minute. (0.0054 - 0.0106) 		[44'] No event this minute.
+[33'] Goal home. (0.0065 - 0.0127) 		[45'] Corner home.
+[34'] Shot home. (0.0178 - 0.0059) 		[45'] Shot home.
+[34'] No event this minute. (0.0154 - 0.0109) 		[45'] Yellow card away.
+[34'] No event this minute. (0.0155 - 0.0026) 		[45'] Free kick home.
+[35'] Foul away. (0.0020 - 0.0005) 		[45'] Foul away.
+[35'] Free kick home. (0.0128 - 0.0034) 		[45'] Free kick home.
+[36'] Foul away. (0.0077 - 0.0010) 		[45'] Shot away.
+[37'] No event this minute. (0.0063 - 0.0055) 		[45'] Foul away.
+[37'] Shot away. (0.0041 - 0.0032) 		[46'] Corner home.
+[38'] Free kick home. (0.0244 - 0.0044) 		[47'] Free kick away.
+[39'] Shot away. (0.0070 - 0.0063) 		[47'] Foul home.
+[40'] No event this minute. (0.0067 - 0.0132) 		[48'] Shot away.
+[41'] Corner away. (0.0148 - 0.0394) 		[48'] Corner away.
+[41'] No event this minute. (0.0024 - 0.0206) 		[49'] Foul away.
+[42'] Free kick home. (0.0002 - 0.0001) 		[49'] Free kick home.
+[43'] No event this minute. (0.0089 - 0.0042) 		[50'] Foul away.
+[44'] Free kick home. (0.0005 - 0.0003) 		[50'] Shot away.
+[45'] Free kick home. (0.0018 - 0.0042) 		[50'] Free kick home.
+[46'] No event this minute. (0.0049 - 0.0028) 		[51'] No event this minute.
+[47'] No event this minute. (0.0086 - 0.0130) 		[52'] Corner home.
+[48'] Goal away. (0.0162 - 0.0075) 		[53'] Shot home.
+[48'] Shot away. (0.0156 - 0.0123) 		[54'] No event this minute.
+[49'] Offside home. (0.0065 - 0.0120) 		[55'] Substitution away.
+[50'] Free kick away. (0.0122 - 0.0044) 		[56'] Goal away.
+[50'] No event this minute. (0.0064 - 0.0035) 		[57'] Foul home.
+[50'] Free kick away. (0.0002 - 0.0006) 		[57'] Free kick away.
+[51'] No event this minute. (0.0041 - 0.0144) 		[58'] Foul away.
+[52'] Free kick home. (0.0003 - 0.0001) 		[58'] Free kick home.
+[53'] Free kick home. (0.0080 - 0.0040) 		[58'] Shot home.
+[53'] No event this minute. (0.0201 - 0.0025) 		[59'] Corner home.
+[54'] Shot home. (0.0146 - 0.0095) 		[59'] Goal away.
+[55'] Yellow card away. (0.0088 - 0.0015) 		[60'] No event this minute.
+[56'] Substitution home. (0.0066 - 0.0049) 		[61'] Foul away.
+[56'] Free kick home. (0.0003 - 0.0002) 		[61'] Free kick home.
+[57'] Substitution away. (0.0117 - 0.0040) 		[62'] Free kick away.
+[58'] Foul home. (0.0011 - 0.0009) 		[62'] Corner away.
+[59'] Foul home. (0.0019 - 0.0075) 		[62'] Foul home.
+[60'] No event this minute. (0.0019 - 0.0290) 		[63'] Shot away.
+[61'] Corner away. (0.0041 - 0.0177) 		[64'] Shot away.
+[62'] Yellow card home. (0.0094 - 0.0178) 		[64'] Corner away.
+[62'] Free kick home. (0.0038 - 0.0186) 		[65'] Shot away.
+[62'] No event this minute. (0.0065 - 0.0158) 		[65'] Shot away.
+[63'] Corner away. (0.0082 - 0.0274) 		[66'] No event this minute.
+[63'] Substitution home. (0.0047 - 0.0221) 		[67'] Shot home.
+[64'] No event this minute. (0.0134 - 0.0091) 		[67'] Shot home.
+[65'] Shot away. (0.0158 - 0.0086) 		[67'] Substitution home.
+[66'] Free kick home. (0.0074 - 0.0150) 		[68'] No event this minute.
+[67'] No event this minute. (0.0078 - 0.0155) 		[69'] Shot away.
+[67'] Substitution home. (0.0074 - 0.0242) 		[70'] Corner away.
+[68'] Foul home. (0.0032 - 0.0204) 		[70'] Shot away.
+[68'] Foul away. (0.0075 - 0.0190) 		[70'] Goal away.
+[69'] No event this minute. (0.0033 - 0.0035) 		[71'] Substitution home.
+[70'] Free kick home. (0.0047 - 0.0104) 		[72'] Foul home.
+[71'] Free kick away. (0.0002 - 0.0006) 		[72'] Free kick away.
+[71'] Shot home. (0.0029 - 0.0145) 		[72'] Corner home.
+[72'] Free kick home. (0.0103 - 0.0086) 		[73'] Substitution away.
+[73'] Shot home. (0.0089 - 0.0041) 		[73'] Shot away.
+[73'] Foul away. (0.0046 - 0.0170) 		[74'] No event this minute.
+[74'] No event this minute. (0.0073 - 0.0215) 		[75'] Shot home.
+[75'] Foul home. (0.0170 - 0.0079) 		[76'] Shot home.
+[75'] Foul away. (0.0191 - 0.0066) 		[76'] Corner home.
+[76'] No event this minute. (0.0146 - 0.0088) 		[76'] Shot home.
+[76'] Foul away. (0.0158 - 0.0098) 		[77'] No event this minute.
+[76'] Substitution away. (0.0090 - 0.0110) 		[78'] Shot away.
+[77'] Goal away. (0.0086 - 0.0191) 		[78'] Corner away.
+[77'] Goal away. (0.0050 - 0.0205) 		[78'] Substitution away.
+[77'] Foul away. (0.0054 - 0.0107) 		[79'] Corner away.
+[78'] Corner away. (0.0051 - 0.0250) 		[80'] Shot home.
+[79'] Corner home. (0.0239 - 0.0098) 		[81'] Foul home.
+[79'] Free kick away. (0.0004 - 0.0016) 		[81'] Free kick away.
+[80'] Substitution home. (0.0077 - 0.0208) 		[82'] Free kick home.
+[81'] Foul away. (0.0008 - 0.0002) 		[82'] Foul away.
+[82'] Yellow card home. (0.0105 - 0.0052) 		[83'] Shot home.
+[82'] No event this minute. (0.0232 - 0.0133) 		[84'] No event this minute.
+[82'] Shot away. (0.0062 - 0.0205) 		[85'] No event this minute.
+[83'] Shot home. (0.0087 - 0.0177) 		[86'] Foul away.
+[84'] Free kick home. (0.0008 - 0.0004) 		[86'] Free kick home.
+[85'] Shot home. (0.0094 - 0.0053) 		[86'] Offside home.
+[85'] Free kick away. (0.0104 - 0.0121) 		[87'] No event this minute.
+[85'] Free kick away. (0.0092 - 0.0204) 		[88'] Corner home.
+[85'] Shot home. (0.0196 - 0.0145) 		[89'] No event this minute.
+[86'] Free kick away. (0.0147 - 0.0252) 		[90'] Free kick home.
+[86'] Foul away. (0.0026 - 0.0023) 		[90'] Foul away.
+[86'] Shot away. (0.0144 - 0.0158) 		[90'] Yellow card away.
+[87'] Shot home. (0.0027 - 0.0012) 		[90'] Shot home.
+[88'] Shot away. (0.0220 - 0.0202) 		[91'] Free kick away.
+[89'] Foul home. (0.0004 - 0.0009) 		[91'] Foul home.
+[90'] Shot home. (0.0048 - 0.0392) 		[91'] Yellow card home.
+[90'] Free kick away. (0.0293 - 0.0195) 		[92'] No event this minute.
+[91'] Substitution home. (0.0154 - 0.0159) 		[93'] Corner home.
+[92'] Corner away. (0.0168 - 0.0574) 		[94'] Foul away.
+[92'] Free kick home. (0.0021 - 0.0063) 		[94'] Shot away.
+[93'] Free kick home. (0.0032 - 0.0108) 		[94'] Free kick home.
+
+Predicted score: 1 - 4 (1.16 - 1.71), real one was 0 - 4
+
+Predicted: shot home = 13, shot away = 13
+Real: shot home = 16, shot away = 16
+
+Predicted: corner home = 8, corner away = 6
+Real: corner home = 11, corner away = 8
+
+Predicted: foul by home = 7, foul by away = 11
+Real: foul by home = 11, foul by away = 16
+
+
+New game: SC Freiburg -VS- TSG Hoffenheim
+--------------------
+
+[1'] No event this minute. (0.0057 - 0.0017) 		[1'] No event this minute.
+[2'] Foul home. (0.0008 - 0.0021) 		[2'] No event this minute.
+[3'] No event this minute. (0.0013 - 0.0019) 		[3'] No event this minute.
+[4'] Offside away. (0.0009 - 0.0010) 		[4'] No event this minute.
+[5'] Foul home. (0.0009 - 0.0014) 		[5'] No event this minute.
+[6'] No event this minute. (0.0010 - 0.0013) 		[6'] Foul home.
+[7'] Free kick away. (0.0001 - 0.0003) 		[6'] Foul home.
+[8'] Free kick away. (0.0000 - 0.0001) 		[6'] Free kick away.
+[9'] Free kick away. (0.0001 - 0.0002) 		[6'] Free kick away.
+[10'] Free kick away. (0.0032 - 0.0110) 		[7'] No event this minute.
+[11'] No event this minute. (0.0043 - 0.0237) 		[8'] Foul home.
+[11'] Free kick away. (0.0006 - 0.0100) 		[8'] Free kick away.
+[12'] Free kick home. (0.0030 - 0.0107) 		[9'] No event this minute.
+[12'] No event this minute. (0.0027 - 0.0255) 		[10'] Free kick home.
+[13'] Foul away. (0.0040 - 0.0171) 		[10'] Foul away.
+[14'] Shot home. (0.0128 - 0.0064) 		[11'] Free kick home.
+[14'] Foul away. (0.0033 - 0.0017) 		[11'] Foul away.
+[15'] Substitution away. (0.0138 - 0.0038) 		[12'] No event this minute.
+[15'] Free kick home. (0.0084 - 0.0038) 		[13'] No event this minute.
+[15'] No event this minute. (0.0094 - 0.0069) 		[14'] Foul home.
+[16'] Free kick away. (0.0011 - 0.0032) 		[14'] Free kick away.
+[17'] Free kick home. (0.0053 - 0.0297) 		[15'] No event this minute.
+[18'] Free kick away. (0.0082 - 0.0106) 		[16'] No event this minute.
+[18'] No event this minute. (0.0079 - 0.0075) 		[17'] Shot away.
+[19'] Corner home. (0.0062 - 0.0191) 		[18'] Free kick away.
+[20'] Foul home. (0.0025 - 0.0053) 		[18'] Foul home.
+[20'] Foul home. (0.0104 - 0.0169) 		[19'] Shot away.
+[21'] Free kick home. (0.0027 - 0.0161) 		[20'] Offside home.
+[22'] Offside home. (0.0051 - 0.0199) 		[21'] Shot away.
+[22'] Foul home. (0.0077 - 0.0136) 		[22'] Free kick home.
+[22'] Foul away. (0.0052 - 0.0035) 		[22'] Free kick away.
+[23'] Foul home. (0.0021 - 0.0028) 		[22'] Foul away.
+[24'] Foul home. (0.0065 - 0.0041) 		[23'] Shot home.
+[24'] Free kick home. (0.0132 - 0.0033) 		[23'] Yellow card away.
+[24'] No event this minute. (0.0221 - 0.0012) 		[24'] Foul home.
+[25'] Free kick home. (0.0031 - 0.0010) 		[24'] Yellow card home.
+[25'] Free kick home. (0.0007 - 0.0008) 		[24'] Free kick away.
+[25'] Free kick home. (0.0030 - 0.0308) 		[25'] Shot away.
+[26'] Substitution home. (0.0077 - 0.0217) 		[26'] No event this minute.
+[27'] Shot home. (0.0086 - 0.0079) 		[27'] Foul away.
+[28'] Free kick home. (0.0011 - 0.0010) 		[27'] Free kick home.
+[28'] Free kick home. (0.0138 - 0.0050) 		[28'] No event this minute.
+[28'] Free kick home. (0.0088 - 0.0068) 		[29'] No event this minute.
+[28'] Free kick home. (0.0079 - 0.0076) 		[30'] Offside home.
+[29'] Free kick home. (0.0061 - 0.0111) 		[31'] Corner away.
+[30'] Foul home. (0.0042 - 0.0215) 		[31'] Shot away.
+[31'] Shot away. (0.0057 - 0.0295) 		[32'] Foul home.
+[32'] Free kick away. (0.0011 - 0.0024) 		[32'] Shot away.
+[33'] Free kick away. (0.0004 - 0.0050) 		[32'] Free kick away.
+[33'] No event this minute. (0.0023 - 0.0452) 		[33'] Offside home.
+[33'] Foul home. (0.0064 - 0.0231) 		[34'] Free kick home.
+[33'] Foul home. (0.0034 - 0.0054) 		[34'] Foul away.
+[33'] Shot home. (0.0135 - 0.0087) 		[35'] No event this minute.
+[34'] Foul home. (0.0097 - 0.0049) 		[36'] Corner home.
+[35'] Shot home. (0.0261 - 0.0025) 		[37'] Free kick away.
+[36'] Foul home. (0.0044 - 0.0017) 		[37'] Corner home.
+[37'] Shot home. (0.0011 - 0.0042) 		[37'] Foul home.
+[37'] Free kick home. (0.0108 - 0.0184) 		[38'] Corner away.
+[38'] No event this minute. (0.0073 - 0.0479) 		[39'] Shot away.
+[38'] Corner home. (0.0072 - 0.0255) 		[40'] Shot away.
+[38'] Foul home. (0.0077 - 0.0174) 		[41'] Foul home.
+[38'] Corner home. (0.0014 - 0.0011) 		[41'] Free kick home.
+[39'] Free kick away. (0.0002 - 0.0048) 		[41'] Free kick away.
+[40'] Foul away. (0.0018 - 0.0028) 		[41'] Foul away.
+[41'] No event this minute. (0.0100 - 0.0039) 		[42'] No event this minute.
+[42'] No event this minute. (0.0068 - 0.0046) 		[43'] No event this minute.
+[43'] No event this minute. (0.0105 - 0.0079) 		[44'] No event this minute.
+[44'] No event this minute. (0.0100 - 0.0069) 		[45'] Shot away.
+[44'] No event this minute. (0.0068 - 0.0167) 		[46'] No event this minute.
+[44'] Free kick home. (0.0086 - 0.0109) 		[47'] No event this minute.
+[45'] Shot away. (0.0092 - 0.0085) 		[48'] No event this minute.
+[45'] No event this minute. (0.0093 - 0.0070) 		[49'] Shot away.
+[46'] Free kick home. (0.0067 - 0.0183) 		[50'] Foul home.
+[47'] Free kick away. (0.0015 - 0.0031) 		[50'] Free kick away.
+[47'] No event this minute. (0.0038 - 0.0342) 		[51'] Free kick home.
+[47'] Foul away. (0.0030 - 0.0094) 		[51'] Shot away.
+[48'] Foul away. (0.0010 - 0.0008) 		[51'] Foul away.
+[49'] Offside home. (0.0136 - 0.0058) 		[52'] Free kick away.
+[50'] Foul home. (0.0015 - 0.0013) 		[52'] Foul away.
+[51'] Free kick home. (0.0020 - 0.0003) 		[52'] Foul home.
+[51'] Free kick home. (0.0013 - 0.0017) 		[52'] Free kick home.
+[51'] Shot home. (0.0018 - 0.0017) 		[53'] No event this minute.
+[51'] Substitution home. (0.0035 - 0.0041) 		[54'] No event this minute.
+[52'] Free kick home. (0.0070 - 0.0064) 		[55'] No event this minute.
+[52'] Foul home. (0.0095 - 0.0060) 		[56'] No event this minute.
+[52'] Foul home. (0.0095 - 0.0065) 		[57'] No event this minute.
+[52'] Free kick home. (0.0092 - 0.0066) 		[58'] No event this minute.
+[53'] Free kick home. (0.0088 - 0.0066) 		[59'] Shot home.
+[54'] No event this minute. (0.0157 - 0.0033) 		[60'] Free kick home.
+[55'] Foul away. (0.0056 - 0.0020) 		[60'] Foul away.
+[55'] No event this minute. (0.0168 - 0.0027) 		[61'] Foul home.
+[55'] Free kick away. (0.0011 - 0.0009) 		[61'] Foul home.
+[55'] Free kick away. (0.0007 - 0.0020) 		[61'] Free kick away.
+[55'] Free kick away. (0.0014 - 0.0013) 		[61'] Free kick away.
+[55'] Offside away. (0.0116 - 0.0148) 		[62'] Offside home.
+[56'] No event this minute. (0.0112 - 0.0122) 		[63'] Foul home.
+[57'] Free kick away. (0.0021 - 0.0018) 		[63'] Free kick away.
+[58'] Foul home. (0.0072 - 0.0266) 		[64'] Foul away.
+[58'] Free kick home. (0.0019 - 0.0013) 		[64'] Free kick home.
+[58'] Corner home. (0.0127 - 0.0106) 		[65'] No event this minute.
+[58'] Free kick away. (0.0114 - 0.0064) 		[66'] Free kick away.
+[58'] Free kick home. (0.0043 - 0.0030) 		[67'] No event this minute.
+[58'] Shot away. (0.0031 - 0.0086) 		[68'] Free kick home.
+[59'] Corner home. (0.0028 - 0.0062) 		[68'] Goal home.
+[59'] Foul away. (0.0027 - 0.0022) 		[68'] Foul away.
+[59'] No event this minute. (0.0051 - 0.0044) 		[69'] No event this minute.
+[60'] No event this minute. (0.0091 - 0.0044) 		[70'] Foul home.
+[61'] Foul home. (0.0026 - 0.0011) 		[70'] Free kick away.
+[62'] Corner away. (0.0052 - 0.0107) 		[71'] Shot away.
+[63'] Shot home. (0.0057 - 0.0194) 		[72'] Free kick home.
+[64'] Offside home. (0.0032 - 0.0036) 		[72'] Yellow card home.
+[65'] Foul away. (0.0021 - 0.0008) 		[72'] Foul away.
+[66'] Yellow card away. (0.0143 - 0.0037) 		[72'] Yellow card away.
+[67'] Substitution away. (0.0216 - 0.0055) 		[73'] Shot home.
+[68'] Shot home. (0.0229 - 0.0057) 		[73'] Hand ball away.
+[69'] No event this minute. (0.0148 - 0.0042) 		[74'] Substitution away.
+[69'] No event this minute. (0.0127 - 0.0050) 		[74'] Substitution away.
+[69'] Offside home. (0.0125 - 0.0044) 		[75'] Shot home.
+[70'] Foul away. (0.0191 - 0.0091) 		[75'] Shot home.
+[71'] Shot home. (0.0237 - 0.0065) 		[76'] Shot home.
+[71'] Corner home. (0.0222 - 0.0055) 		[76'] Substitution away.
+[71'] No event this minute. (0.0092 - 0.0038) 		[77'] Shot home.
+[72'] Corner home. (0.0200 - 0.0064) 		[77'] Shot away.
+[72'] No event this minute. (0.0049 - 0.0091) 		[78'] No event this minute.
+[72'] Free kick home. (0.0060 - 0.0114) 		[79'] Foul home.
+[73'] Free kick away. (0.0007 - 0.0014) 		[79'] Free kick away.
+[74'] Shot away. (0.0060 - 0.0156) 		[80'] Shot away.
+[74'] Foul home. (0.0056 - 0.0202) 		[81'] Foul away.
+[74'] Free kick home. (0.0012 - 0.0010) 		[81'] Free kick home.
+[74'] Corner home. (0.0120 - 0.0056) 		[81'] Shot away.
+[75'] Foul home. (0.0055 - 0.0097) 		[82'] Foul away.
+[76'] Free kick home. (0.0014 - 0.0013) 		[82'] Corner home.
+[77'] Free kick home. (0.0104 - 0.0011) 		[82'] Shot home.
+[77'] Foul home. (0.0115 - 0.0015) 		[82'] Free kick home.
+[78'] Yellow card away. (0.0188 - 0.0039) 		[83'] Shot away.
+[78'] Corner away. (0.0045 - 0.0107) 		[84'] Substitution home.
+[79'] Free kick home. (0.0043 - 0.0136) 		[85'] Shot home.
+[80'] Substitution home. (0.0280 - 0.0062) 		[85'] Goal away.
+[80'] Substitution home. (0.0099 - 0.0026) 		[86'] No event this minute.
+[81'] Shot home. (0.0060 - 0.0028) 		[87'] Offside away.
+[82'] Shot away. (0.0122 - 0.0055) 		[88'] No event this minute.
+[82'] Offside away. (0.0084 - 0.0117) 		[89'] Shot away.
+[82'] Foul away. (0.0046 - 0.0186) 		[90'] Free kick away.
+[83'] Foul home. (0.0034 - 0.0041) 		[90'] Yellow card home.
+[84'] Foul home. (0.0013 - 0.0039) 		[90'] Offside away.
+[85'] Foul home. (0.0061 - 0.0207) 		[90'] Shot home.
+[86'] No event this minute. (0.0141 - 0.0125) 		[90'] Foul home.
+[87'] Foul home. (0.0083 - 0.0014) 		[90'] Free kick away.
+
+Predicted score: 0 - 0 (1.05 - 1.24), real one was 1 - 1
+
+Predicted: shot home = 10, shot away = 5
+Real: shot home = 10, shot away = 17
+
+Predicted: corner home = 8, corner away = 2
+Real: corner home = 3, corner away = 2
+
+Predicted: foul by home = 25, foul by away = 11
+Real: foul by home = 17, foul by away = 14
+
+
+New game: Juventus -VS- Parma
+--------------------
+
+[1'] No event this minute. (0.0091 - 0.0325) 		[1'] No event this minute.
+[2'] No event this minute. (0.0069 - 0.0033) 		[2'] Corner home.
+[2'] Shot home. (0.0422 - 0.0011) 		[3'] Offside away.
+[2'] Foul away. (0.0201 - 0.0020) 		[4'] No event this minute.
+[3'] Shot home. (0.0155 - 0.0025) 		[5'] No event this minute.
+[3'] No event this minute. (0.0186 - 0.0028) 		[6'] Offside away.
+[4'] Corner home. (0.0173 - 0.0028) 		[7'] Shot home.
+[5'] Shot away. (0.0214 - 0.0044) 		[8'] Foul home.
+[5'] Free kick away. (0.0005 - 0.0001) 		[8'] Free kick away.
+[6'] Hand ball home. (0.0137 - 0.0082) 		[9'] Shot home.
+[7'] Corner home. (0.0155 - 0.0030) 		[10'] Shot home.
+[8'] Offside home. (0.0263 - 0.0020) 		[11'] Corner home.
+[8'] Corner away. (0.0269 - 0.0012) 		[11'] Shot home.
+[8'] Foul away. (0.0217 - 0.0041) 		[12'] No event this minute.
+[8'] Free kick away. (0.0145 - 0.0027) 		[13'] No event this minute.
+[9'] No event this minute. (0.0129 - 0.0033) 		[14'] No event this minute.
+[10'] No event this minute. (0.0153 - 0.0036) 		[15'] Shot home.
+[10'] No event this minute. (0.0182 - 0.0029) 		[16'] Free kick home.
+[10'] Foul away. (0.0047 - 0.0003) 		[16'] Foul away.
+[11'] Shot home. (0.0146 - 0.0034) 		[17'] Shot home.
+[12'] Corner home. (0.0200 - 0.0055) 		[18'] No event this minute.
+[13'] No event this minute. (0.0169 - 0.0029) 		[19'] No event this minute.
+[13'] Hand ball home. (0.0157 - 0.0036) 		[20'] Free kick away.
+[14'] Shot home. (0.0019 - 0.0015) 		[20'] Foul home.
+[15'] Corner home. (0.0102 - 0.0072) 		[21'] Free kick home.
+[15'] Foul away. (0.0027 - 0.0004) 		[21'] Foul away.
+[16'] No event this minute. (0.0141 - 0.0026) 		[22'] Shot home.
+[17'] Foul away. (0.0174 - 0.0065) 		[23'] Shot away.
+[18'] No event this minute. (0.0147 - 0.0133) 		[23'] Shot home.
+[19'] Foul away. (0.0151 - 0.0023) 		[23'] Goal home.
+[20'] No event this minute. (0.0041 - 0.0012) 		[24'] No event this minute.
+[21'] Free kick home. (0.0048 - 0.0035) 		[25'] No event this minute.
+[22'] Foul home. (0.0134 - 0.0048) 		[26'] No event this minute.
+[23'] Shot home. (0.0143 - 0.0031) 		[27'] Shot away.
+[23'] Shot away. (0.0139 - 0.0097) 		[27'] Shot away.
+[24'] Shot home. (0.0130 - 0.0110) 		[28'] Foul away.
+[25'] Free kick home. (0.0005 - 0.0001) 		[28'] Free kick home.
+[25'] Corner home. (0.0195 - 0.0010) 		[29'] Goal home.
+[25'] No event this minute. (0.0077 - 0.0036) 		[30'] No event this minute.
+[26'] Corner away. (0.0121 - 0.0055) 		[31'] No event this minute.
+[27'] Free kick home. (0.0194 - 0.0043) 		[32'] Corner home.
+[27'] Free kick home. (0.0288 - 0.0027) 		[33'] No event this minute.
+[27'] No event this minute. (0.0184 - 0.0032) 		[34'] No event this minute.
+[27'] No event this minute. (0.0154 - 0.0032) 		[35'] No event this minute.
+[28'] Shot home. (0.0167 - 0.0036) 		[36'] Goal home.
+[28'] Offside home. (0.0058 - 0.0027) 		[37'] No event this minute.
+[29'] Shot away. (0.0121 - 0.0041) 		[38'] Corner home.
+[30'] No event this minute. (0.0260 - 0.0020) 		[39'] No event this minute.
+[31'] Offside home. (0.0154 - 0.0035) 		[40'] Shot home.
+[32'] Shot away. (0.0186 - 0.0029) 		[41'] Free kick away.
+[32'] Foul home. (0.0018 - 0.0007) 		[41'] Foul home.
+[33'] No event this minute. (0.0082 - 0.0075) 		[42'] No event this minute.
+[33'] Substitution away. (0.0176 - 0.0031) 		[43'] No event this minute.
+[34'] No event this minute. (0.0165 - 0.0038) 		[44'] Shot home.
+[35'] Shot away. (0.0189 - 0.0033) 		[45'] Substitution away.
+[36'] Free kick home. (0.0260 - 0.0024) 		[46'] Shot away.
+[37'] Shot away. (0.0115 - 0.0098) 		[47'] No event this minute.
+[38'] No event this minute. (0.0167 - 0.0047) 		[48'] No event this minute.
+[39'] Shot home. (0.0144 - 0.0040) 		[49'] No event this minute.
+[40'] Shot home. (0.0153 - 0.0037) 		[50'] Goal home.
+[41'] No event this minute. (0.0045 - 0.0025) 		[51'] No event this minute.
+[42'] Foul home. (0.0100 - 0.0041) 		[52'] No event this minute.
+[42'] Free kick home. (0.0137 - 0.0042) 		[53'] Foul away.
+[42'] Free kick home. (0.0011 - 0.0001) 		[53'] Free kick home.
+[43'] Foul home. (0.0208 - 0.0015) 		[54'] Substitution away.
+[44'] Shot home. (0.0451 - 0.0028) 		[55'] No event this minute.
+[45'] Corner away. (0.0224 - 0.0037) 		[56'] Offside home.
+[46'] Corner home. (0.0160 - 0.0068) 		[57'] No event this minute.
+[46'] Free kick away. (0.0215 - 0.0043) 		[58'] Shot home.
+[47'] Foul home. (0.0185 - 0.0036) 		[58'] Goal home.
+[48'] No event this minute. (0.0062 - 0.0027) 		[59'] No event this minute.
+[49'] Corner away. (0.0092 - 0.0065) 		[60'] Substitution home.
+[49'] Free kick away. (0.0244 - 0.0048) 		[61'] No event this minute.
+[50'] Goal home. (0.0179 - 0.0032) 		[62'] Shot home.
+[51'] Shot home. (0.0178 - 0.0048) 		[63'] Foul away.
+[51'] Free kick home. (0.0017 - 0.0002) 		[63'] Free kick home.
+[52'] Shot home. (0.0261 - 0.0015) 		[64'] Shot home.
+[53'] Foul home. (0.0289 - 0.0053) 		[64'] Substitution away.
+[54'] Substitution home. (0.0300 - 0.0040) 		[65'] No event this minute.
+[54'] No event this minute. (0.0232 - 0.0037) 		[66'] No event this minute.
+[55'] No event this minute. (0.0201 - 0.0040) 		[67'] Free kick home.
+[56'] Foul away. (0.0033 - 0.0004) 		[67'] Foul away.
+[57'] Shot home. (0.0189 - 0.0044) 		[68'] Offside home.
+[58'] Shot home. (0.0134 - 0.0090) 		[69'] No event this minute.
+[59'] Corner home. (0.0173 - 0.0048) 		[70'] Corner home.
+[60'] Shot home. (0.0298 - 0.0027) 		[71'] Substitution home.
+[61'] Yellow card home. (0.0274 - 0.0043) 		[71'] Shot home.
+[61'] Free kick away. (0.0306 - 0.0024) 		[72'] No event this minute.
+[62'] Goal home. (0.0236 - 0.0033) 		[73'] Foul away.
+[62'] Free kick home. (0.0012 - 0.0001) 		[73'] Free kick home.
+[62'] Yellow card away. (0.0276 - 0.0022) 		[73'] Yellow card away.
+[63'] Corner home. (0.0302 - 0.0038) 		[74'] Offside home.
+[64'] Shot home. (0.0147 - 0.0111) 		[74'] Offside away.
+[65'] Free kick away. (0.0376 - 0.0059) 		[75'] Foul away.
+[65'] Free kick away. (0.0023 - 0.0002) 		[75'] Free kick home.
+[66'] Goal home. (0.0313 - 0.0027) 		[76'] Goal home.
+[67'] Free kick home. (0.0122 - 0.0107) 		[77'] No event this minute.
+[67'] Shot home. (0.0156 - 0.0079) 		[78'] Offside away.
+[68'] Free kick away. (0.0150 - 0.0051) 		[79'] No event this minute.
+[69'] No event this minute. (0.0191 - 0.0057) 		[80'] No event this minute.
+[70'] Substitution home. (0.0164 - 0.0037) 		[81'] Foul away.
+[71'] Free kick home. (0.0021 - 0.0002) 		[81'] Free kick home.
+[72'] Corner home. (0.0223 - 0.0026) 		[82'] Substitution home.
+[73'] Shot home. (0.0310 - 0.0055) 		[83'] No event this minute.
+[74'] No event this minute. (0.0196 - 0.0087) 		[84'] Foul away.
+[75'] Free kick home. (0.0021 - 0.0006) 		[84'] Free kick home.
+[75'] Shot home. (0.0266 - 0.0084) 		[85'] Free kick home.
+[75'] Foul away. (0.0033 - 0.0009) 		[86'] No event this minute.
+[76'] Foul away. (0.0095 - 0.0101) 		[87'] No event this minute.
+[77'] Substitution away. (0.0115 - 0.0077) 		[88'] Goal home.
+[78'] Shot home. (0.0029 - 0.0026) 		[89'] No event this minute.
+[79'] Shot home. (0.0104 - 0.0054) 		[90'] No event this minute.
+
+Predicted score: 3 - 0 (1.80 - 0.47), real one was 7 - 0
+
+Predicted: shot home = 21, shot away = 6
+Real: shot home = 14, shot away = 4
+
+Predicted: corner home = 9, corner away = 4
+Real: corner home = 5, corner away = 0
+
+Predicted: foul by home = 6, foul by away = 9
+Real: foul by home = 3, foul by away = 10
+
+
+New game: Aston Villa -VS- Newcastle
+--------------------
+
+[1'] No event this minute. (0.0155 - 0.0021) 		[1'] No event this minute.
+[1'] Free kick home. (0.0119 - 0.0030) 		[2'] No event this minute.
+[1'] No event this minute. (0.0113 - 0.0043) 		[3'] Foul away.
+[1'] Free kick home. (0.0013 - 0.0002) 		[4'] Free kick home.
+[2'] Shot home. (0.0111 - 0.0020) 		[5'] No event this minute.
+[3'] Shot home. (0.0302 - 0.0029) 		[6'] No event this minute.
+[4'] No event this minute. (0.0136 - 0.0041) 		[7'] Foul away.
+[5'] Foul away. (0.0035 - 0.0011) 		[7'] Shot home.
+[6'] Yellow card home. (0.0062 - 0.0027) 		[8'] No event this minute.
+[7'] No event this minute. (0.0016 - 0.0031) 		[9'] No event this minute.
+[7'] Shot home. (0.0036 - 0.0033) 		[10'] No event this minute.
+[7'] Free kick home. (0.0055 - 0.0017) 		[11'] Free kick home.
+[8'] Corner away. (0.0106 - 0.0049) 		[12'] Foul away.
+[9'] No event this minute. (0.0353 - 0.0057) 		[12'] Corner away.
+[10'] Free kick home. (0.0038 - 0.0048) 		[13'] No event this minute.
+[11'] No event this minute. (0.0055 - 0.0021) 		[14'] No event this minute.
+[12'] No event this minute. (0.0078 - 0.0020) 		[15'] No event this minute.
+[13'] Offside away. (0.0092 - 0.0018) 		[16'] Free kick home.
+[13'] Free kick home. (0.0104 - 0.0048) 		[16'] Foul home.
+[13'] Shot home. (0.0065 - 0.0087) 		[17'] Free kick away.
+[13'] Shot away. (0.0055 - 0.0105) 		[18'] No event this minute.
+[14'] Foul home. (0.0068 - 0.0033) 		[19'] No event this minute.
+[14'] No event this minute. (0.0064 - 0.0033) 		[20'] No event this minute.
+[14'] No event this minute. (0.0071 - 0.0041) 		[21'] No event this minute.
+[14'] No event this minute. (0.0066 - 0.0048) 		[22'] No event this minute.
+[15'] Free kick away. (0.0067 - 0.0053) 		[23'] Free kick away.
+[15'] Shot home. (0.0062 - 0.0116) 		[24'] Foul home.
+[16'] Free kick away. (0.0069 - 0.0066) 		[24'] Shot away.
+[16'] Foul away. (0.0064 - 0.0167) 		[25'] No event this minute.
+[16'] No event this minute. (0.0050 - 0.0106) 		[26'] No event this minute.
+[16'] Shot away. (0.0064 - 0.0104) 		[27'] No event this minute.
+[17'] Free kick away. (0.0065 - 0.0098) 		[28'] No event this minute.
+[18'] No event this minute. (0.0067 - 0.0101) 		[29'] No event this minute.
+[19'] Free kick away. (0.0067 - 0.0104) 		[30'] No event this minute.
+[20'] No event this minute. (0.0066 - 0.0109) 		[31'] No event this minute.
+[21'] Shot home. (0.0065 - 0.0113) 		[32'] No event this minute.
+[22'] Foul home. (0.0065 - 0.0116) 		[33'] No event this minute.
+[23'] No event this minute. (0.0064 - 0.0120) 		[34'] No event this minute.
+[23'] Corner away. (0.0064 - 0.0123) 		[35'] No event this minute.
+[24'] Shot away. (0.0063 - 0.0126) 		[36'] Free kick away.
+[24'] Free kick home. (0.0056 - 0.0189) 		[37'] No event this minute.
+[25'] Foul away. (0.0044 - 0.0074) 		[38'] Shot away.
+[25'] No event this minute. (0.0033 - 0.0125) 		[38'] Free kick away.
+[26'] No event this minute. (0.0027 - 0.0101) 		[39'] No event this minute.
+[27'] No event this minute. (0.0029 - 0.0041) 		[40'] No event this minute.
+[28'] No event this minute. (0.0025 - 0.0038) 		[41'] No event this minute.
+[29'] No event this minute. (0.0034 - 0.0041) 		[42'] No event this minute.
+[30'] Foul home. (0.0040 - 0.0043) 		[43'] Foul home.
+[31'] Yellow card away. (0.0097 - 0.0100) 		[43'] Foul away.
+[32'] No event this minute. (0.0075 - 0.0135) 		[44'] No event this minute.
+[33'] Free kick home. (0.0040 - 0.0058) 		[45'] Free kick home.
+[34'] Shot home. (0.0159 - 0.0038) 		[45'] Foul away.
+[35'] Free kick home. (0.0092 - 0.0088) 		[45'] Free kick home.
+[35'] No event this minute. (0.0073 - 0.0034) 		[46'] No event this minute.
+[36'] No event this minute. (0.0053 - 0.0029) 		[47'] No event this minute.
+[37'] Corner home. (0.0050 - 0.0075) 		[48'] No event this minute.
+[38'] No event this minute. (0.0059 - 0.0080) 		[49'] Foul away.
+[39'] Corner away. (0.0086 - 0.0187) 		[49'] Shot away.
+[40'] Foul home. (0.0030 - 0.0118) 		[50'] Foul away.
+[41'] Free kick home. (0.0038 - 0.0051) 		[50'] Free kick home.
+[42'] Shot home. (0.0062 - 0.0043) 		[51'] No event this minute.
+[43'] Foul away. (0.0040 - 0.0031) 		[52'] Free kick home.
+[44'] Foul away. (0.0100 - 0.0041) 		[52'] Foul away.
+[44'] Yellow card away. (0.0099 - 0.0088) 		[53'] No event this minute.
+[45'] No event this minute. (0.0040 - 0.0058) 		[54'] Foul away.
+[46'] Free kick home. (0.0024 - 0.0044) 		[54'] Substitution away.
+[47'] No event this minute. (0.0046 - 0.0018) 		[55'] Free kick home.
+[48'] Free kick home. (0.0056 - 0.0038) 		[56'] No event this minute.
+[48'] Free kick home. (0.0089 - 0.0096) 		[57'] Offside away.
+[48'] Shot home. (0.0089 - 0.0089) 		[58'] No event this minute.
+[49'] No event this minute. (0.0051 - 0.0105) 		[59'] Corner away.
+[49'] No event this minute. (0.0075 - 0.0355) 		[59'] Foul home.
+[50'] No event this minute. (0.0045 - 0.0144) 		[59'] Free kick away.
+[51'] Yellow card home. (0.0047 - 0.0267) 		[59'] Foul home.
+[52'] Shot away. (0.0060 - 0.0245) 		[59'] Free kick away.
+[53'] Substitution away. (0.0022 - 0.0150) 		[60'] No event this minute.
+[54'] No event this minute. (0.0023 - 0.0116) 		[61'] Yellow card home.
+[55'] Corner away. (0.0046 - 0.0185) 		[62'] No event this minute.
+[56'] Foul away. (0.0033 - 0.0082) 		[63'] No event this minute.
+[56'] No event this minute. (0.0067 - 0.0102) 		[64'] No event this minute.
+[57'] No event this minute. (0.0074 - 0.0108) 		[65'] Shot away.
+[58'] No event this minute. (0.0074 - 0.0166) 		[66'] No event this minute.
+[59'] Shot away. (0.0059 - 0.0168) 		[67'] No event this minute.
+[60'] Foul away. (0.0063 - 0.0177) 		[68'] Offside home.
+[61'] No event this minute. (0.0065 - 0.0149) 		[69'] No event this minute.
+[62'] No event this minute. (0.0069 - 0.0163) 		[70'] No event this minute.
+[63'] No event this minute. (0.0066 - 0.0163) 		[71'] Free kick home.
+[63'] Foul away. (0.0050 - 0.0092) 		[71'] Shot away.
+[63'] Yellow card away. (0.0027 - 0.0160) 		[71'] Substitution away.
+[64'] Foul away. (0.0047 - 0.0086) 		[72'] No event this minute.
+[65'] Yellow card away. (0.0040 - 0.0108) 		[73'] No event this minute.
+[65'] Foul away. (0.0040 - 0.0144) 		[74'] Foul away.
+[65'] Shot away. (0.0083 - 0.0201) 		[75'] No event this minute.
+[66'] No event this minute. (0.0051 - 0.0063) 		[76'] Shot away.
+[67'] Free kick away. (0.0064 - 0.0133) 		[77'] No event this minute.
+[67'] Corner away. (0.0065 - 0.0169) 		[78'] No event this minute.
+[68'] Free kick home. (0.0058 - 0.0183) 		[79'] No event this minute.
+[69'] Free kick home. (0.0054 - 0.0167) 		[80'] No event this minute.
+[70'] No event this minute. (0.0057 - 0.0169) 		[81'] No event this minute.
+[71'] No event this minute. (0.0056 - 0.0166) 		[82'] No event this minute.
+[72'] No event this minute. (0.0056 - 0.0166) 		[83'] Corner away.
+[73'] Goal away. (0.0069 - 0.0329) 		[84'] No event this minute.
+[74'] Yellow card away. (0.0053 - 0.0123) 		[85'] Free kick home.
+[74'] Substitution home. (0.0048 - 0.0068) 		[85'] Shot away.
+[75'] Foul home. (0.0026 - 0.0144) 		[86'] Foul away.
+[75'] Shot home. (0.0082 - 0.0208) 		[86'] Free kick home.
+[76'] Foul away. (0.0054 - 0.0037) 		[86'] Foul away.
+[76'] No event this minute. (0.0036 - 0.0015) 		[87'] No event this minute.
+[77'] Foul away. (0.0036 - 0.0079) 		[88'] No event this minute.
+[78'] Substitution away. (0.0043 - 0.0156) 		[89'] No event this minute.
+[79'] No event this minute. (0.0050 - 0.0175) 		[90'] Substitution away.
+[80'] Shot away. (0.0074 - 0.0107) 		[90'] Yellow card away.
+[80'] Offside away. (0.0129 - 0.0080) 		[90'] Foul away.
+[81'] Shot home. (0.0021 - 0.0020) 		[90'] Free kick home.
+[82'] Shot away. (0.0055 - 0.0094) 		[90'] Shot away.
+[82'] Substitution home. (0.0098 - 0.0090) 		[90'] Free kick away.
+[82'] Foul home. (0.0006 - 0.0006) 		[90'] Foul home.
+[82'] Substitution home. (0.0048 - 0.0269) 		[90'] Corner away.
+[82'] Shot away. (0.0087 - 0.0461) 		[90'] Corner away.
+[83'] Substitution home. (0.0116 - 0.0202) 		[90'] Shot away.
+[84'] Substitution home. (0.0066 - 0.0129) 		[90'] Free kick away.
+[84'] Foul home. (0.0023 - 0.0055) 		[90'] Foul home.
+[84'] Free kick away. (0.0020 - 0.0332) 		[90'] Substitution home.
+[84'] No event this minute. (0.0067 - 0.0181) 		[90'] Shot home.
+
+Predicted score: 0 - 1 (0.81 - 1.29), real one was 0 - 0
+
+Predicted: shot home = 11, shot away = 9
+Real: shot home = 2, shot away = 9
+
+Predicted: corner home = 1, corner away = 5
+Real: corner home = 0, corner away = 5
+
+Predicted: foul by home = 7, foul by away = 12
+Real: foul by home = 7, foul by away = 13
+
+
+New game: Valencia -VS- Barcelona
+--------------------
+
+[1'] No event this minute. (0.0009 - 0.0010) 		[1'] No event this minute.
+[2'] No event this minute. (0.0037 - 0.0108) 		[2'] No event this minute.
+[3'] No event this minute. (0.0068 - 0.0116) 		[3'] Shot home.
+[4'] Corner home. (0.0100 - 0.0092) 		[3'] Shot home.
+[5'] Corner home. (0.0090 - 0.0073) 		[4'] No event this minute.
+[6'] No event this minute. (0.0037 - 0.0135) 		[5'] Shot away.
+[7'] No event this minute. (0.0055 - 0.0157) 		[6'] Shot away.
+[8'] Shot away. (0.0048 - 0.0134) 		[7'] No event this minute.
+[9'] Free kick away. (0.0057 - 0.0090) 		[8'] Foul home.
+[9'] Free kick away. (0.0001 - 0.0003) 		[8'] Free kick away.
+[10'] No event this minute. (0.0029 - 0.0244) 		[9'] No event this minute.
+[11'] No event this minute. (0.0041 - 0.0083) 		[10'] Shot home.
+[11'] No event this minute. (0.0123 - 0.0130) 		[10'] Shot away.
+[11'] Corner away. (0.0047 - 0.0205) 		[11'] No event this minute.
+[12'] Shot away. (0.0056 - 0.0084) 		[12'] No event this minute.
+[12'] No event this minute. (0.0047 - 0.0145) 		[13'] Offside away.
+[13'] No event this minute. (0.0104 - 0.0069) 		[14'] Free kick away.
+[13'] Foul home. (0.0004 - 0.0018) 		[14'] Foul home.
+[14'] Shot away. (0.0028 - 0.0206) 		[14'] Foul home.
+[14'] Free kick away. (0.0002 - 0.0010) 		[15'] Free kick home.
+[14'] Foul away. (0.0017 - 0.0011) 		[16'] Yellow card away.
+[14'] Foul away. (0.0030 - 0.0010) 		[17'] Shot home.
+[14'] Corner home. (0.0134 - 0.0041) 		[18'] No event this minute.
+[14'] Corner away. (0.0059 - 0.0098) 		[19'] Foul away.
+[14'] Free kick home. (0.0001 - 0.0001) 		[19'] Free kick home.
+[14'] Foul away. (0.0055 - 0.0048) 		[20'] Foul home.
+[15'] Free kick away. (0.0000 - 0.0002) 		[20'] Free kick away.
+[16'] Foul home. (0.0028 - 0.0146) 		[21'] No event this minute.
+[16'] No event this minute. (0.0041 - 0.0098) 		[22'] Free kick home.
+[16'] Foul away. (0.0011 - 0.0005) 		[22'] Foul away.
+[17'] No event this minute. (0.0113 - 0.0048) 		[23'] No event this minute.
+[18'] Offside away. (0.0044 - 0.0119) 		[24'] Shot away.
+[19'] Foul home. (0.0045 - 0.0229) 		[24'] Shot away.
+[19'] Corner away. (0.0043 - 0.0139) 		[25'] Corner away.
+[20'] Shot away. (0.0030 - 0.0183) 		[26'] Shot away.
+[21'] Shot away. (0.0041 - 0.0179) 		[27'] No event this minute.
+[22'] Shot away. (0.0046 - 0.0133) 		[28'] Foul away.
+[23'] Free kick home. (0.0001 - 0.0001) 		[28'] Free kick home.
+[24'] Shot home. (0.0056 - 0.0047) 		[29'] No event this minute.
+[25'] No event this minute. (0.0063 - 0.0136) 		[30'] No event this minute.
+[25'] No event this minute. (0.0062 - 0.0151) 		[31'] No event this minute.
+[25'] No event this minute. (0.0057 - 0.0140) 		[32'] No event this minute.
+[25'] Offside home. (0.0056 - 0.0147) 		[33'] Free kick home.
+[25'] Foul away. (0.0012 - 0.0006) 		[33'] Foul away.
+[26'] Corner away. (0.0090 - 0.0051) 		[34'] Shot away.
+[27'] Foul away. (0.0036 - 0.0257) 		[34'] Free kick home.
+[28'] Foul away. (0.0012 - 0.0004) 		[34'] Foul away.
+[29'] No event this minute. (0.0051 - 0.0026) 		[35'] No event this minute.
+[30'] Foul home. (0.0042 - 0.0141) 		[36'] Shot away.
+[31'] No event this minute. (0.0047 - 0.0222) 		[36'] Shot away.
+[32'] Shot away. (0.0048 - 0.0161) 		[36'] Foul home.
+[32'] Free kick away. (0.0001 - 0.0003) 		[36'] Free kick away.
+[32'] Foul home. (0.0023 - 0.0142) 		[37'] No event this minute.
+[33'] Foul away. (0.0036 - 0.0115) 		[38'] No event this minute.
+[34'] No event this minute. (0.0048 - 0.0155) 		[39'] Corner away.
+[35'] Foul home. (0.0027 - 0.0230) 		[40'] No event this minute.
+[36'] No event this minute. (0.0043 - 0.0192) 		[41'] Foul away.
+[36'] Free kick home. (0.0001 - 0.0002) 		[41'] Free kick home.
+[37'] No event this minute. (0.0059 - 0.0060) 		[42'] No event this minute.
+[38'] Free kick away. (0.0066 - 0.0151) 		[43'] Free kick away.
+[39'] Foul home. (0.0012 - 0.0033) 		[44'] Free kick away.
+[40'] Foul home. (0.0008 - 0.0012) 		[44'] Foul home.
+[40'] Foul home. (0.0020 - 0.0065) 		[45'] Foul home.
+[41'] Free kick away. (0.0006 - 0.0022) 		[45'] Free kick away.
+[42'] Offside away. (0.0029 - 0.0145) 		[46'] No event this minute.
+[42'] No event this minute. (0.0040 - 0.0140) 		[47'] Shot away.
+[43'] No event this minute. (0.0056 - 0.0241) 		[48'] Offside away.
+[43'] No event this minute. (0.0104 - 0.0056) 		[49'] No event this minute.
+[44'] No event this minute. (0.0063 - 0.0145) 		[50'] No event this minute.
+[45'] No event this minute. (0.0069 - 0.0166) 		[51'] No event this minute.
+[46'] Shot home. (0.0070 - 0.0166) 		[52'] Free kick away.
+[47'] Foul home. (0.0013 - 0.0036) 		[52'] Foul home.
+[48'] Foul home. (0.0014 - 0.0186) 		[53'] Foul away.
+[49'] Free kick home. (0.0002 - 0.0002) 		[53'] Free kick home.
+[50'] Offside away. (0.0031 - 0.0026) 		[54'] No event this minute.
+[51'] No event this minute. (0.0058 - 0.0152) 		[55'] No event this minute.
+[52'] No event this minute. (0.0072 - 0.0193) 		[56'] No event this minute.
+[53'] Substitution home. (0.0067 - 0.0147) 		[57'] No event this minute.
+[53'] Corner away. (0.0066 - 0.0164) 		[58'] Free kick away.
+[54'] Foul home. (0.0013 - 0.0037) 		[58'] Foul home.
+[55'] Yellow card home. (0.0012 - 0.0184) 		[58'] Shot away.
+[56'] Corner away. (0.0021 - 0.0215) 		[59'] Goal away.
+[57'] Corner away. (0.0032 - 0.0026) 		[60'] Shot away.
+[58'] Shot home. (0.0035 - 0.0208) 		[61'] Shot home.
+[59'] Shot away. (0.0159 - 0.0077) 		[61'] Shot home.
+[60'] Shot home. (0.0144 - 0.0079) 		[62'] Corner away.
+[61'] Shot away. (0.0028 - 0.0329) 		[63'] Free kick home.
+[62'] Foul away. (0.0012 - 0.0010) 		[63'] Foul away.
+[63'] Foul home. (0.0141 - 0.0071) 		[64'] No event this minute.
+[63'] Shot away. (0.0052 - 0.0161) 		[65'] No event this minute.
+[64'] Corner away. (0.0059 - 0.0169) 		[66'] Free kick home.
+[65'] Foul away. (0.0012 - 0.0007) 		[66'] Free kick home.
+[65'] Foul away. (0.0028 - 0.0012) 		[66'] Foul away.
+[66'] Foul away. (0.0052 - 0.0015) 		[67'] No event this minute.
+[67'] Free kick away. (0.0034 - 0.0054) 		[68'] No event this minute.
+[68'] Shot away. (0.0057 - 0.0152) 		[69'] Free kick home.
+[69'] Foul away. (0.0012 - 0.0004) 		[69'] Foul away.
+[70'] Yellow card away. (0.0064 - 0.0021) 		[70'] Foul home.
+[71'] Free kick away. (0.0001 - 0.0004) 		[70'] Free kick away.
+[72'] Free kick home. (0.0035 - 0.0157) 		[70'] Yellow card home.
+[73'] No event this minute. (0.0015 - 0.0193) 		[71'] No event this minute.
+[73'] Substitution home. (0.0049 - 0.0220) 		[72'] No event this minute.
+[74'] Foul away. (0.0046 - 0.0194) 		[73'] Substitution home.
+[75'] No event this minute. (0.0043 - 0.0150) 		[74'] Shot away.
+[76'] Corner away. (0.0061 - 0.0206) 		[75'] No event this minute.
+[77'] Free kick home. (0.0057 - 0.0159) 		[76'] No event this minute.
+[78'] Penalty conceded home. (0.0061 - 0.0178) 		[77'] Yellow card home.
+[79'] Foul home. (0.0029 - 0.0062) 		[77'] Foul home.
+[80'] Free kick away. (0.0004 - 0.0010) 		[77'] Free kick away.
+[80'] Offside home. (0.0023 - 0.0204) 		[78'] Offside away.
+[81'] Foul home. (0.0051 - 0.0076) 		[79'] Shot home.
+[82'] Shot home. (0.0116 - 0.0077) 		[80'] No event this minute.
+[83'] No event this minute. (0.0051 - 0.0112) 		[81'] Shot home.
+[84'] Free kick away. (0.0137 - 0.0042) 		[82'] No event this minute.
+[85'] No event this minute. (0.0069 - 0.0097) 		[83'] Substitution home.
+[86'] No event this minute. (0.0078 - 0.0099) 		[84'] Corner away.
+[87'] Shot away. (0.0030 - 0.0435) 		[85'] No event this minute.
+[88'] Foul home. (0.0060 - 0.0225) 		[86'] Goal home.
+[89'] Foul home. (0.0024 - 0.0047) 		[87'] Free kick away.
+[90'] Yellow card home. (0.0001 - 0.0005) 		[87'] Foul home.
+[91'] Substitution away. (0.0006 - 0.0141) 		[87'] Yellow card home.
+[92'] Corner away. (0.0002 - 0.0147) 		[88'] Corner away.
+[93'] No event this minute. (0.0010 - 0.0426) 		[88'] Substitution home.
+[94'] No event this minute. (0.0045 - 0.0248) 		[88'] Shot away.
+[94'] Free kick away. (0.0044 - 0.0205) 		[89'] Shot home.
+[95'] Shot home. (0.0192 - 0.0065) 		[90'] Foul away.
+[96'] Free kick home. (0.0001 - 0.0002) 		[90'] Corner away.
+[97'] Offside away. (0.0015 - 0.0118) 		[90'] Free kick home.
+[98'] Substitution away. (0.0010 - 0.0039) 		[90'] Foul away.
+[98'] Free kick home. (0.0002 - 0.0007) 		[90'] Foul away.
+[98'] Free kick home. (0.0007 - 0.0015) 		[90'] Free kick home.
+[99'] Shot away. (0.0032 - 0.0151) 		[90'] Shot away.
+[100'] Free kick home. (0.0008 - 0.0021) 		[90'] Free kick home.
+
+Predicted score: 0 - 0 (0.58 - 1.46), real one was 1 - 1
+
+Predicted: shot home = 6, shot away = 13
+Real: shot home = 9, shot away = 15
+
+Predicted: corner home = 3, corner away = 10
+Real: corner home = 0, corner away = 6
+
+Predicted: foul by home = 17, foul by away = 14
+Real: foul by home = 12, foul by away = 13
+
+
+New game: Marseille -VS- GFC Ajaccio
+--------------------
+
+[1'] No event this minute. (0.0010 - 0.0015) 		[1'] No event this minute.
+[2'] No event this minute. (0.0047 - 0.0043) 		[2'] Foul away.
+[2'] Free kick home. (0.0003 - 0.0002) 		[2'] Free kick home.
+[3'] No event this minute. (0.0104 - 0.0044) 		[3'] Shot home.
+[4'] Foul home. (0.0127 - 0.0053) 		[4'] Foul away.
+[5'] Free kick home. (0.0003 - 0.0002) 		[4'] Free kick home.
+[6'] No event this minute. (0.0108 - 0.0038) 		[5'] Shot home.
+[6'] Corner home. (0.0131 - 0.0043) 		[6'] Offside home.
+[7'] Foul away. (0.0044 - 0.0062) 		[7'] Free kick home.
+[8'] Foul away. (0.0012 - 0.0004) 		[7'] Foul away.
+[9'] No event this minute. (0.0101 - 0.0039) 		[8'] Foul away.
+[10'] Free kick home. (0.0005 - 0.0001) 		[8'] Free kick home.
+[11'] Shot home. (0.0081 - 0.0027) 		[9'] No event this minute.
+[12'] No event this minute. (0.0084 - 0.0050) 		[10'] Shot home.
+[12'] No event this minute. (0.0140 - 0.0040) 		[11'] Free kick home.
+[12'] Foul away. (0.0016 - 0.0003) 		[11'] Foul away.
+[13'] Foul home. (0.0117 - 0.0030) 		[11'] Corner away.
+[14'] Shot away. (0.0086 - 0.0167) 		[11'] Shot away.
+[14'] Corner home. (0.0098 - 0.0126) 		[12'] No event this minute.
+[15'] Free kick away. (0.0078 - 0.0069) 		[13'] No event this minute.
+[16'] No event this minute. (0.0069 - 0.0082) 		[14'] No event this minute.
+[17'] No event this minute. (0.0073 - 0.0081) 		[15'] No event this minute.
+[17'] No event this minute. (0.0073 - 0.0081) 		[16'] No event this minute.
+[18'] No event this minute. (0.0074 - 0.0074) 		[17'] No event this minute.
+[19'] Shot home. (0.0074 - 0.0074) 		[18'] Foul home.
+[19'] Free kick away. (0.0002 - 0.0002) 		[18'] Free kick away.
+[19'] Shot away. (0.0041 - 0.0126) 		[18'] Shot away.
+[20'] Free kick home. (0.0065 - 0.0102) 		[18'] Penalty conceded away.
+[21'] Shot home. (0.1474 - 0.1658) 		[19'] Goal away.
+[22'] Foul away. (0.0013 - 0.0009) 		[20'] Foul away.
+[23'] Free kick home. (0.0001 - 0.0001) 		[20'] Free kick home.
+[24'] Substitution away. (0.0059 - 0.0019) 		[21'] Free kick away.
+[25'] Foul home. (0.0006 - 0.0004) 		[21'] Foul home.
+[25'] Yellow card home. (0.0058 - 0.0099) 		[22'] Free kick home.
+[26'] Foul away. (0.0010 - 0.0001) 		[23'] Hand ball away.
+[27'] Corner home. (0.0088 - 0.0018) 		[24'] Shot home.
+[28'] Foul away. (0.0147 - 0.0049) 		[25'] No event this minute.
+[29'] Offside away. (0.0076 - 0.0088) 		[26'] Shot away.
+[29'] Corner away. (0.0084 - 0.0134) 		[26'] Shot home.
+[30'] Offside home. (0.0121 - 0.0053) 		[26'] Shot home.
+[31'] Free kick home. (0.0128 - 0.0046) 		[27'] Shot away.
+[32'] Free kick home. (0.0099 - 0.0125) 		[28'] No event this minute.
+[33'] Shot away. (0.0083 - 0.0074) 		[29'] Offside home.
+[33'] Shot away. (0.0060 - 0.0083) 		[30'] No event this minute.
+[33'] No event this minute. (0.0096 - 0.0069) 		[31'] No event this minute.
+[34'] No event this minute. (0.0081 - 0.0076) 		[32'] Foul away.
+[34'] Free kick home. (0.0002 - 0.0001) 		[32'] Free kick home.
+[35'] No event this minute. (0.0099 - 0.0042) 		[32'] Yellow card away.
+[36'] No event this minute. (0.0077 - 0.0011) 		[33'] Free kick away.
+[37'] Foul home. (0.0008 - 0.0009) 		[33'] Yellow card home.
+[38'] Free kick away. (0.0010 - 0.0039) 		[34'] Shot away.
+[39'] No event this minute. (0.0039 - 0.0126) 		[34'] Shot away.
+[40'] Foul home. (0.0050 - 0.0184) 		[34'] Offside away.
+[40'] Shot home. (0.0057 - 0.0072) 		[35'] Foul away.
+[41'] Free kick home. (0.0001 - 0.0001) 		[35'] Free kick home.
+[42'] Shot home. (0.0077 - 0.0041) 		[36'] Free kick home.
+[42'] Foul away. (0.0009 - 0.0002) 		[36'] Foul away.
+[43'] Foul home. (0.0082 - 0.0029) 		[37'] Goal home.
+[44'] No event this minute. (0.0045 - 0.0039) 		[38'] No event this minute.
+[45'] No event this minute. (0.0045 - 0.0038) 		[39'] Corner home.
+[46'] Shot home. (0.0188 - 0.0031) 		[40'] No event this minute.
+[47'] No event this minute. (0.0107 - 0.0039) 		[41'] Foul away.
+[48'] Free kick home. (0.0002 - 0.0001) 		[41'] Free kick home.
+[49'] No event this minute. (0.0117 - 0.0048) 		[41'] Yellow card away.
+[50'] No event this minute. (0.0070 - 0.0012) 		[41'] Substitution away.
+[51'] Substitution away. (0.0056 - 0.0008) 		[42'] No event this minute.
+[52'] Foul home. (0.0051 - 0.0056) 		[43'] No event this minute.
+[53'] No event this minute. (0.0074 - 0.0078) 		[44'] Foul away.
+[54'] Free kick home. (0.0002 - 0.0001) 		[44'] Free kick home.
+[55'] No event this minute. (0.0117 - 0.0045) 		[45'] Foul away.
+[56'] Free kick away. (0.0009 - 0.0003) 		[45'] Free kick home.
+[57'] Shot home. (0.0094 - 0.0044) 		[46'] No event this minute.
+[58'] Shot home. (0.0086 - 0.0076) 		[47'] No event this minute.
+[59'] No event this minute. (0.0074 - 0.0111) 		[48'] Shot away.
+[59'] No event this minute. (0.0077 - 0.0162) 		[49'] No event this minute.
+[59'] No event this minute. (0.0087 - 0.0083) 		[50'] Offside away.
+[60'] Free kick away. (0.0073 - 0.0049) 		[51'] Free kick home.
+[60'] Foul away. (0.0008 - 0.0002) 		[51'] Foul away.
+[61'] Shot home. (0.0068 - 0.0027) 		[51'] Foul home.
+[61'] Free kick away. (0.0002 - 0.0002) 		[51'] Free kick away.
+[62'] No event this minute. (0.0060 - 0.0096) 		[51'] Red card home.
+[62'] Shot home. (0.0024 - 0.0038) 		[52'] No event this minute.
+[62'] No event this minute. (0.0018 - 0.0016) 		[53'] No event this minute.
+[62'] No event this minute. (0.0027 - 0.0093) 		[54'] No event this minute.
+[63'] No event this minute. (0.0068 - 0.0120) 		[55'] No event this minute.
+[64'] Substitution home. (0.0073 - 0.0067) 		[56'] No event this minute.
+[64'] Free kick away. (0.0076 - 0.0069) 		[57'] Foul away.
+[65'] Free kick home. (0.0004 - 0.0001) 		[57'] Free kick home.
+[66'] Corner home. (0.0107 - 0.0052) 		[58'] Foul away.
+[66'] Free kick home. (0.0012 - 0.0004) 		[58'] Free kick home.
+[67'] No event this minute. (0.0078 - 0.0048) 		[58'] Free kick home.
+[68'] Foul away. (0.0024 - 0.0006) 		[58'] Foul away.
+[69'] Hand ball away. (0.0052 - 0.0047) 		[59'] Shot away.
+[70'] Free kick home. (0.0016 - 0.0030) 		[59'] Corner away.
+[71'] Foul home. (0.0023 - 0.0075) 		[59'] Shot away.
+[72'] No event this minute. (0.0088 - 0.0219) 		[59'] Foul home.
+[73'] Free kick away. (0.0001 - 0.0007) 		[59'] Free kick away.
+[74'] No event this minute. (0.0033 - 0.0162) 		[60'] No event this minute.
+[75'] No event this minute. (0.0046 - 0.0064) 		[61'] No event this minute.
+[75'] Free kick home. (0.0063 - 0.0055) 		[62'] Corner home.
+[75'] Substitution away. (0.0143 - 0.0025) 		[62'] Foul away.
+[75'] Free kick home. (0.0006 - 0.0002) 		[62'] Free kick home.
+[76'] Corner home. (0.0111 - 0.0043) 		[63'] Shot home.
+[76'] Free kick away. (0.0159 - 0.0044) 		[63'] Foul away.
+[77'] Free kick home. (0.0021 - 0.0003) 		[63'] Free kick home.
+[77'] Corner away. (0.0095 - 0.0036) 		[64'] Yellow card away.
+[77'] Corner home. (0.0087 - 0.0017) 		[64'] Offside home.
+[77'] No event this minute. (0.0098 - 0.0047) 		[65'] Free kick away.
+[78'] Foul home. (0.0009 - 0.0010) 		[65'] Foul home.
+[79'] Substitution away. (0.0045 - 0.0169) 		[66'] Shot home.
+[79'] Corner home. (0.0118 - 0.0020) 		[66'] Offside away.
+[79'] No event this minute. (0.0170 - 0.0044) 		[67'] Free kick away.
+[80'] Foul home. (0.0011 - 0.0006) 		[67'] Foul home.
+[81'] Free kick away. (0.0036 - 0.0118) 		[68'] Foul away.
+[82'] Free kick home. (0.0003 - 0.0001) 		[68'] Free kick home.
+[83'] Yellow card away. (0.0081 - 0.0031) 		[69'] No event this minute.
+[84'] No event this minute. (0.0085 - 0.0036) 		[70'] No event this minute.
+[85'] Substitution home. (0.0070 - 0.0075) 		[71'] Offside home.
+[86'] Substitution home. (0.0047 - 0.0051) 		[72'] No event this minute.
+[86'] Yellow card home. (0.0102 - 0.0066) 		[73'] Foul away.
+[87'] Free kick home. (0.0004 - 0.0001) 		[73'] Free kick home.
+[88'] No event this minute. (0.0100 - 0.0045) 		[74'] Substitution home.
+[88'] Corner away. (0.0093 - 0.0062) 		[74'] Substitution home.
+[88'] Substitution away. (0.0097 - 0.0079) 		[75'] Free kick home.
+[89'] Foul away. (0.0012 - 0.0005) 		[75'] Foul away.
+[90'] Yellow card away. (0.0068 - 0.0053) 		[76'] No event this minute.
+[90'] Shot away. (0.0057 - 0.0091) 		[77'] No event this minute.
+[91'] Corner home. (0.0045 - 0.0096) 		[78'] Substitution away.
+[92'] Shot away. (0.0082 - 0.0040) 		[79'] No event this minute.
+[93'] No event this minute. (0.0080 - 0.0079) 		[80'] No event this minute.
+[94'] Shot away. (0.0076 - 0.0081) 		[81'] Foul home.
+[95'] Free kick away. (0.0003 - 0.0003) 		[81'] Free kick away.
+[95'] Shot away. (0.0040 - 0.0127) 		[81'] Substitution home.
+[96'] No event this minute. (0.0089 - 0.0142) 		[82'] Foul home.
+[96'] Free kick away. (0.0002 - 0.0003) 		[82'] Free kick away.
+[96'] Foul away. (0.0036 - 0.0122) 		[83'] No event this minute.
+[96'] Substitution away. (0.0098 - 0.0050) 		[84'] No event this minute.
+[97'] Offside away. (0.0108 - 0.0067) 		[85'] No event this minute.
+[98'] Substitution away. (0.0091 - 0.0057) 		[86'] Substitution away.
+[98'] No event this minute. (0.0207 - 0.0048) 		[87'] No event this minute.
+[99'] Foul home. (0.0167 - 0.0086) 		[88'] Foul home.
+[99'] Shot away. (0.0007 - 0.0012) 		[88'] Free kick away.
+[100'] Shot away. (0.0095 - 0.0148) 		[88'] Offside away.
+[101'] Corner away. (0.0192 - 0.0098) 		[89'] No event this minute.
+[101'] Offside home. (0.0227 - 0.0097) 		[90'] Shot home.
+[102'] Shot home. (0.0506 - 0.0065) 		[90'] Foul away.
+[103'] Free kick home. (0.0044 - 0.0018) 		[90'] Free kick home.
+[103'] Corner home. (0.0151 - 0.0082) 		[90'] Yellow card away.
+[104'] No event this minute. (0.0038 - 0.0019) 		[90'] Foul home.
+[104'] Free kick away. (0.0012 - 0.0019) 		[90'] Free kick away.
+[105'] Red card home. (0.0034 - 0.0082) 		[90'] Yellow card home.
+[105'] Goal away. (0.0110 - 0.0096) 		[90'] Corner away.
+
+Predicted score: 0 - 1 (1.19 - 0.98), real one was 1 - 1
+
+Predicted: shot home = 11, shot away = 10
+Real: shot home = 9, shot away = 9
+
+Predicted: corner home = 9, corner away = 4
+Real: corner home = 2, corner away = 3
+
+Predicted: foul by home = 11, foul by away = 11
+Real: foul by home = 10, foul by away = 22
+
+
+New game: Leicester City -VS- Crystal Palace
+--------------------
+
+[0'] Goal home. (0.0189 - 0.0027) 		[1'] No event this minute.
+[1'] No event this minute. (0.0125 - 0.0021) 		[2'] No event this minute.
+[2'] No event this minute. (0.0123 - 0.0035) 		[3'] No event this minute.
+[3'] No event this minute. (0.0098 - 0.0034) 		[4'] No event this minute.
+[4'] No event this minute. (0.0085 - 0.0034) 		[5'] No event this minute.
+[5'] Foul away. (0.0087 - 0.0033) 		[6'] No event this minute.
+[6'] No event this minute. (0.0090 - 0.0032) 		[7'] Shot home.
+[6'] Yellow card away. (0.0185 - 0.0018) 		[8'] Shot home.
+[7'] No event this minute. (0.0189 - 0.0012) 		[9'] Foul away.
+[7'] Free kick home. (0.0016 - 0.0001) 		[9'] Corner home.
+[8'] Free kick away. (0.0066 - 0.0004) 		[10'] Shot home.
+[8'] Free kick home. (0.0096 - 0.0013) 		[10'] Free kick home.
+[8'] Shot home. (0.0229 - 0.0010) 		[11'] No event this minute.
+[9'] Yellow card home. (0.0231 - 0.0029) 		[12'] Shot home.
+[10'] No event this minute. (0.0279 - 0.0039) 		[13'] Free kick home.
+[11'] Shot home. (0.0125 - 0.0003) 		[13'] Offside home.
+[12'] Foul away. (0.0065 - 0.0012) 		[14'] No event this minute.
+[12'] Foul away. (0.0211 - 0.0012) 		[15'] Foul away.
+[12'] Corner home. (0.0155 - 0.0030) 		[15'] Shot home.
+[13'] No event this minute. (0.0223 - 0.0019) 		[16'] No event this minute.
+[14'] No event this minute. (0.0081 - 0.0025) 		[17'] Shot home.
+[14'] Shot home. (0.0308 - 0.0038) 		[18'] No event this minute.
+[14'] Free kick home. (0.0090 - 0.0041) 		[19'] No event this minute.
+[14'] Yellow card away. (0.0117 - 0.0050) 		[20'] No event this minute.
+[14'] No event this minute. (0.0097 - 0.0050) 		[21'] No event this minute.
+[15'] Offside away. (0.0099 - 0.0052) 		[22'] No event this minute.
+[16'] Shot home. (0.0099 - 0.0053) 		[23'] Shot home.
+[16'] Corner home. (0.0244 - 0.0070) 		[24'] No event this minute.
+[17'] Yellow card away. (0.0097 - 0.0057) 		[25'] No event this minute.
+[17'] Shot home. (0.0121 - 0.0059) 		[26'] Free kick home.
+[18'] Shot home. (0.0230 - 0.0032) 		[26'] Shot away.
+[18'] Yellow card away. (0.0085 - 0.0127) 		[27'] No event this minute.
+[19'] Shot home. (0.0113 - 0.0047) 		[28'] No event this minute.
+[20'] No event this minute. (0.0120 - 0.0067) 		[29'] No event this minute.
+[21'] Corner home. (0.0103 - 0.0068) 		[30'] No event this minute.
+[22'] Foul away. (0.0099 - 0.0073) 		[31'] No event this minute.
+[22'] No event this minute. (0.0097 - 0.0074) 		[32'] No event this minute.
+[22'] No event this minute. (0.0096 - 0.0076) 		[33'] No event this minute.
+[23'] Foul away. (0.0096 - 0.0077) 		[34'] No event this minute.
+[24'] Goal home. (0.0097 - 0.0078) 		[35'] No event this minute.
+[25'] Foul away. (0.0097 - 0.0078) 		[36'] No event this minute.
+[26'] Goal away. (0.0097 - 0.0079) 		[37'] Foul home.
+[27'] Free kick away. (0.0057 - 0.0056) 		[37'] Free kick away.
+[27'] Shot away. (0.0069 - 0.0207) 		[37'] Foul away.
+[28'] Free kick home. (0.0073 - 0.0148) 		[38'] No event this minute.
+[29'] Offside away. (0.0033 - 0.0040) 		[39'] No event this minute.
+[30'] Goal away. (0.0057 - 0.0035) 		[40'] No event this minute.
+[31'] No event this minute. (0.0075 - 0.0047) 		[41'] Shot away.
+[32'] No event this minute. (0.0075 - 0.0088) 		[41'] Foul away.
+[33'] Free kick home. (0.0073 - 0.0143) 		[42'] No event this minute.
+[33'] Free kick away. (0.0054 - 0.0034) 		[43'] Free kick home.
+[33'] Free kick home. (0.0087 - 0.0030) 		[44'] Hand ball away.
+[34'] No event this minute. (0.0137 - 0.0057) 		[45'] Offside away.
+[34'] Corner home. (0.0089 - 0.0059) 		[46'] No event this minute.
+[35'] No event this minute. (0.0092 - 0.0060) 		[47'] Corner away.
+[36'] Shot home. (0.0118 - 0.0188) 		[48'] No event this minute.
+[37'] No event this minute. (0.0076 - 0.0064) 		[49'] Shot away.
+[38'] Corner home. (0.0093 - 0.0130) 		[50'] No event this minute.
+[38'] No event this minute. (0.0091 - 0.0082) 		[51'] No event this minute.
+[39'] Substitution away. (0.0097 - 0.0089) 		[52'] Free kick away.
+[40'] Foul home. (0.0092 - 0.0229) 		[52'] Offside away.
+[41'] No event this minute. (0.0014 - 0.0018) 		[53'] Foul home.
+[42'] Shot away. (0.0030 - 0.0113) 		[53'] Foul away.
+[43'] Free kick home. (0.0062 - 0.0151) 		[54'] No event this minute.
+[44'] Shot away. (0.0058 - 0.0052) 		[55'] No event this minute.
+[45'] No event this minute. (0.0061 - 0.0031) 		[56'] Foul away.
+[46'] Free kick home. (0.0035 - 0.0051) 		[56'] Free kick home.
+[46'] Offside away. (0.0013 - 0.0027) 		[57'] Shot home.
+[46'] Foul away. (0.0148 - 0.0042) 		[57'] Free kick home.
+[47'] Free kick away. (0.0111 - 0.0018) 		[58'] No event this minute.
+[48'] Corner away. (0.0104 - 0.0030) 		[59'] Substitution away.
+[49'] No event this minute. (0.0267 - 0.0039) 		[60'] No event this minute.
+[49'] Shot home. (0.0154 - 0.0036) 		[61'] No event this minute.
+[49'] Substitution away. (0.0148 - 0.0053) 		[62'] No event this minute.
+[50'] Shot home. (0.0133 - 0.0062) 		[63'] Goal home.
+[51'] No event this minute. (0.0061 - 0.0091) 		[64'] Substitution home.
+[51'] No event this minute. (0.0091 - 0.0130) 		[65'] Offside away.
+[51'] Foul away. (0.0101 - 0.0046) 		[65'] Foul home.
+[51'] Free kick home. (0.0064 - 0.0088) 		[65'] Free kick away.
+[52'] No event this minute. (0.0056 - 0.0137) 		[66'] No event this minute.
+[53'] Shot home. (0.0077 - 0.0048) 		[67'] Foul home.
+[53'] Free kick home. (0.0061 - 0.0081) 		[67'] Free kick away.
+[54'] Shot away. (0.0051 - 0.0108) 		[67'] Yellow card home.
+[55'] No event this minute. (0.0056 - 0.0147) 		[68'] Yellow card home.
+[56'] Free kick home. (0.0025 - 0.0170) 		[69'] No event this minute.
+[57'] Free kick away. (0.0038 - 0.0070) 		[70'] Shot away.
+[58'] No event this minute. (0.0047 - 0.0097) 		[70'] Substitution away.
+[59'] Corner home. (0.0111 - 0.0112) 		[71'] Shot home.
+[60'] Shot home. (0.0197 - 0.0079) 		[72'] No event this minute.
+[61'] No event this minute. (0.0120 - 0.0073) 		[73'] No event this minute.
+[61'] Foul away. (0.0121 - 0.0071) 		[74'] Offside home.
+[62'] Shot away. (0.0116 - 0.0089) 		[75'] Free kick away.
+[62'] Shot home. (0.0108 - 0.0169) 		[75'] Shot home.
+[63'] Foul home. (0.0083 - 0.0122) 		[76'] Foul home.
+[64'] Free kick home. (0.0031 - 0.0149) 		[77'] Shot away.
+[64'] Substitution home. (0.0061 - 0.0097) 		[77'] Substitution away.
+[65'] Shot home. (0.0149 - 0.0092) 		[78'] Corner away.
+[65'] Free kick away. (0.0078 - 0.0209) 		[79'] Shot away.
+[65'] Free kick away. (0.0100 - 0.0147) 		[80'] Substitution home.
+[65'] Shot home. (0.0143 - 0.0178) 		[80'] Foul away.
+[65'] Shot home. (0.0144 - 0.0174) 		[81'] No event this minute.
+[66'] No event this minute. (0.0075 - 0.0052) 		[82'] No event this minute.
+[67'] Shot home. (0.0089 - 0.0073) 		[83'] Free kick home.
+[68'] Offside away. (0.0052 - 0.0102) 		[84'] Foul away.
+[69'] Yellow card away. (0.0137 - 0.0143) 		[84'] Shot away.
+[70'] Free kick home. (0.0055 - 0.0104) 		[85'] Free kick away.
+[71'] Foul away. (0.0004 - 0.0005) 		[85'] Free kick home.
+[72'] Corner home. (0.0010 - 0.0043) 		[86'] No event this minute.
+[73'] Yellow card home. (0.0060 - 0.0081) 		[87'] Foul home.
+[74'] No event this minute. (0.0059 - 0.0096) 		[88'] Free kick home.
+[75'] Shot home. (0.0049 - 0.0025) 		[88'] Yellow card away.
+[75'] Foul away. (0.0049 - 0.0027) 		[89'] Foul away.
+[76'] Substitution home. (0.0075 - 0.0075) 		[90'] Yellow card home.
+[77'] Substitution home. (0.0006 - 0.0017) 		[90'] Free kick away.
+[78'] Shot away. (0.0031 - 0.0199) 		[90'] Shot away.
+[79'] Shot home. (0.0004 - 0.0036) 		[90'] Foul home.
+[79'] Free kick home. (0.0008 - 0.0051) 		[90'] Corner home.
+[79'] Shot home. (0.0026 - 0.0090) 		[90'] Corner home.
+[79'] Foul home. (0.0056 - 0.0172) 		[90'] Shot home.
+[80'] Foul away. (0.0138 - 0.0164) 		[90'] Shot away.
+
+Predicted score: 2 - 2 (1.17 - 0.88), real one was 1 - 0
+
+Predicted: shot home = 20, shot away = 6
+Real: shot home = 11, shot away = 9
+
+Predicted: corner home = 7, corner away = 1
+Real: corner home = 3, corner away = 2
+
+Predicted: foul by home = 3, foul by away = 12
+Real: foul by home = 7, foul by away = 9
+
+
+New game: AC Milan -VS- Lecce
+--------------------
+
+[1'] No event this minute. (0.0058 - 0.0015) 		[1'] No event this minute.
+[2'] No event this minute. (0.0068 - 0.0030) 		[2'] Corner home.
+[2'] Goal home. (0.0325 - 0.0010) 		[2'] Shot home.
+[2'] Corner home. (0.0162 - 0.0029) 		[3'] No event this minute.
+[3'] No event this minute. (0.0129 - 0.0025) 		[4'] No event this minute.
+[3'] Free kick home. (0.0155 - 0.0023) 		[5'] Offside home.
+[4'] Foul away. (0.0113 - 0.0035) 		[5'] Hand ball away.
+[5'] Free kick home. (0.0161 - 0.0010) 		[6'] No event this minute.
+[6'] Free kick home. (0.0153 - 0.0026) 		[7'] Goal home.
+[7'] Foul away. (0.0045 - 0.0034) 		[8'] No event this minute.
+[8'] No event this minute. (0.0078 - 0.0037) 		[9'] No event this minute.
+[9'] No event this minute. (0.0141 - 0.0036) 		[10'] No event this minute.
+[9'] Free kick home. (0.0130 - 0.0032) 		[11'] No event this minute.
+[10'] No event this minute. (0.0129 - 0.0034) 		[12'] No event this minute.
+[11'] No event this minute. (0.0128 - 0.0035) 		[13'] Shot home.
+[11'] No event this minute. (0.0176 - 0.0025) 		[14'] Shot home.
+[11'] No event this minute. (0.0241 - 0.0016) 		[14'] Corner home.
+[12'] Shot home. (0.0221 - 0.0013) 		[14'] Shot home.
+[12'] Foul away. (0.0231 - 0.0026) 		[14'] Corner home.
+[13'] Foul home. (0.0191 - 0.0013) 		[15'] Foul home.
+[13'] Free kick away. (0.0002 - 0.0001) 		[15'] Free kick away.
+[13'] Shot home. (0.0079 - 0.0070) 		[15'] Shot home.
+[14'] Free kick away. (0.0099 - 0.0027) 		[15'] Free kick away.
+[15'] Foul home. (0.0020 - 0.0011) 		[15'] Foul home.
+[16'] No event this minute. (0.0051 - 0.0046) 		[16'] Shot home.
+[16'] Foul home. (0.0114 - 0.0026) 		[16'] Corner home.
+[17'] No event this minute. (0.0224 - 0.0019) 		[17'] Shot away.
+[18'] Corner away. (0.0129 - 0.0086) 		[18'] No event this minute.
+[18'] No event this minute. (0.0133 - 0.0033) 		[19'] Shot home.
+[19'] Free kick away. (0.0165 - 0.0024) 		[20'] Hand ball away.
+[19'] No event this minute. (0.0202 - 0.0012) 		[21'] No event this minute.
+[19'] No event this minute. (0.0151 - 0.0036) 		[22'] Corner home.
+[19'] Shot home. (0.0256 - 0.0021) 		[23'] Shot away.
+[19'] Foul away. (0.0151 - 0.0100) 		[23'] Free kick away.
+[20'] Foul home. (0.0027 - 0.0020) 		[23'] Foul home.
+[20'] No event this minute. (0.0052 - 0.0062) 		[24'] No event this minute.
+[21'] Free kick away. (0.0125 - 0.0029) 		[25'] No event this minute.
+[21'] Foul home. (0.0129 - 0.0040) 		[26'] No event this minute.
+[22'] No event this minute. (0.0126 - 0.0038) 		[27'] No event this minute.
+[23'] Free kick home. (0.0122 - 0.0040) 		[28'] Free kick away.
+[24'] Foul home. (0.0017 - 0.0009) 		[28'] Foul home.
+[25'] No event this minute. (0.0048 - 0.0076) 		[29'] Corner away.
+[26'] Shot home. (0.0046 - 0.0108) 		[30'] No event this minute.
+[27'] Foul home. (0.0112 - 0.0068) 		[31'] No event this minute.
+[27'] Foul away. (0.0126 - 0.0045) 		[32'] Free kick away.
+[27'] Foul home. (0.0013 - 0.0006) 		[32'] Foul home.
+[28'] Foul home. (0.0048 - 0.0091) 		[33'] No event this minute.
+[29'] No event this minute. (0.0119 - 0.0036) 		[34'] Free kick away.
+[29'] Foul home. (0.0020 - 0.0009) 		[34'] Foul home.
+[30'] No event this minute. (0.0046 - 0.0067) 		[35'] No event this minute.
+[31'] Corner away. (0.0111 - 0.0039) 		[36'] No event this minute.
+[32'] No event this minute. (0.0134 - 0.0039) 		[37'] Corner home.
+[33'] Shot away. (0.0203 - 0.0026) 		[38'] Foul home.
+[34'] Free kick away. (0.0002 - 0.0001) 		[38'] Free kick away.
+[35'] Offside home. (0.0074 - 0.0078) 		[38'] Shot home.
+[35'] Corner home. (0.0099 - 0.0027) 		[39'] No event this minute.
+[36'] No event this minute. (0.0163 - 0.0029) 		[40'] No event this minute.
+[37'] No event this minute. (0.0121 - 0.0039) 		[41'] No event this minute.
+[37'] Foul away. (0.0132 - 0.0041) 		[42'] No event this minute.
+[38'] Yellow card away. (0.0126 - 0.0041) 		[43'] Shot home.
+[39'] Free kick away. (0.0157 - 0.0028) 		[44'] Shot home.
+[40'] Corner home. (0.0212 - 0.0018) 		[45'] Foul home.
+[41'] Free kick away. (0.0005 - 0.0001) 		[45'] Corner home.
+[41'] Free kick away. (0.0019 - 0.0003) 		[45'] Free kick away.
+[42'] Shot away. (0.0108 - 0.0016) 		[45'] Substitution away.
+[43'] Foul away. (0.0119 - 0.0015) 		[46'] Foul home.
+[44'] Free kick away. (0.0003 - 0.0001) 		[46'] Free kick away.
+[44'] Yellow card away. (0.0066 - 0.0105) 		[47'] Shot away.
+[45'] Corner away. (0.0058 - 0.0057) 		[48'] Foul home.
+[46'] Free kick away. (0.0002 - 0.0001) 		[48'] Free kick away.
+[47'] Free kick away. (0.0049 - 0.0086) 		[49'] No event this minute.
+[47'] Corner home. (0.0099 - 0.0042) 		[50'] Shot home.
+[48'] Corner home. (0.0168 - 0.0033) 		[51'] No event this minute.
+[49'] Free kick home. (0.0159 - 0.0031) 		[52'] Shot away.
+[50'] Corner away. (0.0104 - 0.0096) 		[53'] No event this minute.
+[51'] No event this minute. (0.0140 - 0.0046) 		[54'] No event this minute.
+[52'] Free kick home. (0.0115 - 0.0045) 		[55'] Foul away.
+[53'] Free kick home. (0.0004 - 0.0000) 		[55'] Free kick home.
+[54'] Shot home. (0.0145 - 0.0016) 		[55'] Yellow card away.
+[54'] Free kick away. (0.0174 - 0.0013) 		[56'] Shot home.
+[54'] No event this minute. (0.0202 - 0.0070) 		[57'] Shot away.
+[54'] Shot home. (0.0124 - 0.0109) 		[58'] Free kick away.
+[55'] Foul home. (0.0026 - 0.0011) 		[58'] Foul home.
+[56'] Substitution away. (0.0055 - 0.0098) 		[59'] Free kick home.
+[57'] Foul away. (0.0013 - 0.0003) 		[59'] Corner away.
+[58'] Foul away. (0.0048 - 0.0040) 		[59'] Foul away.
+[59'] No event this minute. (0.0128 - 0.0036) 		[60'] No event this minute.
+[60'] No event this minute. (0.0140 - 0.0047) 		[61'] No event this minute.
+[61'] No event this minute. (0.0153 - 0.0037) 		[62'] Foul away.
+[62'] Free kick home. (0.0004 - 0.0001) 		[62'] Free kick home.
+[63'] Free kick away. (0.0130 - 0.0021) 		[62'] Substitution home.
+[64'] Substitution home. (0.0129 - 0.0025) 		[63'] No event this minute.
+[64'] Substitution away. (0.0089 - 0.0083) 		[64'] Foul away.
+[65'] Free kick home. (0.0005 - 0.0001) 		[64'] Free kick home.
+[66'] Corner home. (0.0169 - 0.0022) 		[64'] Goal home.
+[67'] Shot home. (0.0064 - 0.0054) 		[65'] No event this minute.
+[67'] Shot home. (0.0065 - 0.0085) 		[66'] Corner away.
+[68'] No event this minute. (0.0079 - 0.0122) 		[67'] Foul away.
+[69'] Free kick home. (0.0008 - 0.0001) 		[67'] Free kick home.
+[69'] Foul home. (0.0145 - 0.0020) 		[68'] Shot home.
+[70'] No event this minute. (0.0224 - 0.0046) 		[69'] No event this minute.
+[70'] Free kick home. (0.0152 - 0.0047) 		[70'] No event this minute.
+[70'] No event this minute. (0.0122 - 0.0050) 		[71'] No event this minute.
+[71'] Corner away. (0.0107 - 0.0046) 		[72'] No event this minute.
+[72'] Corner home. (0.0098 - 0.0043) 		[73'] Corner home.
+[73'] Goal away. (0.0157 - 0.0028) 		[74'] Corner home.
+[74'] Foul home. (0.0145 - 0.0028) 		[75'] Substitution away.
+[74'] Substitution away. (0.0442 - 0.0013) 		[76'] No event this minute.
+[75'] Foul home. (0.0178 - 0.0036) 		[77'] Shot home.
+[76'] Foul away. (0.0205 - 0.0034) 		[77'] Corner home.
+[77'] Shot home. (0.0260 - 0.0023) 		[77'] Offside home.
+[78'] Foul away. (0.0161 - 0.0032) 		[78'] Substitution home.
+[78'] No event this minute. (0.0265 - 0.0039) 		[79'] Corner home.
+[79'] No event this minute. (0.0229 - 0.0040) 		[80'] Foul home.
+[79'] Free kick away. (0.0004 - 0.0003) 		[80'] Free kick away.
+[80'] Foul home. (0.0086 - 0.0106) 		[81'] No event this minute.
+[81'] Yellow card away. (0.0158 - 0.0031) 		[82'] Substitution away.
+[81'] Shot home. (0.0250 - 0.0029) 		[83'] Free kick away.
+[82'] Foul home. (0.0008 - 0.0003) 		[83'] Foul home.
+[83'] Foul away. (0.0087 - 0.0079) 		[83'] Yellow card home.
+[84'] Corner away. (0.0035 - 0.0056) 		[84'] No event this minute.
+[85'] Penalty conceded home. (0.0111 - 0.0109) 		[85'] Shot home.
+[86'] Free kick away. (0.0219 - 0.0091) 		[85'] Free kick away.
+[87'] Foul home. (0.0013 - 0.0004) 		[85'] Foul home.
+[88'] No event this minute. (0.0085 - 0.0113) 		[86'] No event this minute.
+[89'] Free kick home. (0.0137 - 0.0042) 		[87'] Foul home.
+[89'] Free kick away. (0.0006 - 0.0007) 		[87'] Free kick away.
+[89'] Shot home. (0.0099 - 0.0169) 		[88'] Shot away.
+[90'] No event this minute. (0.0042 - 0.0080) 		[89'] No event this minute.
+[90'] No event this minute. (0.0063 - 0.0032) 		[90'] Shot home.
+[90'] Corner home. (0.0231 - 0.0106) 		[90'] Shot home.
+[90'] Free kick home. (0.0330 - 0.0078) 		[90'] Corner home.
+
+Predicted score: 1 - 1 (1.55 - 0.53), real one was 2 - 0
+
+Predicted: shot home = 11, shot away = 2
+Real: shot home = 17, shot away = 6
+
+Predicted: corner home = 8, corner away = 6
+Real: corner home = 12, corner away = 3
+
+Predicted: foul by home = 17, foul by away = 12
+Real: foul by home = 15, foul by away = 5
+
+
+New game: Juventus -VS- Udinese
+--------------------
+
+[1'] Foul away. (0.0072 - 0.0266) 		[1'] Free kick home.
+[2'] Foul away. (0.0026 - 0.0002) 		[2'] Shot home.
+[2'] Corner home. (0.0206 - 0.0042) 		[3'] No event this minute.
+[3'] No event this minute. (0.0164 - 0.0034) 		[4'] No event this minute.
+[4'] Free kick away. (0.0134 - 0.0032) 		[5'] Free kick away.
+[5'] Foul home. (0.0023 - 0.0028) 		[5'] Foul home.
+[6'] Free kick away. (0.0091 - 0.0066) 		[6'] Free kick home.
+[7'] Foul away. (0.0024 - 0.0004) 		[6'] Foul away.
+[8'] No event this minute. (0.0136 - 0.0025) 		[7'] Shot home.
+[9'] Corner home. (0.0167 - 0.0065) 		[7'] Shot away.
+[10'] No event this minute. (0.0108 - 0.0139) 		[8'] Goal home.
+[10'] No event this minute. (0.0059 - 0.0025) 		[9'] No event this minute.
+[11'] Shot away. (0.0080 - 0.0027) 		[10'] No event this minute.
+[12'] No event this minute. (0.0120 - 0.0039) 		[11'] No event this minute.
+[13'] Free kick home. (0.0133 - 0.0033) 		[12'] Corner home.
+[14'] No event this minute. (0.0260 - 0.0016) 		[13'] No event this minute.
+[15'] No event this minute. (0.0140 - 0.0027) 		[14'] Foul away.
+[15'] Free kick home. (0.0005 - 0.0000) 		[14'] Free kick home.
+[16'] Shot away. (0.0172 - 0.0012) 		[15'] No event this minute.
+[17'] No event this minute. (0.0141 - 0.0030) 		[16'] Shot home.
+[18'] Shot away. (0.0221 - 0.0027) 		[17'] Free kick home.
+[19'] Foul away. (0.0038 - 0.0001) 		[17'] Foul away.
+[19'] Shot home. (0.0148 - 0.0029) 		[18'] Hand ball home.
+[19'] Yellow card home. (0.0125 - 0.0092) 		[19'] Free kick away.
+[20'] Foul home. (0.0013 - 0.0009) 		[19'] Foul home.
+[21'] Shot away. (0.0071 - 0.0080) 		[20'] Free kick away.
+[22'] Foul home. (0.0023 - 0.0015) 		[20'] Foul home.
+[22'] Corner home. (0.0077 - 0.0068) 		[21'] Foul home.
+[23'] Free kick away. (0.0004 - 0.0003) 		[21'] Free kick away.
+[23'] Offside away. (0.0077 - 0.0116) 		[21'] Foul away.
+[23'] Free kick home. (0.0007 - 0.0000) 		[21'] Free kick home.
+[23'] No event this minute. (0.0167 - 0.0014) 		[22'] No event this minute.
+[23'] Shot home. (0.0146 - 0.0027) 		[23'] No event this minute.
+[24'] No event this minute. (0.0166 - 0.0036) 		[24'] Foul away.
+[25'] Free kick home. (0.0008 - 0.0001) 		[24'] Free kick home.
+[26'] Yellow card away. (0.0187 - 0.0012) 		[25'] Offside home.
+[26'] Foul away. (0.0098 - 0.0074) 		[26'] No event this minute.
+[27'] Shot home. (0.0180 - 0.0040) 		[27'] Shot away.
+[27'] Hand ball away. (0.0200 - 0.0079) 		[28'] Shot home.
+[28'] Foul home. (0.0202 - 0.0029) 		[29'] Shot home.
+[29'] Corner away. (0.0251 - 0.0017) 		[30'] No event this minute.
+[30'] No event this minute. (0.0168 - 0.0024) 		[31'] No event this minute.
+[31'] Foul away. (0.0137 - 0.0043) 		[32'] No event this minute.
+[32'] Free kick away. (0.0155 - 0.0037) 		[33'] Shot home.
+[33'] Shot home. (0.0184 - 0.0030) 		[34'] No event this minute.
+[34'] No event this minute. (0.0184 - 0.0028) 		[35'] No event this minute.
+[35'] Offside away. (0.0144 - 0.0033) 		[36'] Shot home.
+[36'] Shot home. (0.0185 - 0.0031) 		[36'] Shot home.
+[36'] Free kick away. (0.0185 - 0.0019) 		[37'] No event this minute.
+[36'] No event this minute. (0.0164 - 0.0027) 		[38'] No event this minute.
+[36'] No event this minute. (0.0150 - 0.0035) 		[39'] No event this minute.
+[37'] No event this minute. (0.0158 - 0.0035) 		[40'] Yellow card away.
+[38'] Free kick home. (0.0190 - 0.0005) 		[40'] Free kick home.
+[38'] Foul away. (0.0015 - 0.0002) 		[40'] Foul away.
+[39'] Foul home. (0.0186 - 0.0022) 		[40'] Shot home.
+[39'] Corner home. (0.0167 - 0.0023) 		[41'] No event this minute.
+[39'] No event this minute. (0.0094 - 0.0028) 		[42'] Foul home.
+[40'] Free kick away. (0.0001 - 0.0001) 		[42'] Free kick away.
+[41'] Free kick home. (0.0119 - 0.0091) 		[43'] No event this minute.
+[41'] Offside away. (0.0137 - 0.0029) 		[44'] Shot home.
+[42'] Foul home. (0.0206 - 0.0037) 		[45'] Substitution away.
+[42'] Corner home. (0.0246 - 0.0022) 		[46'] Shot away.
+[43'] Offside home. (0.0110 - 0.0095) 		[47'] No event this minute.
+[43'] Foul away. (0.0163 - 0.0047) 		[48'] Shot away.
+[43'] No event this minute. (0.0135 - 0.0101) 		[48'] Corner away.
+[43'] Substitution away. (0.0061 - 0.0119) 		[49'] Free kick home.
+[44'] Foul away. (0.0024 - 0.0008) 		[49'] Foul away.
+[45'] Corner home. (0.0135 - 0.0021) 		[49'] Shot home.
+[46'] No event this minute. (0.0151 - 0.0054) 		[50'] Corner home.
+[47'] Shot home. (0.0365 - 0.0010) 		[50'] Shot home.
+[48'] Shot home. (0.0262 - 0.0020) 		[51'] Shot home.
+[48'] Foul away. (0.0215 - 0.0033) 		[52'] Foul away.
+[48'] Shot away. (0.0014 - 0.0001) 		[52'] Free kick home.
+[49'] Goal home. (0.0208 - 0.0013) 		[53'] Corner home.
+[49'] No event this minute. (0.0516 - 0.0015) 		[54'] No event this minute.
+[50'] Shot home. (0.0199 - 0.0037) 		[55'] No event this minute.
+[50'] Yellow card home. (0.0178 - 0.0034) 		[56'] Foul away.
+[50'] Free kick home. (0.0012 - 0.0001) 		[56'] Free kick home.
+[51'] Shot home. (0.0209 - 0.0014) 		[57'] No event this minute.
+[52'] Free kick home. (0.0172 - 0.0043) 		[58'] Free kick away.
+[52'] Foul home. (0.0033 - 0.0014) 		[58'] Foul home.
+[52'] Free kick home. (0.0065 - 0.0119) 		[59'] No event this minute.
+[53'] No event this minute. (0.0141 - 0.0042) 		[60'] No event this minute.
+[54'] No event this minute. (0.0172 - 0.0039) 		[61'] Foul home.
+[55'] Free kick away. (0.0003 - 0.0002) 		[61'] Free kick away.
+[56'] Foul away. (0.0120 - 0.0113) 		[62'] No event this minute.
+[56'] No event this minute. (0.0130 - 0.0041) 		[63'] Free kick away.
+[56'] Substitution home. (0.0022 - 0.0009) 		[63'] Foul home.
+[57'] Free kick home. (0.0062 - 0.0104) 		[64'] Free kick home.
+[57'] Foul away. (0.0019 - 0.0005) 		[64'] Foul away.
+[58'] Shot home. (0.0166 - 0.0028) 		[65'] Corner away.
+[59'] No event this minute. (0.0101 - 0.0104) 		[66'] Corner away.
+[60'] Substitution home. (0.0071 - 0.0100) 		[66'] Shot away.
+[61'] Corner away. (0.0109 - 0.0144) 		[66'] Offside away.
+[61'] Shot home. (0.0076 - 0.0067) 		[67'] Shot away.
+[62'] Shot away. (0.0100 - 0.0121) 		[68'] Foul home.
+[63'] Free kick away. (0.0004 - 0.0002) 		[68'] Free kick away.
+[64'] Free kick home. (0.0128 - 0.0116) 		[69'] No event this minute.
+[64'] Substitution away. (0.0120 - 0.0042) 		[70'] Corner home.
+[64'] Goal home. (0.0290 - 0.0021) 		[70'] Shot home.
+[64'] Goal home. (0.0227 - 0.0019) 		[70'] Shot home.
+[65'] Corner home. (0.0269 - 0.0025) 		[71'] No event this minute.
+[66'] No event this minute. (0.0191 - 0.0028) 		[72'] No event this minute.
+[66'] No event this minute. (0.0136 - 0.0038) 		[73'] Free kick away.
+[66'] Foul home. (0.0023 - 0.0010) 		[73'] Foul home.
+[67'] Goal home. (0.0054 - 0.0122) 		[73'] Substitution away.
+[68'] Free kick home. (0.0070 - 0.0055) 		[74'] Shot away.
+[69'] Offside away. (0.0095 - 0.0141) 		[75'] Goal home.
+[70'] Shot home. (0.0054 - 0.0031) 		[76'] No event this minute.
+[71'] Foul away. (0.0087 - 0.0051) 		[77'] Corner away.
+[72'] Foul away. (0.0074 - 0.0108) 		[78'] No event this minute.
+[73'] Free kick away. (0.0132 - 0.0058) 		[79'] No event this minute.
+[74'] Shot home. (0.0132 - 0.0033) 		[80'] No event this minute.
+[75'] No event this minute. (0.0124 - 0.0027) 		[81'] Substitution away.
+[76'] Shot home. (0.0109 - 0.0024) 		[82'] Substitution home.
+[77'] Shot away. (0.0203 - 0.0072) 		[82'] Foul home.
+[78'] Free kick away. (0.0005 - 0.0002) 		[82'] Free kick away.
+[79'] No event this minute. (0.0145 - 0.0099) 		[83'] No event this minute.
+[80'] No event this minute. (0.0130 - 0.0028) 		[84'] Shot away.
+[81'] Substitution home. (0.0086 - 0.0139) 		[84'] Shot away.
+[82'] No event this minute. (0.0093 - 0.0133) 		[84'] Corner away.
+[82'] No event this minute. (0.0076 - 0.0162) 		[85'] Free kick home.
+[83'] Substitution home. (0.0028 - 0.0010) 		[85'] Foul away.
+[84'] Substitution home. (0.0148 - 0.0032) 		[85'] Substitution home.
+[84'] Shot home. (0.0187 - 0.0048) 		[86'] Free kick away.
+[85'] Foul home. (0.0013 - 0.0016) 		[86'] Foul home.
+[85'] No event this minute. (0.0123 - 0.0118) 		[86'] Foul away.
+[86'] No event this minute. (0.0028 - 0.0003) 		[86'] Free kick home.
+[87'] Foul away. (0.0188 - 0.0042) 		[87'] No event this minute.
+[88'] No event this minute. (0.0212 - 0.0088) 		[88'] Corner away.
+[89'] Goal home. (0.0202 - 0.0141) 		[89'] Substitution home.
+[90'] Corner away. (0.0174 - 0.0151) 		[90'] Free kick home.
+[90'] Foul away. (0.0037 - 0.0007) 		[90'] Foul away.
+[91'] Shot home. (0.0223 - 0.0103) 		[90'] Shot home.
+
+Predicted score: 5 - 0 (1.70 - 0.63), real one was 2 - 0
+
+Predicted: shot home = 16, shot away = 7
+Real: shot home = 16, shot away = 9
+
+Predicted: corner home = 7, corner away = 3
+Real: corner home = 4, corner away = 6
+
+Predicted: foul by home = 9, foul by away = 16
+Real: foul by home = 12, foul by away = 13
+
+
+New game: Toulouse -VS- Lorient
+--------------------
+
+[1'] Foul home. (0.0006 - 0.0010) 		[1'] No event this minute.
+[2'] Free kick home. (0.0009 - 0.0011) 		[2'] Foul home.
+[2'] Free kick away. (0.0001 - 0.0002) 		[2'] Free kick away.
+[3'] No event this minute. (0.0043 - 0.0131) 		[3'] Foul home.
+[4'] Free kick away. (0.0001 - 0.0001) 		[3'] Free kick away.
+[5'] Shot away. (0.0043 - 0.0105) 		[3'] Free kick away.
+[6'] No event this minute. (0.0024 - 0.0026) 		[3'] Foul home.
+[6'] Offside away. (0.0025 - 0.0089) 		[4'] Offside home.
+[7'] Corner away. (0.0091 - 0.0061) 		[5'] No event this minute.
+[7'] Shot away. (0.0060 - 0.0103) 		[6'] No event this minute.
+[7'] No event this minute. (0.0069 - 0.0119) 		[7'] No event this minute.
+[8'] No event this minute. (0.0076 - 0.0103) 		[8'] Shot away.
+[9'] No event this minute. (0.0092 - 0.0153) 		[8'] Shot away.
+[10'] Corner away. (0.0075 - 0.0172) 		[9'] No event this minute.
+[10'] No event this minute. (0.0065 - 0.0087) 		[10'] Shot home.
+[10'] No event this minute. (0.0158 - 0.0070) 		[11'] Offside home.
+[11'] Free kick away. (0.0055 - 0.0125) 		[12'] Foul away.
+[12'] Goal home. (0.0005 - 0.0001) 		[12'] Free kick home.
+[13'] Free kick away. (0.0078 - 0.0050) 		[13'] Corner home.
+[13'] Shot home. (0.0242 - 0.0049) 		[13'] Shot home.
+[13'] Free kick home. (0.0126 - 0.0087) 		[13'] Shot home.
+[13'] Corner home. (0.0115 - 0.0077) 		[14'] Foul home.
+[13'] Free kick away. (0.0001 - 0.0002) 		[14'] Free kick away.
+[14'] Corner home. (0.0042 - 0.0172) 		[15'] Free kick away.
+[15'] Foul home. (0.0008 - 0.0009) 		[15'] Foul home.
+[16'] Yellow card home. (0.0038 - 0.0136) 		[15'] Shot away.
+[16'] No event this minute. (0.0127 - 0.0170) 		[16'] No event this minute.
+[16'] Free kick home. (0.0090 - 0.0107) 		[17'] No event this minute.
+[17'] Foul home. (0.0068 - 0.0098) 		[18'] No event this minute.
+[17'] Free kick home. (0.0078 - 0.0114) 		[19'] No event this minute.
+[18'] Foul away. (0.0084 - 0.0106) 		[20'] Substitution away.
+[18'] Free kick away. (0.0109 - 0.0077) 		[21'] No event this minute.
+[19'] No event this minute. (0.0068 - 0.0096) 		[22'] Foul away.
+[19'] Free kick home. (0.0003 - 0.0001) 		[22'] Free kick home.
+[20'] Free kick away. (0.0097 - 0.0048) 		[23'] No event this minute.
+[21'] No event this minute. (0.0076 - 0.0082) 		[24'] Foul away.
+[21'] Free kick home. (0.0003 - 0.0001) 		[24'] Free kick home.
+[22'] No event this minute. (0.0090 - 0.0052) 		[25'] Foul away.
+[23'] Free kick home. (0.0013 - 0.0004) 		[26'] Shot home.
+[24'] Foul home. (0.0205 - 0.0054) 		[27'] No event this minute.
+[24'] No event this minute. (0.0084 - 0.0071) 		[28'] No event this minute.
+[25'] No event this minute. (0.0096 - 0.0085) 		[29'] No event this minute.
+[26'] No event this minute. (0.0083 - 0.0095) 		[30'] Shot away.
+[27'] No event this minute. (0.0078 - 0.0165) 		[31'] No event this minute.
+[28'] No event this minute. (0.0063 - 0.0104) 		[32'] Foul home.
+[29'] Free kick away. (0.0067 - 0.0101) 		[32'] Free kick away.
+[30'] Foul away. (0.0033 - 0.0141) 		[33'] Shot away.
+[31'] Shot home. (0.0033 - 0.0127) 		[34'] Foul away.
+[32'] Free kick home. (0.0012 - 0.0012) 		[34'] Free kick home.
+[33'] Shot home. (0.0043 - 0.0034) 		[35'] No event this minute.
+[34'] Foul home. (0.0049 - 0.0084) 		[36'] Free kick home.
+[35'] Foul away. (0.0019 - 0.0010) 		[36'] Foul away.
+[35'] Free kick away. (0.0070 - 0.0033) 		[37'] No event this minute.
+[35'] Corner away. (0.0063 - 0.0100) 		[38'] No event this minute.
+[36'] Foul away. (0.0069 - 0.0124) 		[39'] No event this minute.
+[36'] No event this minute. (0.0083 - 0.0108) 		[40'] Shot home.
+[37'] Free kick home. (0.0178 - 0.0075) 		[41'] Free kick away.
+[37'] Foul home. (0.0010 - 0.0007) 		[41'] Foul home.
+[38'] Yellow card home. (0.0061 - 0.0160) 		[42'] No event this minute.
+[39'] Free kick home. (0.0121 - 0.0116) 		[43'] No event this minute.
+[39'] Free kick away. (0.0093 - 0.0115) 		[44'] No event this minute.
+[40'] Offside home. (0.0095 - 0.0107) 		[45'] Shot away.
+[41'] Corner away. (0.0088 - 0.0186) 		[45'] Foul away.
+[41'] Free kick home. (0.0006 - 0.0001) 		[45'] Free kick home.
+[42'] Foul home. (0.0108 - 0.0041) 		[45'] Offside home.
+[43'] Substitution away. (0.0074 - 0.0063) 		[45'] Corner home.
+[44'] Foul home. (0.0189 - 0.0091) 		[46'] Free kick home.
+[44'] Foul away. (0.0016 - 0.0009) 		[46'] Foul away.
+[45'] Shot home. (0.0100 - 0.0041) 		[47'] No event this minute.
+[46'] No event this minute. (0.0079 - 0.0124) 		[48'] No event this minute.
+[47'] No event this minute. (0.0089 - 0.0116) 		[49'] No event this minute.
+[47'] No event this minute. (0.0094 - 0.0108) 		[50'] Foul away.
+[48'] Free kick home. (0.0006 - 0.0002) 		[50'] Free kick home.
+[49'] Corner home. (0.0121 - 0.0069) 		[50'] Shot home.
+[50'] Shot away. (0.0158 - 0.0081) 		[51'] No event this minute.
+[51'] No event this minute. (0.0085 - 0.0135) 		[52'] Shot away.
+[52'] Corner away. (0.0069 - 0.0177) 		[53'] Free kick home.
+[53'] Free kick away. (0.0010 - 0.0002) 		[53'] Foul away.
+[54'] No event this minute. (0.0072 - 0.0036) 		[53'] Shot home.
+[55'] Free kick home. (0.0162 - 0.0089) 		[54'] No event this minute.
+[55'] Foul home. (0.0078 - 0.0114) 		[55'] Corner away.
+[56'] Free kick home. (0.0046 - 0.0215) 		[56'] Shot home.
+[57'] Substitution home. (0.0171 - 0.0134) 		[56'] Corner home.
+[58'] Yellow card home. (0.0294 - 0.0074) 		[57'] Shot home.
+[59'] Foul home. (0.0186 - 0.0080) 		[58'] No event this minute.
+[60'] Free kick home. (0.0097 - 0.0092) 		[59'] Corner away.
+[60'] Corner away. (0.0078 - 0.0233) 		[59'] Substitution away.
+[61'] Free kick away. (0.0079 - 0.0133) 		[60'] Shot away.
+[62'] Shot away. (0.0089 - 0.0205) 		[61'] Shot home.
+[62'] No event this minute. (0.0222 - 0.0075) 		[62'] Corner away.
+[62'] Free kick home. (0.0050 - 0.0214) 		[62'] Yellow card away.
+[62'] Foul away. (0.0204 - 0.0166) 		[63'] Shot away.
+[63'] No event this minute. (0.0058 - 0.0178) 		[63'] Corner home.
+[64'] Foul away. (0.0187 - 0.0067) 		[64'] No event this minute.
+[65'] No event this minute. (0.0118 - 0.0083) 		[65'] Yellow card home.
+[66'] Substitution home. (0.0045 - 0.0054) 		[65'] Shot away.
+[67'] Free kick away. (0.0070 - 0.0235) 		[66'] Shot away.
+[68'] Corner home. (0.0046 - 0.0256) 		[67'] No event this minute.
+[68'] Shot home. (0.0057 - 0.0099) 		[68'] No event this minute.
+[69'] No event this minute. (0.0098 - 0.0149) 		[69'] Corner home.
+[70'] Shot home. (0.0229 - 0.0072) 		[70'] Shot home.
+[71'] Foul home. (0.0139 - 0.0081) 		[70'] Substitution home.
+[72'] Shot home. (0.0112 - 0.0160) 		[71'] Goal home.
+[72'] Shot away. (0.0046 - 0.0109) 		[72'] Foul home.
+[73'] Free kick away. (0.0000 - 0.0001) 		[72'] Free kick away.
+[73'] Yellow card home. (0.0019 - 0.0111) 		[73'] No event this minute.
+[73'] Offside away. (0.0049 - 0.0118) 		[74'] Free kick home.
+[74'] Substitution away. (0.0014 - 0.0011) 		[74'] Foul away.
+[74'] Substitution home. (0.0072 - 0.0037) 		[75'] Foul home.
+[75'] Free kick away. (0.0003 - 0.0006) 		[75'] Free kick away.
+[76'] Substitution away. (0.0075 - 0.0150) 		[76'] Substitution away.
+[77'] Corner home. (0.0237 - 0.0157) 		[76'] Yellow card away.
+[78'] Offside home. (0.0138 - 0.0053) 		[76'] Foul away.
+[79'] Free kick home. (0.0023 - 0.0001) 		[76'] Free kick home.
+[79'] Corner home. (0.0166 - 0.0026) 		[77'] No event this minute.
+[80'] Shot home. (0.0108 - 0.0052) 		[78'] Free kick home.
+[80'] Foul away. (0.0020 - 0.0010) 		[78'] Foul away.
+[81'] Shot home. (0.0093 - 0.0038) 		[78'] Foul home.
+[82'] Free kick away. (0.0004 - 0.0003) 		[78'] Free kick away.
+[82'] Substitution home. (0.0065 - 0.0118) 		[79'] Offside away.
+[83'] Corner home. (0.0064 - 0.0071) 		[80'] Offside away.
+[84'] Corner away. (0.0113 - 0.0040) 		[80'] Foul home.
+[85'] Free kick away. (0.0010 - 0.0007) 		[80'] Free kick away.
+[85'] Free kick home. (0.0079 - 0.0087) 		[81'] Substitution home.
+[85'] Foul away. (0.0105 - 0.0224) 		[82'] No event this minute.
+[86'] Free kick home. (0.0154 - 0.0171) 		[83'] No event this minute.
+[87'] No event this minute. (0.0143 - 0.0170) 		[84'] Foul home.
+[87'] Free kick away. (0.0008 - 0.0012) 		[84'] Free kick away.
+[88'] Corner home. (0.0074 - 0.0125) 		[84'] Foul home.
+[89'] Free kick away. (0.0008 - 0.0009) 		[84'] Free kick away.
+[90'] Yellow card away. (0.0076 - 0.0144) 		[85'] No event this minute.
+[91'] Free kick home. (0.0149 - 0.0140) 		[86'] No event this minute.
+[92'] Shot away. (0.0178 - 0.0134) 		[87'] Free kick home.
+[93'] Foul away. (0.0023 - 0.0045) 		[87'] Foul away.
+[93'] Free kick away. (0.0213 - 0.0051) 		[88'] No event this minute.
+[94'] No event this minute. (0.0166 - 0.0171) 		[89'] Corner home.
+[95'] Foul home. (0.0424 - 0.0122) 		[90'] Free kick home.
+[96'] Foul away. (0.0015 - 0.0017) 		[90'] Free kick home.
+[97'] Foul away. (0.0047 - 0.0009) 		[90'] Foul away.
+[98'] Foul away. (0.0058 - 0.0042) 		[90'] Foul away.
+[99'] Shot home. (0.0174 - 0.0030) 		[90'] Free kick home.
+[99'] Yellow card away. (0.0087 - 0.0060) 		[90'] Substitution home.
+[99'] Corner home. (0.0080 - 0.0080) 		[90'] Shot home.
+
+Predicted score: 1 - 0 (1.20 - 1.24), real one was 1 - 0
+
+Predicted: shot home = 10, shot away = 6
+Real: shot home = 12, shot away = 11
+
+Predicted: corner home = 9, corner away = 7
+Real: corner home = 6, corner away = 3
+
+Predicted: foul by home = 12, foul by away = 13
+Real: foul by home = 13, foul by away = 16
+
+
+New game: Villarreal -VS- Malaga
+--------------------
+
+[1'] Corner away. (0.0047 - 0.0045) 		[1'] No event this minute.
+[1'] No event this minute. (0.0066 - 0.0065) 		[2'] No event this minute.
+[2'] Free kick away. (0.0072 - 0.0069) 		[3'] No event this minute.
+[3'] Offside home. (0.0061 - 0.0067) 		[4'] No event this minute.
+[3'] Shot away. (0.0063 - 0.0066) 		[5'] Shot home.
+[4'] No event this minute. (0.0133 - 0.0046) 		[5'] Foul home.
+[4'] Free kick away. (0.0001 - 0.0003) 		[5'] Free kick away.
+[5'] No event this minute. (0.0060 - 0.0073) 		[6'] Foul home.
+[6'] Free kick away. (0.0001 - 0.0001) 		[6'] Free kick away.
+[7'] Corner away. (0.0047 - 0.0118) 		[7'] Foul home.
+[7'] Free kick away. (0.0001 - 0.0003) 		[7'] Free kick away.
+[8'] Foul away. (0.0043 - 0.0146) 		[8'] Shot away.
+[9'] Corner home. (0.0075 - 0.0072) 		[9'] No event this minute.
+[10'] Shot home. (0.0086 - 0.0084) 		[10'] No event this minute.
+[11'] No event this minute. (0.0071 - 0.0118) 		[11'] Corner home.
+[12'] No event this minute. (0.0164 - 0.0058) 		[12'] No event this minute.
+[12'] No event this minute. (0.0084 - 0.0124) 		[13'] Offside home.
+[13'] Shot home. (0.0052 - 0.0104) 		[14'] Foul away.
+[13'] Free kick home. (0.0002 - 0.0002) 		[14'] Free kick home.
+[13'] No event this minute. (0.0112 - 0.0027) 		[15'] Shot home.
+[14'] No event this minute. (0.0155 - 0.0063) 		[16'] Foul home.
+[14'] Free kick away. (0.0001 - 0.0003) 		[16'] Free kick away.
+[14'] Free kick home. (0.0050 - 0.0188) 		[17'] Shot away.
+[14'] Shot away. (0.0071 - 0.0084) 		[18'] Offside home.
+[14'] Free kick away. (0.0100 - 0.0073) 		[19'] No event this minute.
+[15'] Shot home. (0.0085 - 0.0064) 		[20'] Foul home.
+[15'] Free kick away. (0.0001 - 0.0002) 		[20'] Free kick away.
+[15'] Free kick home. (0.0042 - 0.0162) 		[21'] Corner away.
+[16'] No event this minute. (0.0038 - 0.0183) 		[22'] Foul away.
+[17'] Free kick home. (0.0001 - 0.0000) 		[22'] Free kick home.
+[18'] Yellow card away. (0.0099 - 0.0021) 		[23'] No event this minute.
+[18'] No event this minute. (0.0096 - 0.0063) 		[24'] Foul home.
+[19'] Free kick away. (0.0001 - 0.0003) 		[24'] Free kick away.
+[20'] Yellow card home. (0.0049 - 0.0161) 		[25'] No event this minute.
+[21'] No event this minute. (0.0082 - 0.0066) 		[26'] Offside home.
+[21'] No event this minute. (0.0077 - 0.0115) 		[27'] Foul home.
+[22'] Free kick away. (0.0001 - 0.0001) 		[27'] Free kick away.
+[22'] No event this minute. (0.0046 - 0.0174) 		[28'] Offside home.
+[23'] No event this minute. (0.0094 - 0.0060) 		[29'] Corner home.
+[24'] Corner home. (0.0166 - 0.0049) 		[30'] No event this minute.
+[25'] Corner away. (0.0100 - 0.0126) 		[31'] Foul away.
+[26'] Free kick home. (0.0001 - 0.0001) 		[31'] Free kick home.
+[27'] Shot home. (0.0120 - 0.0027) 		[32'] Shot home.
+[28'] No event this minute. (0.0173 - 0.0052) 		[33'] Free kick home.
+[28'] Foul away. (0.0027 - 0.0004) 		[33'] Foul away.
+[28'] Yellow card away. (0.0124 - 0.0027) 		[33'] Yellow card away.
+[28'] Offside home. (0.0161 - 0.0015) 		[34'] No event this minute.
+[29'] Shot home. (0.0121 - 0.0079) 		[35'] Offside home.
+[30'] No event this minute. (0.0092 - 0.0045) 		[35'] Shot away.
+[31'] No event this minute. (0.0100 - 0.0157) 		[36'] No event this minute.
+[32'] Shot home. (0.0086 - 0.0095) 		[37'] No event this minute.
+[32'] Free kick away. (0.0084 - 0.0082) 		[38'] Shot away.
+[32'] Foul home. (0.0088 - 0.0144) 		[39'] No event this minute.
+[33'] Corner home. (0.0108 - 0.0085) 		[40'] Offside home.
+[33'] Yellow card away. (0.0069 - 0.0118) 		[41'] No event this minute.
+[34'] Shot home. (0.0123 - 0.0091) 		[42'] No event this minute.
+[35'] Free kick away. (0.0094 - 0.0088) 		[43'] Shot away.
+[35'] Corner away. (0.0084 - 0.0160) 		[44'] Shot away.
+[35'] No event this minute. (0.0087 - 0.0149) 		[45'] No event this minute.
+[36'] Free kick home. (0.0099 - 0.0101) 		[46'] No event this minute.
+[37'] Hand ball away. (0.0088 - 0.0113) 		[47'] No event this minute.
+[38'] Corner home. (0.0091 - 0.0111) 		[48'] Corner away.
+[38'] Offside away. (0.0037 - 0.0226) 		[48'] Foul home.
+[38'] Free kick away. (0.0002 - 0.0004) 		[49'] Free kick away.
+[39'] Free kick home. (0.0041 - 0.0182) 		[50'] Offside away.
+[39'] Foul away. (0.0083 - 0.0035) 		[50'] Free kick away.
+[39'] Foul home. (0.0026 - 0.0015) 		[51'] No event this minute.
+[39'] Foul home. (0.0042 - 0.0092) 		[52'] No event this minute.
+[39'] No event this minute. (0.0040 - 0.0124) 		[53'] No event this minute.
+[40'] Foul home. (0.0042 - 0.0117) 		[54'] No event this minute.
+[41'] Foul home. (0.0048 - 0.0108) 		[55'] Foul home.
+[41'] Offside home. (0.0023 - 0.0027) 		[56'] Hand ball away.
+[41'] Substitution away. (0.0078 - 0.0022) 		[57'] No event this minute.
+[41'] Free kick away. (0.0080 - 0.0069) 		[58'] Free kick home.
+[41'] Foul away. (0.0029 - 0.0005) 		[58'] Foul away.
+[42'] Yellow card away. (0.0109 - 0.0015) 		[58'] Offside home.
+[42'] Foul away. (0.0046 - 0.0028) 		[59'] Yellow card away.
+[43'] Offside home. (0.0090 - 0.0024) 		[60'] Shot away.
+[44'] Foul home. (0.0103 - 0.0153) 		[60'] Free kick home.
+[44'] Foul away. (0.0038 - 0.0005) 		[61'] Foul away.
+[44'] Corner away. (0.0064 - 0.0017) 		[62'] No event this minute.
+[44'] No event this minute. (0.0134 - 0.0047) 		[63'] No event this minute.
+[44'] Substitution away. (0.0101 - 0.0092) 		[64'] Hand ball away.
+[45'] Yellow card away. (0.0132 - 0.0058) 		[65'] Corner home.
+[46'] Substitution home. (0.0200 - 0.0051) 		[66'] Goal away.
+[47'] Substitution away. (0.0066 - 0.0009) 		[66'] Substitution home.
+[47'] No event this minute. (0.0095 - 0.0026) 		[67'] Substitution away.
+[48'] Substitution home. (0.0138 - 0.0011) 		[68'] Foul home.
+[49'] Free kick away. (0.0001 - 0.0002) 		[68'] Foul home.
+[50'] Free kick away. (0.0010 - 0.0013) 		[68'] Offside home.
+[51'] Free kick away. (0.0026 - 0.0002) 		[68'] Free kick away.
+[52'] Free kick away. (0.0029 - 0.0013) 		[69'] Free kick away.
+[52'] Offside home. (0.0084 - 0.0060) 		[69'] Foul away.
+[53'] Free kick home. (0.0021 - 0.0002) 		[69'] Free kick home.
+[53'] Offside home. (0.0021 - 0.0005) 		[70'] No event this minute.
+[53'] Foul away. (0.0046 - 0.0090) 		[71'] Shot home.
+[54'] Yellow card away. (0.0117 - 0.0044) 		[72'] Substitution away.
+[54'] Yellow card away. (0.0202 - 0.0020) 		[73'] No event this minute.
+[55'] No event this minute. (0.0160 - 0.0047) 		[74'] No event this minute.
+[56'] Substitution home. (0.0127 - 0.0055) 		[75'] Free kick home.
+[57'] Yellow card away. (0.0016 - 0.0003) 		[75'] Substitution home.
+[58'] Foul away. (0.0041 - 0.0038) 		[75'] Foul away.
+[59'] No event this minute. (0.0116 - 0.0029) 		[76'] Shot away.
+[60'] Shot away. (0.0103 - 0.0190) 		[76'] Foul home.
+[60'] Corner home. (0.0009 - 0.0007) 		[77'] Substitution home.
+[60'] Substitution away. (0.0048 - 0.0026) 		[77'] Free kick away.
+[61'] Shot away. (0.0083 - 0.0072) 		[78'] No event this minute.
+[62'] No event this minute. (0.0100 - 0.0039) 		[79'] No event this minute.
+[63'] Shot home. (0.0129 - 0.0046) 		[80'] Offside away.
+[64'] Free kick away. (0.0121 - 0.0047) 		[81'] Offside away.
+[64'] Foul home. (0.0093 - 0.0046) 		[81'] Penalty conceded home.
+[65'] Yellow card away. (0.1727 - 0.0788) 		[82'] No event this minute.
+[66'] No event this minute. (0.0563 - 0.0382) 		[83'] Red card away.
+[67'] Yellow card home. (0.0203 - 0.0023) 		[83'] Substitution away.
+[67'] Foul away. (0.2436 - 0.1243) 		[84'] No event this minute.
+[67'] Goal home. (0.4823 - 0.0171) 		[85'] Goal home.
+[68'] No event this minute. (0.0247 - 0.0034) 		[85'] Free kick home.
+[69'] Offside home. (0.0039 - 0.0025) 		[86'] No event this minute.
+[70'] Foul away. (0.0180 - 0.0053) 		[87'] Foul away.
+[71'] Substitution away. (0.0081 - 0.0057) 		[87'] Shot home.
+[71'] Shot home. (0.0279 - 0.0071) 		[87'] Foul away.
+[71'] Free kick home. (0.0091 - 0.0068) 		[87'] Free kick home.
+[72'] Offside home. (0.0107 - 0.0203) 		[88'] No event this minute.
+[72'] Free kick away. (0.0121 - 0.0235) 		[89'] Foul away.
+[72'] Free kick home. (0.0013 - 0.0049) 		[89'] Foul home.
+[72'] Free kick away. (0.0012 - 0.0074) 		[89'] Free kick away.
+[73'] Free kick home. (0.0026 - 0.0085) 		[89'] Free kick home.
+[73'] Offside away. (0.0159 - 0.0157) 		[89'] Foul home.
+[74'] Offside home. (0.0049 - 0.0033) 		[90'] Shot home.
+[75'] Offside away. (0.0155 - 0.0130) 		[90'] Corner home.
+[76'] Free kick away. (0.0118 - 0.0248) 		[90'] Shot home.
+[77'] Shot home. (0.0132 - 0.0212) 		[90'] Goal home.
+[78'] Corner home. (0.0096 - 0.0128) 		[90'] Free kick home.
+[79'] Yellow card away. (0.0135 - 0.0035) 		[90'] Foul away.
+[80'] Shot home. (0.0091 - 0.0034) 		[90'] Free kick away.
+[80'] Goal away. (0.0119 - 0.0125) 		[90'] Yellow card away.
+[81'] Free kick home. (0.0016 - 0.0024) 		[90'] Yellow card away.
+
+Predicted score: 1 - 1 (2.02 - 1.18), real one was 2 - 1
+
+Predicted: shot home = 11, shot away = 4
+Real: shot home = 7, shot away = 8
+
+Predicted: corner home = 6, corner away = 5
+Real: corner home = 4, corner away = 2
+
+Predicted: foul by home = 7, foul by away = 10
+Real: foul by home = 14, foul by away = 12
+
+
+New game: Mainz -VS- VfL Wolfsburg
+--------------------
+
+[1'] Shot away. (0.0071 - 0.0023) 		[1'] No event this minute.
+[1'] Foul home. (0.0008 - 0.0023) 		[2'] Free kick home.
+[2'] Foul away. (0.0013 - 0.0015) 		[2'] Foul home.
+[3'] Foul away. (0.0002 - 0.0001) 		[2'] Foul away.
+[3'] Free kick away. (0.0001 - 0.0001) 		[2'] Free kick away.
+[3'] No event this minute. (0.0007 - 0.0019) 		[3'] Foul home.
+[4'] Free kick away. (0.0008 - 0.0003) 		[3'] Free kick away.
+[4'] Shot away. (0.0069 - 0.0114) 		[4'] No event this minute.
+[4'] Free kick home. (0.0084 - 0.0078) 		[5'] Shot home.
+[5'] Shot home. (0.0161 - 0.0056) 		[6'] No event this minute.
+[6'] Foul home. (0.0079 - 0.0061) 		[7'] Free kick home.
+[7'] Foul away. (0.0036 - 0.0038) 		[7'] Foul away.
+[7'] No event this minute. (0.0133 - 0.0049) 		[8'] Shot away.
+[7'] Shot home. (0.0038 - 0.0201) 		[9'] No event this minute.
+[7'] No event this minute. (0.0071 - 0.0123) 		[10'] No event this minute.
+[8'] No event this minute. (0.0080 - 0.0092) 		[11'] No event this minute.
+[9'] No event this minute. (0.0081 - 0.0086) 		[12'] Shot home.
+[10'] Free kick home. (0.0188 - 0.0062) 		[12'] Corner home.
+[11'] Shot home. (0.0204 - 0.0047) 		[12'] Shot home.
+[11'] Corner home. (0.0157 - 0.0106) 		[13'] Shot away.
+[12'] No event this minute. (0.0055 - 0.0220) 		[14'] Free kick home.
+[13'] Foul away. (0.0042 - 0.0035) 		[14'] Foul away.
+[14'] Corner home. (0.0129 - 0.0042) 		[15'] No event this minute.
+[14'] Free kick home. (0.0083 - 0.0068) 		[16'] Shot away.
+[14'] Corner away. (0.0048 - 0.0163) 		[17'] No event this minute.
+[14'] Free kick home. (0.0071 - 0.0123) 		[18'] Foul home.
+[14'] Free kick away. (0.0006 - 0.0016) 		[18'] Free kick away.
+[15'] Free kick away. (0.0030 - 0.0542) 		[18'] Shot away.
+[16'] Free kick home. (0.0059 - 0.0553) 		[19'] No event this minute.
+[17'] Free kick home. (0.0068 - 0.0199) 		[20'] Free kick home.
+[18'] Foul home. (0.0027 - 0.0046) 		[20'] Shot home.
+[19'] Foul away. (0.0030 - 0.0017) 		[20'] Foul away.
+[20'] Yellow card away. (0.0075 - 0.0055) 		[21'] Yellow card away.
+[21'] Free kick home. (0.0100 - 0.0027) 		[22'] Shot home.
+[22'] Corner home. (0.0164 - 0.0045) 		[23'] No event this minute.
+[23'] Foul home. (0.0093 - 0.0046) 		[24'] Shot away.
+[23'] Shot home. (0.0062 - 0.0136) 		[25'] No event this minute.
+[24'] Shot home. (0.0081 - 0.0113) 		[26'] Free kick home.
+[24'] Foul away. (0.0032 - 0.0044) 		[26'] Foul away.
+[25'] Foul home. (0.0139 - 0.0050) 		[27'] Shot home.
+[26'] No event this minute. (0.0159 - 0.0076) 		[28'] Corner away.
+[27'] Free kick home. (0.0032 - 0.0194) 		[29'] Foul home.
+[27'] Free kick away. (0.0020 - 0.0035) 		[29'] Free kick away.
+[27'] Shot home. (0.0037 - 0.0541) 		[29'] Hand ball away.
+[27'] Shot home. (0.0155 - 0.0211) 		[30'] No event this minute.
+[27'] No event this minute. (0.0084 - 0.0068) 		[31'] Foul home.
+[28'] Free kick away. (0.0005 - 0.0004) 		[31'] Free kick home.
+[29'] Free kick away. (0.0001 - 0.0092) 		[31'] Free kick away.
+[30'] Foul away. (0.0011 - 0.0020) 		[31'] Foul away.
+[30'] Shot home. (0.0112 - 0.0052) 		[32'] No event this minute.
+[31'] No event this minute. (0.0069 - 0.0067) 		[33'] Shot home.
+[31'] Corner home. (0.0190 - 0.0039) 		[34'] Corner away.
+[31'] Free kick home. (0.0036 - 0.0161) 		[35'] No event this minute.
+[32'] Shot home. (0.0088 - 0.0139) 		[36'] No event this minute.
+[33'] Free kick home. (0.0083 - 0.0072) 		[37'] Foul home.
+[34'] Shot away. (0.0007 - 0.0014) 		[37'] Free kick away.
+[35'] No event this minute. (0.0035 - 0.0476) 		[38'] Free kick home.
+[35'] Foul away. (0.0026 - 0.0073) 		[38'] Foul away.
+[36'] No event this minute. (0.0116 - 0.0066) 		[39'] Shot away.
+[37'] Shot away. (0.0041 - 0.0222) 		[40'] No event this minute.
+[38'] No event this minute. (0.0084 - 0.0114) 		[41'] Foul home.
+[38'] Free kick away. (0.0006 - 0.0011) 		[41'] Free kick away.
+[38'] Goal away. (0.0032 - 0.0461) 		[42'] Corner away.
+[39'] Free kick home. (0.0041 - 0.0288) 		[43'] No event this minute.
+[40'] Shot home. (0.0056 - 0.0126) 		[44'] No event this minute.
+[41'] Shot home. (0.0093 - 0.0078) 		[45'] Substitution away.
+[42'] No event this minute. (0.0094 - 0.0086) 		[45'] Foul away.
+[42'] Free kick home. (0.0042 - 0.0010) 		[45'] Foul away.
+[43'] Free kick home. (0.0016 - 0.0003) 		[45'] Substitution home.
+[44'] Free kick home. (0.0012 - 0.0007) 		[45'] Free kick home.
+[44'] No event this minute. (0.0024 - 0.0032) 		[45'] Shot home.
+[45'] Free kick home. (0.0051 - 0.0011) 		[45'] Free kick home.
+[46'] Foul home. (0.0078 - 0.0114) 		[46'] Free kick home.
+[47'] Foul home. (0.0117 - 0.0091) 		[46'] Substitution away.
+[48'] Foul away. (0.0142 - 0.0026) 		[46'] Foul away.
+[49'] No event this minute. (0.0159 - 0.0025) 		[47'] Offside home.
+[50'] Offside home. (0.0048 - 0.0115) 		[48'] Shot home.
+[51'] Foul home. (0.0203 - 0.0041) 		[49'] Shot home.
+[52'] Shot away. (0.0234 - 0.0028) 		[49'] Free kick home.
+[53'] Foul away. (0.0059 - 0.0020) 		[50'] No event this minute.
+[54'] Free kick home. (0.0088 - 0.0051) 		[51'] No event this minute.
+[55'] No event this minute. (0.0080 - 0.0052) 		[52'] No event this minute.
+[56'] No event this minute. (0.0078 - 0.0074) 		[53'] Foul away.
+[56'] Free kick home. (0.0017 - 0.0025) 		[54'] No event this minute.
+[57'] No event this minute. (0.0082 - 0.0100) 		[55'] No event this minute.
+[58'] No event this minute. (0.0065 - 0.0123) 		[56'] No event this minute.
+[58'] No event this minute. (0.0076 - 0.0117) 		[57'] No event this minute.
+[59'] Substitution home. (0.0081 - 0.0102) 		[58'] No event this minute.
+[60'] Shot away. (0.0085 - 0.0093) 		[59'] No event this minute.
+[61'] No event this minute. (0.0093 - 0.0089) 		[60'] No event this minute.
+[62'] No event this minute. (0.0095 - 0.0087) 		[61'] Shot away.
+[63'] Free kick home. (0.0057 - 0.0208) 		[61'] Shot home.
+[64'] Corner home. (0.0166 - 0.0080) 		[61'] Free kick home.
+[64'] Foul away. (0.0059 - 0.0077) 		[62'] No event this minute.
+[65'] No event this minute. (0.0086 - 0.0066) 		[63'] Foul home.
+[66'] Free kick away. (0.0015 - 0.0008) 		[63'] Foul away.
+[67'] Free kick away. (0.0002 - 0.0017) 		[64'] Free kick away.
+[67'] Foul home. (0.0046 - 0.0051) 		[64'] Shot away.
+[68'] No event this minute. (0.0023 - 0.0092) 		[65'] Corner away.
+[69'] Offside away. (0.0049 - 0.0352) 		[66'] No event this minute.
+[70'] No event this minute. (0.0053 - 0.0115) 		[67'] Shot away.
+[71'] Shot home. (0.0060 - 0.0211) 		[67'] Foul away.
+[72'] Free kick home. (0.0012 - 0.0030) 		[68'] Free kick home.
+[72'] Corner home. (0.0109 - 0.0056) 		[69'] No event this minute.
+[73'] Substitution home. (0.0095 - 0.0071) 		[70'] Shot home.
+[74'] Foul away. (0.0202 - 0.0057) 		[70'] Foul away.
+[74'] Free kick home. (0.0086 - 0.0033) 		[70'] Substitution home.
+[75'] Free kick home. (0.0064 - 0.0051) 		[71'] Free kick home.
+[75'] Foul home. (0.0102 - 0.0264) 		[71'] Foul away.
+[76'] Yellow card away. (0.0206 - 0.0039) 		[72'] No event this minute.
+[77'] Corner home. (0.0133 - 0.0072) 		[73'] Corner home.
+[77'] Shot home. (0.0250 - 0.0048) 		[73'] Foul away.
+[77'] Free kick home. (0.0021 - 0.0011) 		[74'] No event this minute.
+[78'] Free kick home. (0.0053 - 0.0061) 		[75'] Free kick home.
+[79'] Foul away. (0.0083 - 0.0171) 		[76'] No event this minute.
+[80'] Foul home. (0.0089 - 0.0095) 		[77'] Shot home.
+[81'] Shot away. (0.0236 - 0.0051) 		[78'] Shot home.
+[82'] Shot home. (0.0268 - 0.0036) 		[78'] Corner away.
+[82'] Shot away. (0.0116 - 0.0299) 		[78'] Shot away.
+[82'] Goal away. (0.0098 - 0.0323) 		[79'] No event this minute.
+[83'] Offside home. (0.0094 - 0.0141) 		[80'] No event this minute.
+[84'] No event this minute. (0.0094 - 0.0121) 		[81'] No event this minute.
+[85'] Offside away. (0.0117 - 0.0097) 		[82'] Corner away.
+[86'] Shot home. (0.0056 - 0.0307) 		[82'] Corner home.
+[87'] Shot home. (0.0262 - 0.0131) 		[83'] Substitution home.
+[88'] Free kick away. (0.0079 - 0.0200) 		[83'] Shot home.
+[89'] Shot home. (0.0273 - 0.0138) 		[84'] Free kick home.
+[90'] Foul away. (0.0070 - 0.0064) 		[84'] Free kick home.
+[91'] Foul away. (0.0053 - 0.0005) 		[84'] Foul away.
+[92'] Foul away. (0.0010 - 0.0018) 		[84'] Foul away.
+[93'] Foul away. (0.0046 - 0.0033) 		[85'] Foul home.
+[94'] Free kick away. (0.0018 - 0.0016) 		[85'] Free kick away.
+[95'] Free kick home. (0.0082 - 0.0169) 		[86'] No event this minute.
+[96'] Corner home. (0.0167 - 0.0089) 		[87'] Shot away.
+[97'] No event this minute. (0.0096 - 0.0294) 		[88'] Offside away.
+[98'] Shot away. (0.0089 - 0.0099) 		[89'] Foul home.
+[98'] Foul away. (0.0007 - 0.0020) 		[89'] Free kick away.
+[99'] Substitution away. (0.0035 - 0.0507) 		[90'] Free kick home.
+[99'] No event this minute. (0.0052 - 0.0086) 		[90'] Foul away.
+
+Predicted score: 0 - 2 (1.12 - 1.45), real one was 0 - 0
+
+Predicted: shot home = 17, shot away = 9
+Real: shot home = 15, shot away = 11
+
+Predicted: corner home = 8, corner away = 1
+Real: corner home = 3, corner away = 6
+
+Predicted: foul by home = 11, foul by away = 18
+Real: foul by home = 10, foul by away = 19
+
+
+New game: Valenciennes -VS- St Etienne
+--------------------
+
+[1'] No event this minute. (0.0069 - 0.0093) 		[1'] No event this minute.
+[2'] Free kick home. (0.0019 - 0.0024) 		[2'] No event this minute.
+[3'] Foul away. (0.0046 - 0.0093) 		[3'] Free kick away.
+[4'] Foul home. (0.0007 - 0.0014) 		[3'] Foul home.
+[5'] Foul home. (0.0063 - 0.0121) 		[4'] Red card home.
+[6'] Free kick away. (0.0067 - 0.0190) 		[5'] No event this minute.
+[7'] Corner away. (0.0042 - 0.0131) 		[6'] Substitution away.
+[8'] Free kick home. (0.0044 - 0.0080) 		[7'] No event this minute.
+[9'] Goal away. (0.0044 - 0.0118) 		[8'] No event this minute.
+[9'] Shot home. (0.0050 - 0.0104) 		[9'] Shot away.
+[10'] No event this minute. (0.0066 - 0.0169) 		[10'] Free kick away.
+[11'] Foul home. (0.0006 - 0.0017) 		[10'] Foul home.
+[12'] No event this minute. (0.0062 - 0.0150) 		[10'] Foul away.
+[12'] Free kick home. (0.0008 - 0.0001) 		[10'] Free kick home.
+[13'] Yellow card home. (0.0046 - 0.0030) 		[11'] No event this minute.
+[13'] Goal home. (0.0070 - 0.0059) 		[12'] Free kick home.
+[14'] Foul away. (0.0012 - 0.0007) 		[12'] Foul away.
+[15'] No event this minute. (0.0079 - 0.0045) 		[13'] No event this minute.
+[16'] Free kick home. (0.0057 - 0.0124) 		[14'] Foul away.
+[16'] Free kick home. (0.0003 - 0.0002) 		[14'] Free kick home.
+[17'] Foul away. (0.0078 - 0.0056) 		[14'] Free kick away.
+[17'] Foul home. (0.0007 - 0.0014) 		[14'] Foul home.
+[18'] Shot away. (0.0075 - 0.0134) 		[15'] Free kick away.
+[19'] Foul home. (0.0004 - 0.0012) 		[15'] Foul home.
+[20'] Shot away. (0.0059 - 0.0139) 		[16'] No event this minute.
+[20'] Goal away. (0.0067 - 0.0119) 		[17'] No event this minute.
+[21'] No event this minute. (0.0057 - 0.0126) 		[18'] Hand ball away.
+[22'] Foul home. (0.0125 - 0.0048) 		[19'] No event this minute.
+[22'] Offside away. (0.0064 - 0.0101) 		[20'] No event this minute.
+[23'] No event this minute. (0.0060 - 0.0117) 		[21'] No event this minute.
+[23'] Foul home. (0.0064 - 0.0122) 		[22'] Shot away.
+[24'] Foul away. (0.0076 - 0.0207) 		[23'] Foul away.
+[24'] Free kick home. (0.0002 - 0.0001) 		[23'] Free kick home.
+[25'] Corner home. (0.0090 - 0.0054) 		[24'] No event this minute.
+[26'] No event this minute. (0.0077 - 0.0079) 		[25'] No event this minute.
+[27'] Shot away. (0.0061 - 0.0130) 		[26'] Shot home.
+[27'] Corner home. (0.0132 - 0.0075) 		[26'] Corner home.
+[28'] Corner home. (0.0199 - 0.0064) 		[27'] No event this minute.
+[29'] No event this minute. (0.0110 - 0.0081) 		[28'] Shot home.
+[29'] No event this minute. (0.0131 - 0.0058) 		[29'] No event this minute.
+[30'] Corner away. (0.0087 - 0.0087) 		[30'] Free kick home.
+[30'] Foul away. (0.0016 - 0.0014) 		[30'] Foul away.
+[31'] Free kick away. (0.0096 - 0.0054) 		[31'] No event this minute.
+[32'] No event this minute. (0.0072 - 0.0146) 		[32'] Foul home.
+[33'] Free kick away. (0.0001 - 0.0002) 		[32'] Free kick away.
+[34'] Foul away. (0.0037 - 0.0182) 		[33'] Foul away.
+[35'] Free kick home. (0.0004 - 0.0001) 		[33'] Red card away.
+[36'] Free kick home. (0.0017 - 0.0014) 		[33'] Free kick home.
+[36'] No event this minute. (0.0011 - 0.0010) 		[33'] Shot away.
+[37'] Shot home. (0.0057 - 0.0127) 		[34'] No event this minute.
+[38'] No event this minute. (0.0048 - 0.0126) 		[35'] Shot home.
+[39'] Shot home. (0.0083 - 0.0049) 		[35'] Shot home.
+[39'] Offside away. (0.0090 - 0.0051) 		[36'] No event this minute.
+[39'] Foul away. (0.0075 - 0.0043) 		[37'] Shot home.
+[40'] Free kick away. (0.0124 - 0.0036) 		[37'] Offside home.
+[41'] Foul away. (0.0056 - 0.0081) 		[38'] No event this minute.
+[42'] Substitution away. (0.0103 - 0.0074) 		[39'] Corner away.
+[42'] No event this minute. (0.0056 - 0.0330) 		[39'] Substitution away.
+[43'] No event this minute. (0.0074 - 0.0146) 		[39'] Free kick home.
+[44'] Foul away. (0.0014 - 0.0014) 		[39'] Foul away.
+[44'] Shot home. (0.0064 - 0.0050) 		[40'] No event this minute.
+[45'] No event this minute. (0.0070 - 0.0096) 		[41'] No event this minute.
+[46'] No event this minute. (0.0045 - 0.0130) 		[42'] No event this minute.
+[47'] Foul away. (0.0067 - 0.0124) 		[43'] No event this minute.
+[48'] No event this minute. (0.0069 - 0.0122) 		[44'] No event this minute.
+[49'] Free kick away. (0.0073 - 0.0117) 		[45'] Foul away.
+[50'] Free kick home. (0.0005 - 0.0001) 		[45'] Free kick home.
+[51'] Offside home. (0.0103 - 0.0075) 		[45'] Shot home.
+[51'] Free kick home. (0.0141 - 0.0061) 		[45'] Shot home.
+[52'] Goal home. (0.0145 - 0.0065) 		[45'] Offside away.
+[53'] Free kick home. (0.0118 - 0.0070) 		[46'] No event this minute.
+[54'] Free kick away. (0.0080 - 0.0088) 		[47'] Corner home.
+[55'] No event this minute. (0.0205 - 0.0054) 		[48'] Foul home.
+[56'] Free kick away. (0.0001 - 0.0002) 		[48'] Free kick away.
+[57'] Corner home. (0.0060 - 0.0189) 		[49'] No event this minute.
+[57'] Free kick away. (0.0053 - 0.0116) 		[50'] Corner home.
+[58'] Shot home. (0.0261 - 0.0055) 		[51'] Hand ball home.
+[58'] No event this minute. (0.0043 - 0.0345) 		[52'] No event this minute.
+[59'] Free kick away. (0.0082 - 0.0152) 		[53'] No event this minute.
+[59'] No event this minute. (0.0078 - 0.0113) 		[54'] Offside home.
+[59'] No event this minute. (0.0051 - 0.0121) 		[55'] No event this minute.
+[60'] No event this minute. (0.0103 - 0.0099) 		[56'] No event this minute.
+[61'] No event this minute. (0.0077 - 0.0100) 		[57'] No event this minute.
+[61'] Foul home. (0.0069 - 0.0115) 		[58'] No event this minute.
+[61'] Free kick away. (0.0068 - 0.0109) 		[59'] No event this minute.
+[62'] Shot home. (0.0067 - 0.0104) 		[60'] Shot home.
+[63'] Substitution home. (0.0104 - 0.0053) 		[61'] No event this minute.
+[64'] Foul home. (0.0082 - 0.0080) 		[62'] Corner home.
+[64'] Shot home. (0.0126 - 0.0039) 		[63'] Free kick away.
+[65'] Foul home. (0.0028 - 0.0011) 		[63'] Foul home.
+[65'] Free kick away. (0.0053 - 0.0154) 		[64'] No event this minute.
+[65'] Substitution home. (0.0058 - 0.0084) 		[65'] Shot home.
+[65'] Foul home. (0.0104 - 0.0036) 		[66'] Free kick home.
+[66'] Foul away. (0.0014 - 0.0005) 		[66'] Foul away.
+[66'] Free kick away. (0.0090 - 0.0034) 		[67'] Free kick home.
+[66'] Foul away. (0.0014 - 0.0013) 		[67'] Foul away.
+[66'] Shot away. (0.0093 - 0.0027) 		[68'] Substitution away.
+[67'] No event this minute. (0.0111 - 0.0052) 		[69'] Goal home.
+[68'] Foul home. (0.0024 - 0.0116) 		[70'] No event this minute.
+[69'] Shot home. (0.0052 - 0.0126) 		[71'] Shot home.
+[70'] Foul away. (0.0151 - 0.0085) 		[72'] Substitution home.
+[71'] Offside home. (0.0101 - 0.0149) 		[73'] Goal away.
+[71'] Substitution home. (0.0041 - 0.0037) 		[73'] Substitution home.
+[72'] Hand ball home. (0.0016 - 0.0019) 		[74'] No event this minute.
+[73'] Free kick away. (0.0069 - 0.0126) 		[75'] No event this minute.
+[74'] No event this minute. (0.0076 - 0.0123) 		[76'] No event this minute.
+[75'] Free kick home. (0.0096 - 0.0089) 		[77'] Goal away.
+[75'] No event this minute. (0.0051 - 0.0036) 		[77'] Shot away.
+[75'] Foul away. (0.0056 - 0.0215) 		[78'] No event this minute.
+[76'] Substitution home. (0.0056 - 0.0146) 		[79'] Shot home.
+[77'] Substitution home. (0.0160 - 0.0061) 		[80'] No event this minute.
+[78'] Foul home. (0.0088 - 0.0078) 		[81'] Shot home.
+[79'] No event this minute. (0.0197 - 0.0060) 		[82'] Shot away.
+[79'] Foul away. (0.0056 - 0.0231) 		[83'] Corner home.
+[80'] Substitution home. (0.0209 - 0.0097) 		[83'] Substitution home.
+[81'] Shot away. (0.0156 - 0.0171) 		[84'] Free kick home.
+[82'] Foul away. (0.0037 - 0.0198) 		[84'] Foul away.
+[83'] Shot home. (0.0158 - 0.0057) 		[85'] Shot home.
+[83'] Shot away. (0.0279 - 0.0110) 		[85'] Corner home.
+[84'] Shot home. (0.0455 - 0.0173) 		[86'] No event this minute.
+[85'] Shot away. (0.0300 - 0.0150) 		[87'] Corner home.
+[86'] Shot home. (0.0273 - 0.0210) 		[87'] Foul away.
+[86'] Free kick home. (0.0046 - 0.0078) 		[87'] Free kick home.
+[86'] Corner home. (0.0183 - 0.0244) 		[88'] Shot home.
+[87'] Goal home. (0.0308 - 0.0134) 		[89'] Foul home.
+[87'] Free kick away. (0.0026 - 0.0054) 		[89'] Free kick away.
+[87'] Offside away. (0.0167 - 0.0254) 		[90'] Shot home.
+[87'] Corner away. (0.0353 - 0.0056) 		[90'] Shot away.
+[88'] Shot home. (0.0304 - 0.0379) 		[90'] Shot home.
+[89'] Free kick away. (0.0508 - 0.0192) 		[90'] Shot away.
+[89'] Corner home. (0.0300 - 0.0404) 		[90'] Foul home.
+[90'] Free kick away. (0.0052 - 0.0068) 		[90'] Free kick away.
+[90'] Offside away. (0.0069 - 0.0331) 		[90'] Yellow card home.
+
+Predicted score: 3 - 2 (1.21 - 1.32), real one was 1 - 2
+
+Predicted: shot home = 12, shot away = 7
+Real: shot home = 16, shot away = 7
+
+Predicted: corner home = 6, corner away = 3
+Real: corner home = 7, corner away = 1
+
+Predicted: foul by home = 13, foul by away = 16
+Real: foul by home = 9, foul by away = 12
+
+
+New game: Bayer Leverkusen -VS- Werder Bremen
+--------------------
+
+[0'] Offside home. (0.0110 - 0.0024) 		[1'] No event this minute.
+[1'] Foul home. (0.0046 - 0.0058) 		[2'] No event this minute.
+[2'] Foul home. (0.0077 - 0.0087) 		[3'] No event this minute.
+[3'] No event this minute. (0.0077 - 0.0029) 		[4'] Foul home.
+[4'] Free kick away. (0.0007 - 0.0004) 		[4'] Free kick away.
+[5'] No event this minute. (0.0087 - 0.0077) 		[5'] No event this minute.
+[5'] No event this minute. (0.0100 - 0.0041) 		[6'] Offside home.
+[5'] No event this minute. (0.0064 - 0.0074) 		[7'] Corner away.
+[6'] Free kick home. (0.0067 - 0.0172) 		[8'] Shot away.
+[6'] Free kick home. (0.0083 - 0.0145) 		[9'] Shot away.
+[7'] No event this minute. (0.0091 - 0.0165) 		[9'] Corner away.
+[8'] Shot home. (0.0057 - 0.0285) 		[10'] Hand ball away.
+[9'] Free kick away. (0.0123 - 0.0153) 		[11'] No event this minute.
+[9'] Foul home. (0.0083 - 0.0107) 		[12'] No event this minute.
+[10'] Shot home. (0.0079 - 0.0064) 		[13'] No event this minute.
+[11'] No event this minute. (0.0114 - 0.0061) 		[14'] Foul home.
+[11'] Corner home. (0.0015 - 0.0017) 		[14'] Hand ball away.
+[12'] Free kick away. (0.0025 - 0.0014) 		[14'] Free kick away.
+[13'] Foul home. (0.0038 - 0.0144) 		[15'] Foul home.
+[14'] Free kick away. (0.0028 - 0.0017) 		[15'] Free kick away.
+[15'] No event this minute. (0.0078 - 0.0159) 		[16'] Offside home.
+[16'] No event this minute. (0.0029 - 0.0226) 		[17'] No event this minute.
+[17'] Free kick home. (0.0093 - 0.0054) 		[18'] No event this minute.
+[18'] Foul home. (0.0121 - 0.0043) 		[19'] Free kick away.
+[19'] Foul home. (0.0029 - 0.0027) 		[19'] Foul home.
+[20'] Shot away. (0.0087 - 0.0143) 		[20'] Foul home.
+[20'] Free kick away. (0.0014 - 0.0025) 		[20'] Yellow card home.
+[21'] Free kick away. (0.0010 - 0.0011) 		[20'] Free kick away.
+[22'] No event this minute. (0.0024 - 0.0183) 		[21'] Corner away.
+[23'] Shot away. (0.0065 - 0.0289) 		[22'] Foul home.
+[24'] Free kick away. (0.0012 - 0.0029) 		[22'] Free kick away.
+[25'] No event this minute. (0.0032 - 0.0208) 		[23'] No event this minute.
+[26'] No event this minute. (0.0042 - 0.0175) 		[24'] No event this minute.
+[27'] No event this minute. (0.0078 - 0.0063) 		[25'] No event this minute.
+[28'] Offside home. (0.0111 - 0.0042) 		[26'] No event this minute.
+[28'] Goal home. (0.0117 - 0.0044) 		[27'] Corner home.
+[29'] Shot home. (0.0204 - 0.0020) 		[28'] No event this minute.
+[30'] No event this minute. (0.0127 - 0.0042) 		[29'] No event this minute.
+[31'] Foul home. (0.0118 - 0.0041) 		[30'] Free kick home.
+[31'] Foul away. (0.0069 - 0.0021) 		[30'] Foul away.
+[32'] Goal home. (0.0176 - 0.0039) 		[31'] Foul home.
+[32'] Free kick away. (0.0011 - 0.0006) 		[31'] Free kick away.
+[32'] Free kick home. (0.0072 - 0.0152) 		[32'] Penalty conceded home.
+[32'] Goal away. (0.0887 - 0.4734) 		[33'] Yellow card away.
+[32'] Goal away. (0.2978 - 0.1981) 		[34'] No event this minute.
+[33'] Shot home. (0.3981 - 0.0457) 		[35'] Goal home.
+[34'] No event this minute. (0.0148 - 0.0020) 		[36'] Offside home.
+[35'] No event this minute. (0.0026 - 0.0074) 		[37'] Foul home.
+[36'] Yellow card home. (0.0014 - 0.0012) 		[37'] Foul home.
+[36'] Free kick away. (0.0005 - 0.0006) 		[37'] Free kick away.
+[37'] Free kick away. (0.0013 - 0.0009) 		[37'] Free kick away.
+[38'] Free kick home. (0.0033 - 0.0078) 		[38'] No event this minute.
+[38'] No event this minute. (0.0067 - 0.0059) 		[39'] No event this minute.
+[38'] Free kick home. (0.0074 - 0.0035) 		[40'] Free kick home.
+[38'] Foul away. (0.0059 - 0.0020) 		[40'] Foul home.
+[38'] Foul away. (0.0026 - 0.0006) 		[40'] Foul away.
+[39'] Free kick away. (0.0009 - 0.0006) 		[40'] Free kick away.
+[39'] No event this minute. (0.0020 - 0.0071) 		[41'] Foul home.
+[40'] Foul home. (0.0014 - 0.0008) 		[41'] Free kick away.
+[40'] Shot away. (0.0048 - 0.0097) 		[42'] Shot away.
+[40'] Foul home. (0.0058 - 0.0185) 		[42'] Corner away.
+[40'] Free kick home. (0.0042 - 0.0193) 		[43'] Hand ball away.
+[41'] Free kick home. (0.0220 - 0.0055) 		[44'] Corner home.
+[41'] Free kick home. (0.0213 - 0.0036) 		[45'] Shot away.
+[42'] Substitution away. (0.0098 - 0.0156) 		[45'] Foul home.
+[42'] Free kick away. (0.0015 - 0.0016) 		[45'] Free kick away.
+[43'] No event this minute. (0.0035 - 0.0067) 		[46'] Free kick home.
+[44'] Shot away. (0.0034 - 0.0034) 		[46'] Foul away.
+[45'] Corner home. (0.0129 - 0.0037) 		[47'] Corner home.
+[46'] Shot home. (0.0283 - 0.0025) 		[48'] No event this minute.
+[47'] Foul home. (0.0149 - 0.0031) 		[49'] Shot home.
+[47'] Corner home. (0.0186 - 0.0021) 		[49'] Corner home.
+[48'] No event this minute. (0.0395 - 0.0019) 		[50'] No event this minute.
+[49'] No event this minute. (0.0159 - 0.0038) 		[51'] Free kick home.
+[50'] Foul away. (0.0067 - 0.0016) 		[51'] Foul away.
+[51'] No event this minute. (0.0178 - 0.0031) 		[51'] Yellow card away.
+[52'] Foul home. (0.0190 - 0.0027) 		[52'] Shot home.
+[53'] No event this minute. (0.0214 - 0.0037) 		[53'] Free kick home.
+[53'] Foul away. (0.0060 - 0.0008) 		[53'] Foul away.
+[53'] Shot home. (0.0200 - 0.0024) 		[54'] Foul away.
+[54'] Free kick home. (0.0041 - 0.0008) 		[54'] Free kick away.
+[54'] Free kick home. (0.0039 - 0.0013) 		[54'] Free kick home.
+[55'] Substitution away. (0.0048 - 0.0009) 		[54'] Foul home.
+[56'] Offside home. (0.0074 - 0.0050) 		[55'] Foul home.
+[57'] No event this minute. (0.0021 - 0.0026) 		[55'] Free kick away.
+[58'] No event this minute. (0.0046 - 0.0123) 		[56'] No event this minute.
+[59'] Foul home. (0.0084 - 0.0048) 		[57'] No event this minute.
+[59'] Foul away. (0.0131 - 0.0038) 		[58'] No event this minute.
+[60'] Foul home. (0.0129 - 0.0037) 		[59'] Free kick home.
+[61'] Foul away. (0.0052 - 0.0017) 		[59'] Foul away.
+[61'] Offside home. (0.0156 - 0.0037) 		[60'] Shot home.
+[62'] Shot home. (0.0154 - 0.0036) 		[61'] Free kick home.
+[62'] Foul away. (0.0056 - 0.0008) 		[61'] Foul away.
+[62'] No event this minute. (0.0172 - 0.0025) 		[62'] No event this minute.
+[63'] No event this minute. (0.0149 - 0.0052) 		[63'] Foul home.
+[63'] Shot home. (0.0015 - 0.0006) 		[63'] Free kick away.
+[64'] Goal away. (0.0054 - 0.0127) 		[64'] Corner home.
+[65'] Shot home. (0.0221 - 0.0037) 		[65'] Substitution home.
+[66'] Substitution home. (0.0108 - 0.0064) 		[66'] Shot away.
+[67'] Corner away. (0.0117 - 0.0147) 		[67'] Free kick away.
+[68'] No event this minute. (0.0043 - 0.0021) 		[67'] Foul home.
+[68'] Offside away. (0.0137 - 0.0063) 		[68'] Substitution away.
+[69'] Foul away. (0.0050 - 0.0026) 		[69'] Shot away.
+[70'] Shot home. (0.0114 - 0.0146) 		[70'] Foul home.
+[71'] Substitution home. (0.0025 - 0.0012) 		[70'] Free kick away.
+[71'] Offside away. (0.0053 - 0.0147) 		[71'] Offside away.
+[72'] Foul away. (0.0130 - 0.0083) 		[72'] Free kick home.
+[73'] Foul away. (0.0032 - 0.0026) 		[72'] Foul away.
+[74'] Corner home. (0.0159 - 0.0044) 		[73'] No event this minute.
+[74'] No event this minute. (0.0148 - 0.0061) 		[74'] No event this minute.
+[75'] No event this minute. (0.0168 - 0.0050) 		[75'] Offside home.
+[76'] Free kick away. (0.0100 - 0.0050) 		[75'] Substitution away.
+[77'] Shot away. (0.0132 - 0.0096) 		[76'] No event this minute.
+[78'] Shot away. (0.0166 - 0.0065) 		[77'] Free kick away.
+[78'] Foul home. (0.0024 - 0.0014) 		[77'] Free kick home.
+[79'] Foul home. (0.0017 - 0.0029) 		[77'] Foul home.
+[79'] Foul away. (0.0076 - 0.0023) 		[77'] Foul away.
+[80'] Yellow card away. (0.0154 - 0.0028) 		[78'] Free kick away.
+[80'] Shot home. (0.0059 - 0.0032) 		[78'] Foul home.
+[81'] Foul away. (0.0095 - 0.0049) 		[78'] Offside home.
+[82'] Substitution home. (0.0100 - 0.0063) 		[79'] No event this minute.
+[83'] Free kick home. (0.0125 - 0.0075) 		[80'] Corner home.
+[84'] Substitution home. (0.0258 - 0.0040) 		[80'] Shot home.
+[84'] Foul away. (0.0363 - 0.0067) 		[81'] Free kick home.
+[84'] Substitution home. (0.0044 - 0.0045) 		[81'] Shot home.
+[85'] Foul away. (0.0065 - 0.0027) 		[81'] Foul away.
+[85'] Shot home. (0.0146 - 0.0031) 		[82'] Offside home.
+[85'] Shot home. (0.0098 - 0.0106) 		[82'] Shot away.
+[86'] Corner home. (0.0160 - 0.0186) 		[83'] Foul home.
+[87'] Yellow card home. (0.0028 - 0.0023) 		[83'] Free kick away.
+[88'] Free kick home. (0.0046 - 0.0153) 		[84'] Free kick home.
+[89'] Foul away. (0.0023 - 0.0070) 		[84'] Shot away.
+[89'] Foul away. (0.0023 - 0.0011) 		[84'] Foul away.
+[90'] Shot away. (0.0151 - 0.0048) 		[85'] Shot home.
+[90'] Corner home. (0.0181 - 0.0040) 		[85'] Corner home.
+[91'] Shot home. (0.0566 - 0.0037) 		[86'] Substitution home.
+[92'] Shot home. (0.0140 - 0.0056) 		[86'] Substitution away.
+[92'] Shot away. (0.0187 - 0.0068) 		[87'] Shot away.
+[93'] Free kick home. (0.0170 - 0.0233) 		[87'] Hand ball away.
+[94'] Free kick home. (0.0251 - 0.0048) 		[88'] Corner away.
+[95'] Shot away. (0.0052 - 0.0274) 		[88'] Corner away.
+[96'] Corner away. (0.0141 - 0.0129) 		[89'] Free kick home.
+[97'] Foul away. (0.0057 - 0.0037) 		[89'] Foul home.
+[98'] Yellow card home. (0.0035 - 0.0005) 		[89'] Foul away.
+[99'] Foul away. (0.0005 - 0.0006) 		[89'] Free kick away.
+[100'] Free kick home. (0.0043 - 0.0099) 		[90'] Shot away.
+[100'] Corner away. (0.0073 - 0.0169) 		[90'] Shot home.
+[101'] Foul away. (0.0254 - 0.0063) 		[90'] Substitution home.
+[102'] Offside home. (0.0307 - 0.0147) 		[90'] Shot away.
+
+Predicted score: 2 - 3 (2.23 - 1.68), real one was 1 - 0
+
+Predicted: shot home = 15, shot away = 9
+Real: shot home = 7, shot away = 11
+
+Predicted: corner home = 6, corner away = 3
+Real: corner home = 7, corner away = 6
+
+Predicted: foul by home = 15, foul by away = 20
+Real: foul by home = 21, foul by away = 13
+
+
+New game: Paris Saint-Germain -VS- St Etienne
+--------------------
+
+[0'] No event this minute. (0.0026 - 0.0010) 		[1'] No event this minute.
+[1'] No event this minute. (0.0075 - 0.0062) 		[2'] Foul away.
+[2'] Free kick home. (0.0004 - 0.0002) 		[2'] Free kick home.
+[3'] No event this minute. (0.0142 - 0.0021) 		[3'] Offside away.
+[4'] No event this minute. (0.0066 - 0.0042) 		[4'] No event this minute.
+[5'] No event this minute. (0.0090 - 0.0056) 		[5'] No event this minute.
+[6'] Foul away. (0.0107 - 0.0041) 		[6'] Corner home.
+[6'] Foul home. (0.0265 - 0.0020) 		[6'] Shot home.
+[7'] Goal away. (0.0162 - 0.0056) 		[7'] Free kick home.
+[7'] Foul away. (0.0021 - 0.0004) 		[7'] Foul away.
+[8'] Foul home. (0.0127 - 0.0035) 		[8'] Foul away.
+[8'] No event this minute. (0.0030 - 0.0006) 		[8'] Free kick home.
+[8'] No event this minute. (0.0126 - 0.0015) 		[9'] No event this minute.
+[8'] Free kick home. (0.0097 - 0.0039) 		[10'] Foul home.
+[9'] Free kick away. (0.0001 - 0.0003) 		[10'] Free kick away.
+[9'] No event this minute. (0.0127 - 0.0173) 		[10'] Foul away.
+[10'] Free kick home. (0.0039 - 0.0002) 		[10'] Free kick home.
+[11'] No event this minute. (0.0113 - 0.0013) 		[11'] No event this minute.
+[12'] Free kick home. (0.0120 - 0.0038) 		[12'] Shot home.
+[13'] Shot home. (0.0198 - 0.0056) 		[13'] No event this minute.
+[13'] No event this minute. (0.0126 - 0.0041) 		[14'] No event this minute.
+[13'] No event this minute. (0.0109 - 0.0059) 		[15'] Offside home.
+[14'] No event this minute. (0.0121 - 0.0152) 		[15'] Shot away.
+[15'] Shot away. (0.0145 - 0.0201) 		[16'] Offside home.
+[16'] No event this minute. (0.0126 - 0.0122) 		[17'] No event this minute.
+[16'] Free kick home. (0.0119 - 0.0050) 		[18'] Offside home.
+[17'] No event this minute. (0.0104 - 0.0215) 		[19'] Foul away.
+[17'] Free kick home. (0.0023 - 0.0012) 		[19'] Free kick home.
+[18'] Corner away. (0.0099 - 0.0027) 		[20'] Corner home.
+[19'] Foul away. (0.0308 - 0.0023) 		[21'] Shot home.
+[20'] Hand ball away. (0.0298 - 0.0067) 		[21'] Shot home.
+[21'] Hand ball away. (0.0218 - 0.0072) 		[21'] Offside home.
+[21'] No event this minute. (0.0104 - 0.0044) 		[22'] Offside away.
+[22'] Offside home. (0.0137 - 0.0035) 		[23'] Goal home.
+[23'] Hand ball away. (0.0035 - 0.0028) 		[24'] No event this minute.
+[24'] No event this minute. (0.0056 - 0.0073) 		[25'] Shot away.
+[25'] Corner away. (0.0084 - 0.0133) 		[25'] Foul home.
+[25'] Free kick away. (0.0002 - 0.0004) 		[25'] Free kick away.
+[26'] Corner home. (0.0099 - 0.0143) 		[26'] Foul away.
+[26'] Free kick home. (0.0007 - 0.0001) 		[26'] Free kick home.
+[27'] Foul away. (0.0088 - 0.0008) 		[27'] Shot home.
+[28'] No event this minute. (0.0175 - 0.0044) 		[28'] Foul away.
+[28'] Free kick home. (0.0004 - 0.0001) 		[28'] Free kick home.
+[29'] Offside away. (0.0105 - 0.0025) 		[29'] No event this minute.
+[29'] Foul away. (0.0105 - 0.0051) 		[30'] No event this minute.
+[29'] Corner home. (0.0143 - 0.0069) 		[31'] Foul home.
+[30'] Free kick away. (0.0002 - 0.0002) 		[31'] Free kick away.
+[30'] Corner away. (0.0118 - 0.0198) 		[32'] No event this minute.
+[31'] Free kick away. (0.0139 - 0.0054) 		[33'] No event this minute.
+[32'] No event this minute. (0.0113 - 0.0066) 		[34'] Offside home.
+[33'] No event this minute. (0.0147 - 0.0139) 		[35'] Shot away.
+[34'] Hand ball away. (0.0127 - 0.0166) 		[36'] Shot home.
+[35'] No event this minute. (0.0265 - 0.0075) 		[37'] No event this minute.
+[35'] No event this minute. (0.0143 - 0.0063) 		[38'] Shot away.
+[36'] Foul away. (0.0130 - 0.0114) 		[39'] Corner home.
+[36'] Shot home. (0.0409 - 0.0053) 		[39'] Shot home.
+[37'] Shot home. (0.0281 - 0.0088) 		[40'] Foul home.
+[38'] Free kick away. (0.0001 - 0.0003) 		[40'] Free kick away.
+[39'] No event this minute. (0.0165 - 0.0216) 		[41'] Shot home.
+[40'] Corner home. (0.0198 - 0.0032) 		[42'] No event this minute.
+[40'] Shot home. (0.0144 - 0.0052) 		[43'] Shot home.
+[40'] Hand ball home. (0.0234 - 0.0040) 		[44'] No event this minute.
+[40'] No event this minute. (0.0172 - 0.0048) 		[45'] Offside home.
+[40'] Free kick home. (0.0130 - 0.0131) 		[45'] Shot away.
+[40'] No event this minute. (0.0150 - 0.0236) 		[45'] Substitution away.
+[40'] Shot away. (0.0118 - 0.0109) 		[45'] Foul home.
+[41'] Free kick away. (0.0002 - 0.0004) 		[45'] Shot home.
+[42'] Free kick away. (0.0055 - 0.0007) 		[45'] Free kick away.
+[42'] No event this minute. (0.0133 - 0.0040) 		[46'] Free kick home.
+[42'] Foul away. (0.0024 - 0.0002) 		[46'] Shot home.
+[42'] Foul home. (0.0053 - 0.0020) 		[46'] Foul away.
+[43'] No event this minute. (0.0175 - 0.0041) 		[47'] No event this minute.
+[44'] Foul away. (0.0144 - 0.0026) 		[48'] Goal home.
+[45'] No event this minute. (0.0045 - 0.0044) 		[49'] Shot away.
+[45'] Substitution away. (0.0043 - 0.0137) 		[49'] Shot home.
+[45'] No event this minute. (0.0166 - 0.0048) 		[50'] Offside home.
+[46'] Foul home. (0.0112 - 0.0042) 		[50'] Shot away.
+[47'] No event this minute. (0.0112 - 0.0135) 		[51'] No event this minute.
+[48'] Free kick home. (0.0162 - 0.0069) 		[52'] Substitution away.
+[49'] No event this minute. (0.0114 - 0.0061) 		[52'] Shot away.
+[50'] Foul away. (0.0086 - 0.0089) 		[53'] No event this minute.
+[51'] No event this minute. (0.0152 - 0.0074) 		[54'] Shot away.
+[52'] Foul home. (0.0066 - 0.0148) 		[55'] Shot away.
+[53'] Hand ball home. (0.0070 - 0.0093) 		[56'] No event this minute.
+[54'] No event this minute. (0.0146 - 0.0101) 		[57'] No event this minute.
+[55'] Shot home. (0.0092 - 0.0093) 		[58'] Shot home.
+[56'] No event this minute. (0.0189 - 0.0061) 		[59'] No event this minute.
+[56'] Free kick home. (0.0113 - 0.0065) 		[60'] Foul away.
+[57'] Free kick home. (0.0040 - 0.0015) 		[60'] Foul home.
+[57'] Free kick away. (0.0003 - 0.0012) 		[60'] Free kick home.
+[58'] Free kick away. (0.0001 - 0.0004) 		[60'] Free kick away.
+[59'] Goal away. (0.0134 - 0.0247) 		[61'] No event this minute.
+[59'] No event this minute. (0.0077 - 0.0039) 		[62'] No event this minute.
+[59'] Shot home. (0.0107 - 0.0110) 		[63'] Shot away.
+[60'] Substitution home. (0.0075 - 0.0126) 		[64'] Free kick home.
+[61'] Foul away. (0.0037 - 0.0013) 		[64'] Foul away.
+[62'] Free kick home. (0.0211 - 0.0103) 		[65'] No event this minute.
+[63'] Substitution home. (0.0149 - 0.0062) 		[66'] Free kick home.
+[63'] Foul away. (0.0029 - 0.0007) 		[66'] Foul away.
+[64'] Shot home. (0.0132 - 0.0039) 		[67'] Goal home.
+[65'] Free kick home. (0.0052 - 0.0089) 		[68'] No event this minute.
+[65'] No event this minute. (0.0092 - 0.0049) 		[69'] Offside home.
+[65'] Foul away. (0.0094 - 0.0085) 		[70'] Substitution home.
+[66'] Shot home. (0.0100 - 0.0116) 		[70'] Substitution home.
+[66'] No event this minute. (0.0112 - 0.0136) 		[71'] No event this minute.
+[67'] No event this minute. (0.0149 - 0.0090) 		[72'] Corner home.
+[67'] Free kick away. (0.0324 - 0.0049) 		[72'] Shot home.
+[67'] Shot home. (0.0299 - 0.0085) 		[72'] Foul away.
+[68'] Free kick home. (0.0049 - 0.0014) 		[72'] Free kick home.
+[69'] No event this minute. (0.0214 - 0.0087) 		[73'] Shot home.
+[70'] Substitution away. (0.0239 - 0.0087) 		[73'] Goal away.
+[71'] Foul home. (0.0122 - 0.0042) 		[74'] Substitution away.
+[72'] Substitution home. (0.0174 - 0.0033) 		[75'] Foul away.
+[72'] Free kick home. (0.0020 - 0.0006) 		[75'] Free kick home.
+[73'] Foul home. (0.0097 - 0.0024) 		[76'] No event this minute.
+[74'] Foul home. (0.0107 - 0.0073) 		[77'] No event this minute.
+[74'] Substitution home. (0.0141 - 0.0074) 		[78'] No event this minute.
+[75'] No event this minute. (0.0120 - 0.0068) 		[79'] Free kick home.
+[75'] Foul away. (0.0019 - 0.0007) 		[79'] Foul away.
+[76'] Yellow card away. (0.0087 - 0.0016) 		[79'] Foul home.
+[76'] Free kick away. (0.0005 - 0.0003) 		[79'] Free kick away.
+[77'] Shot away. (0.0214 - 0.0206) 		[80'] Shot home.
+[78'] Corner home. (0.0493 - 0.0074) 		[80'] Shot away.
+[79'] Shot away. (0.0118 - 0.0121) 		[81'] Shot away.
+[79'] Corner away. (0.0109 - 0.0150) 		[82'] Shot home.
+[80'] No event this minute. (0.0295 - 0.0077) 		[83'] No event this minute.
+[80'] Offside home. (0.0161 - 0.0116) 		[84'] Foul home.
+[80'] Free kick away. (0.0010 - 0.0024) 		[84'] Free kick away.
+[81'] Free kick away. (0.0187 - 0.0273) 		[85'] Offside home.
+[82'] Foul home. (0.0125 - 0.0155) 		[86'] Substitution home.
+[83'] Free kick away. (0.0174 - 0.0156) 		[87'] Goal home.
+[83'] No event this minute. (0.0220 - 0.0064) 		[88'] No event this minute.
+[84'] No event this minute. (0.0200 - 0.0091) 		[89'] Free kick home.
+[85'] Foul away. (0.0042 - 0.0041) 		[89'] Foul away.
+[86'] Foul away. (0.0417 - 0.0059) 		[90'] Free kick away.
+[87'] Shot home. (0.0030 - 0.0019) 		[90'] Foul home.
+[87'] No event this minute. (0.0212 - 0.0150) 		[90'] Offside away.
+[88'] Foul away. (0.0308 - 0.0121) 		[90'] Foul away.
+[89'] Free kick home. (0.0182 - 0.0164) 		[90'] Shot away.
+[90'] Free kick home. (0.0075 - 0.0058) 		[90'] Free kick home.
+[90'] Free kick away. (0.0029 - 0.0010) 		[90'] Corner home.
+
+Predicted score: 0 - 2 (1.75 - 0.98), real one was 4 - 1
+
+Predicted: shot home = 10, shot away = 4
+Real: shot home = 17, shot away = 14
+
+Predicted: corner home = 4, corner away = 4
+Real: corner home = 5, corner away = 0
+
+Predicted: foul by home = 9, foul by away = 16
+Real: foul by home = 9, foul by away = 16

@@ -29,8 +29,6 @@ if len(sys.argv) > 1:
 else:
     league = DEFAULT_LEAGUE
 
-########## Train our model ##########
-
 game_info_df = pd.read_csv('../../data/football-events/ginf.csv')
 game_info_df = game_info_df[game_info_df['league'] == league]
 

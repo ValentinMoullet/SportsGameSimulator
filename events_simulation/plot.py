@@ -63,7 +63,7 @@ def plot_events_count(events_count_dict, events_target_count_dict, filename, tit
 
 
 def plot_events_proba(proba_dict, time, last_events, filename, verbose=False):
-    gs = gridspec.GridSpec(2, 1, height_ratios=[4, 1]) 
+    gs = gridspec.GridSpec(2, 1, height_ratios=[4, 1])
     plt.subplot(gs[0])
     plt.bar(range(len(proba_dict)), list(proba_dict.values()), align='center')
     plt.xticks(range(len(proba_dict)), list(proba_dict.keys()), fontsize=5, rotation=50, horizontalalignment='right')
@@ -73,6 +73,32 @@ def plot_events_proba(proba_dict, time, last_events, filename, verbose=False):
     plt.title(("[%d'] " % time) + " -> ".join(last_events))
 
     path_to_save = '%s/%s' % (EVENTS_PROBA_DIR, filename)
+    plt.savefig(path_to_save)
+    plt.gcf().clear()
+
+    if verbose:
+        print("Plot saved at %s." % path_to_save)
+
+
+def plot_3_bars(arr1, arr2, arr3, actual_number, filename, title="", verbose=False):
+    plt.title(title)
+
+    plt.subplot(3, 1, 1)
+    bar1 = plt.bar(range(len(arr1)), arr1, align='center')
+    bar1[actual_number].set_color('r')
+    plt.ylabel('Global')
+
+    plt.subplot(3, 1, 2)
+    bar2 = plt.bar(range(len(arr2)), arr2, align='center')
+    bar2[actual_number].set_color('r')
+    plt.ylabel('Team')
+
+    plt.subplot(3, 1, 3)
+    bar3 = plt.bar(range(len(arr3)), arr3, align='center')
+    bar3[actual_number].set_color('r')
+    plt.ylabel('Sampled')
+
+    path_to_save = '%s/%s' % (DISTR_DIR, filename)
     plt.savefig(path_to_save)
     plt.gcf().clear()
 

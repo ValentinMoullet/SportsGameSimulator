@@ -66,6 +66,9 @@ time_type_to_sentence[DIFF_TIME_THAN_PREV] = "Diff time."
 time_type_to_sentence[GAME_NOT_RUNNING_TIME] = "Game is not running."
 
 
+def event_type_to_string(event_type):
+    return event_type_to_sentence[event_type]
+
 def get_next_time(current_time, time_type, event_type, prev_event_type):
     '''
     if event_type == NO_EVENT or prev_event_type == NO_EVENT:
@@ -698,7 +701,7 @@ def train_valid_split_k_fold(train_loader, k_fold, seed=42):
         all_valid_targets.append(valid_targets)
         all_valid_teams.append(valid_teams)
 
-    return all_train_data, all_train_targets, all_train_teams, all_valid_data, all_valid_targets, all_train_teams
+    return all_train_data, all_train_targets, all_train_teams, all_valid_data, all_valid_targets, all_valid_teams
 
 
 def get_end_of_game_idx(target_events):
@@ -706,12 +709,12 @@ def get_end_of_game_idx(target_events):
     if len(game_over_indices) == 0:
         idx = target_events.size(0)
     else:
-        idx = game_over_indices[0].data[0]
+        idx = game_over_indices[0].data[0].item()
 
     return idx
 
 
-def get_during_game_tensors(event_scores, time_scores, target, proba=True):
+def get_during_game_tensors(event_scores, time_scores, target, proba=True, return_end_game_idx=False):
     target_events = target[:, :, 0]
     target_time = target[:, :, 1]
 
@@ -719,9 +722,11 @@ def get_during_game_tensors(event_scores, time_scores, target, proba=True):
     during_game_time_tensors = []
     during_game_target_events_tensors = []
     during_game_events_tensors = []
+
+    end_game_idx = []
     for batch in range(target_events.size(0)):
         idx = get_end_of_game_idx(target_events[batch])
-
+        end_game_idx.append(idx)
         if proba:
             during_game_events_tensors.append(event_scores[batch, :idx, :])
             during_game_time_tensors.append(time_scores[batch, :idx, :])
@@ -738,7 +743,10 @@ def get_during_game_tensors(event_scores, time_scores, target, proba=True):
     target_events_during_game = torch.cat(during_game_target_events_tensors)
     events_during_game = torch.cat(during_game_events_tensors)
 
-    return events_during_game, target_events_during_game, time_during_game, target_time_during_game
+    if return_end_game_idx:
+        return events_during_game, target_events_during_game, time_during_game, target_time_during_game, end_game_idx
+    else:
+        return events_during_game, target_events_during_game, time_during_game, target_time_during_game
 
 
 def get_during_game_goals(event_proba, target):
@@ -907,4 +915,5 @@ def get_dated_filename(filename):
     extension = tab[-1]
     return "%s_%s.%s" % (name, time.strftime("%Y%m%d-%H%M"), extension)
 
-#create_new_events_file('../data/football-events/events.csv', '../data/football-events/new_events.csv')
+if __name__ == "__main__":
+    create_new_events_file('../data/football-events/events.csv', '../data/football-events/new_events.csv')

@@ -72,7 +72,7 @@ class NN(nn.Module):
         loss.backward()
         self.optimizer.step()
 
-        return loss.data[0]
+        return loss.item()
 
     def get_last_layer(self, input):
         inputs = torch.split(input, self.nb_teams, 1)
@@ -100,9 +100,9 @@ class NN(nn.Module):
     def predict_proba_and_get_loss(self, input, target):
         prediction = self.forward(input)
         loss = self.loss_function(prediction, target)
-        return self.predict_proba(input), loss.data[0]
+        return self.predict_proba(input), loss.item()
 
     def predict_and_get_loss(self, input, target):
         out = self.forward(input)
         loss = self.loss_function(out, target)
-        return out, loss.data[0]
+        return out, loss.item()

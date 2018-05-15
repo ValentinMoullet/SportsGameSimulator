@@ -9,6 +9,36 @@ from game_prediction.team import *
 GAME_INFO_FILENAME = '../data/football-events/ginf.csv'
 GAME_INFO_DF = pd.read_csv(GAME_INFO_FILENAME)
 
+
+def get_teams(
+    df,
+    home_team_col_name='ht',
+    away_team_col_name='at'):
+    """
+    Gets the home and away teams and ignore the ones that do not appear at
+    least once as home and away team.
+
+    Args:
+        df: The DataFrame containing all the games.
+
+    Returns:
+        A numpy arrays containing the names of teams.
+    """
+
+    home_teams = df[home_team_col_name].unique()
+    away_teams = df[away_team_col_name].unique()
+
+    # Remove teams that do not appear in both home and away situations
+    to_remove = []
+    for i,team in enumerate(away_teams):
+        if not team in home_teams:
+            to_remove.append(i)
+
+    teams = np.delete(away_teams, to_remove)
+
+    return teams
+    
+
 def get_teams_caracteristics(teams):
     """
     Returns a tensor that describes the game between 'home_team' and

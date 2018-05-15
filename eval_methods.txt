@@ -1,7 +1,7 @@
 Eval methods
 
-- use cases scenarios
-- examination of scores (poisson distribution and compare with bookmakers)
-- show overall distribution of events (plots already one)
-- tables of translation probabilities (corner -> goal, penalty, offside, ...) real and predicted
-- give first 45 min of game, and output rest and compare without giving correct first 45 min
+- use cases scenarios -> OK
+- examination of scores (1000 samples and compare with bookmakers)
+- show overall distribution of events (plots already done) -> OK
+- tables of translation/transition probabilities (corner -> goal, penalty, offside, ...) real and predicted
+- give first 45 min of game, and output rest and compare without giving correct first 45 min. We want to compare only the second part of the game (compare number of goals in the second part of the game, thus get CE loss using Poisson distribution on the expected number of goals)

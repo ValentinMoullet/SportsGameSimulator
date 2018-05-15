@@ -26,16 +26,21 @@ class TrainingSet(data.Dataset):
 
         events_df = pd.read_csv('../data/football-events/new_events.csv')
 
-        ids_to_df = {key: events_df.loc[value] for key, value in events_df.groupby("id_odsp").groups.items()}
+        training_ids_df = pd.read_csv('../data/football-events/training_ids.csv')
+        training_df = events_df[events_df['id_odsp'].isin(training_ids_df['training_id'].values)]
+
+        ids_to_df = {key: training_df.loc[value] for key, value in training_df.groupby("id_odsp").groups.items()}
         
         nb_games_training = len(ids_to_df) // 100
         if nb_games_training % batch_size != 0:
             nb_games_training -= nb_games_training % batch_size
 
+        ids_to_df = {k: ids_to_df[k] for k in list(ids_to_df)[:nb_games_training]}
+        
         tensors = []
         y_tensors = []
         self.teams = []
-        for idd in tqdm(sorted(ids_to_df)[:nb_games_training]):
+        for idd in tqdm(sorted(ids_to_df)):
             df = ids_to_df[idd]
 
             tensor_df = df.loc[:, '0':]
@@ -89,20 +94,27 @@ class TestSet(data.Dataset):
 
         events_df = pd.read_csv('../data/football-events/new_events.csv')
 
-        ids_to_df = {key: events_df.loc[value] for key, value in events_df.groupby("id_odsp").groups.items()}
+        test_ids_df = pd.read_csv('../data/football-events/test_ids.csv')
+        test_df = events_df[events_df['id_odsp'].isin(test_ids_df['test_id'].values)]
+
+        ids_to_df = {key: test_df.loc[value] for key, value in test_df.groupby("id_odsp").groups.items()}
         
-        nb_games_training = len(ids_to_df) // 100
+        '''
+        nb_games_training = len(ids_to_df) // 10
         if nb_games_training % batch_size != 0:
             nb_games_training -= nb_games_training % batch_size
+        '''
 
         nb_games_test = len(ids_to_df) // 100
         if nb_games_test % batch_size != 0:
             nb_games_test -= nb_games_test % batch_size
 
+        ids_to_df = {k: ids_to_df[k] for k in list(ids_to_df)[:nb_games_test]}
+
         tensors = []
         y_tensors = []
         self.teams = []
-        for idd in tqdm(sorted(ids_to_df)[nb_games_training:nb_games_training + nb_games_test]):
+        for idd in tqdm(sorted(ids_to_df)):
             df = ids_to_df[idd]
 
             tensor_df = df.loc[:, '0':]

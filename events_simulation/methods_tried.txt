@@ -1,0 +1,38 @@
+Methods tried for removing the looping events (lots of events in the same minute):
+
+    - [2018.05.03-0147] Loss for all events, then average losses, weight = 1
+    -> time was too much following the 0.35 for same minute events, didn't really take into account the events,
+    but was good because no loop (of course)
+
+    - [2018.05.03-1005] Loss for all events, then average losses, weight = 0.5
+    -> 
+
+    - [2018.05.03-1651] Loss per game (average event proba per game), then average losses of all games in batch, weight of loss = 1
+    -> gives ok result, happen to loop sometimes until 10-15 events a minute max (rarely)
+
+    - [2018.05.04-0207] Average all proba in all games of a batch, and theh compute loss, weight = 0.25
+    -> loops quite often, sometimes until 30-40
+
+    - [2018.05.04-0714] Loss for all events, then average losses, weight = 0.25
+    -> No loop (max until 11, rare), ok-ish results (didn't test with lots of samples per game), but not learning the relation between time and events (only a little bit)
+
+    - [2018.05.04-1252] Loss for all events, then average losses, weight = 0.1
+    -> No loop (max until 11, rare), ok-ish results (didn't test with lots of samples per game), but not learning the relation between time and events (only a little bit)
+
+    - [2018.05.05-1949] Loss for all events, then average losses, weight = 0.01
+    -> Loops a lot
+
+    - [] Loss for all events, then average losses, weight = 0.05
+    -> Still loops sometimes (until 20-ish), but better than bookmaker for accuracy it seems
+
+    - [] Loss for all events, then average losses, weight = 0.07
+    -> Still loops sometimes (until 20-ish)
+
+    - [] Loss for all events, then average losses, weight = 0.1
+    -> Still loops sometimes (until 20-ish)
+
+    - [2018.05.07-2015] Loss for all events, then average losses, weight = 0.2
+    -> Rarely loops (max 11-14)
+
+    - [2018.05.13-0943] Whole dataset, loss for all events, then average losses, weight = 0.15
+    -> Loops often, around 15
