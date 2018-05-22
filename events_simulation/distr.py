@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
@@ -7,7 +8,7 @@ from utils import *
 from sample import *
 
 
-MAX_NB_EVENT = 40
+MAX_NB_EVENT = 50
 NB_TO_SAMPLE = 100
 EVENT_TYPES_TO_CHECK = [SHOT_HOME, CORNER_HOME, FOUL_HOME, SHOT_AWAY, CORNER_AWAY, FOUL_AWAY]
 
@@ -16,7 +17,11 @@ def get_event_distr(ids_to_df, event_type):
     event_distr = [0] * MAX_NB_EVENT
     for idd, df in ids_to_df.items():
         event_df = df[df[str(event_type)] == 1]
-        event_distr[len(event_df)] += 1
+        try:
+            event_distr[len(event_df)] += 1
+        except:
+            print(len(event_df))
+            event_distr[-1] += 1
         
     return [x / len(ids_to_df) for x in event_distr]
 
@@ -107,17 +112,36 @@ for idd, df in tqdm(ids_to_df.items()):
 
     game_nb += 1
 
-print("unknown_teams:", unknown_teams)
-print("len(EVENT_TYPES_TO_CHECK):", len(EVENT_TYPES_TO_CHECK))
 unknown_teams /= len(EVENT_TYPES_TO_CHECK)
 
 global_accuracy = [x / nb_games_test for x in global_accuracy]
 team_accuracy = [x / (nb_games_test - unknown_teams) for x in team_accuracy]
 sampled_accuracy = [x / nb_games_test for x in sampled_accuracy]
 
-for event_type in EVENT_TYPES_TO_CHECK:
-    print("global_accuracy for %s:" % event_type_to_string(event_type), global_accuracy[event_type])
-    print("team_accuracy for %s:" % event_type_to_string(event_type), team_accuracy[event_type])
-    print("sampled_accuracy for %s:" % event_type_to_string(event_type), sampled_accuracy[event_type])
-    print()
+# Only keep the ones we want
+global_accuracy = [global_accuracy[x] for x in range((NB_ALL_EVENTS - 3)) if x in EVENT_TYPES_TO_CHECK]
+team_accuracy = [team_accuracy[x] for x in range((NB_ALL_EVENTS - 3)) if x in EVENT_TYPES_TO_CHECK]
+sampled_accuracy = [sampled_accuracy[x] for x in range((NB_ALL_EVENTS - 3)) if x in EVENT_TYPES_TO_CHECK]
+
+
+########## Plot the results ##########
+
+fig, ax = plt.subplots()
+
+ind = np.arange(len(EVENT_TYPES_TO_CHECK))
+width = 0.2
+
+global_accuracies = ax.bar(ind - width / 2, global_accuracy, width, color='r')
+team_accuracies = ax.bar(ind + width / 2, team_accuracy, width, color='g')
+sampled_accuracies = ax.bar(ind + 3/2 * width, sampled_accuracy, width, color='b')
+
+ax.set_title('Events accuracy')
+ax.set_xticks(ind + width / 2)
+ax.set_xticklabels([event_type_to_string(event_type) for event_type in EVENT_TYPES_TO_CHECK])
+
+ax.legend((global_accuracies[0], team_accuracies[0], sampled_accuracies[0]), ('Global', 'Team', 'Sampled'))
+
+ax.autoscale_view()
+
+plt.savefig("%s/images/%s" % (DISTR_DIR, get_dated_filename('events_accuracies.pdf')))
 

@@ -30,6 +30,9 @@ random_number = np.random.randint(1000000000)
 all_train_data, all_train_targets, all_train_teams, all_valid_data, all_valid_targets, all_valid_teams = train_valid_split_k_fold(train_loader, K_FOLD, random_number)
 
 for k in range(K_FOLD):
+    best_model = None
+    best_test_accuracy = 0
+
     model = LSTMEvents(40, NB_ALL_EVENTS, 3, batch_size=BATCH_SIZE)
     if CUDA:
         model.cuda()
@@ -323,6 +326,14 @@ for k in range(K_FOLD):
         test_ag_loss_history.append(test_ag_loss)
         test_diff_loss_history.append(test_diff_loss)
 
+        if best_test_accuracy < test_accuracy:
+            best_test_accuracy = test_accuracy
+            best_model = model
+
+        # TODO: remove; only useful for checking how it changes at each epoch
+        if k + 1 == 1:
+            output_already_sampled_events_file(sampled_events, sampled_times, target, goal_home_proba, goal_away_proba, teams, "%s/%s" % ('all_epochs', get_dated_filename('test%d.txt' % epoch)))
+
         if epoch + 1 == MAX_EPOCH and k + 1 == 1:
             if SAMPLE_VALID_AND_TEST:
                 output_already_sampled_events_file(sampled_events, sampled_times, target, goal_home_proba, goal_away_proba, teams, get_dated_filename('test.txt'))
@@ -416,10 +427,11 @@ accuracies_histories = (
     )
 plot_history(accuracies_histories, get_dated_filename('accuracies.pdf'), "Different accuracies")
 
+print("Best test accuracy:", best_test_accuracy)
 
 ########## Save the model for later use ##########
 
-torch.save(model.state_dict(), "%s/%s" % (MODELS_DIR, get_dated_filename('model.pt')))
+torch.save(best_model.state_dict(), "%s/%s" % (MODELS_DIR, get_dated_filename('model.pt')))
 
 
 '''

@@ -41,8 +41,8 @@ NB_GAMES_TO_SAMPLE = 10
 
 # Some constants
 PROB_SAME_MINUTE_EVENT = 0.3516
-BOOKMAKER_CE_LOSS = 1.0249756245661668
-BOOKMAKER_ACCURACY = 0.4220
+BOOKMAKER_CE_LOSS = 1.0252809092279713
+BOOKMAKER_ACCURACY = 0.4216
 
 # Files and directories
 GAME_INFO_FILENAME = '../data/football-events/ginf.csv'
@@ -54,3 +54,4 @@ EVENTS_DIR = 'events'
 MODELS_DIR = 'models'
 EVENTS_PROBA_DIR = 'events_proba'
 DISTR_DIR = 'distributions'
+SECOND_HALF_PRED_DIR = '2nd_half_pred'

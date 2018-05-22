@@ -27,6 +27,69 @@ def load_latest_model():
 
     return model
 
+class FirstHalfNN(nn.Module):
+    def __init__(self, team_weights_size, learning_rate=1e-4, hidden_layer_size1=10, hidden_layer_size2=20):
+        super(FirstHalfNN, self).__init__()
+
+        self.loss_function = nn.CrossEntropyLoss()
+        self.activation = nn.ReLU()
+
+        # Layers
+        self.input_layer = nn.Sequential(
+            nn.Linear(3 + team_weights_size, hidden_layer_size1),
+            self.activation)
+
+        self.layer1 = nn.Sequential(
+            nn.Linear(hidden_layer_size1, hidden_layer_size2),
+            self.activation)
+
+        self.output_layer = nn.Linear(hidden_layer_size2, 3)
+
+        self.optimizer = optim.Adam(self.parameters(), lr=learning_rate)
+
+    def forward(self, input, teams):
+        """Feed the model with input and return output."""
+
+        # 'input' should contain one-hot vector of size 3 (home_winning, away_winning, draw)
+        teams_weights = get_teams_caracteristics(teams).squeeze(0)
+
+        input_with_teams_weights = torch.cat([input, teams_weights], 1)
+
+        hidden1 = self.input_layer(input_with_teams_weights)
+        hidden2 = self.layer1(hidden1)
+        output = self.output_layer(hidden2)
+
+        return output
+
+    def step(self, input, target, teams):
+        """Do one training step and return the loss."""
+
+        self.train()
+        self.zero_grad()
+        out = self.forward(input, teams)
+        loss = self.loss_function(out, target)
+        loss.backward()
+        self.optimizer.step()
+
+        return F.softmax(out, dim=1), loss.item()
+
+    def predict(self, input, teams):
+        """
+        Predict an input using the trained network.
+        """
+
+        return self.forward(input, teams)
+
+    def predict_proba(self, input, teams):
+        return F.softmax(self.predict(input, teams), dim=1)
+
+    def predict_proba_and_get_loss(self, input, target, teams):
+        out = self.predict(input, teams)
+        loss = self.loss_function(out, target)
+
+        return F.softmax(out, dim=1), loss.item()
+
+
 class LSTMEvents(nn.Module):
 
     def __init__(self, hidden_dim, event_types_size, time_types_size, num_layers=1, batch_size=1, learning_rate=0.01):

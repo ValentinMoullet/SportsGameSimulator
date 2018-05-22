@@ -13,7 +13,7 @@ from plot import *
 from sample import *
 
 
-NB_SAMPLES = 50
+NB_SAMPLES = 10
 TIME_STARTING_2ND = 46
 
 model = load_latest_model()
@@ -22,7 +22,7 @@ events_df = pd.read_csv('../data/football-events/new_events.csv')
 
 ids_to_df = {key: events_df.loc[value] for key, value in events_df.groupby("id_odsp").groups.items()}
 
-nb_games = len(ids_to_df) // 500
+nb_games = len(ids_to_df)
 
 all_teams = get_teams(events_df, home_team_col_name='home_team', away_team_col_name='away_team')
 
