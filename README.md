@@ -9,4 +9,4 @@ The data should be downloaded from https://www.kaggle.com/secareanualin/football
 Note
 ----
 
-All the Python and Jupyter files that are at the root of this project are only here for playing around and are not really part of the project.
+All the Python and Jupyter files that are at the root of this project are only here for playing around and are not really part of the project. The code of the project is inside `events_simulation`.
