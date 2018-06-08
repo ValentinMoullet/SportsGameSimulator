@@ -1,11 +1,12 @@
 # SportsGameSimulator
 Project on simulation of sports game using Machine Learning techniques.
 
-TODO
------
-- Find resources to scrape results/scores of matches (football, handball, or at least 1).
-- Scrape the scores of the teams and put them in a nice format (e.g. JSON or CSV).
-- Find resources to scrape structural events of matches, like given in the PDF.
-- Scrape the events of matches between teams and put them in a nice format (e.g. JSON or CSV).
-- Find a way to find latent variables of teams (Mat. fact.).
-- Try some dimensionality reduction on those latent variables to display teams and see if some clusters appeared or anything that could give information about latent variables (more for "fun" than anything).
+Data
+----
+
+The data should be downloaded from https://www.kaggle.com/secareanualin/football-events and put in a folder called data at the root of the project.
+
+Note
+----
+
+All the Python and Jupyter files that are at the root of this project are only here for playing around and are not really part of the project.

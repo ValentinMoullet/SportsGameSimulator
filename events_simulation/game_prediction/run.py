@@ -148,9 +148,9 @@ for i in range(3):
 
 ########## Get weights of first layer and plot to see if they seem to be features for teams ##########
 
-plot_weights_teams_tsne(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('tsne.pdf')), "Test and training loss")
-plot_weights_teams_pca(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('pca.pdf')), "Test and training loss")
-plot_weights_teams_kernel_pca(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('kernel_pca.pdf')), "Test and training loss")
+plot_weights_teams_tsne(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('tsne.pdf')), league, "Test and training loss")
+plot_weights_teams_pca(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('pca.pdf')), league, "Test and training loss")
+plot_weights_teams_kernel_pca(teams, model, '%s/weights/%s' % (league, get_hyperparams_filename('kernel_pca.pdf')), league, "Test and training loss")
 
 ########## Save the model for later use ##########
 

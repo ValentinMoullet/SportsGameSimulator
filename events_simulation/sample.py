@@ -22,7 +22,6 @@ def sample_n_times_events(teams, n):
     return all_sampled_events, all_sampled_times
 
 def sample_n_times(teams, n, output=False):
-    #teams_tensor = get_teams_caracteristics([teams])
 
     model = load_latest_model()
 
@@ -34,6 +33,7 @@ def sample_n_times(teams, n, output=False):
     away_wins = 0
     draws = 0
     for s in range(n):
+        print(s)
         sampled_events, sampled_times, event_proba, time_proba = model.sample([teams], return_proba=True)
 
         goal_home = sampled_events.count(GOAL_HOME)
@@ -80,5 +80,4 @@ if __name__ == "__main__":
 
     teams = [home_team, away_team]
 
-    #home_win_proba, away_win_proba, draws_proba = sample_n_times(teams, n_samples)
     print(sample_n_times(teams, n_samples, output=True))

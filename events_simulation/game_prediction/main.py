@@ -56,15 +56,6 @@ if BOOKMAKERS_OVERVIEW:
 
         accuracy += y_pred.data[0][target.data[0]]
 
-        '''
-        max_score, idx = y_pred.max(1)
-        if idx.data[0] == target.data[0]:
-            correct += 1
-        
-        class_correct[target.data[0]] += 1 if idx.data[0] == target.data[0] else 0
-        class_total[target.data[0]] += 1
-        '''
-
     accuracy /= len(bookmakers_pred_loader)
     score_bookmakers = np.mean(scores_bookmakers)
     loss_bookmakers = np.mean(losses_bookmakers)
@@ -73,13 +64,6 @@ if BOOKMAKERS_OVERVIEW:
     print("Bookmakers score:", score_bookmakers)
     print("Accuracy:", accuracy)
     print()
-
-    '''
-    for i in range(3):
-        print('Accuracy of %d : %2d / %2d (%2d %%)' % (i, class_correct[i], class_total[i], 100 * class_correct[i] / class_total[i]))
-
-    print()
-    '''
 
     print("Bookmakers predictions overview done.")
     print()
@@ -97,14 +81,11 @@ teams = teams_to_idx.keys()
 # Removing if teams didn't play both for home and away
 game_info_df = game_info_df[(game_info_df['ht'].isin(teams)) & (game_info_df['at'].isin(teams))]
 
-np.random.seed(SEED)
-msk = np.random.rand(len(game_info_df)) < TRAINING_SET_RATIO
-
 overall_best_params = []
 overall_best_loss = 1000
 for batch_size in BATCH_SIZES:
-    train_loader = DataLoader(TrainingSet(game_info_df=game_info_df, teams_to_idx=teams_to_idx, msk=msk), num_workers=4, batch_size=batch_size, shuffle=True)
-    test_loader = DataLoader(TestSet(game_info_df=game_info_df, teams_to_idx=teams_to_idx, msk=msk), num_workers=4, batch_size=1, shuffle=False)
+    train_loader = DataLoader(TrainingSet(game_info_df=game_info_df, teams_to_idx=teams_to_idx), num_workers=4, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(TestSet(game_info_df=game_info_df, teams_to_idx=teams_to_idx), num_workers=4, batch_size=1, shuffle=False)
 
     nb_teams = next(iter(train_loader))[0].size(1) // 2
 
@@ -151,9 +132,6 @@ for batch_size in BATCH_SIZES:
 
                     best_loss = (0,1000)
                     for epoch in tqdm(range(MAX_EPOCH)):
-                        
-                        # Shuffle the training data and targets in the same way
-                        #shuffle(train_data_and_targets)
 
                         ########## Train the model ##########
 
@@ -183,13 +161,6 @@ for batch_size in BATCH_SIZES:
                             for i in range(len(target.data)):
                                 validation_set_size += 1
                                 accuracy += y_pred_proba.data[i][target.data[i]]
-                                '''
-                                if idx.data[i] == target.data[i]:
-                                    correct += 1
-
-                                class_correct[target.data[i]] += 1 if idx.data[i] == target.data[i] else 0
-                                class_total[target.data[i]] += 1
-                                '''
 
                         accuracy_validation = accuracy / validation_set_size
                         loss_validation = np.mean(losses_validation)
@@ -197,16 +168,6 @@ for batch_size in BATCH_SIZES:
                         # Mean of the losses of validation predictions
                         folds_validation_losses[epoch][k] = loss_validation
                         folds_validation_accuracies[epoch][k] = accuracy_validation
-                        
-                        '''
-                        print("Epoch:", epoch)
-
-                        print("Training loss:", loss_training)
-
-                        print("Validation loss:", loss_validation)
-                        print("Validation score:", score_validation)
-                        print("Validation accuracy:", accuracy_validation)
-                        '''
 
                         ########## Test the model at this epoch ##########
 
@@ -230,14 +191,6 @@ for batch_size in BATCH_SIZES:
 
                             folds_test_losses[epoch][k] = loss_test
                             folds_test_accuracies[epoch][k] = accuracy_test
-
-                            '''
-                            print("Test loss:", loss_test)
-                            print("Test score:", score_test)
-                            print("Test accuracy:", accuracy_test)
-                            '''
-
-                        #print()
 
                         # Save the best model
                         if loss_validation < best_loss[1]:
@@ -271,16 +224,6 @@ for batch_size in BATCH_SIZES:
                 folds_test_losses = folds_test_losses[:limit_epoch]
                 folds_test_accuracies = folds_test_accuracies[:limit_epoch]    
 
-                '''
-                overall_loss_training = all_losses_training
-                overall_loss_validation = all_losses_validation
-                overall_score_validation = all_scores_validation
-                overall_accuracy_validation = all_accuracy_validation
-                overall_loss_test = all_losses_test
-                overall_score_test = all_scores_test
-                overall_accuracy_test = all_accuracy_test
-                '''
-
                 training_loss_history.extend(folds_training_losses)
                 validation_loss_history.extend(folds_validation_losses)
                 validation_accuracy_history.extend(folds_validation_accuracies)
@@ -289,6 +232,7 @@ for batch_size in BATCH_SIZES:
 
                 print("--------------------\n")
 
+                # Keep best one
                 folds_best_validation_loss = min(folds_validation_losses)
                 if folds_best_validation_loss < overall_best_loss:
                     overall_best_loss = folds_best_validation_loss
@@ -307,54 +251,4 @@ for batch_size in BATCH_SIZES:
 
 print("Best loss:", overall_best_loss)
 print("Best parameters:", overall_best_params)
-
-########## Apply on test set ##########
-
-'''
-if TRAINING_SET_RATIO < 1.0:
-
-    model = best_score[2]
-
-    print("Applying model on test set and predicting...")
-
-    model.eval()
-
-    scores_test = []
-    losses_test = []
-    correct = 0
-    class_correct = list(0. for i in range(3))
-    class_total = list(0. for i in range(3))
-    for data, target in test_loader:
-        data = Variable(data)
-        target = Variable(target)
-        y_pred = model.predict(data)
-        loss = F.cross_entropy(y_pred, target)
-        score = torch.exp(-loss).data[0]
-
-        scores_test.append(score)
-        losses_test.append(loss.data[0])
-
-        max_score, idx = y_pred.max(1)
-        if idx.data[0] == target.data[0]:
-            correct += 1
-
-        class_correct[target.data[0]] += 1 if idx.data[0] == target.data[0] else 0
-        class_total[target.data[0]] += 1
-
-    accuracy = correct / len(test_loader)
-    loss_test = np.mean(losses_test)
-    score_test = np.mean(scores_test)
-
-    print("Test loss:", loss_test)
-    print("Test score:", score_test)
-    print("Test accuracy:", accuracy)
-    print()
-
-    for i in range(3):
-        print('Accuracy of %d : %2d / %2d (%2d %%)' % (i, class_correct[i], class_total[i], 100 * class_correct[i] / class_total[i]))
-
-    print()
-
-    print("Predictions done.")
-'''
 

@@ -107,7 +107,6 @@ for k in range(K_FOLD):
 
             teams = list(zip(teams[0], teams[1]))
             event_pred_proba, time_pred_proba, loss, events_loss, time_loss, same_minute_event_loss, result_loss, accuracy = model.step(data, target, teams)
-            #event_pred_proba, time_pred_proba, loss, events_loss, time_loss, hg_loss, ag_loss, diff_loss = model.step(data, target, teams)
 
             losses_training.append(loss)
             result_losses_training.append(result_loss)
@@ -115,23 +114,6 @@ for k in range(K_FOLD):
             time_losses_training.append(time_loss)
             same_minute_event_losses_training.append(same_minute_event_loss)
             accuracies_training.append(accuracy)
-            #hg_losses_training.append(hg_loss)
-            #ag_losses_training.append(ag_loss)
-            #diff_losses_training.append(diff_loss)
-
-            '''
-            for batch_idx in range(event_pred_proba.size(0)):
-                goal_home = 0
-                goal_away = 0
-                for event_idx in range(event_pred_proba.size(1)):
-                    goal_home += event_pred_proba[batch_idx, event_idx, GOAL_HOME].data[0]
-                    goal_away += event_pred_proba[batch_idx, event_idx, GOAL_AWAY].data[0]
-
-                #print("%.4f -VS- %.4f" % (goal_home, goal_away))
-                if goal_away > goal_home:
-                    print("%.4f - %.4f" % (goal_home, goal_away))
-                    print("%s -VS- %s" % (teams[batch_idx][0], teams[batch_idx][1]))
-            '''
 
         training_loss = np.mean(losses_training)
         training_result_loss = np.mean(result_losses_training)
@@ -143,7 +125,6 @@ for k in range(K_FOLD):
         training_ag_loss = np.mean(ag_losses_training)
         training_diff_loss = np.mean(diff_losses_training)
 
-        #print("Loss at epoch %d:" % epoch, training_loss)
         training_loss_history.append(training_loss)
         training_result_loss_history.append(training_result_loss)
         training_events_loss_history.append(training_events_loss)
@@ -173,8 +154,9 @@ for k in range(K_FOLD):
             times_target_count_dict = count_times(target_times_during_game.data)
             plot_events_count(times_count_dict, times_target_count_dict, get_dated_filename('times_training.pdf'))
 
-
         ########## Validate the model ##########
+
+        ########## NEVER USED ##########
 
         model.eval()
 
@@ -200,10 +182,8 @@ for k in range(K_FOLD):
 
             if SAMPLE_VALID_AND_TEST:
                 sampled_events, sampled_times, target_events, target_times, loss, events_loss, time_loss, same_minute_event_loss, result_loss, accuracy = model.sample_and_get_loss(target, teams)
-                #sampled_events, sampled_times, target_events, target_times, loss, events_loss, time_loss, hg_loss, ag_loss, diff_loss = model.sample_and_get_loss(target, teams)
             else:
-                event_pred_proba, time_pred_proba, loss, events_loss, time_loss, result_loss = model.predict_proba_and_get_loss(data, target, teams)
-
+                event_pred_proba, time_pred_proba, loss, events_loss, time_loss, same_minute_event_loss, result_loss = model.predict_proba_and_get_loss(data, target, teams)
 
             losses_validation.append(loss)
             result_losses_validation.append(result_loss)
@@ -211,29 +191,7 @@ for k in range(K_FOLD):
             time_losses_validation.append(time_loss)
             same_minute_event_losses_validation.append(same_minute_event_loss)
             accuracies_validation.append(accuracy)
-            #hg_losses_validation.append(hg_loss)
-            #ag_losses_validation.append(ag_loss)
-            #diff_losses_validation.append(diff_loss)
-
-            '''
-            for batch_idx in range(len(sampled_events)):
-                for event_idx in range(len(sampled_events[batch_idx])):
-                    validation_set_size += 1
-                    accuracy += event_pred_proba[batch, event, target[batch, event, 0].data[0]].data[0]
-            '''
-
-            '''
-            for batch in range(len(target[:, :, 0].data)):
-                for event in range(len(target[batch, :, 0].data)):
-                    validation_set_size += 1
-                    #print("Event:", event_pred_proba)
-                    #print("Target nb:", target[batch, event, 0].data[0])
-                    #print("Event proba:", event_pred_proba[batch, event, target[batch, event, 0].data[0]].data[0])
-                    accuracy += event_pred_proba[batch, event, target[batch, event, 0].data[0]].data[0]
-                    
-            '''
-
-        #accuracy_validation = accuracy / validation_set_size
+        
         loss_validation = np.mean(losses_validation)
         validation_result_loss = np.mean(result_losses_validation)
         validation_events_loss = np.mean(events_losses_validation)
@@ -244,7 +202,6 @@ for k in range(K_FOLD):
         validation_ag_loss = np.mean(ag_losses_validation)
         validation_diff_loss = np.mean(diff_losses_validation)
 
-        #validation_accuracy_history.append(accuracy_validation)
         validation_loss_history.append(loss_validation)
         validation_result_loss_history.append(validation_result_loss)
         validation_events_loss_history.append(validation_events_loss)
@@ -279,12 +236,11 @@ for k in range(K_FOLD):
 
             if SAMPLE_VALID_AND_TEST:
                 sampled_events, sampled_times, target_events, target_times, all_proba, loss, events_loss, time_loss, same_minute_event_loss, result_loss, accuracy = model.sample_and_get_loss(target, teams, return_proba=True)
-                #sampled_events, sampled_times, target_events, target_times, goal_home_proba, goal_away_proba, loss, events_loss, time_loss, hg_loss, ag_loss, diff_loss = model.sample_and_get_loss(target, teams, return_goal_proba=True)
             
                 goal_home_proba = [[event_proba[GOAL_HOME] for event_proba in all_proba[batch_idx]] for batch_idx in range(len(all_proba))]
                 goal_away_proba = [[event_proba[GOAL_AWAY] for event_proba in all_proba[batch_idx]] for batch_idx in range(len(all_proba))]
             else:
-                event_proba, time_proba, loss, events_loss, time_loss, result_loss = model.predict_proba_and_get_loss(data, target, teams)
+                event_proba, time_proba, loss, events_loss, time_loss, same_minute_event_loss, result_loss = model.predict_proba_and_get_loss(data, target, teams)
 
 
             losses_test.append(loss)
@@ -293,16 +249,6 @@ for k in range(K_FOLD):
             time_losses_test.append(time_loss)
             same_minute_event_losses_test.append(same_minute_event_loss)
             accuracies_test.append(accuracy)
-            #hg_losses_test.append(hg_loss)
-            #ag_losses_test.append(ag_loss)
-            #diff_losses_test.append(diff_loss)
-
-            '''
-            for batch in range(event_pred_proba.size(0)):
-                for event in range(event_pred_proba.size(1)):
-                    test_set_size += 1
-                    accuracy += event_pred_proba[batch, event, target[batch, event, 0].data[0]].data[0]
-            '''
 
         loss_test = np.mean(losses_test)
         test_result_loss = np.mean(result_losses_test)
@@ -313,9 +259,7 @@ for k in range(K_FOLD):
         test_hg_loss = np.mean(hg_losses_test)
         test_ag_loss = np.mean(ag_losses_test)
         test_diff_loss = np.mean(diff_losses_test)
-        #accuracy_test = accuracy / test_set_size
 
-        #test_accuracy_history.append(accuracy_test)
         test_loss_history.append(loss_test)
         test_result_loss_history.append(test_result_loss)
         test_events_loss_history.append(test_events_loss)
@@ -327,10 +271,20 @@ for k in range(K_FOLD):
         test_diff_loss_history.append(test_diff_loss)
 
         if best_test_accuracy < test_accuracy:
+            print("New best!")
             best_test_accuracy = test_accuracy
             best_model = model
 
-        # TODO: remove; only useful for checking how it changes at each epoch
+        print("%.6f accuracy at epoch %d" % (test_accuracy, epoch+1))
+        print("%.6f test result loss at epoch %d" % (test_result_loss, epoch+1))
+        print("%.6f test loss at epoch %d" % (loss_test, epoch+1))
+        print("%.6f test events loss at epoch %d" % (test_events_loss, epoch+1))
+        print("%.6f test time loss at epoch %d" % (test_time_loss, epoch+1))
+        print("%.6f test same minute event loss at epoch %d" % (test_same_minute_event_loss, epoch+1))
+
+        torch.save(model.state_dict(), "%s/all_epochs/%s" % (MODELS_DIR, get_dated_filename('model_%d.pt' % epoch)))
+
+        # Only useful for checking how it changes at each epoch
         if k + 1 == 1:
             output_already_sampled_events_file(sampled_events, sampled_times, target, goal_home_proba, goal_away_proba, teams, "%s/%s" % ('all_epochs', get_dated_filename('test%d.txt' % epoch)))
 
@@ -372,7 +326,6 @@ for k in range(K_FOLD):
 
 loss_histories = (
     ('Training loss', training_loss_history),
-    #('Validation loss', validation_loss_history),
     ('Test loss', test_loss_history),
     )
 plot_history(loss_histories, get_dated_filename('loss.pdf'), "Training, validation and test loss")
@@ -383,9 +336,6 @@ training_losses_histories = (
     ('Events loss', training_events_loss_history),
     ('Time loss', training_time_loss_history),
     ('Same minute event loss', training_same_minute_event_loss_history),
-    #('Home goals loss', training_hg_loss_history),
-    #('Away goals loss', training_ag_loss_history),
-    #('Diff goals loss', training_diff_loss_history),
     )
 plot_history(training_losses_histories, get_dated_filename('training_losses.pdf'), "Different training losses", thick=[0])
 
@@ -395,9 +345,6 @@ validation_losses_histories = (
     ('Events loss', validation_events_loss_history),
     ('Time loss', validation_time_loss_history),
     ('Same minute event loss', validation_same_minute_event_loss_history),
-    #('Home goals loss', validation_hg_loss_history),
-    #('Away goals loss', validation_ag_loss_history),
-    #('Diff goals loss', validation_diff_loss_history),
     )
 plot_history(validation_losses_histories, get_dated_filename('validation_losses.pdf'), "Different validation losses", thick=[0])
 
@@ -407,74 +354,26 @@ test_losses_histories = (
     ('Events loss', test_events_loss_history),
     ('Time loss', test_time_loss_history),
     ('Same minute event loss', test_same_minute_event_loss_history),
-    #('Home goals loss', test_hg_loss_history),
-    #('Away goals loss', test_ag_loss_history),
-    #('Diff goals loss', test_diff_loss_history),
     )
 plot_history(test_losses_histories, get_dated_filename('test_losses.pdf'), "Different test losses", thick=[0])
 
 result_losses_histories = (
     ('Predicted result loss', test_result_loss_history),
     ('Bookmaker loss', [BOOKMAKER_CE_LOSS] * len(test_result_loss_history)),
+    ('Simple NN loss', [SIMPLE_NN_CE_LOSS] * len(test_result_loss_history)),
     )
 plot_history(result_losses_histories, get_dated_filename('result_losses.pdf'), "Predicted result VS Bookmaker loss")
 
 accuracies_histories = (
-    #('Training accuracy', training_accuracy_history),
-    #('Validation accuracy', validation_accuracy_history),
-    ('Test accuracy', test_accuracy_history),
+    ('RNN accuracy', test_accuracy_history),
     ('Bookmaker accuracy', [BOOKMAKER_ACCURACY] * len(training_accuracy_history)),
+    ('Simple NN accuracy', [SIMPLE_NN_ACCURACY] * len(training_accuracy_history)),
     )
-plot_history(accuracies_histories, get_dated_filename('accuracies.pdf'), "Different accuracies")
+plot_history(accuracies_histories, get_dated_filename('accuracies.pdf'), "Different accuracies", ylabel='Accuracy')
 
 print("Best test accuracy:", best_test_accuracy)
 
 ########## Save the model for later use ##########
 
 torch.save(best_model.state_dict(), "%s/%s" % (MODELS_DIR, get_dated_filename('model.pt')))
-
-
-'''
-accuracy_histories = (
-    ('Validation accuracy', validation_accuracy_history),
-    ('Test accuracy', test_accuracy_history),)
-plot_history(accuracy_histories, get_dated_filename('accuracy.pdf'), "Validation and test accuracy")
-'''
-
-
-'''
-training_loss_history = []
-for epoch in tqdm(range(MAX_EPOCH)):
-
-    ########## Train the model ##########
-
-    losses_training = []
-    for data, target, teams in train_loader:
-        teams = list(zip(teams[0], teams[1]))
-        data = Variable(data)
-        target = Variable(target)
-        #print(data.size())
-        #print(target.size())
-        loss, event_scores, time_scores = model.step(data, target)
-        #print("Loss:", loss)
-        losses_training.append(loss)
-
-    training_loss = np.mean(losses_training)
-    #print("Loss at epoch %d:" % epoch, training_loss)
-    training_loss_history.append(training_loss)
-
-    if epoch + 1 == MAX_EPOCH:
-        output_events_file(event_scores, time_scores, target, 'test.txt')
-
-        generated_events = generate_events(event_scores, time_scores)
-        events_count_dict = count_events(generated_events)
-        plot_events_count(events_count_dict, 'test.pdf')
-
-        events_count_dict = count_events(target.data)
-        plot_events_count(events_count_dict, 'test_target.pdf')
-
-loss_histories = (
-    ('Training loss', training_loss_history),)
-plot_history(loss_histories, 'loss.pdf', "Training loss")
-'''
 

@@ -8,9 +8,9 @@ from utils import *
 from sample import *
 
 
-MAX_NB_EVENT = 50
-NB_TO_SAMPLE = 100
-EVENT_TYPES_TO_CHECK = [SHOT_HOME, CORNER_HOME, FOUL_HOME, SHOT_AWAY, CORNER_AWAY, FOUL_AWAY]
+MAX_NB_EVENT = 70
+NB_TO_SAMPLE = 50
+EVENT_TYPES_TO_CHECK = [GOAL_HOME, SHOT_HOME, CORNER_HOME, FOUL_HOME, OFFSIDE_HOME, GOAL_AWAY, SHOT_AWAY, CORNER_AWAY, FOUL_AWAY, OFFSIDE_AWAY]
 
 
 def get_event_distr(ids_to_df, event_type):
@@ -72,7 +72,7 @@ test_ids_df = pd.read_csv(TEST_IDS_FILE)[['test_id']]
 test_events_df = events_df[events_df['id_odsp'].isin(test_ids_df['test_id'].values)]
 ids_to_df = {key: test_events_df.loc[value] for key, value in test_events_df.groupby("id_odsp").groups.items()}
 
-nb_games_test = len(ids_to_df) // 100
+nb_games_test = len(ids_to_df) // 4
 ids_to_df = {k: ids_to_df[k] for k in list(ids_to_df)[:nb_games_test]}
 
 global_accuracy = [0] * (NB_ALL_EVENTS - 3)
@@ -129,7 +129,7 @@ sampled_accuracy = [sampled_accuracy[x] for x in range((NB_ALL_EVENTS - 3)) if x
 fig, ax = plt.subplots()
 
 ind = np.arange(len(EVENT_TYPES_TO_CHECK))
-width = 0.2
+width = 0.15
 
 global_accuracies = ax.bar(ind - width / 2, global_accuracy, width, color='r')
 team_accuracies = ax.bar(ind + width / 2, team_accuracy, width, color='g')
@@ -137,7 +137,7 @@ sampled_accuracies = ax.bar(ind + 3/2 * width, sampled_accuracy, width, color='b
 
 ax.set_title('Events accuracy')
 ax.set_xticks(ind + width / 2)
-ax.set_xticklabels([event_type_to_string(event_type) for event_type in EVENT_TYPES_TO_CHECK])
+ax.set_xticklabels([event_type_to_string(event_type) for event_type in EVENT_TYPES_TO_CHECK], rotation=40, ha='right', size=6)
 
 ax.legend((global_accuracies[0], team_accuracies[0], sampled_accuracies[0]), ('Global', 'Team', 'Sampled'))
 

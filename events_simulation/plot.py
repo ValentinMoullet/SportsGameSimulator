@@ -18,7 +18,7 @@ from sklearn.decomposition import PCA, KernelPCA
 from parameters import *
 
 
-def plot_history(histories, filename, title="", verbose=False, thick=None):
+def plot_history(histories, filename, title="", verbose=False, thick=None, ylabel='Cross entropy loss'):
     epochs = [i for i in range(len(histories[0][1]))]
 
     for i in range(len(histories)):
@@ -28,7 +28,7 @@ def plot_history(histories, filename, title="", verbose=False, thick=None):
             plt.plot(epochs, histories[i][1], label=histories[i][0])
 
     plt.xlabel('Epoch')
-    plt.ylabel('Cross entropy loss')
+    plt.ylabel(ylabel)
     plt.title(title)
     leg = plt.legend(loc='upper right', shadow=True)
 

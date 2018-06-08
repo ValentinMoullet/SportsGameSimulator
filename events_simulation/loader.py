@@ -31,7 +31,7 @@ class TrainingSet(data.Dataset):
 
         ids_to_df = {key: training_df.loc[value] for key, value in training_df.groupby("id_odsp").groups.items()}
         
-        nb_games_training = len(ids_to_df)
+        nb_games_training = len(ids_to_df) // 4
         if nb_games_training % batch_size != 0:
             nb_games_training -= nb_games_training % batch_size
 
@@ -69,14 +69,9 @@ class TrainingSet(data.Dataset):
         y_stacked_tensors = torch.stack(y_tensors, 0)
 
         # First event is only 0's, and we don't have last one
-        # TODO: Last one should be "last REAL event", not counting padding
         self.X = stacked_tensors[:, :-1, :]
-        #print("X:", self.X)
 
         self.Y = y_stacked_tensors
-        #print("Y:", self.Y)
-
-        # TODO: Cast in LongTensor needed?
         self.Y = self.Y.type(torch.LongTensor)
 
     def __len__(self):
@@ -98,14 +93,8 @@ class TestSet(data.Dataset):
         test_df = events_df[events_df['id_odsp'].isin(test_ids_df['test_id'].values)]
 
         ids_to_df = {key: test_df.loc[value] for key, value in test_df.groupby("id_odsp").groups.items()}
-        
-        '''
-        nb_games_training = len(ids_to_df) // 10
-        if nb_games_training % batch_size != 0:
-            nb_games_training -= nb_games_training % batch_size
-        '''
 
-        nb_games_test = len(ids_to_df)
+        nb_games_test = len(ids_to_df) // 4
         if nb_games_test % batch_size != 0:
             nb_games_test -= nb_games_test % batch_size
 
@@ -143,14 +132,9 @@ class TestSet(data.Dataset):
         y_stacked_tensors = torch.stack(y_tensors, 0)
 
         # First event is only 0's, and we don't have last one
-        # TODO: Last one should be "last REAL event", not counting padding
         self.X = stacked_tensors[:, :-1, :]
-        #print("X:", self.X)
 
         self.Y = y_stacked_tensors
-        #print("Y:", self.Y)
-
-        # TODO: Cast in LongTensor needed?
         self.Y = self.Y.type(torch.LongTensor)
 
     def __len__(self):

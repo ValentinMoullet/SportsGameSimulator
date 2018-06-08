@@ -54,11 +54,7 @@ class NN(nn.Module):
 
         last_hidden_layer = torch.cat([home_teams2, away_teams2], 1)
 
-        #print(last_hidden_layer)
-
         output = self.output_layer(last_hidden_layer)
-
-        #print("Output:", output)
 
         return output
 

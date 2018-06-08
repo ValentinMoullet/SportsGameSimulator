@@ -19,7 +19,7 @@ from parameters import *
 
 
 class TrainingSet(data.Dataset):
-    def __init__(self, teams_to_idx, game_info_df, msk):
+    def __init__(self, teams_to_idx, game_info_df):
         """Initialize the training set"""
 
         print("*** Loading training set. ***")
@@ -28,11 +28,6 @@ class TrainingSet(data.Dataset):
         training_df = game_info_df[game_info_df['id_odsp'].isin(training_ids_df['training_id'].values)]
         training_df = training_df.reset_index(drop=True)
         nb_games_training = len(training_df)
-
-        '''
-        game_info_df = game_info_df[msk].reset_index(drop=True)
-        nb_games_training = game_info_df.shape[0]
-        '''
 
         print("nb_games_training:", nb_games_training)
 
@@ -69,7 +64,7 @@ class TrainingSet(data.Dataset):
 
 
 class TestSet(data.Dataset):
-    def __init__(self, teams_to_idx, game_info_df, msk):
+    def __init__(self, teams_to_idx, game_info_df):
         """Initialize the test set"""
 
         print("*** Loading test set. ***")
@@ -77,13 +72,7 @@ class TestSet(data.Dataset):
         test_ids_df = pd.read_csv('../../data/football-events/test_ids.csv')
         test_df = game_info_df[game_info_df['id_odsp'].isin(test_ids_df['test_id'].values)]
         test_df = test_df.reset_index(drop=True)
-        nb_games_test = len(test_df)
-
-        '''
-        # Take test set only
-        game_info_df = game_info_df[~msk].reset_index(drop=True)
-        nb_games_test = game_info_df.shape[0]
-        '''
+        nb_games_test = len(test_df) // 4
 
         print("nb_games_test:", nb_games_test)
 
@@ -92,7 +81,7 @@ class TestSet(data.Dataset):
         self.X_away = torch.zeros(nb_games_test, len(teams_to_idx))
         self.X = torch.zeros(nb_games_test, 2*len(teams_to_idx))
         self.Y = torch.zeros(nb_games_test)
-        for idx, row in test_df.iterrows():
+        for idx, row in test_df[:nb_games_test].iterrows():
             home_team = row['ht']
             away_team = row['at']
             home_score = int(row['fthg'])
@@ -119,26 +108,29 @@ class TestSet(data.Dataset):
         return self.X[index], self.Y[index]
 
 class BookmakersPred(data.Dataset):
-    def __init__(self, league='F1', test_only=False):
+    def __init__(self, league=None, test_only=False):
         """Initialize the test set"""
 
         print("*** Loading bookmakers predictions. ***")
 
         game_info_df = pd.read_csv('../../data/football-events/ginf.csv')
-        game_info_df = game_info_df[game_info_df['league'] == league]
+
+        if not league is None:
+            game_info_df = game_info_df[game_info_df['league'] == league]
 
         if test_only:
             test_ids_df = pd.read_csv('../../data/football-events/test_ids.csv')
             game_info_df = game_info_df[game_info_df['id_odsp'].isin(test_ids_df['test_id'].values)]
 
         game_info_df = game_info_df.reset_index(drop=True)
-        nb_games = game_info_df.shape[0]
+        nb_games = game_info_df.shape[0] // 4
         print(nb_games)
 
         # Create one-hot vectors as X, and -1, 0 or 1 as Y
         self.pred = torch.zeros(nb_games, 3)
         self.target = torch.zeros(nb_games)
-        for idx, row in game_info_df.iterrows():
+        i = 0
+        for _, row in game_info_df[:nb_games].iterrows():
             home_team = row['ht']
             away_team = row['at']
             home_score = int(row['fthg'])
@@ -147,13 +139,15 @@ class BookmakersPred(data.Dataset):
             odd_away = float(row['odd_a'])
             odd_draw = float(row['odd_d'])
 
-            self.pred[idx, :] = torch.Tensor([1/odd_home, 1/odd_away, 1/odd_draw])
+            self.pred[i, :] = torch.Tensor([1/odd_home, 1/odd_away, 1/odd_draw])
             if home_score > away_score:
-                self.target[idx] = 0
+                self.target[i] = 0
             elif away_score > home_score:
-                self.target[idx] = 1
+                self.target[i] = 1
             else:
-                self.target[idx] = 2
+                self.target[i] = 2
+
+            i += 1
 
         # Cast to LongTensor for CrossEntropyLoss later
         self.target = self.target.type(torch.LongTensor)

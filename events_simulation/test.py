@@ -43,7 +43,7 @@ for _, row in tqdm(game_info_df[-nb_games_test + 1:].iterrows()):
     bookmaker_tensor[i, :] = odds_tensor
 
     # Add our predictions
-    exp_home_win, exp_away_win, exp_draw = sample_n_times([home_team, away_team], 70)
+    exp_home_win, exp_away_win, exp_draw = sample_n_times([home_team, away_team], 10)
     game_pred_tensor = torch.FloatTensor([exp_home_win, exp_away_win, exp_draw])
     prediction_tensor[i, :] = game_pred_tensor
 

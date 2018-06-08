@@ -30,50 +30,46 @@ sides = ['home', 'away']
 for i, side in enumerate(sides):
     for event_type in range(NB_EVENT_TYPES):
         if event_type == 0:
-            sentence = "Goal %s." % side
+            sentence = "Goal %s" % side
         elif event_type == 1:
-            sentence = "Shot %s." % side
+            sentence = "Shot %s" % side
         elif event_type == 2:
-            sentence = "Corner %s." % side
+            sentence = "Corner %s" % side
         elif event_type == 3:
-            sentence = "Foul %s." % side
+            sentence = "Foul %s" % side
         elif event_type == 4:
-            sentence = "Yellow card %s." % side
+            sentence = "Yellow card %s" % side
         elif event_type == 5:
-            sentence = "2nd yellow card %s." % side
+            sentence = "2nd yellow card %s" % side
         elif event_type == 6:
-            sentence = "Red card %s." % side
+            sentence = "Red card %s" % side
         elif event_type == 7:
-            sentence = "Substitution %s." % side
+            sentence = "Substitution %s" % side
         elif event_type == 8:
-            sentence = "Free kick %s." % side
+            sentence = "Free kick %s" % side
         elif event_type == 9:
-            sentence = "Offside %s." % side
+            sentence = "Offside %s" % side
         elif event_type == 10:
-            sentence = "Hand ball %s." % side
+            sentence = "Hand ball %s" % side
         elif event_type == 11:
-            sentence = "Penalty conceded %s." % side
+            sentence = "Penalty conceded %s" % side
 
         event_type_to_sentence[event_type + i * NB_EVENT_TYPES] = sentence
 
-event_type_to_sentence[NB_EVENT_TYPES * 2] = "No event this minute."
-event_type_to_sentence[NB_EVENT_TYPES * 2 + 1] = "Game is over."
-event_type_to_sentence[NB_EVENT_TYPES * 2 + 2] = "Game is starting."
+event_type_to_sentence[NB_EVENT_TYPES * 2] = "No event this minute"
+event_type_to_sentence[NB_EVENT_TYPES * 2 + 1] = "Game is over"
+event_type_to_sentence[NB_EVENT_TYPES * 2 + 2] = "Game is starting"
 
 time_type_to_sentence = {}
-time_type_to_sentence[SAME_TIME_THAN_PREV] = "Same time."
-time_type_to_sentence[DIFF_TIME_THAN_PREV] = "Diff time."
-time_type_to_sentence[GAME_NOT_RUNNING_TIME] = "Game is not running."
+time_type_to_sentence[SAME_TIME_THAN_PREV] = "Same time"
+time_type_to_sentence[DIFF_TIME_THAN_PREV] = "Diff time"
+time_type_to_sentence[GAME_NOT_RUNNING_TIME] = "Game is not running"
 
 
 def event_type_to_string(event_type):
     return event_type_to_sentence[event_type]
 
 def get_next_time(current_time, time_type, event_type, prev_event_type):
-    '''
-    if event_type == NO_EVENT or prev_event_type == NO_EVENT:
-        return current_time + 1
-    '''
     if time_type == 0:
         return current_time
     elif time_type == 1:
@@ -111,10 +107,6 @@ def count_times(times):
     return times_count_dict
 
 def output_events_file(event_scores, time_scores, target, teams, filename):
-    #print(event_scores)
-    #print(time_scores)
-    #print("target:", target)
-
     target = target.data
 
     generated_events = generate_events(event_scores, time_scores)
@@ -231,10 +223,6 @@ def output_events_file(event_scores, time_scores, target, teams, filename):
 
 
 def output_already_sampled_events_file(sampled_events, sampled_times, target, all_goal_home_proba, all_goal_away_proba, teams, filename):
-    #print(event_scores)
-    #print(time_scores)
-    #print("target:", target)
-
     target = target.data
 
     with open('%s/%s' % (EVENTS_DIR, filename), 'w+') as f:
@@ -330,14 +318,6 @@ def output_already_sampled_events_file(sampled_events, sampled_times, target, al
                 prev_event_type = event_type
                 prev_event_type_target = event_type_target
 
-            '''
-            game_over_indices = (target[batch_idx, :] == GAME_OVER).nonzero()
-            if len(game_over_indices) == 0:
-                idx = target.size(1)
-            else:
-                idx = game_over_indices[0, 0]
-            '''
-
             goal_home_proba = sum(all_goal_home_proba[batch_idx])
             goal_away_proba = sum(all_goal_away_proba[batch_idx])
 
@@ -351,9 +331,6 @@ def output_already_sampled_events_file(sampled_events, sampled_times, target, al
 
 
 def output_already_sampled_events_file_no_target(sampled_events, sampled_times, all_goal_home_proba, all_goal_away_proba, teams, filename, aggr=False):
-    #print(event_scores)
-    #print(time_scores)
-
     nb_games = len(sampled_events)
 
     with open('%s/%s' % (EVENTS_DIR, filename), 'w+') as f:
@@ -425,14 +402,6 @@ def output_already_sampled_events_file_no_target(sampled_events, sampled_times, 
 
                 prev_event_type = event_type
 
-            '''
-            game_over_indices = (target[batch_idx, :] == GAME_OVER).nonzero()
-            if len(game_over_indices) == 0:
-                idx = target.size(1)
-            else:
-                idx = game_over_indices[0, 0]
-            '''
-
             goal_home_proba = sum(all_goal_home_proba[batch_idx])
             goal_away_proba = sum(all_goal_away_proba[batch_idx])
 
@@ -465,7 +434,6 @@ def generate_events(event_scores, time_scores):
         event_tensors.append(batch_event_tensor)
 
     event_tensor = torch.stack(event_tensors, 0)
-    #print(event_tensor.size())
 
     time_tensors = []
     for batch_time_scores_np in time_scores_np:
@@ -478,11 +446,8 @@ def generate_events(event_scores, time_scores):
         time_tensors.append(batch_time_tensor)
 
     time_tensor = torch.stack(time_tensors, 0)
-    #print(time_tensor.size())
 
-    #print('-------')
     tensor = torch.stack([event_tensor, time_tensor], 2)
-    #print(tensor)
 
     return tensor
 
@@ -593,7 +558,6 @@ def create_new_events_file(from_filename, new_filename):
             else:
                 time = 1000
 
-            # TODO: Do something about final event?
             if time == time_iter:
                 # Event at this minute
                 arr = [idd, home_team, away_team]
@@ -915,5 +879,7 @@ def get_dated_filename(filename):
     extension = tab[-1]
     return "%s_%s.%s" % (name, time.strftime("%Y%m%d-%H%M"), extension)
 
+
+# If running utils.py, create the new_events.csv file
 if __name__ == "__main__":
     create_new_events_file('../data/football-events/events.csv', '../data/football-events/new_events.csv')

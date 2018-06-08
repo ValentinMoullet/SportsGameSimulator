@@ -3,7 +3,8 @@
  
  
 """
-    Recurrent Neural Network implementation (LSTM)
+    Recurrent Neural Network implementation (using LSTM architecture) for predicting
+    sequences of events happening in football games.
 """
 
 import glob, os
@@ -15,7 +16,6 @@ from torch.distributions.beta import Beta
 from torch.autograd import Variable
 
 from utils import *
-from loss import *
 from team import *
 
 
@@ -23,25 +23,35 @@ def load_latest_model():
     model = LSTMEvents(hidden_dim=40, event_types_size=NB_ALL_EVENTS, time_types_size=NB_ALL_TIMES, num_layers=1, batch_size=BATCH_SIZE, learning_rate=0.01)
     all_saved_models = glob.glob("%s/*.pt" % MODELS_DIR)
     latest_model_file = max(all_saved_models, key=os.path.getmtime)
+    print("Using:", latest_model_file)
     model.load_state_dict(torch.load(latest_model_file))
 
     return model
 
+
+"""
+    Simple Neural Network for predicting the outcome of the second half of a football game
+    when being given the current outcome of the first half, and the teams latent features.
+"""
+
 class FirstHalfNN(nn.Module):
-    def __init__(self, team_weights_size, learning_rate=1e-4, hidden_layer_size1=10, hidden_layer_size2=20):
+    def __init__(self, team_weights_size, learning_rate=1e-4, hidden_layer_size1=10, hidden_layer_size2=20, d_rate=0.2):
         super(FirstHalfNN, self).__init__()
 
         self.loss_function = nn.CrossEntropyLoss()
+        self.dropout = nn.Dropout(p=d_rate)
         self.activation = nn.ReLU()
 
         # Layers
         self.input_layer = nn.Sequential(
             nn.Linear(3 + team_weights_size, hidden_layer_size1),
-            self.activation)
+            self.activation,
+            self.dropout)
 
         self.layer1 = nn.Sequential(
             nn.Linear(hidden_layer_size1, hidden_layer_size2),
-            self.activation)
+            self.activation,
+            self.dropout)
 
         self.output_layer = nn.Linear(hidden_layer_size2, 3)
 
@@ -92,20 +102,16 @@ class FirstHalfNN(nn.Module):
 
 class LSTMEvents(nn.Module):
 
-    def __init__(self, hidden_dim, event_types_size, time_types_size, num_layers=1, batch_size=1, learning_rate=0.01):
+    def __init__(self, hidden_dim, event_types_size, time_types_size, num_layers=1, batch_size=1, learning_rate=0.001):
         super(LSTMEvents, self).__init__()
 
+        # Useless, but needed for loading previous models
         events_weight = torch.FloatTensor([1]*NB_ALL_EVENTS)
         events_weight[GOAL_HOME] = 1
         events_weight[GOAL_AWAY] = 1
         self.loss_function_events = nn.CrossEntropyLoss(weight=events_weight)
         self.loss_function_time = nn.CrossEntropyLoss()
-
         self.loss_function_result = nn.CrossEntropyLoss()
-
-        self.loss_function_goals_home = nn.MSELoss()
-        self.loss_function_goals_away = nn.MSELoss()
-        self.loss_function_goals_diff = nn.MSELoss()
 
         self.hidden_dim = hidden_dim
         self.event_types_size = event_types_size
@@ -124,32 +130,21 @@ class LSTMEvents(nn.Module):
         self.optimizer = optim.Adam(self.parameters(), lr=learning_rate)
 
     def init_hidden(self, teams):
-        #assert(len(teams) == self.batch_size)
-
         teams_tensor = get_teams_caracteristics(teams)
-
         return (teams_tensor, teams_tensor)
 
     def forward(self, input, teams):
-        #print("Input:", input)
-
         teams_tensor = get_teams_caracteristics(teams)
 
+        # 208 is hardcoded but should be the length of the max number of events in a game
         teams_input = teams_tensor.squeeze(0).unsqueeze(1).repeat(1, 208, 1)
 
         input_with_prior = torch.cat([input, teams_input], 2)
-        #print(input_with_prior)
 
         lstm_out, _ = self.lstm(input_with_prior, self.init_hidden(teams))
-        #print("LSTM out:", lstm_out)
 
         event_space = self.hidden2event(lstm_out)
         time_space = self.hidden2time(lstm_out)
-
-        #print("Event space:", event_space.size())
-
-        #event_scores = F.softmax(event_space, dim=1)
-        #time_scores = F.softmax(time_space, dim=1)
 
         return event_space, time_space
 
@@ -158,7 +153,6 @@ class LSTMEvents(nn.Module):
 
         self.train()
         self.zero_grad()
-        #self.hidden = self.get_hidden_from_teams(teams)
         event_scores, time_scores = self.forward(input, teams)
 
         event_proba = F.softmax(event_scores, 2)
@@ -173,83 +167,29 @@ class LSTMEvents(nn.Module):
         goals_tensor = torch.stack([goals_home_tensor, goals_away_tensor], 1)
         goals_target_tensor = torch.stack([goals_home_target_tensor, goals_away_target_tensor], 1)
 
-        '''
-        games_proba = get_games_proba_from_goals_proba(goals_tensor)
-        # Compute accuracy
-        accuracy = 0
-        for batch_idx in range(target.size(0)):
-            accuracy += games_proba[batch_idx, games_results[batch_idx]]
-
-        accuracy /= target.size(0)
-
-        # Cross entropy loss for result, but don't use it in backwards
-        loss_result_game = self.loss_function_result(games_proba, games_results)
-        '''
-
         accuracy = torch.tensor(0)
         loss_result_game = torch.tensor(0)
-
-        '''
-        predicted_results = get_games_results_from_goals(goals_tensor)
-        games_results = get_games_results_from_goals(goals_target_tensor)
-
-        diff = predicted_results - games_results
-        accuracy = (diff.numel() - diff.nonzero().size(0)) / target.size(0)
-        accuracy = torch.tensor(accuracy)
-        '''
 
         # Events and time loss functions
         loss_events_during_game = self.loss_function_events(events_during_game, target_events_during_game)
         loss_time_during_game = self.loss_function_time(time_during_game, target_time_during_game)
 
-        #print(time_during_game)
-        #print(time_during_game.size())
-        #print(target.size(0))
-
-        time_proba_during_game = F.softmax(time_during_game, 1)
-
         # Compute loss for forcing not having too much events at the same minute
-        alphas = 4.0
-        betas = 6.53242321
-        beta_distr = Beta(alphas, betas)
+        time_proba_during_game = F.softmax(time_during_game, 1)
+        beta_distr = Beta(ALPHA_FOR_BETA_DISTR, BETA_FOR_BETA_DISTR)
         log_prob = beta_distr.log_prob(time_proba_during_game[:, SAME_TIME_THAN_PREV])
         same_minute_event_loss = -torch.mean(log_prob)
 
-        '''
-        same_minute_event_loss = 0
-        current_idx = 0
-        for end_game_idx in end_game_indices:
-            log_prob = beta_distr.log_prob(torch.mean(time_proba_during_game[current_idx:current_idx+end_game_idx, SAME_TIME_THAN_PREV]))
-            game_loss = -log_prob
-            same_minute_event_loss += game_loss
+        #same_minute_event_loss = Variable(torch.tensor(0))
 
-            current_idx = end_game_idx
-
-        same_minute_event_loss /= target.size(0)
-        '''
-
-        #print("time_proba_during_game:", time_proba_during_game)
-
-        #print("same_minute_event_loss:", same_minute_event_loss)
-
-        '''
-        # Goals loss functions
-        loss_goals_home = self.loss_function_goals_home(goals_home_tensor, goals_home_target_tensor)
-        loss_goals_away = self.loss_function_goals_away(goals_away_tensor, goals_away_target_tensor)
-        loss_goals_diff = self.loss_function_goals_diff(goals_diff_tensor, goals_diff_target_tensor)
-        '''
-
-        total_loss = (loss_events_during_game + loss_time_during_game + 0.25 * same_minute_event_loss) / 2.25
-        #total_loss = (loss_events_during_game + loss_time_during_game + 1/3 * (loss_goals_home + loss_goals_away + loss_goals_diff)) / 3
+        total_loss = (loss_events_during_game + loss_time_during_game + BETA_WEIGHT * same_minute_event_loss) / (2 + BETA_WEIGHT)
 
         total_loss.backward()
 
         self.optimizer.step()
 
         return event_proba, time_proba, total_loss.data.item(), loss_events_during_game.data.item(), loss_time_during_game.data.item(), same_minute_event_loss.item(), loss_result_game.data.item(), accuracy.item()
-        #return event_proba, time_proba, total_loss.data.item(), loss_events_during_game.data.item(), loss_time_during_game.data.item(), loss_result_game.data.item(), accuracy.item()
-        #return event_proba, time_proba, total_loss.data[0], loss_events_during_game.data[0], loss_time_during_game.data[0], loss_goals_home.data[0], loss_goals_away.data[0], loss_goals_diff.data[0]
-
+        
     def predict(self, input, teams):
         """
         Predict an input using the trained network.
@@ -287,19 +227,19 @@ class LSTMEvents(nn.Module):
         # Cross entropy loss for result, but don't use it in backwards
         loss_result_game = self.loss_function_result(games_proba, games_results)
 
+        # Compute loss for forcing not having too much events at the same minute
+        time_proba_during_game = F.softmax(time_during_game, 1)
+        beta_distr = Beta(ALPHA_FOR_BETA_DISTR, BETA_FOR_BETA_DISTR)
+        log_prob = beta_distr.log_prob(time_proba_during_game[:, SAME_TIME_THAN_PREV])
+        same_minute_event_loss = -torch.mean(log_prob)
+
         # Events and time loss functions
         loss_time_during_game = self.loss_function_time(time_during_game, target_time_during_game)
         loss_events_during_game = self.loss_function_events(events_during_game, target_events_during_game)
 
-        # Goals loss functions
-        #loss_goals_home = self.loss_function_goals_home(goals_home_tensor, goals_home_target_tensor)
-        #loss_goals_away = self.loss_function_goals_away(goals_away_tensor, goals_away_target_tensor)
-        #loss_goals_diff = self.loss_function_goals_diff(goals_diff_tensor, goals_diff_target_tensor)
+        total_loss = (loss_events_during_game + loss_time_during_game + BETA_WEIGHT * same_minute_event_loss) / (2 + BETA_WEIGHT)
 
-        #total_loss = (loss_time_during_game + loss_events_during_game + loss_goals_home + loss_goals_away + loss_goals_diff) / 5
-        total_loss = (loss_time_during_game + loss_events_during_game) / 2
-
-        return event_proba, time_proba, total_loss.data[0], loss_events_during_game.data[0], loss_time_during_game.data[0], loss_result_game.data[0]
+        return event_proba, time_proba, total_loss.data.item(), loss_events_during_game.data.item(), loss_time_during_game.data.item(), same_minute_event_loss.data.item(), loss_result_game.data.item()
 
     def sample_and_get_loss(self, target, teams, return_proba=False):
         total_event_loss = Variable(torch.zeros(1))
@@ -329,7 +269,6 @@ class LSTMEvents(nn.Module):
             results = torch.FloatTensor([0, 0, 0])
             # Sample multiple times
             for _ in range(NB_GAMES_TO_SAMPLE):
-                #current_input = Variable(torch.FloatTensor(SOG_TOKEN)).unsqueeze(0).unsqueeze(0)
                 current_input = Variable(torch.zeros(1, 1, NB_ALL_EVENTS + NB_ALL_TIMES))
                 current_input[0, 0, SOG_TOKEN] = 1
                 current_input[0, 0, NB_ALL_EVENTS + GAME_NOT_RUNNING_TIME] = 1
@@ -353,11 +292,6 @@ class LSTMEvents(nn.Module):
                 same_minute_event_loss_game = Variable(torch.zeros(1))
                 same_minute_proba_game = Variable(torch.zeros(1))
                 for event_idx in range(end_of_game_idx):
-                    #print("Input sample:", current_input)
-
-                    #print("Teams input:", teams_input)
-                    #print("current input:", current_input)
-
                     input_with_prior = torch.cat([current_input, teams_input], 2)
                     output, self.hidden = self.lstm(input_with_prior, self.hidden)
 
@@ -401,8 +335,6 @@ class LSTMEvents(nn.Module):
                     for event_nb in range(NB_ALL_EVENTS):
                         proba[-1].append(event_proba[0, 0, event_nb])
 
-                    #print("event_space:", event_space)
-
                     current_input = Variable(torch.zeros(1, 1, NB_ALL_EVENTS + NB_ALL_TIMES))
                     current_input[0, 0, generated_event] = 1
                     current_input[0, 0, NB_ALL_EVENTS + generated_time] = 1
@@ -412,7 +344,6 @@ class LSTMEvents(nn.Module):
                 goals_tensor = torch.stack([goals_home_tensor, goals_away_tensor], 1)
                 goals_target_tensor = torch.stack([goals_home_target_tensor, goals_away_target_tensor], 1)
 
-                #games_proba = get_games_proba_from_goals_proba(goals_tensor)
                 predicted_results = get_games_results_from_goals(goals_tensor)
                 games_results = get_games_results_from_goals(goals_target_tensor)
 
@@ -448,9 +379,7 @@ class LSTMEvents(nn.Module):
 
             # Compute same minute event loss
             '''
-            alphas = 4.0
-            betas = 6.53242321
-            beta_distr = Beta(alphas, betas)
+            beta_distr = Beta(ALPHA_FOR_BETA_DISTR, BETA_FOR_BETA_DISTR)
             log_prob = beta_distr.log_prob(same_minute_proba_game)
             same_minute_loss_game = -log_prob
             total_same_minute_event_loss += same_minute_loss_game
@@ -475,34 +404,26 @@ class LSTMEvents(nn.Module):
 
         '''
         total_same_minute_proba_game /= target.size(0)
-        alphas = 4.0
-        betas = 6.53242321
-        beta_distr = Beta(alphas, betas)
+        beta_distr = Beta(ALPHA_FOR_BETA_DISTR, BETA_FOR_BETA_DISTR)
         log_prob = beta_distr.log_prob(total_same_minute_proba_game)
         '''
 
         total_result_loss /= target.size(0)
         total_event_loss /= target.size(0)
         total_time_loss /= target.size(0)
-        total_same_minute_event_loss /= target.size(0)
+        total_same_minute_event_loss /= target.size(0) #= Variable(torch.tensor(0))
         #total_same_minute_event_loss = -log_prob
         total_accuracy /= target.size(0)
         total_goals_home_loss /= target.size(0)
         total_goals_away_loss /= target.size(0)
         total_goals_diff_loss /= target.size(0)
 
-        #print("total_same_minute_event_loss:", total_same_minute_event_loss)
-
-        loss = (total_event_loss + total_time_loss + 0.25 * total_same_minute_event_loss) / 2.25
-        #loss = (total_event_loss + total_time_loss + 1/3 * (total_goals_home_loss + total_goals_away_loss + total_goals_diff_loss)) / 3
+        loss = (total_event_loss + total_time_loss + BETA_WEIGHT * total_same_minute_event_loss) / (2 + BETA_WEIGHT)
 
         if return_proba:
             return sampled_events, sampled_times, target_events, target_times, all_proba, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_same_minute_event_loss.item(), total_result_loss.data[0], total_accuracy.item()
-            #return sampled_events, sampled_times, target_events, target_times, all_goal_home_proba, all_goal_away_proba, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_goals_home_loss.data[0], total_goals_away_loss.data[0], total_goals_diff_loss.data[0]
         else:
             return sampled_events, sampled_times, target_events, target_times, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_same_minute_event_loss.item(), total_result_loss.data[0], total_accuracy.item()
-            #return sampled_events, sampled_times, target_events, target_times, loss.data[0], total_event_loss.data[0], total_time_loss.data[0], total_goals_home_loss.data[0], total_goals_away_loss.data[0], total_goals_diff_loss.data[0]
-
 
     def sample(self, teams, events=None, times=None, return_proba=False):
         if events is None:
@@ -532,11 +453,6 @@ class LSTMEvents(nn.Module):
         concurrent_same_minute = 0
         i = 0
         while current_time <= 90:
-            #print("Input sample:", current_input)
-
-            #print("Teams input:", teams_input)
-            #print("current input:", current_input)
-
             input_with_prior = torch.cat([current_input, teams_input], 2)
             output, self.hidden = self.lstm(input_with_prior, self.hidden)
 
@@ -564,9 +480,8 @@ class LSTMEvents(nn.Module):
             else:
                 concurrent_same_minute += 1
 
-            if concurrent_same_minute > 10:
-                print("Oups:", concurrent_same_minute)
-                #return self.sample(teams, return_proba=return_proba)
+            if concurrent_same_minute > MAX_SAME_MINUTE_EVENTS:
+                return self.sample(teams, return_proba=return_proba)
 
             sampled_events.append(generated_event)
             sampled_times.append(generated_time)
